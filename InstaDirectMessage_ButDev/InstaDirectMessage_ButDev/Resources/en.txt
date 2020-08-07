@@ -171,3 +171,7 @@ The number of posts is incorrect!
 Failed to upload photo to Instagram server!
 Posted a photo! 
 Waiting seconds: 
+Successfully followed from account 
+ to ID 
+Failed to follow from account 
+Follow request sent from account 

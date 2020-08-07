@@ -105,14 +105,11 @@
             this.panelBackground = new System.Windows.Forms.Panel();
             this.pictureBoxAvatarChanger = new System.Windows.Forms.PictureBox();
             this.buttonPosting = new System.Windows.Forms.Button();
-            this.comboBoxRegistrar = new System.Windows.Forms.ComboBox();
             this.comboBoxParser = new System.Windows.Forms.ComboBox();
             this.pictureBoxUtilities = new System.Windows.Forms.PictureBox();
             this.buttonUtilities = new System.Windows.Forms.Button();
             this.pictureBoxHashtagParser = new System.Windows.Forms.PictureBox();
             this.buttonHashtagParser = new System.Windows.Forms.Button();
-            this.pictureBoxWebRegistrator = new System.Windows.Forms.PictureBox();
-            this.buttonWebRegistrator = new System.Windows.Forms.Button();
             this.labelRemaining = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.pictureBoxSettings = new System.Windows.Forms.PictureBox();
@@ -128,6 +125,9 @@
             this.linkLabelTelegram = new System.Windows.Forms.LinkLabel();
             this.linkLabelTechSupport = new System.Windows.Forms.LinkLabel();
             this.buttonLogo = new System.Windows.Forms.Button();
+            this.comboBoxRegistrar = new System.Windows.Forms.ComboBox();
+            this.pictureBoxWebRegistrator = new System.Windows.Forms.PictureBox();
+            this.buttonWebRegistrator = new System.Windows.Forms.Button();
             this.buttonOpenDirectMailing = new System.Windows.Forms.Button();
             this.panelTasks = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
@@ -151,11 +151,12 @@
             this.toolStripDeleteDublicate = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripBreakdownFile = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripDeleteCookie = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripAccountChecker = new System.Windows.Forms.ToolStripMenuItem();
             this.panelPosting = new System.Windows.Forms.Panel();
             this.menuStripPosting = new System.Windows.Forms.MenuStrip();
             this.toolStripAvatarChanger = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripPhotoPosingWeb = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripAccountChecker = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMassFollowing = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.contextMenuStrip.SuspendLayout();
             this.panelAccounts.SuspendLayout();
@@ -164,13 +165,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatarChanger)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUtilities)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHashtagParser)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWebRegistrator)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSettings)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAccountsButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTasksButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSeeLogButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTelegram)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTechSupport)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWebRegistrator)).BeginInit();
             this.panelTasks.SuspendLayout();
             this.panelSettings.SuspendLayout();
             this.panelUtilities.SuspendLayout();
@@ -848,19 +849,6 @@
             this.buttonPosting.UseVisualStyleBackColor = false;
             this.buttonPosting.Click += new System.EventHandler(this.buttonAvatarChanger_Click);
             // 
-            // comboBoxRegistrar
-            // 
-            this.comboBoxRegistrar.BackColor = System.Drawing.Color.MediumSlateBlue;
-            resources.ApplyResources(this.comboBoxRegistrar, "comboBoxRegistrar");
-            this.comboBoxRegistrar.ForeColor = System.Drawing.Color.White;
-            this.comboBoxRegistrar.FormattingEnabled = true;
-            this.comboBoxRegistrar.Items.AddRange(new object[] {
-            resources.GetString("comboBoxRegistrar.Items"),
-            resources.GetString("comboBoxRegistrar.Items1"),
-            resources.GetString("comboBoxRegistrar.Items2"),
-            resources.GetString("comboBoxRegistrar.Items3")});
-            this.comboBoxRegistrar.Name = "comboBoxRegistrar";
-            // 
             // comboBoxParser
             // 
             this.comboBoxParser.BackColor = System.Drawing.Color.MediumSlateBlue;
@@ -910,25 +898,6 @@
             this.buttonHashtagParser.Name = "buttonHashtagParser";
             this.buttonHashtagParser.UseVisualStyleBackColor = false;
             this.buttonHashtagParser.Click += new System.EventHandler(this.buttonHashtagParser_Click);
-            // 
-            // pictureBoxWebRegistrator
-            // 
-            this.pictureBoxWebRegistrator.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.pictureBoxWebRegistrator, "pictureBoxWebRegistrator");
-            this.pictureBoxWebRegistrator.Name = "pictureBoxWebRegistrator";
-            this.pictureBoxWebRegistrator.TabStop = false;
-            // 
-            // buttonWebRegistrator
-            // 
-            this.buttonWebRegistrator.BackColor = System.Drawing.Color.Transparent;
-            this.buttonWebRegistrator.FlatAppearance.BorderSize = 0;
-            this.buttonWebRegistrator.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
-            this.buttonWebRegistrator.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
-            resources.ApplyResources(this.buttonWebRegistrator, "buttonWebRegistrator");
-            this.buttonWebRegistrator.ForeColor = System.Drawing.Color.White;
-            this.buttonWebRegistrator.Name = "buttonWebRegistrator";
-            this.buttonWebRegistrator.UseVisualStyleBackColor = false;
-            this.buttonWebRegistrator.Click += new System.EventHandler(this.buttonWebRegistrator_Click);
             // 
             // labelRemaining
             // 
@@ -1054,6 +1023,38 @@
             this.buttonLogo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonLogo.Name = "buttonLogo";
             this.buttonLogo.UseVisualStyleBackColor = false;
+            // 
+            // comboBoxRegistrar
+            // 
+            this.comboBoxRegistrar.BackColor = System.Drawing.Color.MediumSlateBlue;
+            resources.ApplyResources(this.comboBoxRegistrar, "comboBoxRegistrar");
+            this.comboBoxRegistrar.ForeColor = System.Drawing.Color.White;
+            this.comboBoxRegistrar.FormattingEnabled = true;
+            this.comboBoxRegistrar.Items.AddRange(new object[] {
+            resources.GetString("comboBoxRegistrar.Items"),
+            resources.GetString("comboBoxRegistrar.Items1"),
+            resources.GetString("comboBoxRegistrar.Items2"),
+            resources.GetString("comboBoxRegistrar.Items3")});
+            this.comboBoxRegistrar.Name = "comboBoxRegistrar";
+            // 
+            // pictureBoxWebRegistrator
+            // 
+            this.pictureBoxWebRegistrator.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBoxWebRegistrator, "pictureBoxWebRegistrator");
+            this.pictureBoxWebRegistrator.Name = "pictureBoxWebRegistrator";
+            this.pictureBoxWebRegistrator.TabStop = false;
+            // 
+            // buttonWebRegistrator
+            // 
+            this.buttonWebRegistrator.BackColor = System.Drawing.Color.Transparent;
+            this.buttonWebRegistrator.FlatAppearance.BorderSize = 0;
+            this.buttonWebRegistrator.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
+            this.buttonWebRegistrator.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
+            resources.ApplyResources(this.buttonWebRegistrator, "buttonWebRegistrator");
+            this.buttonWebRegistrator.ForeColor = System.Drawing.Color.White;
+            this.buttonWebRegistrator.Name = "buttonWebRegistrator";
+            this.buttonWebRegistrator.UseVisualStyleBackColor = false;
+            this.buttonWebRegistrator.Click += new System.EventHandler(this.buttonWebRegistrator_Click);
             // 
             // buttonOpenDirectMailing
             // 
@@ -1240,6 +1241,13 @@
             this.toolStripDeleteCookie.Name = "toolStripDeleteCookie";
             this.toolStripDeleteCookie.Click += new System.EventHandler(this.toolStripDeleteCookie_Click);
             // 
+            // toolStripAccountChecker
+            // 
+            resources.ApplyResources(this.toolStripAccountChecker, "toolStripAccountChecker");
+            this.toolStripAccountChecker.ForeColor = System.Drawing.Color.White;
+            this.toolStripAccountChecker.Name = "toolStripAccountChecker";
+            this.toolStripAccountChecker.Click += new System.EventHandler(this.toolStripAccountChecker_Click);
+            // 
             // panelPosting
             // 
             this.panelPosting.BackColor = System.Drawing.Color.Transparent;
@@ -1253,7 +1261,8 @@
             resources.ApplyResources(this.menuStripPosting, "menuStripPosting");
             this.menuStripPosting.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripAvatarChanger,
-            this.toolStripPhotoPosingWeb});
+            this.toolStripPhotoPosingWeb,
+            this.toolStripMassFollowing});
             this.menuStripPosting.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Table;
             this.menuStripPosting.Name = "menuStripPosting";
             // 
@@ -1271,12 +1280,12 @@
             this.toolStripPhotoPosingWeb.Name = "toolStripPhotoPosingWeb";
             this.toolStripPhotoPosingWeb.Click += new System.EventHandler(this.toolStripPhotoPosingWeb_Click);
             // 
-            // toolStripAccountChecker
+            // toolStripMassFollowing
             // 
-            resources.ApplyResources(this.toolStripAccountChecker, "toolStripAccountChecker");
-            this.toolStripAccountChecker.ForeColor = System.Drawing.Color.White;
-            this.toolStripAccountChecker.Name = "toolStripAccountChecker";
-            this.toolStripAccountChecker.Click += new System.EventHandler(this.toolStripAccountChecker_Click);
+            resources.ApplyResources(this.toolStripMassFollowing, "toolStripMassFollowing");
+            this.toolStripMassFollowing.ForeColor = System.Drawing.Color.White;
+            this.toolStripMassFollowing.Name = "toolStripMassFollowing";
+            this.toolStripMassFollowing.Click += new System.EventHandler(this.toolStripMassFollowing_Click);
             // 
             // MainForm
             // 
@@ -1309,13 +1318,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatarChanger)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUtilities)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHashtagParser)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWebRegistrator)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSettings)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAccountsButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTasksButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSeeLogButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTelegram)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTechSupport)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWebRegistrator)).EndInit();
             this.panelTasks.ResumeLayout(false);
             this.panelTasks.PerformLayout();
             this.panelSettings.ResumeLayout(false);
@@ -1455,5 +1464,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripAvatarChanger;
         private System.Windows.Forms.ToolStripMenuItem toolStripPhotoPosingWeb;
         private System.Windows.Forms.ToolStripMenuItem toolStripAccountChecker;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMassFollowing;
     }
 }

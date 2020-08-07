@@ -43,6 +43,7 @@ namespace InstaDirectMessage_ButDev
         FormDeleteCookie formDeleteCookie = new FormDeleteCookie();
         FormBreakdownDB formBreakdownDB = new FormBreakdownDB();
         FormPhotoWebPosting formPhotoWebPosting = new FormPhotoWebPosting();
+        FormMassFollowing formMassFollowing = new FormMassFollowing();
         public MainForm()
         {
             InitializeComponent();
@@ -61,6 +62,7 @@ namespace InstaDirectMessage_ButDev
             formDeleteCookie.Hide();
             formBreakdownDB.Hide();
             formPhotoWebPosting.Hide();
+            formMassFollowing.Hide();
 
             dataGridView.CellMouseEnter += dataGridView_CellMouseEnter;
             dataGridView.CellMouseMove += dataGridView_CellMouseMove;
@@ -742,7 +744,18 @@ namespace InstaDirectMessage_ButDev
 
         private void toolStripAccountChecker_Click(object sender, EventArgs e)
         {
+            buttonUtilities.BackColor = Color.Transparent;
+            panelUtilities.Visible = false;
+            buttonUtilities_MouseLeave(null, null);
             formInstagramChecker.Show();
+        }
+
+        private void toolStripMassFollowing_Click(object sender, EventArgs e)
+        {
+            buttonPosting.BackColor = Color.Transparent;
+            panelPosting.Visible = false;
+            buttonPosting_MouseLeave(null, null);
+            formMassFollowing.Show();
         }
 
         private void buttonOpenBlackList_Click(object sender, EventArgs e)

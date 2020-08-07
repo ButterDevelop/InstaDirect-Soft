@@ -158,7 +158,7 @@
     <value>Collected: </value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>75, 273</value>
+    <value>65, 299</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 13</value>
@@ -172,11 +172,20 @@
   <data name="label7.Text" xml:space="preserve">
     <value> of </value>
   </data>
+  <data name="textBoxHashtags.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 82</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 85</value>
+  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 13</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Hashtags:</value>
+  </data>
+  <data name="buttonOpenHashtags.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 80</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 13</value>
@@ -213,6 +222,15 @@
   </data>
   <data name="labelApiProxyLink.Text" xml:space="preserve">
     <value>Link:</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 66</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 13</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Attention! You are kindly requested to use the file in UTF-8 encoding,</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

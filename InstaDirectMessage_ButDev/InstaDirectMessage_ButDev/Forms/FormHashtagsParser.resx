@@ -117,371 +117,118 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="textBoxProxy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 29</value>
-  </data>
-  <data name="textBoxProxy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 20</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="textBoxProxy.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="&gt;&gt;textBoxProxy.Name" xml:space="preserve">
-    <value>textBoxProxy</value>
-  </data>
-  <data name="&gt;&gt;textBoxProxy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxProxy.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxProxy.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 32</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 13</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Прокси:</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 166</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 13</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Количество потоков:</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="textBoxThreadsCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 163</value>
-  </data>
-  <data name="textBoxThreadsCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="textBoxThreadsCount.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="textBoxThreadsCount.Text" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="&gt;&gt;textBoxThreadsCount.Name" xml:space="preserve">
-    <value>textBoxThreadsCount</value>
-  </data>
-  <data name="&gt;&gt;textBoxThreadsCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxThreadsCount.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;textBoxThreadsCount.ZOrder" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="buttonOpenProxy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 27</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 26</value>
   </data>
-  <data name="buttonOpenProxy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 23</value>
-  </data>
-  <data name="buttonOpenProxy.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="buttonOpenProxy.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenProxy.Name" xml:space="preserve">
-    <value>buttonOpenProxy</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenProxy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenProxy.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenProxy.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="buttonStart.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="buttonStart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 382</value>
-  </data>
-  <data name="buttonStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="buttonStart.TabIndex" type="System.Int32, mscorlib">
-    <value>52</value>
-  </data>
-  <data name="buttonStart.Text" xml:space="preserve">
-    <value>Старт</value>
-  </data>
-  <data name="&gt;&gt;buttonStart.Name" xml:space="preserve">
-    <value>buttonStart</value>
-  </data>
-  <data name="&gt;&gt;buttonStart.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonStart.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonStart.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="buttonStop.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="buttonStop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 384</value>
-  </data>
-  <data name="buttonStop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="buttonStop.TabIndex" type="System.Int32, mscorlib">
-    <value>53</value>
-  </data>
-  <data name="buttonStop.Text" xml:space="preserve">
-    <value>Стоп</value>
-  </data>
-  <data name="buttonStop.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;buttonStop.Name" xml:space="preserve">
-    <value>buttonStop</value>
-  </data>
-  <data name="&gt;&gt;buttonStop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonStop.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonStop.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBoxIsApiProxy.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 234</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 13</value>
-  </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>55</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Тип прокси: </value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+  <data name="&gt;&gt;buttonOpenResult.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="comboBoxTypeProxy.Items" xml:space="preserve">
-    <value>Socks5</value>
-  </data>
-  <data name="comboBoxTypeProxy.Items1" xml:space="preserve">
-    <value>HTTP</value>
-  </data>
-  <data name="comboBoxTypeProxy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 231</value>
-  </data>
-  <data name="comboBoxTypeProxy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 21</value>
-  </data>
-  <data name="comboBoxTypeProxy.TabIndex" type="System.Int32, mscorlib">
-    <value>54</value>
-  </data>
-  <data name="comboBoxTypeProxy.Text" xml:space="preserve">
-    <value>HTTP</value>
-  </data>
-  <data name="&gt;&gt;comboBoxTypeProxy.Name" xml:space="preserve">
-    <value>comboBoxTypeProxy</value>
-  </data>
-  <data name="&gt;&gt;comboBoxTypeProxy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBoxTypeProxy.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBoxTypeProxy.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="labelBad.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelBad.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="labelBad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 352</value>
-  </data>
-  <data name="labelBad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>19, 20</value>
-  </data>
-  <data name="labelBad.TabIndex" type="System.Int32, mscorlib">
-    <value>62</value>
-  </data>
-  <data name="labelBad.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;labelBad.Name" xml:space="preserve">
-    <value>labelBad</value>
-  </data>
-  <data name="&gt;&gt;labelBad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelBad.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelBad.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 357</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 13</value>
-  </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
-    <value>63</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Что-то пошло не так: </value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="buttonSeeLog.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="buttonSeeLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 382</value>
-  </data>
-  <data name="buttonSeeLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 23</value>
-  </data>
-  <data name="buttonSeeLog.TabIndex" type="System.Int32, mscorlib">
-    <value>64</value>
-  </data>
-  <data name="buttonSeeLog.Text" xml:space="preserve">
-    <value>Посмотреть лог</value>
-  </data>
-  <data name="&gt;&gt;buttonSeeLog.Name" xml:space="preserve">
-    <value>buttonSeeLog</value>
-  </data>
-  <data name="&gt;&gt;buttonSeeLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonSeeLog.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonSeeLog.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="labelGood.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelGood.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="labelGood.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 321</value>
-  </data>
-  <data name="labelGood.Size" type="System.Drawing.Size, System.Drawing">
-    <value>19, 20</value>
-  </data>
-  <data name="labelGood.TabIndex" type="System.Int32, mscorlib">
-    <value>69</value>
   </data>
   <data name="labelGood.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;labelGood.Name" xml:space="preserve">
-    <value>labelGood</value>
+  <data name="comboBoxResultFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 265</value>
   </data>
-  <data name="&gt;&gt;labelGood.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="comboBoxResultFormat.Items1" xml:space="preserve">
+    <value>Имя аккаунта</value>
   </data>
-  <data name="&gt;&gt;labelGood.Parent" xml:space="preserve">
+  <data name="label7.Text" xml:space="preserve">
+    <value> из </value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;labelGood.ZOrder" xml:space="preserve">
-    <value>21</value>
+  <data name="labelAll.Text" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+  <data name="buttonOpenProxy.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;buttonStop.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="labelApiProxyUpdateInterval.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="&gt;&gt;textBoxThreadsCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenProxy.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="labelApiProxyUpdateInterval.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxHashtags.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 88</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="comboBoxTypeProxy.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="textBoxProxy.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="labelApiProxyLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxResultPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxHowManyID.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 296</value>
+  </data>
+  <data name="buttonStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 382</value>
+  </data>
+  <data name="buttonStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxHowManyID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;textBoxApiProxyUpdateInterval.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBoxResultPath.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="textBoxHowManyID.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="labelAll.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 326</value>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 268</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 13</value>
@@ -489,155 +236,65 @@
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>70</value>
   </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>Собрано: </value>
+  <data name="labelBad.Text" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+  <data name="&gt;&gt;textBoxHowManyID.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>455, 9</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 13</value>
   </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
-    <value>78</value>
-  </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>Лог:</value>
-  </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
-  </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="richTextBoxLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>458, 9</value>
-  </data>
-  <data name="richTextBoxLog.MaxLength" type="System.Int32, mscorlib">
-    <value>100000</value>
-  </data>
-  <data name="richTextBoxLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>501, 397</value>
-  </data>
-  <data name="richTextBoxLog.TabIndex" type="System.Int32, mscorlib">
-    <value>79</value>
-  </data>
-  <data name="richTextBoxLog.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;richTextBoxLog.Name" xml:space="preserve">
-    <value>richTextBoxLog</value>
-  </data>
-  <data name="&gt;&gt;richTextBoxLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;richTextBoxLog.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;richTextBoxLog.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="labelDone.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelDone.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
-  </data>
-  <data name="labelDone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>164, 296</value>
-  </data>
-  <data name="labelDone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 16</value>
-  </data>
-  <data name="labelDone.TabIndex" type="System.Int32, mscorlib">
-    <value>81</value>
-  </data>
-  <data name="labelDone.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;labelDone.Name" xml:space="preserve">
-    <value>labelDone</value>
-  </data>
-  <data name="&gt;&gt;labelDone.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelDone.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelDone.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
+  <data name="buttonStart.Text" xml:space="preserve">
+    <value>Старт</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>94, 298</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 13</value>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Что-то пошло не так: </value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>82</value>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
   </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Хэштегов</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+  <data name="&gt;&gt;labelApiProxyLink.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;buttonStop.Name" xml:space="preserve">
+    <value>buttonStop</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Парсер хэштегов</value>
+  </data>
+  <data name="labelBad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;textBoxProxy.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>16</value>
+  <data name="buttonStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 384</value>
   </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+  <data name="labelGood.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
   </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 298</value>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 13</value>
+  <data name="checkBoxIsApiProxy.Text" xml:space="preserve">
+    <value>API proxy?</value>
   </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>83</value>
+  <data name="textBoxThreadsCount.Text" xml:space="preserve">
+    <value>50</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value> из </value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
+  <data name="&gt;&gt;buttonOpenResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -645,450 +302,27 @@
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>17</value>
+  <data name="buttonOpenHashtags.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
   </data>
-  <data name="labelAll.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
   </data>
-  <data name="labelAll.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
-  </data>
-  <data name="labelAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>293, 296</value>
-  </data>
-  <data name="labelAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 16</value>
-  </data>
-  <data name="labelAll.TabIndex" type="System.Int32, mscorlib">
-    <value>84</value>
-  </data>
-  <data name="labelAll.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;labelAll.Name" xml:space="preserve">
-    <value>labelAll</value>
-  </data>
-  <data name="&gt;&gt;labelAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelAll.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelAll.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="textBoxHashtags.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 88</value>
-  </data>
-  <data name="textBoxHashtags.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 20</value>
-  </data>
-  <data name="textBoxHashtags.TabIndex" type="System.Int32, mscorlib">
-    <value>87</value>
-  </data>
-  <data name="&gt;&gt;textBoxHashtags.Name" xml:space="preserve">
-    <value>textBoxHashtags</value>
-  </data>
-  <data name="&gt;&gt;textBoxHashtags.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxHashtags.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxHashtags.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonStop.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 91</value>
+  <data name="richTextBoxLog.Text" xml:space="preserve">
+    <value />
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 13</value>
+  <data name="labelBad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 352</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>86</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Хэштеги:</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="buttonOpenHashtags.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 86</value>
-  </data>
-  <data name="buttonOpenHashtags.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 23</value>
-  </data>
-  <data name="buttonOpenHashtags.TabIndex" type="System.Int32, mscorlib">
-    <value>85</value>
-  </data>
-  <data name="buttonOpenHashtags.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenHashtags.Name" xml:space="preserve">
-    <value>buttonOpenHashtags</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenHashtags.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenHashtags.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenHashtags.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 199</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 13</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>88</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Сколько собирать ID (0 - все):</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="textBoxHowManyID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 196</value>
-  </data>
-  <data name="textBoxHowManyID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="textBoxHowManyID.TabIndex" type="System.Int32, mscorlib">
-    <value>89</value>
-  </data>
-  <data name="textBoxHowManyID.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;textBoxHowManyID.Name" xml:space="preserve">
-    <value>textBoxHowManyID</value>
-  </data>
-  <data name="&gt;&gt;textBoxHowManyID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxHowManyID.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxHowManyID.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="textBoxResultPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 124</value>
-  </data>
-  <data name="textBoxResultPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 20</value>
-  </data>
-  <data name="textBoxResultPath.TabIndex" type="System.Int32, mscorlib">
-    <value>92</value>
-  </data>
-  <data name="&gt;&gt;textBoxResultPath.Name" xml:space="preserve">
-    <value>textBoxResultPath</value>
-  </data>
-  <data name="&gt;&gt;textBoxResultPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxResultPath.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxResultPath.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 127</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 13</value>
-  </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>91</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Папка с результатом:</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="buttonOpenResult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 122</value>
-  </data>
-  <data name="buttonOpenResult.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 23</value>
-  </data>
-  <data name="buttonOpenResult.TabIndex" type="System.Int32, mscorlib">
-    <value>90</value>
-  </data>
-  <data name="buttonOpenResult.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenResult.Name" xml:space="preserve">
-    <value>buttonOpenResult</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenResult.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenResult.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenResult.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 268</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 13</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>94</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Формат результата: </value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="comboBoxResultFormat.Items" xml:space="preserve">
-    <value>ID</value>
-  </data>
-  <data name="comboBoxResultFormat.Items1" xml:space="preserve">
-    <value>Имя аккаунта</value>
-  </data>
-  <data name="comboBoxResultFormat.Items2" xml:space="preserve">
-    <value>Ссылка на аккаунт</value>
-  </data>
-  <data name="comboBoxResultFormat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 265</value>
-  </data>
-  <data name="comboBoxResultFormat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 21</value>
-  </data>
-  <data name="comboBoxResultFormat.TabIndex" type="System.Int32, mscorlib">
-    <value>93</value>
-  </data>
-  <data name="comboBoxResultFormat.Text" xml:space="preserve">
-    <value>ID</value>
-  </data>
-  <data name="&gt;&gt;comboBoxResultFormat.Name" xml:space="preserve">
-    <value>comboBoxResultFormat</value>
-  </data>
-  <data name="&gt;&gt;comboBoxResultFormat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBoxResultFormat.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBoxResultFormat.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="textBoxApiProxyUpdateInterval.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 6</value>
-  </data>
-  <data name="textBoxApiProxyUpdateInterval.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 20</value>
-  </data>
-  <data name="textBoxApiProxyUpdateInterval.TabIndex" type="System.Int32, mscorlib">
-    <value>98</value>
-  </data>
-  <data name="textBoxApiProxyUpdateInterval.Text" xml:space="preserve">
-    <value>600</value>
-  </data>
-  <data name="textBoxApiProxyUpdateInterval.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;textBoxApiProxyUpdateInterval.Name" xml:space="preserve">
-    <value>textBoxApiProxyUpdateInterval</value>
-  </data>
-  <data name="&gt;&gt;textBoxApiProxyUpdateInterval.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxApiProxyUpdateInterval.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxApiProxyUpdateInterval.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="labelApiProxyUpdateInterval.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelApiProxyUpdateInterval.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelApiProxyUpdateInterval.Location" type="System.Drawing.Point, System.Drawing">
-    <value>182, 9</value>
-  </data>
-  <data name="labelApiProxyUpdateInterval.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 13</value>
-  </data>
-  <data name="labelApiProxyUpdateInterval.TabIndex" type="System.Int32, mscorlib">
-    <value>97</value>
-  </data>
-  <data name="labelApiProxyUpdateInterval.Text" xml:space="preserve">
-    <value>Интервал обновления (с): </value>
-  </data>
-  <data name="labelApiProxyUpdateInterval.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;labelApiProxyUpdateInterval.Name" xml:space="preserve">
-    <value>labelApiProxyUpdateInterval</value>
-  </data>
-  <data name="&gt;&gt;labelApiProxyUpdateInterval.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelApiProxyUpdateInterval.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelApiProxyUpdateInterval.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="labelApiProxyLink.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelApiProxyLink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelApiProxyLink.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 9</value>
-  </data>
-  <data name="labelApiProxyLink.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 13</value>
-  </data>
-  <data name="labelApiProxyLink.TabIndex" type="System.Int32, mscorlib">
-    <value>96</value>
-  </data>
-  <data name="labelApiProxyLink.Text" xml:space="preserve">
-    <value>Ссылка:</value>
-  </data>
-  <data name="labelApiProxyLink.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;labelApiProxyLink.Name" xml:space="preserve">
-    <value>labelApiProxyLink</value>
-  </data>
-  <data name="&gt;&gt;labelApiProxyLink.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelApiProxyLink.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelApiProxyLink.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="checkBoxIsApiProxy.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxIsApiProxy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBoxIsApiProxy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 8</value>
-  </data>
-  <data name="checkBoxIsApiProxy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 17</value>
-  </data>
-  <data name="checkBoxIsApiProxy.TabIndex" type="System.Int32, mscorlib">
-    <value>95</value>
-  </data>
-  <data name="checkBoxIsApiProxy.Text" xml:space="preserve">
-    <value>API proxy?</value>
-  </data>
-  <data name="&gt;&gt;checkBoxIsApiProxy.Name" xml:space="preserve">
-    <value>checkBoxIsApiProxy</value>
-  </data>
-  <data name="&gt;&gt;checkBoxIsApiProxy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBoxIsApiProxy.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBoxIsApiProxy.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 59</value>
-  </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>390, 26</value>
-  </data>
-  <data name="label13.TabIndex" type="System.Int32, mscorlib">
-    <value>99</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Внимание! Убедительная просьба использовать файл в кодировке UTF-8, 
-чтобы корректно работала кириллица.</value>
-  </data>
-  <data name="&gt;&gt;label13.Name" xml:space="preserve">
-    <value>label13</value>
-  </data>
-  <data name="&gt;&gt;label13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;textBoxProxy.ZOrder" xml:space="preserve">
+    <value>30</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12426,11 +11660,200 @@
         YYKYlv0S9GEAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>971, 418</value>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;labelGood.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="&gt;&gt;comboBoxResultFormat.Name" xml:space="preserve">
+    <value>comboBoxResultFormat</value>
+  </data>
+  <data name="&gt;&gt;labelAll.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenHashtags.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 59</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="textBoxProxy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 20</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Хэштеги:</value>
+  </data>
+  <data name="&gt;&gt;textBoxHowManyID.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;textBoxHashtags.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsApiProxy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenHashtags.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 32</value>
+  </data>
+  <data name="richTextBoxLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 9</value>
+  </data>
+  <data name="&gt;&gt;labelApiProxyUpdateInterval.Name" xml:space="preserve">
+    <value>labelApiProxyUpdateInterval</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenHashtags.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 13</value>
+  </data>
+  <data name="textBoxThreadsCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 163</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonOpenHashtags.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 86</value>
+  </data>
+  <data name="&gt;&gt;labelBad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 13</value>
+  </data>
+  <data name="labelApiProxyUpdateInterval.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBoxApiProxyUpdateInterval.Name" xml:space="preserve">
+    <value>textBoxApiProxyUpdateInterval</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 127</value>
+  </data>
+  <data name="buttonOpenProxy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="&gt;&gt;labelDone.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonStop.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;buttonStop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelDone.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="&gt;&gt;labelDone.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="richTextBoxLog.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="textBoxResultPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 124</value>
+  </data>
+  <data name="&gt;&gt;labelGood.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonStop.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Сколько собирать ID (0 - все):</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 9</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxLog.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSeeLog.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxResultFormat.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 357</value>
+  </data>
+  <data name="checkBoxIsApiProxy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;textBoxResultPath.Name" xml:space="preserve">
+    <value>textBoxResultPath</value>
+  </data>
+  <data name="checkBoxIsApiProxy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 8</value>
+  </data>
+  <data name="&gt;&gt;textBoxHashtags.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="comboBoxTypeProxy.Items" xml:space="preserve">
+    <value>Socks5</value>
+  </data>
+  <data name="&gt;&gt;labelApiProxyLink.Name" xml:space="preserve">
+    <value>labelApiProxyLink</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="labelApiProxyLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 9</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenResult.Name" xml:space="preserve">
+    <value>buttonOpenResult</value>
+  </data>
+  <data name="&gt;&gt;labelBad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBoxProxy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTypeProxy.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -16873,13 +16296,590 @@
         //////////////////8=
 </value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Парсер хэштегов</value>
+  <data name="labelApiProxyLink.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelApiProxyUpdateInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 9</value>
+  </data>
+  <data name="&gt;&gt;labelGood.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="&gt;&gt;textBoxResultPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxResultFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="buttonOpenHashtags.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;textBoxProxy.Name" xml:space="preserve">
+    <value>textBoxProxy</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenProxy.Name" xml:space="preserve">
+    <value>buttonOpenProxy</value>
+  </data>
+  <data name="buttonSeeLog.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="labelDone.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="textBoxApiProxyUpdateInterval.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;textBoxThreadsCount.Name" xml:space="preserve">
+    <value>textBoxThreadsCount</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxLog.Name" xml:space="preserve">
+    <value>richTextBoxLog</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxHowManyID.Name" xml:space="preserve">
+    <value>textBoxHowManyID</value>
+  </data>
+  <data name="&gt;&gt;labelAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Количество потоков:</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenHashtags.Name" xml:space="preserve">
+    <value>buttonOpenHashtags</value>
+  </data>
+  <data name="checkBoxIsApiProxy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <data name="&gt;&gt;textBoxHashtags.Name" xml:space="preserve">
+    <value>textBoxHashtags</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 166</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="labelBad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;textBoxApiProxyUpdateInterval.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxTypeProxy.Text" xml:space="preserve">
+    <value>HTTP</value>
+  </data>
+  <data name="comboBoxResultFormat.Items" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="buttonOpenProxy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 27</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenProxy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Прокси:</value>
+  </data>
+  <data name="&gt;&gt;buttonSeeLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxThreadsCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="textBoxApiProxyUpdateInterval.Text" xml:space="preserve">
+    <value>600</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelGood.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="buttonOpenProxy.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="buttonStop.Text" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="labelBad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 20</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Тип прокси: </value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 91</value>
+  </data>
+  <data name="textBoxHashtags.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 20</value>
+  </data>
+  <data name="buttonSeeLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 23</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="&gt;&gt;labelDone.Name" xml:space="preserve">
+    <value>labelDone</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonStart.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelGood.Name" xml:space="preserve">
+    <value>labelGood</value>
+  </data>
+  <data name="&gt;&gt;buttonSeeLog.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="textBoxProxy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 29</value>
+  </data>
+  <data name="buttonStart.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="labelBad.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenProxy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelGood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 321</value>
+  </data>
+  <data name="&gt;&gt;labelApiProxyUpdateInterval.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Формат результата: </value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsApiProxy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormHashtagsParser</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;textBoxHowManyID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenResult.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="labelDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelAll.Name" xml:space="preserve">
+    <value>labelAll</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonOpenResult.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelApiProxyLink.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelApiProxyUpdateInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 13</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Внимание! Убедительная просьба использовать файл в кодировке UTF-8, 
+чтобы корректно работала кириллица.</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.Name" xml:space="preserve">
+    <value>buttonStart</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBoxResultFormat.Items2" xml:space="preserve">
+    <value>Ссылка на аккаунт</value>
+  </data>
+  <data name="&gt;&gt;labelBad.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBoxApiProxyUpdateInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="textBoxThreadsCount.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsApiProxy.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="richTextBoxLog.MaxLength" type="System.Int32, mscorlib">
+    <value>100000</value>
+  </data>
+  <data name="&gt;&gt;buttonStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Хэштегов</value>
+  </data>
+  <data name="labelDone.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="buttonOpenResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 122</value>
+  </data>
+  <data name="&gt;&gt;comboBoxResultFormat.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="labelAll.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="labelGood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 20</value>
+  </data>
+  <data name="labelApiProxyLink.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="richTextBoxLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>501, 397</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTypeProxy.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="labelApiProxyUpdateInterval.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 234</value>
+  </data>
+  <data name="&gt;&gt;comboBoxResultFormat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonSeeLog.Text" xml:space="preserve">
+    <value>Посмотреть лог</value>
+  </data>
+  <data name="comboBoxTypeProxy.Items1" xml:space="preserve">
+    <value>HTTP</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelApiProxyLink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelApiProxyLink.Text" xml:space="preserve">
+    <value>Ссылка:</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelApiProxyUpdateInterval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Собрано: </value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 13</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsApiProxy.Name" xml:space="preserve">
+    <value>checkBoxIsApiProxy</value>
+  </data>
+  <data name="&gt;&gt;labelBad.Name" xml:space="preserve">
+    <value>labelBad</value>
+  </data>
+  <data name="&gt;&gt;comboBoxResultFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonSeeLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 382</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTypeProxy.Name" xml:space="preserve">
+    <value>comboBoxTypeProxy</value>
+  </data>
+  <data name="&gt;&gt;labelDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="comboBoxTypeProxy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 21</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 326</value>
+  </data>
+  <data name="labelAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="textBoxHashtags.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 296</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>971, 418</value>
+  </data>
+  <data name="&gt;&gt;textBoxResultPath.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Папка с результатом:</value>
+  </data>
+  <data name="labelApiProxyLink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxTypeProxy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 231</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textBoxThreadsCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelGood.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTypeProxy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxApiProxyUpdateInterval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSeeLog.Name" xml:space="preserve">
+    <value>buttonSeeLog</value>
+  </data>
+  <data name="textBoxApiProxyUpdateInterval.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="comboBoxResultFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 199</value>
+  </data>
+  <data name="buttonOpenResult.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="buttonOpenHashtags.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="&gt;&gt;labelApiProxyUpdateInterval.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Лог:</value>
+  </data>
+  <data name="buttonSeeLog.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;textBoxHashtags.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="textBoxApiProxyUpdateInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 6</value>
+  </data>
+  <data name="&gt;&gt;labelApiProxyLink.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBoxHowManyID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 196</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 298</value>
+  </data>
+  <data name="textBoxResultPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 20</value>
+  </data>
+  <data name="labelAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="labelApiProxyUpdateInterval.Text" xml:space="preserve">
+    <value>Интервал обновления (с): </value>
+  </data>
+  <data name="&gt;&gt;richTextBoxLog.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="checkBoxIsApiProxy.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="buttonOpenResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

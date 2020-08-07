@@ -74,6 +74,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\FormMassFollowing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMassFollowing.Designer.cs">
+      <DependentUpon>FormMassFollowing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormPhotoWebPosting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -189,6 +195,7 @@
       <DependentUpon>FormWebRegistrator.cs</DependentUpon>
     </Compile>
     <Compile Include="InstagramAccountRecover.cs" />
+    <Compile Include="InstagramMassFollowing.cs" />
     <Compile Include="InstagramPhotoWebPosting.cs" />
     <Compile Include="InstagramAvatarChanger.cs" />
     <Compile Include="InstagramGeoParser.cs" />
@@ -228,6 +235,15 @@
     <Compile Include="Tools\MD5.cs" />
     <Compile Include="Tools\Translate.cs" />
     <Compile Include="Tools\WindowsKey.cs" />
+    <EmbeddedResource Include="Forms\FormMassFollowing.en.resx">
+      <DependentUpon>FormMassFollowing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMassFollowing.resx">
+      <DependentUpon>FormMassFollowing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMassFollowing.ru.resx">
+      <DependentUpon>FormMassFollowing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormPhotoWebPosting.en.resx">
       <DependentUpon>FormPhotoWebPosting.cs</DependentUpon>
     </EmbeddedResource>
