@@ -1,0 +1,173 @@
+Failed to update!
+Error!
+License has expired!
+The number of threads is incorrect!
+The number of IDs for parsing is incorrect!
+No proxy file specified!
+No account file specified!
+No file with user IDs for parsing followers!
+The file where you want to save the result is not specified or is specified incorrectly!
+Done!
+Followers Parser
+There is no log file yet!
+Followers Parser: Error!
+You clicked the "Stop" button.
+No hashtag file specified!
+Geolocation Parser
+Geolocation Parser: Error
+Geolocations file not specified!
+Hashtags Parser
+Hashtags Parser: Error!
+Nicknames file not specified!
+The number of seconds in the delay is indicated incorrectly!
+Account Checker
+Account Checker: Error!
+File with names not specified!
+No file with last names!
+No User-Agent file specified!
+The file where you want to save the checkpoints is not specified or is specified incorrectly!
+The number of final accounts is incorrect!
+Web registrar
+Web Registrar: Error!
+Expectation...
+No accounts specified!
+A form with a message for mailing is not specified!
+File with user IDs for sending is not specified!
+The link is incorrect!
+The number of circles indicated is incorrect!
+Direct Mailing
+Stopped!
+Stop the program to reset the table!
+Click "Stop" for this action!
+Stop the program to clear the table!
+Stop the program to change the settings!
+The program settings have been updated.
+Saved!
+Checkpoint
+Limit!
+Launch...
+Finished.
+Message sent.
+Retrying x
+Checkpoint!
+There is no such ID!
+Unable to connect to the network!
+Something went wrong!
+[DEBUG] Changed proxies.
+[DEBUG] Failed to parse Cookie. Bad proxies?
+Cookie parsing
+Found! - 
+Account not found - 
+(Error) Error text: 
+We take the given cookies...
+Parsing cookies...
+[Error] Something is wrong. Redoing.
+Logged in to your account.
+Stumbled upon checkpoint!
+Login failed!
+Got cookies...
+We start parsing...
+The competitor parsing "
+" is over!
+Something is wrong, trying to parse again.
+[DEBUG] Change account.
+Parsing geolocation "
+Parsing hashtag "
+The part was parsed...
+Checkpoint - 
+Error registering - 
+Registration successful! - 
+, thread 
+Link for Proxy API is incorrect!
+Failed to get proxy from the link!
+The number of seconds in the update interval is incorrect!
+The file where you want to save UserAgents is not specified or is specified incorrectly!
+[DEBUG] Changed mail.
+API-registrar
+File with Mails is not specified!
+API-registrar: Error
+The number of UserAgents as a result is indicated incorrectly!
+File with old User Agents not specified!
+UserAgents actualizer
+Image folder not specified or specified incorrectly!
+Getting started...
+Avatars changer
+Changed the profile picture - 
+- something went wrong!
+Reached the limit, changing the account
+Web registrar with SMS
+Web Registrar with SMS: Error!
+Took number in the service - 
+There are no numbers in SMS service!
+In SMS service your balance has ended!
+Received a code 
+ on number 
+Canceled the number. Money back.
+Accepted the phone number.
+Defined proxy region - 
+SMS API registrar
+SMS API registrar: Error!
+We are waiting for another SMS to this number.
+Requested another SMS from Instagram.
+Requested SMS from Instagram.
+Failed to get SMS from Instagram!
+Failed to send SMS to number!
+Failed to send SMS to the number, asking for one more!
+Starting registration...
+Phone number canceled!
+Failed to get a number in SMS service!
+No blacklist file yet!
+The blacklist file is cleared!
+ - this ID is in the blacklist.
+Are you sure you want to clear the blacklist?
+Sure?
+Failed to load post! We try again.
+ID is in the black list!
+Restored account!
+Failed to restore account!
+Something went wrong, trying to restore this account again.
+No API key specified!
+Account recover with SMS
+Stumbled upon a 24-hour check!
+Proxies taken - 
+UserAgent taken - 
+Captcha sent for solution
+Got a captcha solution
+We are waiting for SMS to the number 
+SMS has not arrived yet.
+Error. Bad proxies?
+IMAP file not specified!
+Instagram sent a letter to the mail - 
+We sent a confirmation code.
+We are trying to register an account.
+Something is wrong with IMAP - 
+(Error) Login data is not valid! - 
+There are no pictures in the selected folder!
+Error while sending email!
+Error while receiving code!
+Error during the registration process!
+Trying to use code 
+Code is not correct! 
+Code is correct! 
+There is no correct code! 
+Trying to use IMAP.
+Instagram CAN'T send a letter to the mail - 
+Unable to connect to the network!
+The region could not be determined. Bad proxies?
+Error! Email already taken - 
+Error! Unable to get data from server! Bad proxies?
+Failed to get the chart! Check your connection and try again.
+We are trying to send a message to the email.
+Source file not specified!
+Removing duplicates
+Removing cookies
+Splitting files into parts
+The number of parts for splitting the file is not specified or is specified incorrectly!
+Attention!
+This function is temporarily disabled! We are sorry for the inconvenience!
+Photo posting (web): Error!
+Photo posting (web)
+The number of posts is incorrect!
+Failed to upload photo to Instagram server!
+Posted a photo! 
+Waiting seconds: 

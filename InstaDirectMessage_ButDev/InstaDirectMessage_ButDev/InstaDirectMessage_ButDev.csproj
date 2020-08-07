@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB133143-8D64-47F8-8084-5DCDE57E4333}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>InstaDirectMessage_ButDev</RootNamespace>
+    <AssemblyName>InstaDirectMessage_ButDev</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <CefSharpAnyCpuSupport>true</CefSharpAnyCpuSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ЛетнийЛоготипInstaDirectSoft.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.5\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="MailKit, Version=2.8.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailKit.2.8.0\lib\net47\MailKit.dll</HintPath>
+    </Reference>
+    <Reference Include="MimeKit, Version=2.9.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
+      <HintPath>..\packages\MimeKit.2.9.1\lib\net47\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="xNet, Version=3.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\xNet.3.3.4\lib\xNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\FormPhotoWebPosting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPhotoWebPosting.Designer.cs">
+      <DependentUpon>FormPhotoWebPosting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDeleteCookie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDeleteCookie.Designer.cs">
+      <DependentUpon>FormDeleteCookie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormBreakdownDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBreakdownDB.Designer.cs">
+      <DependentUpon>FormBreakdownDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSMSApiRegistrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSMSApiRegistrator.Designer.cs">
+      <DependentUpon>FormSMSApiRegistrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAvatarChanger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAvatarChanger.Designer.cs">
+      <DependentUpon>FormAvatarChanger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChangeLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChangeLog.Designer.cs">
+      <DependentUpon>ChangeLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CheckLicenseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CheckLicenseForm.Designer.cs">
+      <DependentUpon>CheckLicenseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormFollowersParser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormFollowersParser.Designer.cs">
+      <DependentUpon>FormFollowersParser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormGeoParser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormGeoParser.Designer.cs">
+      <DependentUpon>FormGeoParser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMobUserAgentActualizer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMobUserAgentActualizer.Designer.cs">
+      <DependentUpon>FormMobUserAgentActualizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSMSAccountRecover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSMSAccountRecover.Designer.cs">
+      <DependentUpon>FormSMSAccountRecover.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDeleteDuplicate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDeleteDuplicate.Designer.cs">
+      <DependentUpon>FormDeleteDuplicate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUserAgentActualizer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUserAgentActualizer.Designer.cs">
+      <DependentUpon>FormUserAgentActualizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormHashtagsParser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHashtagsParser.Designer.cs">
+      <DependentUpon>FormHashtagsParser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormInstagramChecker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormInstagramChecker.Designer.cs">
+      <DependentUpon>FormInstagramChecker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormApiRegistrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormApiRegistrator.Designer.cs">
+      <DependentUpon>FormApiRegistrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSMSWebRegistrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSMSWebRegistrator.Designer.cs">
+      <DependentUpon>FormSMSWebRegistrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormWebRegistrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWebRegistrator.Designer.cs">
+      <DependentUpon>FormWebRegistrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstagramAccountRecover.cs" />
+    <Compile Include="InstagramPhotoWebPosting.cs" />
+    <Compile Include="InstagramAvatarChanger.cs" />
+    <Compile Include="InstagramGeoParser.cs" />
+    <Compile Include="InstagramFollowersParser.cs" />
+    <Compile Include="InstagramHashtagsParser.cs" />
+    <Compile Include="InstagramDirectMessage.cs" />
+    <Compile Include="InstagramChecker.cs" />
+    <Compile Include="InstagramApiRegistrator.cs" />
+    <Compile Include="InstagramSMSApiRegistrator.cs" />
+    <Compile Include="InstagramSMSWebRegistrator.cs" />
+    <Compile Include="InstagramWebRegistrator.cs" />
+    <Compile Include="JSONClasses\JsonClass_HashtagParser.cs" />
+    <Compile Include="JSONClasses\Json_CheckerClass.cs" />
+    <Compile Include="JSONClasses\Json_Followers_Data.cs" />
+    <Compile Include="JSONClasses\Json_FromIDinNicknameInstagram.cs" />
+    <Compile Include="JSONClasses\Json_Geo_Topsearch_ID.cs" />
+    <Compile Include="JSONClasses\Json_GetFirstGeoData.cs" />
+    <Compile Include="JSONClasses\Json_GetFirstHashtagData.cs" />
+    <Compile Include="JSONClasses\Json_GetGeoData.cs" />
+    <Compile Include="JSONClasses\Json_PostMediaInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\ShowKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShowKey.designer.cs">
+      <DependentUpon>ShowKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\AesGcm256.cs" />
+    <Compile Include="Tools\B64X.cs" />
+    <Compile Include="Tools\CheckLicense.cs" />
+    <Compile Include="Tools\FirstLevelRoot.cs" />
+    <Compile Include="Tools\GetLanguageByCountryCode.cs" />
+    <Compile Include="Tools\ID.cs" />
+    <Compile Include="Tools\ImageUnique.cs" />
+    <Compile Include="Tools\MCrypt.cs" />
+    <Compile Include="Tools\MD5.cs" />
+    <Compile Include="Tools\Translate.cs" />
+    <Compile Include="Tools\WindowsKey.cs" />
+    <EmbeddedResource Include="Forms\FormPhotoWebPosting.en.resx">
+      <DependentUpon>FormPhotoWebPosting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPhotoWebPosting.resx">
+      <DependentUpon>FormPhotoWebPosting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPhotoWebPosting.ru.resx">
+      <DependentUpon>FormPhotoWebPosting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDeleteCookie.en.resx">
+      <DependentUpon>FormDeleteCookie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDeleteCookie.resx">
+      <DependentUpon>FormDeleteCookie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBreakdownDB.en.resx">
+      <DependentUpon>FormBreakdownDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBreakdownDB.resx">
+      <DependentUpon>FormBreakdownDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSMSApiRegistrator.en.resx">
+      <DependentUpon>FormSMSApiRegistrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSMSApiRegistrator.resx">
+      <DependentUpon>FormSMSApiRegistrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAvatarChanger.en.resx">
+      <DependentUpon>FormAvatarChanger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAvatarChanger.resx">
+      <DependentUpon>FormAvatarChanger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAvatarChanger.ru.resx">
+      <DependentUpon>FormAvatarChanger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChangeLog.en.resx">
+      <DependentUpon>ChangeLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChangeLog.resx">
+      <DependentUpon>ChangeLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CheckLicenseForm.en.resx">
+      <DependentUpon>CheckLicenseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CheckLicenseForm.resx">
+      <DependentUpon>CheckLicenseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFollowersParser.en.resx">
+      <DependentUpon>FormFollowersParser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFollowersParser.resx">
+      <DependentUpon>FormFollowersParser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFollowersParser.ru.resx">
+      <DependentUpon>FormFollowersParser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGeoParser.en.resx">
+      <DependentUpon>FormGeoParser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGeoParser.resx">
+      <DependentUpon>FormGeoParser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMobUserAgentActualizer.en.resx">
+      <DependentUpon>FormMobUserAgentActualizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMobUserAgentActualizer.resx">
+      <DependentUpon>FormMobUserAgentActualizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSMSAccountRecover.en.resx">
+      <DependentUpon>FormSMSAccountRecover.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSMSAccountRecover.resx">
+      <DependentUpon>FormSMSAccountRecover.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDeleteDuplicate.en.resx">
+      <DependentUpon>FormDeleteDuplicate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDeleteDuplicate.resx">
+      <DependentUpon>FormDeleteDuplicate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUserAgentActualizer.en.resx">
+      <DependentUpon>FormUserAgentActualizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUserAgentActualizer.resx">
+      <DependentUpon>FormUserAgentActualizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHashtagsParser.en.resx">
+      <DependentUpon>FormHashtagsParser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHashtagsParser.resx">
+      <DependentUpon>FormHashtagsParser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormInstagramChecker.en.resx">
+      <DependentUpon>FormInstagramChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormInstagramChecker.resx">
+      <DependentUpon>FormInstagramChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormApiRegistrator.en.resx">
+      <DependentUpon>FormApiRegistrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormApiRegistrator.resx">
+      <DependentUpon>FormApiRegistrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSMSWebRegistrator.en.resx">
+      <DependentUpon>FormSMSWebRegistrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSMSWebRegistrator.resx">
+      <DependentUpon>FormSMSWebRegistrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWebRegistrator.en.resx">
+      <DependentUpon>FormWebRegistrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.en.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWebRegistrator.resx">
+      <DependentUpon>FormWebRegistrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowKey.en.resx">
+      <DependentUpon>ShowKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\ShowKey.resx">
+      <DependentUpon>ShowKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RubikOne.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserAgents.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <Content Include="Resources\en.txt" />
+    <None Include="Resources\UserAgentsWebAndroid.txt" />
+    <Content Include="ЛетнийЛоготипInstaDirectSoft.ico" />
+    <None Include="Resources\Locales.txt" />
+    <Content Include="Resources\ru.txt" />
+    <Content Include="Resources\UserAgentMob.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
