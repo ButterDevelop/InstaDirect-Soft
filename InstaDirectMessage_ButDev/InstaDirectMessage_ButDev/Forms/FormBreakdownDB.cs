@@ -31,6 +31,24 @@ namespace InstaDirectMessage_ButDev
             if (CheckLicense.remaining < 0) { MessageBox.Show(Translate.Tr("Лицензия истекла!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
 
             this.FormClosing += FormInstagramChecker_FormClosing;
+
+            List<string> key = new List<string>();
+            List<string> value = new List<string>();
+            var data = Properties.Settings.Default.FormBreakdownDB;
+            foreach (string k in data)
+            {
+                if (k == "") continue;
+                var dict = k.Split(new char[1] { '|' }, StringSplitOptions.RemoveEmptyEntries);
+                key.Add(dict[0]);
+                value.Add(Encoding.UTF8.GetString(Convert.FromBase64String(dict[1])));
+            }
+            foreach (Control a in this.Controls)
+            {
+                if (key.Contains(a.Name)) a.Text = value[key.FindIndex(x => x == a.Name)];
+            }
+
+            SourceFilePath = textBoxSourceFile.Text;
+            ResultPath = textBoxResultFile.Text;
         }
 
         private void buttonStart_Click(object sender, EventArgs e)
@@ -42,6 +60,15 @@ namespace InstaDirectMessage_ButDev
 
             CheckLicense.GetRemainingTime();
             if (CheckLicense.remaining < 0) { MessageBox.Show(Translate.Tr("Лицензия истекла!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
+
+            var data = Properties.Settings.Default.FormBreakdownDB;
+            data.Clear();
+            foreach (Control a in this.Controls)
+            {
+                if (a.GetType().ToString() == "System.Windows.Forms.TextBox") data.Add(a.Name + "|" + Convert.ToBase64String(Encoding.UTF8.GetBytes(a.Text)));
+            }
+            Properties.Settings.Default.FormBreakdownDB = data;
+            Properties.Settings.Default.Save();
 
             buttonStart.Visible = false;
             buttonStop.Visible = true;

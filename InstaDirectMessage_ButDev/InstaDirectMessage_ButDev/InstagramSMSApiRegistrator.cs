@@ -25,7 +25,6 @@ namespace InstaDirectMessage_ButDev
         public static List<string> Proxy = new List<string>();
         public static List<string> Names = new List<string>();
         public static List<string> Surnames = new List<string>();
-        public static List<string> Mails = new List<string>();
         public static List<string> UserAgentsMob = new List<string>();
         public static string path = "", proxytype = "", ResultPath = "", ResultUAPath = "", APIKey = "", CountryCode = "", Host = "", AcceptLang = "", CurrentMobileAppVersion = "138.0.0.28.117", ResultCheckpointPath = "";
         public const string ConstString = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_";

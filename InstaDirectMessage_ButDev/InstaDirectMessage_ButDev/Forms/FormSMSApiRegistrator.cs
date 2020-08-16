@@ -21,7 +21,7 @@ namespace InstaDirectMessage_ButDev
 {
     public partial class FormSMSApiRegistrator : Form
     {
-        public static string ProxyPath = "", NamePath = "", SurnamePath = "", ResultFilePath = "", PROXYTYPE = "", time = "", ApiProxyUrl = "", MailsPath = "", ResultUAFilePath = "", UAsPath = "", ResultCheckpointPath = "";
+        public static string ProxyPath = "", NamePath = "", SurnamePath = "", ResultFilePath = "", PROXYTYPE = "", time = "", ApiProxyUrl = "", ResultUAFilePath = "", UAsPath = "", ResultCheckpointPath = "";
         public static int[] tries = new int[10000];
         public static int ThreadsCount = 0, FinalCount = 0, Final = 0, finalresult = 0, Delay = 0, ApiProxyTimeout = 0;
         public static List<string> Proxy = new List<string>();
@@ -55,6 +55,29 @@ namespace InstaDirectMessage_ButDev
             comboBoxRegion.SelectedIndex = 0;
             richTextBoxLog.AutoScrollOffset = new Point();
             this.FormClosing += FormWebRegistrator_FormClosing;
+
+            List<string> key = new List<string>();
+            List<string> value = new List<string>();
+            var data = Properties.Settings.Default.FormSMSApiRegistrator;
+            foreach (string k in data)
+            {
+                if (k == "") continue;
+                var dict = k.Split(new char[1] { '|' }, StringSplitOptions.RemoveEmptyEntries);
+                key.Add(dict[0]);
+                value.Add(Encoding.UTF8.GetString(Convert.FromBase64String(dict[1])));
+            }
+            foreach (Control a in this.Controls)
+            {
+                if (key.Contains(a.Name)) a.Text = value[key.FindIndex(x => x == a.Name)];
+            }
+
+            ProxyPath = textBoxProxy.Text;
+            NamePath = textBoxName.Text;
+            SurnamePath = textBoxSurname.Text;
+            ResultFilePath = textBoxResultFile.Text;
+            ResultUAFilePath = textBoxResultUAFile.Text;
+            UAsPath = textBoxUserAgents.Text;
+            ResultCheckpointPath = textBoxResultCheckpoint.Text;
         }
 
         private bool isFileNameValid(string fileName)
@@ -91,23 +114,6 @@ namespace InstaDirectMessage_ButDev
             else
                 if (ProxyPath == "") { MessageBox.Show(Translate.Tr("Файл с прокси не указан!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
 
-            if (!isFakeMails)
-            {
-                if (MailsPath == "") { MessageBox.Show(Translate.Tr("Файл с почтами не указан!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
-
-                //Load Mails
-                using (StreamReader sr = new StreamReader(MailsPath))
-                {
-                    string line;
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        if (line.Contains(":")) line = line.Remove(line.IndexOf(":"));
-                        Mails.Add(line);
-                    }
-                }
-                InstagramSMSApiRegistrator.Mails = Mails;
-            }
-
             if (NamePath == "") { MessageBox.Show(Translate.Tr("Файл с именами не указан!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
             if (SurnamePath == "") { MessageBox.Show(Translate.Tr("Файл с фамилиями не указан!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
             if (UAsPath == "") { MessageBox.Show(Translate.Tr("Файл с Юзер-Агентами не указан!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
@@ -117,6 +123,15 @@ namespace InstaDirectMessage_ButDev
 
             CheckLicense.GetRemainingTime();
             if (CheckLicense.remaining < 0) { MessageBox.Show(Translate.Tr("Лицензия истекла!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
+
+            var data = Properties.Settings.Default.FormSMSApiRegistrator;
+            data.Clear();
+            foreach (Control a in this.Controls)
+            {
+                if (a.GetType().ToString() == "System.Windows.Forms.TextBox") data.Add(a.Name + "|" + Convert.ToBase64String(Encoding.UTF8.GetBytes(a.Text)));
+            }
+            Properties.Settings.Default.FormSMSApiRegistrator = data;
+            Properties.Settings.Default.Save();
 
             InstagramSMSApiRegistrator.ResultCheckpointPath = ResultCheckpointPath;
             InstagramSMSApiRegistrator.ResultPath = ResultFilePath;

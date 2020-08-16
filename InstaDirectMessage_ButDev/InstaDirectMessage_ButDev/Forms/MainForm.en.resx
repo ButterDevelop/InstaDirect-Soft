@@ -215,6 +215,9 @@
   <data name="ErrorsCount.HeaderText" xml:space="preserve">
     <value>Number of errors</value>
   </data>
+  <data name="contextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 136</value>
+  </data>
   <data name="toolStripMenuItemCopyLogin.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
   </data>
@@ -251,9 +254,6 @@
   <data name="посмотретьЛогАккаунтаToolStripMenuItem.Text" xml:space="preserve">
     <value>View account log</value>
   </data>
-  <data name="contextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 136</value>
-  </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 13</value>
   </data>
@@ -287,6 +287,9 @@ from: "Hello!", "Hi!", "Hey!" etc.</value>
   <data name="buttonMailingSwitch.Text" xml:space="preserve">
     <value>     Direct mailing</value>
   </data>
+  <data name="panelAccounts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 661</value>
+  </data>
   <data name="buttonResetDataGrid.Text" xml:space="preserve">
     <value>Reset table</value>
   </data>
@@ -296,8 +299,8 @@ from: "Hello!", "Hi!", "Hey!" etc.</value>
   <data name="buttonLoadAccounts.Text" xml:space="preserve">
     <value>Add accounts</value>
   </data>
-  <data name="panelAccounts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 661</value>
+  <data name="panelDirectMailing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 632</value>
   </data>
   <data name="buttonSeeLog.Text" xml:space="preserve">
     <value>    Open log</value>
@@ -346,9 +349,6 @@ from: "Hello!", "Hi!", "Hey!" etc.</value>
   </data>
   <data name="buttonOpenAccountList_Mailing.Text" xml:space="preserve">
     <value>Open a list of accounts for a job</value>
-  </data>
-  <data name="panelDirectMailing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>350, 12</value>
   </data>
   <data name="buttonAccountRecover.Text" xml:space="preserve">
     <value>            Recover accounts with SMS</value>
@@ -10763,6 +10763,15 @@ support</value>
     <value>Direct
 mailing</value>
   </data>
+  <data name="panelSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 102</value>
+  </data>
+  <data name="panelSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 255</value>
+  </data>
+  <data name="buttonClearAutocomplete.Text" xml:space="preserve">
+    <value>Clear autofill data</value>
+  </data>
   <data name="comboBoxLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>87, 109</value>
   </data>
@@ -10795,7 +10804,7 @@ your account</value>
     <value>Wait for specified time</value>
   </data>
   <data name="buttonSaveSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 147</value>
+    <value>97, 171</value>
   </data>
   <data name="buttonSaveSettings.Text" xml:space="preserve">
     <value>Save settings</value>
@@ -10805,9 +10814,6 @@ your account</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>Lock timeout (seconds):</value>
-  </data>
-  <data name="panelSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 143</value>
   </data>
   <data name="toolStripActualizerUA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10855,6 +10861,9 @@ your account</value>
   <data name="toolStripAccountChecker.Text" xml:space="preserve">
     <value>Accounts checker</value>
   </data>
+  <data name="panelPosting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 62</value>
+  </data>
   <data name="toolStripAvatarChanger.Size" type="System.Drawing.Size, System.Drawing">
     <value>101, 19</value>
   </data>
@@ -10872,9 +10881,6 @@ your account</value>
   </data>
   <data name="toolStripMassFollowing.Text" xml:space="preserve">
     <value>Massfollowing</value>
-  </data>
-  <data name="panelPosting.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 62</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -39,6 +39,26 @@ namespace InstaDirectMessage_ButDev
 
             richTextBoxLog.AutoScrollOffset = new Point();
             this.FormClosing += FormWebRegistrator_FormClosing;
+
+            List<string> key = new List<string>();
+            List<string> value = new List<string>();
+            var data = Properties.Settings.Default.FormSMSAccountRecover;
+            foreach (string k in data)
+            {
+                if (k == "") continue;
+                var dict = k.Split(new char[1] { '|' }, StringSplitOptions.RemoveEmptyEntries);
+                key.Add(dict[0]);
+                value.Add(Encoding.UTF8.GetString(Convert.FromBase64String(dict[1])));
+            }
+            foreach (Control a in this.Controls)
+            {
+                if (key.Contains(a.Name)) a.Text = value[key.FindIndex(x => x == a.Name)];
+            }
+
+            ProxyPath = textBoxProxy.Text;
+            AccountsPath = textBoxAccounts.Text;
+            UAsPath = textBoxUserAgents.Text;
+            ResultFilePath = textBoxResultFile.Text;
         }
 
         private bool isFileNameValid(string fileName)
@@ -81,6 +101,15 @@ namespace InstaDirectMessage_ButDev
 
             CheckLicense.GetRemainingTime();
             if (CheckLicense.remaining < 0) { MessageBox.Show(Translate.Tr("Лицензия истекла!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
+
+            var data = Properties.Settings.Default.FormSMSAccountRecover;
+            data.Clear();
+            foreach (Control a in this.Controls)
+            {
+                if (a.GetType().ToString() == "System.Windows.Forms.TextBox") data.Add(a.Name + "|" + Convert.ToBase64String(Encoding.UTF8.GetBytes(a.Text)));
+            }
+            Properties.Settings.Default.FormSMSAccountRecover = data;
+            Properties.Settings.Default.Save();
 
             InstagramAccountRecover.ResultPath = ResultFilePath;
             InstagramAccountRecover.SmsApiKey = textBoxAPIKey.Text;

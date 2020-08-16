@@ -175,3 +175,5 @@ Successfully followed from account
  to ID 
 Failed to follow from account 
 Follow request sent from account 
+Success!
+Autofill data cleared successfully!

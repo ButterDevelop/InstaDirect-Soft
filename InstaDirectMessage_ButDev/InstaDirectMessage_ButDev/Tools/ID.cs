@@ -8,7 +8,7 @@ namespace InstaDirectMessage_ButDev.Tools
     public class ID
     {
         public static string IDNumber = Generate();
-        public static string NewIDNumber = Generate();//GenerateNew();
+        public static string NewIDNumber = GenerateNew();
         public static string Generate()
         {
             RegistryKey reg = Registry.LocalMachine.OpenSubKey("HARDWARE\\DESCRIPTION\\System");
