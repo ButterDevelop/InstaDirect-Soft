@@ -232,7 +232,7 @@ namespace InstaDirectMessage_ButDev.Properties {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на 2.4.
+        ///   Ищет локализованную строку, похожую на 2.5.
         /// </summary>
         internal static string Version {
             get {

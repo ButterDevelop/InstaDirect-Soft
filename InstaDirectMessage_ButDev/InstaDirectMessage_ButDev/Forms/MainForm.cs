@@ -45,6 +45,7 @@ namespace InstaDirectMessage_ButDev
         FormBreakdownDB formBreakdownDB = new FormBreakdownDB();
         FormPhotoWebPosting formPhotoWebPosting = new FormPhotoWebPosting();
         FormMassFollowing formMassFollowing = new FormMassFollowing();
+        FormFollowersGreeting formFollowersGreeting = new FormFollowersGreeting();
         public MainForm()
         {
             InitializeComponent();
@@ -64,6 +65,7 @@ namespace InstaDirectMessage_ButDev
             formBreakdownDB.Hide();
             formPhotoWebPosting.Hide();
             formMassFollowing.Hide();
+            formFollowersGreeting.Hide();
 
             dataGridView.CellMouseEnter += dataGridView_CellMouseEnter;
             dataGridView.CellMouseMove += dataGridView_CellMouseMove;
@@ -190,6 +192,7 @@ namespace InstaDirectMessage_ButDev
             {
                 // Login:Password||DeviceId;PhoneId;ADID;GUID|Cookie||
                 //Regex regex = new Regex("(.*):(.*)\\|\\|(android\\-.{16});(.{36});(.{36});(.{36})\\|(.*)\\|\\|");
+                if (x.Substring(x.Length - 2) != "\\") x += "\\";
                 if (new Regex("(.*):(.*)\\|\\|(.*)\\|(.*)\\|\\|").IsMatch(x))
                 {
                     Regex regex = new Regex("(.*):(.*)\\|\\|(.*)\\|(.*)\\|\\|");
@@ -821,6 +824,14 @@ namespace InstaDirectMessage_ButDev
             formMassFollowing.Show();
         }
 
+        private void toolStripFollowersGreeting_Click(object sender, EventArgs e)
+        {
+            buttonPosting.BackColor = Color.Transparent;
+            panelPosting.Visible = false;
+            buttonPosting_MouseLeave(null, null);
+            formFollowersGreeting.Show();
+        }
+
         private void buttonOpenBlackList_Click(object sender, EventArgs e)
         {
             if (!File.Exists(Path.Combine(Path.Combine(Path.Combine(Environment.CurrentDirectory, time)), "InstaDirectMessage_BlackList.log"))) MessageBox.Show(Translate.Tr("Файла с чёрным списком пока нет!"), "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -996,6 +1007,7 @@ namespace InstaDirectMessage_ButDev
                 if (OldMail[j].Contains("||"))
                 {
                     // Login:Password||DeviceId;PhoneId;ADID;GUID|Cookie||
+                    if (OldMail[j].Substring(OldMail[j].Length - 2) != "\\") OldMail[j] += "\\";
                     if (new Regex("(.*):(.*)\\|\\|(.*)\\|(.*)\\|\\|").IsMatch(OldMail[j]))
                     {
                         Regex regex = new Regex("(.*):(.*)\\|\\|(.*)\\|(.*)\\|\\|");

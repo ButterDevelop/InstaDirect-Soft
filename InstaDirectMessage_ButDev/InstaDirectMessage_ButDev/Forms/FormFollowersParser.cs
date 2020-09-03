@@ -54,6 +54,7 @@ namespace InstaDirectMessage_ButDev
             ProxyPath = textBoxProxy.Text;
             IDPath = textBoxRivals.Text;
             ResultPath = textBoxResultPath.Text;
+            AccountsPath = textBoxAccounts.Text;
         }
 
         private bool isFileNameValid(string fileName)

@@ -86,6 +86,7 @@ namespace InstaDirectMessage_ButDev
                     if (Accounts[AccIndex].Contains("||"))
                     {
                         // Login:Password||DeviceId;PhoneId;ADID;GUID|Cookie||
+                        if (Accounts[AccIndex].Substring(Accounts[AccIndex].Length - 2) != "\\") Accounts[AccIndex] += "\\";
                         if (new Regex("(.*):(.*)\\|\\|(.*)\\|(.*)\\|\\|").IsMatch(Accounts[AccIndex]))
                         {
                             Regex regex = new Regex("(.*):(.*)\\|\\|(.*)\\|(.*)\\|\\|");

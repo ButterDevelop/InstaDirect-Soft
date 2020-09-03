@@ -30,11 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.buttonStart = new System.Windows.Forms.Button();
             this.textBoxOldEmails = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -158,6 +158,7 @@
             this.toolStripAvatarChanger = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripPhotoPosingWeb = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMassFollowing = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripFollowersGreeting = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.contextMenuStrip.SuspendLayout();
             this.panelAccounts.SuspendLayout();
@@ -183,11 +184,11 @@
             // 
             // buttonStart
             // 
-            resources.ApplyResources(this.buttonStart, "buttonStart");
             this.buttonStart.BackColor = System.Drawing.Color.Transparent;
             this.buttonStart.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonStart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.buttonStart, "buttonStart");
             this.buttonStart.ForeColor = System.Drawing.Color.Black;
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.UseVisualStyleBackColor = false;
@@ -339,11 +340,11 @@
             // 
             // comboBoxTypeProxy
             // 
-            resources.ApplyResources(this.comboBoxTypeProxy, "comboBoxTypeProxy");
             this.comboBoxTypeProxy.FormattingEnabled = true;
             this.comboBoxTypeProxy.Items.AddRange(new object[] {
             resources.GetString("comboBoxTypeProxy.Items"),
             resources.GetString("comboBoxTypeProxy.Items1")});
+            resources.ApplyResources(this.comboBoxTypeProxy, "comboBoxTypeProxy");
             this.comboBoxTypeProxy.Name = "comboBoxTypeProxy";
             // 
             // label8
@@ -362,35 +363,34 @@
             // 
             // textBoxMessage
             // 
-            resources.ApplyResources(this.textBoxMessage, "textBoxMessage");
             this.textBoxMessage.BackColor = System.Drawing.Color.White;
             this.textBoxMessage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            resources.ApplyResources(this.textBoxMessage, "textBoxMessage");
             this.textBoxMessage.Name = "textBoxMessage";
             // 
             // dataGridView
             // 
-            resources.ApplyResources(this.dataGridView, "dataGridView");
             this.dataGridView.AllowUserToAddRows = false;
             this.dataGridView.AllowUserToDeleteRows = false;
             this.dataGridView.AllowUserToResizeColumns = false;
             this.dataGridView.AllowUserToResizeRows = false;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(218)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.RoyalBlue;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            this.dataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(218)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.RoyalBlue;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            this.dataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView.BackgroundColor = System.Drawing.Color.Lavender;
             this.dataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.dataGridView.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.SlateBlue;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SlateBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnLogin,
@@ -401,31 +401,32 @@
             this.Log,
             this.ErrorsCount});
             this.dataGridView.ContextMenuStrip = this.contextMenuStrip;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.RoyalBlue;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.RoyalBlue;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView.EnableHeadersVisualStyles = false;
             this.dataGridView.GridColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.dataGridView, "dataGridView");
             this.dataGridView.MultiSelect = false;
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.ReadOnly = true;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.SlateBlue;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.SlateBlue;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.RoyalBlue;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.White;
-            this.dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.RoyalBlue;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            this.dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             // 
             // ColumnLogin
@@ -485,7 +486,6 @@
             // 
             // contextMenuStrip
             // 
-            resources.ApplyResources(this.contextMenuStrip, "contextMenuStrip");
             this.contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItemCopyLogin,
             this.toolStripMenuItemCopyPass,
@@ -494,41 +494,42 @@
             this.снятьВыделениеToolStripMenuItem,
             this.посмотретьЛогАккаунтаToolStripMenuItem});
             this.contextMenuStrip.Name = "contextMenuStrip";
+            resources.ApplyResources(this.contextMenuStrip, "contextMenuStrip");
             // 
             // toolStripMenuItemCopyLogin
             // 
-            resources.ApplyResources(this.toolStripMenuItemCopyLogin, "toolStripMenuItemCopyLogin");
             this.toolStripMenuItemCopyLogin.Name = "toolStripMenuItemCopyLogin";
+            resources.ApplyResources(this.toolStripMenuItemCopyLogin, "toolStripMenuItemCopyLogin");
             this.toolStripMenuItemCopyLogin.Click += new System.EventHandler(this.toolStripMenuItemCopyLogin_Click);
             // 
             // toolStripMenuItemCopyPass
             // 
-            resources.ApplyResources(this.toolStripMenuItemCopyPass, "toolStripMenuItemCopyPass");
             this.toolStripMenuItemCopyPass.Name = "toolStripMenuItemCopyPass";
+            resources.ApplyResources(this.toolStripMenuItemCopyPass, "toolStripMenuItemCopyPass");
             this.toolStripMenuItemCopyPass.Click += new System.EventHandler(this.toolStripMenuItemCopyPass_Click);
             // 
             // скопироватьЛогинпарольToolStripMenuItem
             // 
-            resources.ApplyResources(this.скопироватьЛогинпарольToolStripMenuItem, "скопироватьЛогинпарольToolStripMenuItem");
             this.скопироватьЛогинпарольToolStripMenuItem.Name = "скопироватьЛогинпарольToolStripMenuItem";
+            resources.ApplyResources(this.скопироватьЛогинпарольToolStripMenuItem, "скопироватьЛогинпарольToolStripMenuItem");
             this.скопироватьЛогинпарольToolStripMenuItem.Click += new System.EventHandler(this.скопироватьЛогинпарольToolStripMenuItem_Click);
             // 
             // скопироватьКукиToolStripMenuItem
             // 
-            resources.ApplyResources(this.скопироватьКукиToolStripMenuItem, "скопироватьКукиToolStripMenuItem");
             this.скопироватьКукиToolStripMenuItem.Name = "скопироватьКукиToolStripMenuItem";
+            resources.ApplyResources(this.скопироватьКукиToolStripMenuItem, "скопироватьКукиToolStripMenuItem");
             this.скопироватьКукиToolStripMenuItem.Click += new System.EventHandler(this.скопироватьКукиToolStripMenuItem_Click);
             // 
             // снятьВыделениеToolStripMenuItem
             // 
-            resources.ApplyResources(this.снятьВыделениеToolStripMenuItem, "снятьВыделениеToolStripMenuItem");
             this.снятьВыделениеToolStripMenuItem.Name = "снятьВыделениеToolStripMenuItem";
+            resources.ApplyResources(this.снятьВыделениеToolStripMenuItem, "снятьВыделениеToolStripMenuItem");
             this.снятьВыделениеToolStripMenuItem.Click += new System.EventHandler(this.снятьВыделениеToolStripMenuItem_Click);
             // 
             // посмотретьЛогАккаунтаToolStripMenuItem
             // 
-            resources.ApplyResources(this.посмотретьЛогАккаунтаToolStripMenuItem, "посмотретьЛогАккаунтаToolStripMenuItem");
             this.посмотретьЛогАккаунтаToolStripMenuItem.Name = "посмотретьЛогАккаунтаToolStripMenuItem";
+            resources.ApplyResources(this.посмотретьЛогАккаунтаToolStripMenuItem, "посмотретьЛогАккаунтаToolStripMenuItem");
             this.посмотретьЛогАккаунтаToolStripMenuItem.Click += new System.EventHandler(this.посмотретьЛогАккаунтаToolStripMenuItem_Click);
             // 
             // label13
@@ -566,11 +567,11 @@
             // 
             // buttonStop
             // 
-            resources.ApplyResources(this.buttonStop, "buttonStop");
             this.buttonStop.BackColor = System.Drawing.Color.Transparent;
             this.buttonStop.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonStop.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonStop.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.buttonStop, "buttonStop");
             this.buttonStop.ForeColor = System.Drawing.Color.Black;
             this.buttonStop.Name = "buttonStop";
             this.buttonStop.UseVisualStyleBackColor = false;
@@ -578,19 +579,19 @@
             // 
             // labelRandPattern
             // 
-            resources.ApplyResources(this.labelRandPattern, "labelRandPattern");
             this.labelRandPattern.AutoEllipsis = true;
+            resources.ApplyResources(this.labelRandPattern, "labelRandPattern");
             this.labelRandPattern.BackColor = System.Drawing.Color.Transparent;
             this.labelRandPattern.ForeColor = System.Drawing.Color.Black;
             this.labelRandPattern.Name = "labelRandPattern";
             // 
             // buttonMailingSwitch
             // 
-            resources.ApplyResources(this.buttonMailingSwitch, "buttonMailingSwitch");
             this.buttonMailingSwitch.BackColor = System.Drawing.Color.Transparent;
             this.buttonMailingSwitch.FlatAppearance.BorderSize = 0;
             this.buttonMailingSwitch.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.buttonMailingSwitch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
+            resources.ApplyResources(this.buttonMailingSwitch, "buttonMailingSwitch");
             this.buttonMailingSwitch.ForeColor = System.Drawing.Color.White;
             this.buttonMailingSwitch.Name = "buttonMailingSwitch";
             this.buttonMailingSwitch.UseVisualStyleBackColor = false;
@@ -611,11 +612,11 @@
             // 
             // buttonResetDataGrid
             // 
-            resources.ApplyResources(this.buttonResetDataGrid, "buttonResetDataGrid");
             this.buttonResetDataGrid.BackColor = System.Drawing.Color.Transparent;
             this.buttonResetDataGrid.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonResetDataGrid.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonResetDataGrid.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.buttonResetDataGrid, "buttonResetDataGrid");
             this.buttonResetDataGrid.ForeColor = System.Drawing.Color.Black;
             this.buttonResetDataGrid.Name = "buttonResetDataGrid";
             this.buttonResetDataGrid.UseVisualStyleBackColor = false;
@@ -623,11 +624,11 @@
             // 
             // buttonClearDataGrid
             // 
-            resources.ApplyResources(this.buttonClearDataGrid, "buttonClearDataGrid");
             this.buttonClearDataGrid.BackColor = System.Drawing.Color.Transparent;
             this.buttonClearDataGrid.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonClearDataGrid.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonClearDataGrid.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.buttonClearDataGrid, "buttonClearDataGrid");
             this.buttonClearDataGrid.ForeColor = System.Drawing.Color.Black;
             this.buttonClearDataGrid.Name = "buttonClearDataGrid";
             this.buttonClearDataGrid.UseVisualStyleBackColor = false;
@@ -635,11 +636,11 @@
             // 
             // buttonLoadAccounts
             // 
-            resources.ApplyResources(this.buttonLoadAccounts, "buttonLoadAccounts");
             this.buttonLoadAccounts.BackColor = System.Drawing.Color.Transparent;
             this.buttonLoadAccounts.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonLoadAccounts.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonLoadAccounts.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.buttonLoadAccounts, "buttonLoadAccounts");
             this.buttonLoadAccounts.ForeColor = System.Drawing.Color.Black;
             this.buttonLoadAccounts.Name = "buttonLoadAccounts";
             this.buttonLoadAccounts.UseVisualStyleBackColor = false;
@@ -647,7 +648,6 @@
             // 
             // panelDirectMailing
             // 
-            resources.ApplyResources(this.panelDirectMailing, "panelDirectMailing");
             this.panelDirectMailing.BackColor = System.Drawing.Color.Transparent;
             this.panelDirectMailing.Controls.Add(this.buttonSeeLog);
             this.panelDirectMailing.Controls.Add(this.labelPost);
@@ -692,15 +692,16 @@
             this.panelDirectMailing.Controls.Add(this.label3);
             this.panelDirectMailing.Controls.Add(this.buttonOpenID);
             this.panelDirectMailing.ForeColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.panelDirectMailing, "panelDirectMailing");
             this.panelDirectMailing.Name = "panelDirectMailing";
             // 
             // buttonSeeLog
             // 
-            resources.ApplyResources(this.buttonSeeLog, "buttonSeeLog");
             this.buttonSeeLog.BackColor = System.Drawing.Color.Transparent;
             this.buttonSeeLog.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonSeeLog.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonSeeLog.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.buttonSeeLog, "buttonSeeLog");
             this.buttonSeeLog.ForeColor = System.Drawing.Color.Black;
             this.buttonSeeLog.Name = "buttonSeeLog";
             this.buttonSeeLog.UseVisualStyleBackColor = false;
@@ -729,11 +730,11 @@
             // 
             // buttonClearBlackList
             // 
-            resources.ApplyResources(this.buttonClearBlackList, "buttonClearBlackList");
             this.buttonClearBlackList.BackColor = System.Drawing.Color.Transparent;
             this.buttonClearBlackList.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonClearBlackList.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonClearBlackList.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.buttonClearBlackList, "buttonClearBlackList");
             this.buttonClearBlackList.ForeColor = System.Drawing.Color.Black;
             this.buttonClearBlackList.Name = "buttonClearBlackList";
             this.buttonClearBlackList.UseVisualStyleBackColor = false;
@@ -741,11 +742,11 @@
             // 
             // buttonOpenBlackList
             // 
-            resources.ApplyResources(this.buttonOpenBlackList, "buttonOpenBlackList");
             this.buttonOpenBlackList.BackColor = System.Drawing.Color.Transparent;
             this.buttonOpenBlackList.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonOpenBlackList.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonOpenBlackList.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.buttonOpenBlackList, "buttonOpenBlackList");
             this.buttonOpenBlackList.ForeColor = System.Drawing.Color.Black;
             this.buttonOpenBlackList.Name = "buttonOpenBlackList";
             this.buttonOpenBlackList.UseVisualStyleBackColor = false;
@@ -779,11 +780,11 @@
             // 
             // buttonOpenAccountList_Mailing
             // 
-            resources.ApplyResources(this.buttonOpenAccountList_Mailing, "buttonOpenAccountList_Mailing");
             this.buttonOpenAccountList_Mailing.BackColor = System.Drawing.Color.Transparent;
             this.buttonOpenAccountList_Mailing.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonOpenAccountList_Mailing.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonOpenAccountList_Mailing.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.buttonOpenAccountList_Mailing, "buttonOpenAccountList_Mailing");
             this.buttonOpenAccountList_Mailing.ForeColor = System.Drawing.Color.Black;
             this.buttonOpenAccountList_Mailing.Name = "buttonOpenAccountList_Mailing";
             this.buttonOpenAccountList_Mailing.UseVisualStyleBackColor = false;
@@ -791,11 +792,11 @@
             // 
             // buttonAccountRecover
             // 
-            resources.ApplyResources(this.buttonAccountRecover, "buttonAccountRecover");
             this.buttonAccountRecover.BackColor = System.Drawing.Color.Transparent;
             this.buttonAccountRecover.FlatAppearance.BorderSize = 0;
             this.buttonAccountRecover.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.buttonAccountRecover.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
+            resources.ApplyResources(this.buttonAccountRecover, "buttonAccountRecover");
             this.buttonAccountRecover.ForeColor = System.Drawing.Color.White;
             this.buttonAccountRecover.Name = "buttonAccountRecover";
             this.buttonAccountRecover.UseVisualStyleBackColor = false;
@@ -803,8 +804,8 @@
             // 
             // panelBackground
             // 
-            resources.ApplyResources(this.panelBackground, "panelBackground");
             this.panelBackground.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(88)))), ((int)(((byte)(205)))));
+            resources.ApplyResources(this.panelBackground, "panelBackground");
             this.panelBackground.Controls.Add(this.pictureBoxAvatarChanger);
             this.panelBackground.Controls.Add(this.buttonPosting);
             this.panelBackground.Controls.Add(this.comboBoxParser);
@@ -833,18 +834,18 @@
             // 
             // pictureBoxAvatarChanger
             // 
-            resources.ApplyResources(this.pictureBoxAvatarChanger, "pictureBoxAvatarChanger");
             this.pictureBoxAvatarChanger.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBoxAvatarChanger, "pictureBoxAvatarChanger");
             this.pictureBoxAvatarChanger.Name = "pictureBoxAvatarChanger";
             this.pictureBoxAvatarChanger.TabStop = false;
             // 
             // buttonPosting
             // 
-            resources.ApplyResources(this.buttonPosting, "buttonPosting");
             this.buttonPosting.BackColor = System.Drawing.Color.Transparent;
             this.buttonPosting.FlatAppearance.BorderSize = 0;
             this.buttonPosting.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.buttonPosting.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
+            resources.ApplyResources(this.buttonPosting, "buttonPosting");
             this.buttonPosting.ForeColor = System.Drawing.Color.White;
             this.buttonPosting.Name = "buttonPosting";
             this.buttonPosting.UseVisualStyleBackColor = false;
@@ -852,8 +853,8 @@
             // 
             // comboBoxParser
             // 
-            resources.ApplyResources(this.comboBoxParser, "comboBoxParser");
             this.comboBoxParser.BackColor = System.Drawing.Color.MediumSlateBlue;
+            resources.ApplyResources(this.comboBoxParser, "comboBoxParser");
             this.comboBoxParser.ForeColor = System.Drawing.Color.White;
             this.comboBoxParser.FormattingEnabled = true;
             this.comboBoxParser.Items.AddRange(new object[] {
@@ -864,18 +865,18 @@
             // 
             // pictureBoxUtilities
             // 
-            resources.ApplyResources(this.pictureBoxUtilities, "pictureBoxUtilities");
             this.pictureBoxUtilities.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBoxUtilities, "pictureBoxUtilities");
             this.pictureBoxUtilities.Name = "pictureBoxUtilities";
             this.pictureBoxUtilities.TabStop = false;
             // 
             // buttonUtilities
             // 
-            resources.ApplyResources(this.buttonUtilities, "buttonUtilities");
             this.buttonUtilities.BackColor = System.Drawing.Color.Transparent;
             this.buttonUtilities.FlatAppearance.BorderSize = 0;
             this.buttonUtilities.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.buttonUtilities.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
+            resources.ApplyResources(this.buttonUtilities, "buttonUtilities");
             this.buttonUtilities.ForeColor = System.Drawing.Color.White;
             this.buttonUtilities.Name = "buttonUtilities";
             this.buttonUtilities.UseVisualStyleBackColor = false;
@@ -883,18 +884,18 @@
             // 
             // pictureBoxHashtagParser
             // 
-            resources.ApplyResources(this.pictureBoxHashtagParser, "pictureBoxHashtagParser");
             this.pictureBoxHashtagParser.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBoxHashtagParser, "pictureBoxHashtagParser");
             this.pictureBoxHashtagParser.Name = "pictureBoxHashtagParser";
             this.pictureBoxHashtagParser.TabStop = false;
             // 
             // buttonHashtagParser
             // 
-            resources.ApplyResources(this.buttonHashtagParser, "buttonHashtagParser");
             this.buttonHashtagParser.BackColor = System.Drawing.Color.Transparent;
             this.buttonHashtagParser.FlatAppearance.BorderSize = 0;
             this.buttonHashtagParser.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.buttonHashtagParser.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
+            resources.ApplyResources(this.buttonHashtagParser, "buttonHashtagParser");
             this.buttonHashtagParser.ForeColor = System.Drawing.Color.White;
             this.buttonHashtagParser.Name = "buttonHashtagParser";
             this.buttonHashtagParser.UseVisualStyleBackColor = false;
@@ -916,18 +917,18 @@
             // 
             // pictureBoxSettings
             // 
-            resources.ApplyResources(this.pictureBoxSettings, "pictureBoxSettings");
             this.pictureBoxSettings.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBoxSettings, "pictureBoxSettings");
             this.pictureBoxSettings.Name = "pictureBoxSettings";
             this.pictureBoxSettings.TabStop = false;
             // 
             // buttonOpenSettings
             // 
-            resources.ApplyResources(this.buttonOpenSettings, "buttonOpenSettings");
             this.buttonOpenSettings.BackColor = System.Drawing.Color.Transparent;
             this.buttonOpenSettings.FlatAppearance.BorderSize = 0;
             this.buttonOpenSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.buttonOpenSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
+            resources.ApplyResources(this.buttonOpenSettings, "buttonOpenSettings");
             this.buttonOpenSettings.ForeColor = System.Drawing.Color.White;
             this.buttonOpenSettings.Name = "buttonOpenSettings";
             this.buttonOpenSettings.UseVisualStyleBackColor = false;
@@ -951,32 +952,32 @@
             // 
             // pictureBoxAccountsButton
             // 
-            resources.ApplyResources(this.pictureBoxAccountsButton, "pictureBoxAccountsButton");
             this.pictureBoxAccountsButton.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBoxAccountsButton, "pictureBoxAccountsButton");
             this.pictureBoxAccountsButton.Name = "pictureBoxAccountsButton";
             this.pictureBoxAccountsButton.TabStop = false;
             // 
             // pictureBoxTasksButton
             // 
-            resources.ApplyResources(this.pictureBoxTasksButton, "pictureBoxTasksButton");
             this.pictureBoxTasksButton.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBoxTasksButton, "pictureBoxTasksButton");
             this.pictureBoxTasksButton.Name = "pictureBoxTasksButton";
             this.pictureBoxTasksButton.TabStop = false;
             // 
             // pictureBoxSeeLogButton
             // 
-            resources.ApplyResources(this.pictureBoxSeeLogButton, "pictureBoxSeeLogButton");
             this.pictureBoxSeeLogButton.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBoxSeeLogButton, "pictureBoxSeeLogButton");
             this.pictureBoxSeeLogButton.Name = "pictureBoxSeeLogButton";
             this.pictureBoxSeeLogButton.TabStop = false;
             // 
             // buttonOpenAccounts
             // 
-            resources.ApplyResources(this.buttonOpenAccounts, "buttonOpenAccounts");
             this.buttonOpenAccounts.BackColor = System.Drawing.Color.Transparent;
             this.buttonOpenAccounts.FlatAppearance.BorderSize = 0;
             this.buttonOpenAccounts.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.buttonOpenAccounts.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
+            resources.ApplyResources(this.buttonOpenAccounts, "buttonOpenAccounts");
             this.buttonOpenAccounts.ForeColor = System.Drawing.Color.White;
             this.buttonOpenAccounts.Name = "buttonOpenAccounts";
             this.buttonOpenAccounts.UseVisualStyleBackColor = false;
@@ -984,15 +985,15 @@
             // 
             // pictureBoxTelegram
             // 
-            resources.ApplyResources(this.pictureBoxTelegram, "pictureBoxTelegram");
             this.pictureBoxTelegram.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBoxTelegram, "pictureBoxTelegram");
             this.pictureBoxTelegram.Name = "pictureBoxTelegram";
             this.pictureBoxTelegram.TabStop = false;
             // 
             // pictureBoxTechSupport
             // 
-            resources.ApplyResources(this.pictureBoxTechSupport, "pictureBoxTechSupport");
             this.pictureBoxTechSupport.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBoxTechSupport, "pictureBoxTechSupport");
             this.pictureBoxTechSupport.Name = "pictureBoxTechSupport";
             this.pictureBoxTechSupport.TabStop = false;
             // 
@@ -1016,8 +1017,8 @@
             // 
             // buttonLogo
             // 
-            resources.ApplyResources(this.buttonLogo, "buttonLogo");
             this.buttonLogo.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.buttonLogo, "buttonLogo");
             this.buttonLogo.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.buttonLogo.FlatAppearance.BorderSize = 0;
             this.buttonLogo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -1027,8 +1028,8 @@
             // 
             // comboBoxRegistrar
             // 
-            resources.ApplyResources(this.comboBoxRegistrar, "comboBoxRegistrar");
             this.comboBoxRegistrar.BackColor = System.Drawing.Color.MediumSlateBlue;
+            resources.ApplyResources(this.comboBoxRegistrar, "comboBoxRegistrar");
             this.comboBoxRegistrar.ForeColor = System.Drawing.Color.White;
             this.comboBoxRegistrar.FormattingEnabled = true;
             this.comboBoxRegistrar.Items.AddRange(new object[] {
@@ -1040,18 +1041,18 @@
             // 
             // pictureBoxWebRegistrator
             // 
-            resources.ApplyResources(this.pictureBoxWebRegistrator, "pictureBoxWebRegistrator");
             this.pictureBoxWebRegistrator.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBoxWebRegistrator, "pictureBoxWebRegistrator");
             this.pictureBoxWebRegistrator.Name = "pictureBoxWebRegistrator";
             this.pictureBoxWebRegistrator.TabStop = false;
             // 
             // buttonWebRegistrator
             // 
-            resources.ApplyResources(this.buttonWebRegistrator, "buttonWebRegistrator");
             this.buttonWebRegistrator.BackColor = System.Drawing.Color.Transparent;
             this.buttonWebRegistrator.FlatAppearance.BorderSize = 0;
             this.buttonWebRegistrator.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.buttonWebRegistrator.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
+            resources.ApplyResources(this.buttonWebRegistrator, "buttonWebRegistrator");
             this.buttonWebRegistrator.ForeColor = System.Drawing.Color.White;
             this.buttonWebRegistrator.Name = "buttonWebRegistrator";
             this.buttonWebRegistrator.UseVisualStyleBackColor = false;
@@ -1059,8 +1060,8 @@
             // 
             // buttonOpenDirectMailing
             // 
-            resources.ApplyResources(this.buttonOpenDirectMailing, "buttonOpenDirectMailing");
             this.buttonOpenDirectMailing.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.buttonOpenDirectMailing, "buttonOpenDirectMailing");
             this.buttonOpenDirectMailing.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
             this.buttonOpenDirectMailing.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonOpenDirectMailing.Name = "buttonOpenDirectMailing";
@@ -1069,10 +1070,10 @@
             // 
             // panelTasks
             // 
-            resources.ApplyResources(this.panelTasks, "panelTasks");
             this.panelTasks.BackColor = System.Drawing.Color.Transparent;
             this.panelTasks.Controls.Add(this.label12);
             this.panelTasks.Controls.Add(this.buttonOpenDirectMailing);
+            resources.ApplyResources(this.panelTasks, "panelTasks");
             this.panelTasks.Name = "panelTasks";
             // 
             // label12
@@ -1085,7 +1086,6 @@
             // 
             // panelSettings
             // 
-            resources.ApplyResources(this.panelSettings, "panelSettings");
             this.panelSettings.BackColor = System.Drawing.Color.Transparent;
             this.panelSettings.Controls.Add(this.buttonClearAutocomplete);
             this.panelSettings.Controls.Add(this.comboBoxLanguage);
@@ -1100,15 +1100,16 @@
             this.panelSettings.Controls.Add(this.comboBoxCheckpointBehavior);
             this.panelSettings.Controls.Add(this.label14);
             this.panelSettings.ForeColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.panelSettings, "panelSettings");
             this.panelSettings.Name = "panelSettings";
             // 
             // buttonClearAutocomplete
             // 
-            resources.ApplyResources(this.buttonClearAutocomplete, "buttonClearAutocomplete");
             this.buttonClearAutocomplete.BackColor = System.Drawing.Color.Transparent;
             this.buttonClearAutocomplete.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonClearAutocomplete.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonClearAutocomplete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.buttonClearAutocomplete, "buttonClearAutocomplete");
             this.buttonClearAutocomplete.ForeColor = System.Drawing.Color.Black;
             this.buttonClearAutocomplete.Name = "buttonClearAutocomplete";
             this.buttonClearAutocomplete.UseVisualStyleBackColor = false;
@@ -1116,11 +1117,11 @@
             // 
             // comboBoxLanguage
             // 
-            resources.ApplyResources(this.comboBoxLanguage, "comboBoxLanguage");
             this.comboBoxLanguage.FormattingEnabled = true;
             this.comboBoxLanguage.Items.AddRange(new object[] {
             resources.GetString("comboBoxLanguage.Items"),
             resources.GetString("comboBoxLanguage.Items1")});
+            resources.ApplyResources(this.comboBoxLanguage, "comboBoxLanguage");
             this.comboBoxLanguage.Name = "comboBoxLanguage";
             // 
             // label19
@@ -1145,11 +1146,11 @@
             // 
             // comboBoxTempBlock
             // 
-            resources.ApplyResources(this.comboBoxTempBlock, "comboBoxTempBlock");
             this.comboBoxTempBlock.FormattingEnabled = true;
             this.comboBoxTempBlock.Items.AddRange(new object[] {
             resources.GetString("comboBoxTempBlock.Items"),
             resources.GetString("comboBoxTempBlock.Items1")});
+            resources.ApplyResources(this.comboBoxTempBlock, "comboBoxTempBlock");
             this.comboBoxTempBlock.Name = "comboBoxTempBlock";
             // 
             // textBoxTimeoutIfBlocked
@@ -1159,11 +1160,11 @@
             // 
             // buttonSaveSettings
             // 
-            resources.ApplyResources(this.buttonSaveSettings, "buttonSaveSettings");
             this.buttonSaveSettings.BackColor = System.Drawing.Color.Transparent;
             this.buttonSaveSettings.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonSaveSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonSaveSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
+            resources.ApplyResources(this.buttonSaveSettings, "buttonSaveSettings");
             this.buttonSaveSettings.ForeColor = System.Drawing.Color.Black;
             this.buttonSaveSettings.Name = "buttonSaveSettings";
             this.buttonSaveSettings.UseVisualStyleBackColor = false;
@@ -1176,11 +1177,11 @@
             // 
             // comboBoxCheckpointBehavior
             // 
-            resources.ApplyResources(this.comboBoxCheckpointBehavior, "comboBoxCheckpointBehavior");
             this.comboBoxCheckpointBehavior.FormattingEnabled = true;
             this.comboBoxCheckpointBehavior.Items.AddRange(new object[] {
             resources.GetString("comboBoxCheckpointBehavior.Items"),
             resources.GetString("comboBoxCheckpointBehavior.Items1")});
+            resources.ApplyResources(this.comboBoxCheckpointBehavior, "comboBoxCheckpointBehavior");
             this.comboBoxCheckpointBehavior.Name = "comboBoxCheckpointBehavior";
             // 
             // label14
@@ -1190,15 +1191,15 @@
             // 
             // panelUtilities
             // 
-            resources.ApplyResources(this.panelUtilities, "panelUtilities");
             this.panelUtilities.BackColor = System.Drawing.Color.Transparent;
             this.panelUtilities.Controls.Add(this.menuStripUtilities);
+            resources.ApplyResources(this.panelUtilities, "panelUtilities");
             this.panelUtilities.Name = "panelUtilities";
             // 
             // menuStripUtilities
             // 
-            resources.ApplyResources(this.menuStripUtilities, "menuStripUtilities");
             this.menuStripUtilities.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(59)))), ((int)(((byte)(176)))));
+            resources.ApplyResources(this.menuStripUtilities, "menuStripUtilities");
             this.menuStripUtilities.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripActualizerUA,
             this.toolStripDeleteDublicate,
@@ -1210,28 +1211,28 @@
             // 
             // toolStripActualizerUA
             // 
-            resources.ApplyResources(this.toolStripActualizerUA, "toolStripActualizerUA");
             this.toolStripActualizerUA.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripActualizerUA_Web,
             this.toolStripActualizerUA_API});
+            resources.ApplyResources(this.toolStripActualizerUA, "toolStripActualizerUA");
             this.toolStripActualizerUA.ForeColor = System.Drawing.Color.White;
             this.toolStripActualizerUA.Name = "toolStripActualizerUA";
             this.toolStripActualizerUA.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             // 
             // toolStripActualizerUA_Web
             // 
-            resources.ApplyResources(this.toolStripActualizerUA_Web, "toolStripActualizerUA_Web");
             this.toolStripActualizerUA_Web.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(59)))), ((int)(((byte)(176)))));
             this.toolStripActualizerUA_Web.ForeColor = System.Drawing.Color.White;
             this.toolStripActualizerUA_Web.Name = "toolStripActualizerUA_Web";
+            resources.ApplyResources(this.toolStripActualizerUA_Web, "toolStripActualizerUA_Web");
             this.toolStripActualizerUA_Web.Click += new System.EventHandler(this.toolStripActualizerUA_Web_Click);
             // 
             // toolStripActualizerUA_API
             // 
-            resources.ApplyResources(this.toolStripActualizerUA_API, "toolStripActualizerUA_API");
             this.toolStripActualizerUA_API.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(59)))), ((int)(((byte)(176)))));
             this.toolStripActualizerUA_API.ForeColor = System.Drawing.Color.White;
             this.toolStripActualizerUA_API.Name = "toolStripActualizerUA_API";
+            resources.ApplyResources(this.toolStripActualizerUA_API, "toolStripActualizerUA_API");
             this.toolStripActualizerUA_API.Click += new System.EventHandler(this.toolStripActualizerUA_API_Click);
             // 
             // toolStripDeleteDublicate
@@ -1264,19 +1265,20 @@
             // 
             // panelPosting
             // 
-            resources.ApplyResources(this.panelPosting, "panelPosting");
             this.panelPosting.BackColor = System.Drawing.Color.Transparent;
             this.panelPosting.Controls.Add(this.menuStripPosting);
+            resources.ApplyResources(this.panelPosting, "panelPosting");
             this.panelPosting.Name = "panelPosting";
             // 
             // menuStripPosting
             // 
-            resources.ApplyResources(this.menuStripPosting, "menuStripPosting");
             this.menuStripPosting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(59)))), ((int)(((byte)(176)))));
+            resources.ApplyResources(this.menuStripPosting, "menuStripPosting");
             this.menuStripPosting.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripAvatarChanger,
             this.toolStripPhotoPosingWeb,
-            this.toolStripMassFollowing});
+            this.toolStripMassFollowing,
+            this.toolStripFollowersGreeting});
             this.menuStripPosting.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Table;
             this.menuStripPosting.Name = "menuStripPosting";
             // 
@@ -1300,6 +1302,13 @@
             this.toolStripMassFollowing.ForeColor = System.Drawing.Color.White;
             this.toolStripMassFollowing.Name = "toolStripMassFollowing";
             this.toolStripMassFollowing.Click += new System.EventHandler(this.toolStripMassFollowing_Click);
+            // 
+            // toolStripFollowersGreeting
+            // 
+            resources.ApplyResources(this.toolStripFollowersGreeting, "toolStripFollowersGreeting");
+            this.toolStripFollowersGreeting.ForeColor = System.Drawing.Color.White;
+            this.toolStripFollowersGreeting.Name = "toolStripFollowersGreeting";
+            this.toolStripFollowersGreeting.Click += new System.EventHandler(this.toolStripFollowersGreeting_Click);
             // 
             // MainForm
             // 
@@ -1480,5 +1489,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripAccountChecker;
         private System.Windows.Forms.ToolStripMenuItem toolStripMassFollowing;
         private System.Windows.Forms.Button buttonClearAutocomplete;
+        private System.Windows.Forms.ToolStripMenuItem toolStripFollowersGreeting;
     }
 }

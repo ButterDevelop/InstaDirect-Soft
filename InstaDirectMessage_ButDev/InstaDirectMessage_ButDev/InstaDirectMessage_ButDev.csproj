@@ -74,6 +74,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\FormFollowersGreeting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormFollowersGreeting.Designer.cs">
+      <DependentUpon>FormFollowersGreeting.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormMassFollowing.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -195,6 +201,7 @@
       <DependentUpon>FormWebRegistrator.cs</DependentUpon>
     </Compile>
     <Compile Include="InstagramAccountRecover.cs" />
+    <Compile Include="InstagramFollowersGreeting.cs" />
     <Compile Include="InstagramMassFollowing.cs" />
     <Compile Include="InstagramPhotoWebPosting.cs" />
     <Compile Include="InstagramAvatarChanger.cs" />
@@ -211,6 +218,7 @@
     <Compile Include="JSONClasses\Json_CheckerClass.cs" />
     <Compile Include="JSONClasses\Json_Followers_Data.cs" />
     <Compile Include="JSONClasses\Json_FromIDinNicknameInstagram.cs" />
+    <Compile Include="JSONClasses\Json_FromNicknameToID_Instagram.cs" />
     <Compile Include="JSONClasses\Json_Geo_Topsearch_ID.cs" />
     <Compile Include="JSONClasses\Json_GetFirstGeoData.cs" />
     <Compile Include="JSONClasses\Json_GetFirstHashtagData.cs" />
@@ -235,6 +243,15 @@
     <Compile Include="Tools\MD5.cs" />
     <Compile Include="Tools\Translate.cs" />
     <Compile Include="Tools\WindowsKey.cs" />
+    <EmbeddedResource Include="Forms\FormFollowersGreeting.en.resx">
+      <DependentUpon>FormFollowersGreeting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFollowersGreeting.resx">
+      <DependentUpon>FormFollowersGreeting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFollowersGreeting.ru.resx">
+      <DependentUpon>FormFollowersGreeting.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormMassFollowing.en.resx">
       <DependentUpon>FormMassFollowing.cs</DependentUpon>
     </EmbeddedResource>

@@ -95,12 +95,14 @@ namespace InstaDirectMessage_ButDev
 
         private void Work(IProgress<int> progress)
         {
-            foreach (string a in SourceFile)
+            foreach (string b in SourceFile)
             {
                 string Login = "", Password = "", UserAgent = "", device_id = "", phone_id = "", cookie = "", adid = "", guid = "";
-                if (a.Contains("||"))
+                if (b.Contains("||"))
                 {
-                    // Login:Password||DeviceId;PhoneId;ADID;GUID|Cookie||
+                    // Login:Password||DeviceId;PhoneId;ADID;GUID|Cookie||adid
+                    string a = b;
+                    if (a.Substring(a.Length - 2) != "\\") a += "\\";
                     if (new Regex("(.*):(.*)\\|\\|(.*)\\|(.*)\\|\\|").IsMatch(a))
                     {
                         Regex regex = new Regex("(.*):(.*)\\|\\|(.*)\\|(.*)\\|\\|");
@@ -140,7 +142,7 @@ namespace InstaDirectMessage_ButDev
                 else
                 {
                     Regex regex = new Regex("(.*):(.*)");
-                    var mathes = regex.Match(a);
+                    var mathes = regex.Match(b);
                     Login = mathes.Groups[1].Value;
                     Password = mathes.Groups[2].Value;
                 }

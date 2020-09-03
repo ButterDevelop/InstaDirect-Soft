@@ -63,7 +63,7 @@ We take the given cookies...
 Parsing cookies...
 [Error] Something is wrong. Redoing.
 Logged in to your account.
-Stumbled upon checkpoint!
+Stumbled upon checkpoint! 
 Login failed!
 Got cookies...
 We start parsing...
@@ -177,3 +177,13 @@ Failed to follow from account
 Follow request sent from account 
 Success!
 Autofill data cleared successfully!
+The interval is incorrect!
+Account is not specified!
+New followers greeting
+New followers greeting: Error!
+Login failed! Let's try again. 
+Failed to get account ID! 
+Something is wrong, we are trying to check for new followers again.
+No new followers have been found yet. 
+Failed to send message! 
+Failed to log into account from mobile version! Let's try again. 

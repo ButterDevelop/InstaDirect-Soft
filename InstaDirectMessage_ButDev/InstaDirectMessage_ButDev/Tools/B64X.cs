@@ -34,19 +34,22 @@ namespace InstaDirectMessage_ButDev.Tools
 
         private static byte[] Encode(byte[] bytes, byte[] key)
         {
-            var j = 0;
-
-            for (var i = 0; i < bytes.Length; i++)
+            try
             {
-                bytes[i] ^= key[j];
+                var j = 0;
 
-                if (++j == key.Length)
+                for (var i = 0; i < bytes.Length; i++)
                 {
-                    j = 0;
-                }
-            }
+                    bytes[i] ^= key[j];
 
-            return bytes;
+                    if (++j == key.Length)
+                    {
+                        j = 0;
+                    }
+                }
+
+                return bytes;
+            } catch(Exception e) { /*System.Windows.Forms.MessageBox.Show(e.ToString());*/ return bytes; }
         }
     }
 }
