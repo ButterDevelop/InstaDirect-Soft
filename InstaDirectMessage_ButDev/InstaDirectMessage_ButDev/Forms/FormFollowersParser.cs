@@ -192,7 +192,7 @@ namespace InstaDirectMessage_ButDev
                 }
             }
 
-            //Load ID
+            //Load Accounts
             using (StreamReader sr = new StreamReader(AccountsPath, Encoding.UTF8))
             {
                 string line;

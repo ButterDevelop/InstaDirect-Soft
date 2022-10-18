@@ -1,0 +1,309 @@
+﻿[03.07.2020 0:03:38, поток 0] Парсим куки...
+[03.07.2020 0:03:39, поток 0] Спарсили куки
+[03.07.2020 0:03:39, поток 0] Получили куки...
+[03.07.2020 0:03:39, поток 0] Начинаем работу...
+[03.07.2020 0:04:25, поток 0] (Ошибка) Текст ошибки: System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCaptchaFromService() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 389
+[03.07.2020 0:04:52, поток 0] (Ошибка) Текст ошибки: System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCaptchaFromService() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 389
+[03.07.2020 0:05:01, поток 0] Что-то пошло не так, пытаемся восстановить аккаунт ещё раз.
+[03.07.2020 0:05:01, поток 0] Парсим куки...
+[03.07.2020 0:05:01, поток 0] Спарсили куки
+[03.07.2020 0:05:01, поток 0] Получили куки...
+[03.07.2020 0:05:01, поток 0] Начинаем работу...
+[03.07.2020 0:05:36, поток 0] (Ошибка) Текст ошибки: System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCaptchaFromService() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 389
+[03.07.2020 0:06:47, поток 0] (Ошибка) Текст ошибки: System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCaptchaFromService() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 389
+[03.07.2020 0:08:15, поток 0] Парсим куки...
+[03.07.2020 0:08:16, поток 0] Спарсили куки
+[03.07.2020 0:08:16, поток 0] Получили куки...
+[03.07.2020 0:08:16, поток 0] Начинаем работу...
+[03.07.2020 0:09:20, поток 0] (Ошибка) Текст ошибки: System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCaptchaFromService() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 389
+[03.07.2020 12:55:47, поток 0] Парсим куки...
+[03.07.2020 12:55:48, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:48, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:48, поток 0] Парсим куки...
+[03.07.2020 12:55:48, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:48, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:48, поток 0] Парсим куки...
+[03.07.2020 12:55:48, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:48, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:48, поток 0] Не удалось восстановить аккаунт!
+[03.07.2020 12:55:49, поток 0] Парсим куки...
+[03.07.2020 12:55:49, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:49, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:49, поток 0] Парсим куки...
+[03.07.2020 12:55:49, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:49, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:49, поток 0] Парсим куки...
+[03.07.2020 12:55:49, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:49, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:49, поток 0] Не удалось восстановить аккаунт!
+[03.07.2020 12:55:50, поток 0] Парсим куки...
+[03.07.2020 12:55:50, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:50, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:50, поток 0] Парсим куки...
+[03.07.2020 12:55:50, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:50, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:50, поток 0] Парсим куки...
+[03.07.2020 12:55:50, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:50, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:50, поток 0] Не удалось восстановить аккаунт!
+[03.07.2020 12:55:51, поток 0] Парсим куки...
+[03.07.2020 12:55:51, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:51, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:51, поток 0] Парсим куки...
+[03.07.2020 12:55:51, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:51, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:51, поток 0] Парсим куки...
+[03.07.2020 12:55:51, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:51, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:51, поток 0] Не удалось восстановить аккаунт!
+[03.07.2020 12:55:52, поток 0] Парсим куки...
+[03.07.2020 12:55:52, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:52, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:52, поток 0] Парсим куки...
+[03.07.2020 12:55:52, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:52, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:52, поток 0] Парсим куки...
+[03.07.2020 12:55:52, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:52, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:52, поток 0] Не удалось восстановить аккаунт!
+[03.07.2020 12:55:53, поток 0] Парсим куки...
+[03.07.2020 12:55:53, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:53, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:53, поток 0] Парсим куки...
+[03.07.2020 12:55:53, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:53, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:53, поток 0] Парсим куки...
+[03.07.2020 12:55:53, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:53, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:53, поток 0] Не удалось восстановить аккаунт!
+[03.07.2020 12:55:54, поток 0] Парсим куки...
+[03.07.2020 12:55:54, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:54, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:54, поток 0] Парсим куки...
+[03.07.2020 12:55:54, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:54, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:54, поток 0] Парсим куки...
+[03.07.2020 12:55:54, поток 0] (Ошибка) Текст ошибки: System.FormatException: Порт не может быть меньше 1 или больше 65535. ---> System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.Parse(ProxyType proxyType, String proxyAddress)
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 184
+[03.07.2020 12:55:54, поток 0] [DEBUG] Сменили прокси.
+[03.07.2020 12:55:54, поток 0] Не удалось восстановить аккаунт!
+[03.07.2020 13:02:46, поток 0] Парсим куки...
+[03.07.2020 13:02:46, поток 0] Спарсили куки
+[03.07.2020 13:02:46, поток 0] Получили куки...
+[03.07.2020 13:02:46, поток 0] Начинаем работу...
+[03.07.2020 13:34:10, поток 0] Парсим куки...
+[03.07.2020 13:34:10, поток 0] Спарсили куки
+[03.07.2020 13:34:10, поток 0] Получили куки...
+[03.07.2020 13:34:10, поток 0] Начинаем работу...
+[03.07.2020 18:17:59, поток 0] Парсим куки...
+[03.07.2020 18:18:01, поток 0] Спарсили куки
+[03.07.2020 18:18:01, поток 0] Получили куки...
+[03.07.2020 18:18:01, поток 0] Начинаем работу...
+[03.07.2020 18:24:14, поток 0] Что-то пошло не так, пытаемся восстановить аккаунт ещё раз.
+[03.07.2020 18:24:14, поток 0] Парсим куки...
+[03.07.2020 18:24:14, поток 0] Спарсили куки
+[03.07.2020 18:24:14, поток 0] Получили куки...
+[03.07.2020 18:24:14, поток 0] Начинаем работу...
+[03.07.2020 18:28:01, поток 0] Парсим куки...
+[03.07.2020 18:28:01, поток 0] Спарсили куки
+[03.07.2020 18:28:01, поток 0] Получили куки...
+[03.07.2020 18:28:01, поток 0] Начинаем работу...
+[03.07.2020 18:29:10, поток 0] (Ошибка) Текст ошибки: System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCaptchaFromService() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 389
+[03.07.2020 18:33:33, поток 0] Парсим куки...
+[03.07.2020 18:33:34, поток 0] Спарсили куки
+[03.07.2020 18:33:34, поток 0] Получили куки...
+[03.07.2020 18:33:34, поток 0] Начинаем работу...
+[03.07.2020 18:34:17, поток 0] (Ошибка) Текст ошибки: System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCaptchaFromService() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 389
+[03.07.2020 18:46:04, поток 0] Парсим куки...
+[03.07.2020 18:46:05, поток 0] Спарсили куки
+[03.07.2020 18:46:05, поток 0] Получили куки...
+[03.07.2020 18:46:05, поток 0] Начинаем работу...
+[03.07.2020 18:46:13, поток 0] Что-то пошло не так, пытаемся восстановить аккаунт ещё раз.
+[03.07.2020 18:46:13, поток 0] Парсим куки...
+[03.07.2020 18:46:14, поток 0] Спарсили куки
+[03.07.2020 18:46:14, поток 0] Получили куки...
+[03.07.2020 18:46:14, поток 0] Начинаем работу...
+[03.07.2020 18:46:35, поток 0] Что-то пошло не так, пытаемся восстановить аккаунт ещё раз.
+[03.07.2020 18:46:35, поток 0] Парсим куки...
+[03.07.2020 18:46:36, поток 0] Спарсили куки
+[03.07.2020 18:46:36, поток 0] Получили куки...
+[03.07.2020 18:46:36, поток 0] Начинаем работу...
+[03.07.2020 18:46:54, поток 0] Что-то пошло не так, пытаемся восстановить аккаунт ещё раз.
+[03.07.2020 18:46:54, поток 0] Парсим куки...
+[03.07.2020 18:46:54, поток 0] Спарсили куки
+[03.07.2020 18:46:54, поток 0] Получили куки...
+[03.07.2020 18:46:54, поток 0] Начинаем работу...
+[03.07.2020 18:47:14, поток 0] Что-то пошло не так, пытаемся восстановить аккаунт ещё раз.
+[03.07.2020 18:47:14, поток 0] Парсим куки...
+[03.07.2020 18:47:14, поток 0] Спарсили куки
+[03.07.2020 18:47:14, поток 0] Получили куки...
+[03.07.2020 18:47:14, поток 0] Начинаем работу...
+[03.07.2020 18:47:33, поток 0] Что-то пошло не так, пытаемся восстановить аккаунт ещё раз.
+[03.07.2020 18:47:33, поток 0] Парсим куки...
+[03.07.2020 18:47:34, поток 0] Спарсили куки
+[03.07.2020 18:47:34, поток 0] Получили куки...
+[03.07.2020 18:47:34, поток 0] Начинаем работу...
+[03.07.2020 18:47:42, поток 0] Что-то пошло не так, пытаемся восстановить аккаунт ещё раз.
+[03.07.2020 18:47:42, поток 0] Парсим куки...
+[03.07.2020 18:47:42, поток 0] Спарсили куки
+[03.07.2020 18:47:42, поток 0] Получили куки...
+[03.07.2020 18:47:42, поток 0] Начинаем работу...
+[03.07.2020 18:47:51, поток 0] Что-то пошло не так, пытаемся восстановить аккаунт ещё раз.
+[03.07.2020 18:47:51, поток 0] Парсим куки...
+[03.07.2020 18:47:51, поток 0] Спарсили куки
+[03.07.2020 18:47:51, поток 0] Получили куки...
+[03.07.2020 18:47:51, поток 0] Начинаем работу...
+[03.07.2020 18:47:59, поток 0] Что-то пошло не так, пытаемся восстановить аккаунт ещё раз.
+[03.07.2020 18:47:59, поток 0] Парсим куки...
+[03.07.2020 18:48:00, поток 0] Спарсили куки
+[03.07.2020 18:48:00, поток 0] Получили куки...
+[03.07.2020 18:48:00, поток 0] Начинаем работу...
+[03.07.2020 18:48:18, поток 0] Что-то пошло не так, пытаемся восстановить аккаунт ещё раз.
+[03.07.2020 18:48:18, поток 0] Парсим куки...
+[03.07.2020 18:48:19, поток 0] Спарсили куки
+[03.07.2020 18:48:19, поток 0] Получили куки...
+[03.07.2020 18:48:19, поток 0] Начинаем работу...
+[03.07.2020 22:32:32, поток 0] Парсим куки...
+[03.07.2020 22:32:34, поток 0] Спарсили куки
+[03.07.2020 22:32:34, поток 0] Получили куки...
+[03.07.2020 22:32:34, поток 0] Начинаем работу...
+[03.07.2020 22:33:42, поток 0] (Ошибка) Текст ошибки: System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCaptchaFromService() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 389
+[03.07.2020 23:41:08, поток 0] Парсим куки...
+[03.07.2020 23:41:09, поток 0] Спарсили куки
+[03.07.2020 23:41:09, поток 0] Получили куки...
+[03.07.2020 23:41:09, поток 0] Начинаем работу...
+[03.07.2020 23:42:27, поток 0] (Ошибка) Текст ошибки: System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в InstaDirectMessage_ButDev.InstagramAccountRecover.GetCaptchaFromService() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAccountRecover.cs:строка 389

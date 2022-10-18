@@ -296,7 +296,7 @@ namespace InstaDirectMessage_ButDev
                         {new FileContent(tempFile), "profile_pic", "profilepic.jpg"}
                     };
 
-                    xNet.HttpResponse response = request.Post("https://www.instagram.com/accounts/web_change_profile_picture/", multipartContent);
+                    xNet.HttpResponse response = request.Post("https://i.instagram.com/api/v1/web/accounts/web_change_profile_picture/", multipartContent);
 
                     try
                     {
@@ -308,7 +308,7 @@ namespace InstaDirectMessage_ButDev
                     File.Delete(tempFile);
                 }
 
-                return html.Contains("\"changed_profile\": true");
+                return html.Contains("\"changed_profile\":true");
             }
             catch (Exception ex)
             {

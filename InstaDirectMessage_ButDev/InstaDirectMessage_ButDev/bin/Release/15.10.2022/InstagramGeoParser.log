@@ -1,0 +1,333 @@
+﻿[15.10.2022 19:58:47, thread 0] Parsing cookies...
+[15.10.2022 19:58:47, thread 0] Cookie parsing
+[15.10.2022 19:58:47, thread 0] Got cookies...
+[15.10.2022 19:58:47, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetMediaID(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 246
+[15.10.2022 19:58:47, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 19:58:47, thread 0] Parsing cookies...
+[15.10.2022 19:58:48, thread 0] Cookie parsing
+[15.10.2022 19:58:48, thread 0] Got cookies...
+[15.10.2022 19:58:48, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetMediaID(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 246
+[15.10.2022 19:58:48, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 19:58:48, thread 0] Parsing cookies...
+[15.10.2022 19:58:48, thread 0] Cookie parsing
+[15.10.2022 19:58:48, thread 0] Got cookies...
+[15.10.2022 19:58:49, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetMediaID(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 246
+[15.10.2022 19:58:49, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 20:02:58, thread 0] Parsing cookies...
+[15.10.2022 20:02:58, thread 0] Cookie parsing
+[15.10.2022 20:02:58, thread 0] Got cookies...
+[15.10.2022 20:03:00, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetMediaID(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 246
+[15.10.2022 20:03:00, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 20:03:00, thread 0] Parsing cookies...
+[15.10.2022 20:03:01, thread 0] Cookie parsing
+[15.10.2022 20:03:01, thread 0] Got cookies...
+[15.10.2022 20:03:01, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetMediaID(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 246
+[15.10.2022 20:03:01, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 20:03:01, thread 0] Parsing cookies...
+[15.10.2022 20:03:01, thread 0] Cookie parsing
+[15.10.2022 20:03:01, thread 0] Got cookies...
+[15.10.2022 20:03:02, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetMediaID(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 246
+[15.10.2022 20:03:02, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 20:06:30, thread 0] Parsing cookies...
+[15.10.2022 20:06:31, thread 0] Cookie parsing
+[15.10.2022 20:06:31, thread 0] Got cookies...
+[15.10.2022 20:06:33, thread 0] (Error) Error text: Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Boolean'. Path 'clear_client_cache', line 1, position 48147. ---> System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetMediaID(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 247
+[15.10.2022 20:06:33, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 20:06:33, thread 0] Parsing cookies...
+[15.10.2022 20:06:33, thread 0] Cookie parsing
+[15.10.2022 20:06:33, thread 0] Got cookies...
+[15.10.2022 20:06:34, thread 0] (Error) Error text: Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Boolean'. Path 'clear_client_cache', line 1, position 48147. ---> System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetMediaID(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 247
+[15.10.2022 20:06:34, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 20:06:34, thread 0] Parsing cookies...
+[15.10.2022 20:06:34, thread 0] Cookie parsing
+[15.10.2022 20:06:34, thread 0] Got cookies...
+[15.10.2022 20:06:35, thread 0] (Error) Error text: Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Boolean'. Path 'clear_client_cache', line 1, position 48147. ---> System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetMediaID(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 247
+[15.10.2022 20:06:35, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 20:21:49, thread 0] Parsing cookies...
+[15.10.2022 20:21:50, thread 0] Cookie parsing
+[15.10.2022 20:21:50, thread 0] Got cookies...
+[15.10.2022 20:21:52, thread 0] We start parsing...
+[15.10.2022 20:22:03, thread 0] (Error) Error text: Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Boolean'. Path 'photos_and_videos_header', line 1, position 917794. ---> System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 314
+[15.10.2022 20:22:03, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 20:22:14, thread 0] (Error) Error text: Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Boolean'. Path 'photos_and_videos_header', line 1, position 733344. ---> System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 314
+[15.10.2022 20:22:14, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 20:22:24, thread 0] (Error) Error text: Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Boolean'. Path 'photos_and_videos_header', line 1, position 861604. ---> System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 314
+[15.10.2022 20:22:24, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 20:22:37, thread 0] (Error) Error text: Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Boolean'. Path 'photos_and_videos_header', line 1, position 826296. ---> System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 314
+[15.10.2022 20:22:37, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:02:06, thread 0] Parsing cookies...
+[15.10.2022 21:02:07, thread 0] Cookie parsing
+[15.10.2022 21:02:07, thread 0] Got cookies...
+[15.10.2022 21:02:09, thread 0] We start parsing...
+[15.10.2022 21:02:20, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 330
+[15.10.2022 21:02:20, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:02:32, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 330
+[15.10.2022 21:02:32, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:02:42, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 330
+[15.10.2022 21:02:42, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:02:53, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 330
+[15.10.2022 21:02:53, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:03:04, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 330
+[15.10.2022 21:03:04, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:03:20, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 330
+[15.10.2022 21:03:20, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:03:30, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 330
+[15.10.2022 21:03:30, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:03:44, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 330
+[15.10.2022 21:03:44, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:18:36, thread 0] Parsing cookies...
+[15.10.2022 21:18:37, thread 0] Cookie parsing
+[15.10.2022 21:18:37, thread 0] Got cookies...
+[15.10.2022 21:18:39, thread 0] We start parsing...
+[15.10.2022 21:18:49, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 334
+[15.10.2022 21:18:49, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:18:59, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 334
+[15.10.2022 21:18:59, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:19:13, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 334
+[15.10.2022 21:19:13, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:19:25, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 334
+[15.10.2022 21:19:25, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:19:37, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 334
+[15.10.2022 21:19:37, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:30:08, thread 0] Parsing cookies...
+[15.10.2022 21:30:09, thread 0] Cookie parsing
+[15.10.2022 21:30:09, thread 0] Got cookies...
+[15.10.2022 21:30:11, thread 0] We start parsing...
+[15.10.2022 21:30:33, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 335
+[15.10.2022 21:30:33, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:30:46, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 335
+[15.10.2022 21:30:46, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:32:11, thread 0] Parsing cookies...
+[15.10.2022 21:32:12, thread 0] Cookie parsing
+[15.10.2022 21:32:12, thread 0] Got cookies...
+[15.10.2022 21:32:14, thread 0] We start parsing...
+[15.10.2022 21:32:26, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:32:26, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:32:34, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:32:34, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:32:44, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:32:44, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:32:53, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:32:53, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:37:25, thread 0] Parsing cookies...
+[15.10.2022 21:37:26, thread 0] Cookie parsing
+[15.10.2022 21:37:26, thread 0] Got cookies...
+[15.10.2022 21:37:29, thread 0] We start parsing...
+[15.10.2022 21:37:38, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:37:38, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:37:51, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:37:51, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:37:59, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:37:59, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:38:08, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:38:08, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:39:54, thread 0] Parsing cookies...
+[15.10.2022 21:39:55, thread 0] Cookie parsing
+[15.10.2022 21:39:55, thread 0] Got cookies...
+[15.10.2022 21:39:56, thread 0] We start parsing...
+[15.10.2022 21:40:09, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:40:09, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:40:51, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:40:51, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:42:22, thread 0] Parsing cookies...
+[15.10.2022 21:42:23, thread 0] Cookie parsing
+[15.10.2022 21:42:23, thread 0] Got cookies...
+[15.10.2022 21:42:25, thread 0] We start parsing...
+[15.10.2022 21:42:44, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:42:44, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:42:56, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:42:56, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:43:31, thread 0] Parsing cookies...
+[15.10.2022 21:43:32, thread 0] Cookie parsing
+[15.10.2022 21:43:32, thread 0] Got cookies...
+[15.10.2022 21:43:33, thread 0] We start parsing...
+[15.10.2022 21:43:56, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:43:56, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:44:13, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:44:13, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:44:25, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 21:44:25, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:48:30, thread 0] Parsing cookies...
+[15.10.2022 21:48:30, thread 0] Cookie parsing
+[15.10.2022 21:48:30, thread 0] Got cookies...
+[15.10.2022 21:48:32, thread 0] We start parsing...
+[15.10.2022 21:48:42, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 328
+[15.10.2022 21:48:42, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:48:59, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 328
+[15.10.2022 21:48:59, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 21:57:14, thread 0] Parsing cookies...
+[15.10.2022 21:57:14, thread 0] Cookie parsing
+[15.10.2022 21:57:14, thread 0] Got cookies...
+[15.10.2022 21:57:16, thread 0] We start parsing...
+[15.10.2022 22:00:28, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 329
+[15.10.2022 22:00:28, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 22:06:14, thread 0] Parsing cookies...
+[15.10.2022 22:06:15, thread 0] Cookie parsing
+[15.10.2022 22:06:15, thread 0] Got cookies...
+[15.10.2022 22:06:17, thread 0] We start parsing...
+[15.10.2022 22:06:27, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 22:06:27, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 22:06:40, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 281
+[15.10.2022 22:06:40, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 23:50:29, thread 0] Parsing cookies...
+[15.10.2022 23:50:30, thread 0] Cookie parsing
+[15.10.2022 23:50:30, thread 0] Got cookies...
+[15.10.2022 23:50:33, thread 0] We start parsing...
+[15.10.2022 23:50:49, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 329
+[15.10.2022 23:50:49, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 23:51:11, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 329
+[15.10.2022 23:51:11, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 23:51:24, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 329
+[15.10.2022 23:51:24, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 23:53:41, thread 0] Parsing cookies...
+[15.10.2022 23:53:42, thread 0] Cookie parsing
+[15.10.2022 23:53:42, thread 0] Got cookies...
+[15.10.2022 23:53:44, thread 0] We start parsing...
+[15.10.2022 23:54:01, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 329
+[15.10.2022 23:54:01, thread 0] [DEBUG] Changed proxies.
+[15.10.2022 23:54:14, thread 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramGeoParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramGeoParser.cs:line 329
+[15.10.2022 23:54:14, thread 0] [DEBUG] Changed proxies.

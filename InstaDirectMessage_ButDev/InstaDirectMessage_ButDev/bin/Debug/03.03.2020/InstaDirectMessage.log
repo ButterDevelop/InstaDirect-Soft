@@ -1,0 +1,2266 @@
+﻿[03.03.2020 20:50:26, поток 0] [DEBUG] Start...
+[03.03.2020 20:50:26, поток 0] Берём заданные куки...
+[03.03.2020 20:50:26, поток 1] [DEBUG] Start...
+[03.03.2020 20:50:26, поток 1] Берём заданные куки...
+[03.03.2020 20:50:27, поток 2] [DEBUG] Start...
+[03.03.2020 20:50:27, поток 2] Берём заданные куки...
+[03.03.2020 20:50:27, поток 3] [DEBUG] Start...
+[03.03.2020 20:50:27, поток 3] Берём заданные куки...
+[03.03.2020 20:50:27, поток 1] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:27, поток 4] [DEBUG] Start...
+[03.03.2020 20:50:27, поток 4] Берём заданные куки...
+[03.03.2020 20:50:28, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:28, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:28, поток 5] [DEBUG] Start...
+[03.03.2020 20:50:28, поток 5] Берём заданные куки...
+[03.03.2020 20:50:28, поток 4] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:50:28, поток 4] [DEBUG] Сменили прокси.
+[03.03.2020 20:50:28, поток 3] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:28, поток 6] [DEBUG] Start...
+[03.03.2020 20:50:28, поток 6] Берём заданные куки...
+[03.03.2020 20:50:28, поток 5] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:29, поток 6] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:29, поток 7] [DEBUG] Start...
+[03.03.2020 20:50:29, поток 7] Берём заданные куки...
+[03.03.2020 20:50:29, поток 5] Спарсили куки
+[03.03.2020 20:50:30, поток 6] Спарсили куки
+[03.03.2020 20:50:30, поток 8] [DEBUG] Start...
+[03.03.2020 20:50:30, поток 8] Берём заданные куки...
+[03.03.2020 20:50:30, поток 8] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:30, поток 8] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:50:30, поток 8] [DEBUG] Сменили прокси.
+[03.03.2020 20:50:31, поток 9] [DEBUG] Start...
+[03.03.2020 20:50:31, поток 9] Берём заданные куки...
+[03.03.2020 20:50:31, поток 7] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:32, поток 10] [DEBUG] Start...
+[03.03.2020 20:50:32, поток 10] Берём заданные куки...
+[03.03.2020 20:50:32, поток 5] Войти в аккаунт не удалось!
+[03.03.2020 20:50:32, поток 5] [DEBUG] Start...
+[03.03.2020 20:50:32, поток 5] Берём заданные куки...
+[03.03.2020 20:50:32, поток 11] [DEBUG] Start...
+[03.03.2020 20:50:32, поток 11] Берём заданные куки...
+[03.03.2020 20:50:32, поток 6] Войти в аккаунт не удалось!
+[03.03.2020 20:50:32, поток 6] [DEBUG] Start...
+[03.03.2020 20:50:32, поток 6] Берём заданные куки...
+[03.03.2020 20:50:33, поток 7] Спарсили куки
+[03.03.2020 20:50:33, поток 5] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:33, поток 6] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:33, поток 12] [DEBUG] Start...
+[03.03.2020 20:50:33, поток 12] Берём заданные куки...
+[03.03.2020 20:50:33, поток 11] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:33, поток 5] Спарсили куки
+[03.03.2020 20:50:34, поток 6] Спарсили куки
+[03.03.2020 20:50:34, поток 13] [DEBUG] Start...
+[03.03.2020 20:50:34, поток 13] Берём заданные куки...
+[03.03.2020 20:50:34, поток 11] Спарсили куки
+[03.03.2020 20:50:35, поток 13] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:35, поток 5] Войти в аккаунт не удалось!
+[03.03.2020 20:50:35, поток 14] [DEBUG] Start...
+[03.03.2020 20:50:35, поток 14] Берём заданные куки...
+[03.03.2020 20:50:35, поток 6] Войти в аккаунт не удалось!
+[03.03.2020 20:50:35, поток 5] [DEBUG] Start...
+[03.03.2020 20:50:35, поток 5] Берём заданные куки...
+[03.03.2020 20:50:36, поток 5] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:36, поток 6] [DEBUG] Start...
+[03.03.2020 20:50:36, поток 6] Берём заданные куки...
+[03.03.2020 20:50:36, поток 14] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:36, поток 13] Спарсили куки
+[03.03.2020 20:50:36, поток 6] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:36, поток 7] Войти в аккаунт не удалось!
+[03.03.2020 20:50:36, поток 7] [DEBUG] Start...
+[03.03.2020 20:50:36, поток 7] Берём заданные куки...
+[03.03.2020 20:50:36, поток 6] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:50:36, поток 6] [DEBUG] Сменили прокси.
+[03.03.2020 20:50:36, поток 15] [DEBUG] Start...
+[03.03.2020 20:50:36, поток 15] Берём заданные куки...
+[03.03.2020 20:50:36, поток 9] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:36, поток 14] Спарсили куки
+[03.03.2020 20:50:36, поток 11] Войти в аккаунт не удалось!
+[03.03.2020 20:50:36, поток 11] [DEBUG] Start...
+[03.03.2020 20:50:36, поток 11] Берём заданные куки...
+[03.03.2020 20:50:37, поток 5] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:50:37, поток 5] [DEBUG] Сменили прокси.
+[03.03.2020 20:50:37, поток 16] [DEBUG] Start...
+[03.03.2020 20:50:37, поток 16] Берём заданные куки...
+[03.03.2020 20:50:37, поток 7] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:37, поток 15] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:37, поток 11] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:37, поток 13] Войти в аккаунт не удалось!
+[03.03.2020 20:50:37, поток 13] [DEBUG] Start...
+[03.03.2020 20:50:37, поток 13] Берём заданные куки...
+[03.03.2020 20:50:38, поток 17] [DEBUG] Start...
+[03.03.2020 20:50:38, поток 17] Берём заданные куки...
+[03.03.2020 20:50:38, поток 7] Спарсили куки
+[03.03.2020 20:50:38, поток 15] Спарсили куки
+[03.03.2020 20:50:39, поток 14] Войти в аккаунт не удалось!
+[03.03.2020 20:50:39, поток 14] [DEBUG] Start...
+[03.03.2020 20:50:39, поток 14] Берём заданные куки...
+[03.03.2020 20:50:39, поток 14] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:39, поток 13] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:40, поток 7] Войти в аккаунт не удалось!
+[03.03.2020 20:50:40, поток 14] Спарсили куки
+[03.03.2020 20:50:40, поток 7] [DEBUG] Start...
+[03.03.2020 20:50:40, поток 7] Берём заданные куки...
+[03.03.2020 20:50:41, поток 13] Спарсили куки
+[03.03.2020 20:50:42, поток 14] Войти в аккаунт не удалось!
+[03.03.2020 20:50:42, поток 14] [DEBUG] Start...
+[03.03.2020 20:50:42, поток 14] Берём заданные куки...
+[03.03.2020 20:50:42, поток 15] Войти в аккаунт не удалось!
+[03.03.2020 20:50:42, поток 15] [DEBUG] Start...
+[03.03.2020 20:50:42, поток 15] Берём заданные куки...
+[03.03.2020 20:50:43, поток 13] Войти в аккаунт не удалось!
+[03.03.2020 20:50:43, поток 13] [DEBUG] Start...
+[03.03.2020 20:50:43, поток 13] Берём заданные куки...
+[03.03.2020 20:50:43, поток 15] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:43, поток 14] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:43, поток 14] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:50:43, поток 14] [DEBUG] Сменили прокси.
+[03.03.2020 20:50:44, поток 13] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:44, поток 2] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:45, поток 11] Спарсили куки
+[03.03.2020 20:50:45, поток 15] Спарсили куки
+[03.03.2020 20:50:47, поток 11] Войти в аккаунт не удалось!
+[03.03.2020 20:50:48, поток 11] [DEBUG] Start...
+[03.03.2020 20:50:48, поток 11] Берём заданные куки...
+[03.03.2020 20:50:48, поток 2] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:50:48, поток 2] [DEBUG] Сменили прокси.
+[03.03.2020 20:50:49, поток 7] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:49, поток 15] Войти в аккаунт не удалось!
+[03.03.2020 20:50:49, поток 15] [DEBUG] Start...
+[03.03.2020 20:50:49, поток 15] Берём заданные куки...
+[03.03.2020 20:50:50, поток 7] Спарсили куки
+[03.03.2020 20:50:50, поток 11] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:51, поток 15] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:51, поток 7] Войти в аккаунт не удалось!
+[03.03.2020 20:50:51, поток 7] [DEBUG] Start...
+[03.03.2020 20:50:51, поток 7] Берём заданные куки...
+[03.03.2020 20:50:52, поток 7] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:52, поток 16] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:52, поток 15] Спарсили куки
+[03.03.2020 20:50:53, поток 11] Спарсили куки
+[03.03.2020 20:50:53, поток 7] Спарсили куки
+[03.03.2020 20:50:53, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:54, поток 10] Спарсили куки
+[03.03.2020 20:50:54, поток 7] Войти в аккаунт не удалось!
+[03.03.2020 20:50:54, поток 11] Войти в аккаунт не удалось!
+[03.03.2020 20:50:54, поток 11] [DEBUG] Start...
+[03.03.2020 20:50:54, поток 11] Берём заданные куки...
+[03.03.2020 20:50:55, поток 7] [DEBUG] Start...
+[03.03.2020 20:50:55, поток 7] Берём заданные куки...
+[03.03.2020 20:50:55, поток 15] Войти в аккаунт не удалось!
+[03.03.2020 20:50:55, поток 15] [DEBUG] Start...
+[03.03.2020 20:50:55, поток 15] Берём заданные куки...
+[03.03.2020 20:50:55, поток 13] Спарсили куки
+[03.03.2020 20:50:56, поток 15] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:56, поток 11] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:57, поток 13] Войти в аккаунт не удалось!
+[03.03.2020 20:50:57, поток 13] [DEBUG] Start...
+[03.03.2020 20:50:57, поток 13] Берём заданные куки...
+[03.03.2020 20:50:57, поток 15] Спарсили куки
+[03.03.2020 20:50:57, поток 10] Войти в аккаунт не удалось!
+[03.03.2020 20:50:57, поток 10] [DEBUG] Start...
+[03.03.2020 20:50:57, поток 10] Берём заданные куки...
+[03.03.2020 20:50:58, поток 11] Спарсили куки
+[03.03.2020 20:50:58, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:58, поток 15] Войти в аккаунт не удалось!
+[03.03.2020 20:50:59, поток 15] [DEBUG] Start...
+[03.03.2020 20:50:59, поток 15] Берём заданные куки...
+[03.03.2020 20:50:59, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:50:59, поток 12] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:50:59, поток 12] [DEBUG] Сменили прокси.
+[03.03.2020 20:50:59, поток 17] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:00, поток 13] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:00, поток 10] Спарсили куки
+[03.03.2020 20:51:00, поток 17] Спарсили куки
+[03.03.2020 20:51:00, поток 11] Войти в аккаунт не удалось!
+[03.03.2020 20:51:01, поток 11] [DEBUG] Start...
+[03.03.2020 20:51:01, поток 11] Берём заданные куки...
+[03.03.2020 20:51:01, поток 13] Спарсили куки
+[03.03.2020 20:51:02, поток 11] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:02, поток 10] Войти в аккаунт не удалось!
+[03.03.2020 20:51:02, поток 17] Войти в аккаунт не удалось!
+[03.03.2020 20:51:02, поток 17] [DEBUG] Start...
+[03.03.2020 20:51:02, поток 17] Берём заданные куки...
+[03.03.2020 20:51:02, поток 10] [DEBUG] Start...
+[03.03.2020 20:51:02, поток 10] Берём заданные куки...
+[03.03.2020 20:51:02, поток 15] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:03, поток 11] Спарсили куки
+[03.03.2020 20:51:03, поток 17] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:04, поток 15] Спарсили куки
+[03.03.2020 20:51:04, поток 13] Войти в аккаунт не удалось!
+[03.03.2020 20:51:04, поток 13] [DEBUG] Start...
+[03.03.2020 20:51:04, поток 13] Берём заданные куки...
+[03.03.2020 20:51:04, поток 17] Спарсили куки
+[03.03.2020 20:51:04, поток 11] Войти в аккаунт не удалось!
+[03.03.2020 20:51:04, поток 11] [DEBUG] Start...
+[03.03.2020 20:51:04, поток 11] Берём заданные куки...
+[03.03.2020 20:51:05, поток 7] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:05, поток 13] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:05, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:05, поток 11] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:05, поток 15] Войти в аккаунт не удалось!
+[03.03.2020 20:51:05, поток 15] [DEBUG] Start...
+[03.03.2020 20:51:05, поток 15] Берём заданные куки...
+[03.03.2020 20:51:06, поток 7] Спарсили куки
+[03.03.2020 20:51:06, поток 13] Спарсили куки
+[03.03.2020 20:51:06, поток 17] Войти в аккаунт не удалось!
+[03.03.2020 20:51:06, поток 11] Спарсили куки
+[03.03.2020 20:51:06, поток 15] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:07, поток 10] Спарсили куки
+[03.03.2020 20:51:07, поток 17] [DEBUG] Start...
+[03.03.2020 20:51:07, поток 17] Берём заданные куки...
+[03.03.2020 20:51:07, поток 17] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:07, поток 17] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:51:07, поток 17] [DEBUG] Сменили прокси.
+[03.03.2020 20:51:07, поток 15] Спарсили куки
+[03.03.2020 20:51:08, поток 13] Войти в аккаунт не удалось!
+[03.03.2020 20:51:08, поток 13] [DEBUG] Start...
+[03.03.2020 20:51:08, поток 13] Берём заданные куки...
+[03.03.2020 20:51:08, поток 7] Войти в аккаунт не удалось!
+[03.03.2020 20:51:08, поток 7] [DEBUG] Start...
+[03.03.2020 20:51:08, поток 7] Берём заданные куки...
+[03.03.2020 20:51:08, поток 11] Войти в аккаунт не удалось!
+[03.03.2020 20:51:09, поток 7] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:09, поток 13] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:09, поток 10] Войти в аккаунт не удалось!
+[03.03.2020 20:51:09, поток 10] [DEBUG] Start...
+[03.03.2020 20:51:09, поток 10] Берём заданные куки...
+[03.03.2020 20:51:09, поток 15] Войти в аккаунт не удалось!
+[03.03.2020 20:51:09, поток 7] Спарсили куки
+[03.03.2020 20:51:10, поток 13] [DEBUG, ERROR] xNet.HttpException: Получен пустой ответ от HTTP-сервера 'www.instagram.com'.
+   в xNet.HttpResponse.ReceiveStartingLine()
+   в xNet.HttpResponse.LoadResponse(HttpMethod method)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:51:10, поток 13] [DEBUG] Сменили прокси.
+[03.03.2020 20:51:10, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:11, поток 7] Войти в аккаунт не удалось!
+[03.03.2020 20:51:12, поток 10] Спарсили куки
+[03.03.2020 20:51:15, поток 10] Войти в аккаунт не удалось!
+[03.03.2020 20:51:15, поток 10] [DEBUG] Start...
+[03.03.2020 20:51:15, поток 10] Берём заданные куки...
+[03.03.2020 20:51:16, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:17, поток 10] Спарсили куки
+[03.03.2020 20:51:19, поток 10] Войти в аккаунт не удалось!
+[03.03.2020 20:51:19, поток 10] [DEBUG] Start...
+[03.03.2020 20:51:19, поток 10] Берём заданные куки...
+[03.03.2020 20:51:19, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:20, поток 10] Спарсили куки
+[03.03.2020 20:51:21, поток 10] Войти в аккаунт не удалось!
+[03.03.2020 20:51:28, поток 4] [DEBUG] Start...
+[03.03.2020 20:51:28, поток 4] Берём заданные куки...
+[03.03.2020 20:51:28, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:28, поток 4] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:51:28, поток 4] [DEBUG] Сменили прокси.
+[03.03.2020 20:51:28, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось загрузить ответ от HTTP-сервера 'www.instagram.com'. ---> System.IO.IOException: Не удается прочитать данные из транспортного соединения: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   в System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   в System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   в xNet.HttpResponse.ReceiverHelper.ReadLine()
+   в xNet.HttpResponse.ReceiveStartingLine()
+   в xNet.HttpResponse.LoadResponse(HttpMethod method)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpResponse.LoadResponse(HttpMethod method)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:51:28, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 20:51:29, поток 3] [DEBUG, ERROR] xNet.HttpException: Не удалось загрузить ответ от HTTP-сервера 'www.instagram.com'. ---> System.IO.IOException: Не удается прочитать данные из транспортного соединения: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   в System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   в System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   в xNet.HttpResponse.ReceiverHelper.ReadLine()
+   в xNet.HttpResponse.ReceiveStartingLine()
+   в xNet.HttpResponse.LoadResponse(HttpMethod method)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpResponse.LoadResponse(HttpMethod method)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:51:29, поток 3] [DEBUG] Сменили прокси.
+[03.03.2020 20:51:30, поток 8] [DEBUG] Start...
+[03.03.2020 20:51:30, поток 8] Берём заданные куки...
+[03.03.2020 20:51:31, поток 8] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:31, поток 8] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:51:31, поток 8] [DEBUG] Сменили прокси.
+[03.03.2020 20:51:32, поток 9] [DEBUG, ERROR] xNet.HttpException: Не удалось установить SSL-соединение с HTTP-сервером 'www.instagram.com'. ---> System.IO.IOException: Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost, X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:51:32, поток 9] [DEBUG] Сменили прокси.
+[03.03.2020 20:51:34, поток 1] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания данных от прокси-сервера '188.32.135.96:7844'.
+   в xNet.HttpProxyClient.WaitData(NetworkStream nStream)
+   в xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:51:34, поток 1] [DEBUG] Сменили прокси.
+[03.03.2020 20:51:35, поток 16] Спарсили куки
+[03.03.2020 20:51:35, поток 16] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaDirectMessage_ButDev.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 226
+[03.03.2020 20:51:35, поток 16] [DEBUG] Start...
+[03.03.2020 20:51:35, поток 16] Берём заданные куки...
+[03.03.2020 20:51:35, поток 16] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:35, поток 16] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:51:35, поток 16] [DEBUG] Сменили прокси.
+[03.03.2020 20:51:36, поток 6] [DEBUG] Start...
+[03.03.2020 20:51:36, поток 6] Берём заданные куки...
+[03.03.2020 20:51:36, поток 6] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:36, поток 6] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:51:36, поток 6] [DEBUG] Сменили прокси.
+[03.03.2020 20:51:37, поток 5] [DEBUG] Start...
+[03.03.2020 20:51:37, поток 5] Берём заданные куки...
+[03.03.2020 20:51:38, поток 5] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:38, поток 5] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:51:38, поток 5] [DEBUG] Сменили прокси.
+[03.03.2020 20:51:43, поток 14] [DEBUG] Start...
+[03.03.2020 20:51:43, поток 14] Берём заданные куки...
+[03.03.2020 20:51:44, поток 14] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:44, поток 14] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:51:44, поток 14] [DEBUG] Сменили прокси.
+[03.03.2020 20:51:48, поток 2] [DEBUG] Start...
+[03.03.2020 20:51:48, поток 2] Берём заданные куки...
+[03.03.2020 20:51:48, поток 2] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:49, поток 2] Спарсили куки
+[03.03.2020 20:51:50, поток 2] Войти в аккаунт не удалось!
+[03.03.2020 20:51:50, поток 2] [DEBUG] Start...
+[03.03.2020 20:51:50, поток 2] Берём заданные куки...
+[03.03.2020 20:51:51, поток 2] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:52, поток 2] Спарсили куки
+[03.03.2020 20:51:53, поток 2] Войти в аккаунт не удалось!
+[03.03.2020 20:51:53, поток 2] [DEBUG] Start...
+[03.03.2020 20:51:53, поток 2] Берём заданные куки...
+[03.03.2020 20:51:53, поток 2] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:54, поток 2] Спарсили куки
+[03.03.2020 20:51:55, поток 2] Войти в аккаунт не удалось!
+[03.03.2020 20:51:55, поток 2] [DEBUG] Start...
+[03.03.2020 20:51:55, поток 2] Берём заданные куки...
+[03.03.2020 20:51:56, поток 2] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:51:57, поток 2] Спарсили куки
+[03.03.2020 20:51:59, поток 12] [DEBUG] Start...
+[03.03.2020 20:51:59, поток 12] Берём заданные куки...
+[03.03.2020 20:52:00, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:00, поток 2] Войти в аккаунт не удалось!
+[03.03.2020 20:52:00, поток 2] [DEBUG] Start...
+[03.03.2020 20:52:00, поток 2] Берём заданные куки...
+[03.03.2020 20:52:00, поток 12] Спарсили куки
+[03.03.2020 20:52:01, поток 2] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:01, поток 2] Спарсили куки
+[03.03.2020 20:52:02, поток 12] Войти в аккаунт не удалось!
+[03.03.2020 20:52:02, поток 12] [DEBUG] Start...
+[03.03.2020 20:52:02, поток 12] Берём заданные куки...
+[03.03.2020 20:52:03, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:03, поток 2] Войти в аккаунт не удалось!
+[03.03.2020 20:52:04, поток 12] Спарсили куки
+[03.03.2020 20:52:05, поток 12] Войти в аккаунт не удалось!
+[03.03.2020 20:52:05, поток 12] [DEBUG] Start...
+[03.03.2020 20:52:05, поток 12] Берём заданные куки...
+[03.03.2020 20:52:05, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:06, поток 12] Спарсили куки
+[03.03.2020 20:52:07, поток 12] Войти в аккаунт не удалось!
+[03.03.2020 20:52:07, поток 17] [DEBUG] Start...
+[03.03.2020 20:52:07, поток 17] Берём заданные куки...
+[03.03.2020 20:52:07, поток 12] [DEBUG] Start...
+[03.03.2020 20:52:07, поток 12] Берём заданные куки...
+[03.03.2020 20:52:08, поток 17] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:08, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:08, поток 17] Спарсили куки
+[03.03.2020 20:52:09, поток 12] Спарсили куки
+[03.03.2020 20:52:09, поток 17] Войти в аккаунт не удалось!
+[03.03.2020 20:52:10, поток 17] [DEBUG] Start...
+[03.03.2020 20:52:10, поток 17] Берём заданные куки...
+[03.03.2020 20:52:11, поток 17] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:11, поток 12] Войти в аккаунт не удалось!
+[03.03.2020 20:52:11, поток 12] [DEBUG] Start...
+[03.03.2020 20:52:11, поток 12] Берём заданные куки...
+[03.03.2020 20:52:11, поток 17] Спарсили куки
+[03.03.2020 20:52:11, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:12, поток 12] Спарсили куки
+[03.03.2020 20:52:12, поток 17] Войти в аккаунт не удалось!
+[03.03.2020 20:52:12, поток 17] [DEBUG] Start...
+[03.03.2020 20:52:12, поток 17] Берём заданные куки...
+[03.03.2020 20:52:13, поток 17] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:14, поток 17] Спарсили куки
+[03.03.2020 20:52:14, поток 12] Войти в аккаунт не удалось!
+[03.03.2020 20:52:15, поток 17] Войти в аккаунт не удалось!
+[03.03.2020 20:52:28, поток 0] [DEBUG] Start...
+[03.03.2020 20:52:28, поток 0] Берём заданные куки...
+[03.03.2020 20:52:29, поток 3] [DEBUG] Start...
+[03.03.2020 20:52:29, поток 3] Берём заданные куки...
+[03.03.2020 20:52:29, поток 4] [DEBUG] Start...
+[03.03.2020 20:52:29, поток 4] Берём заданные куки...
+[03.03.2020 20:52:29, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:29, поток 4] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:52:29, поток 4] [DEBUG] Сменили прокси.
+[03.03.2020 20:52:31, поток 8] [DEBUG] Start...
+[03.03.2020 20:52:31, поток 8] Берём заданные куки...
+[03.03.2020 20:52:31, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:31, поток 3] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:31, поток 8] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:32, поток 8] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:52:32, поток 8] [DEBUG] Сменили прокси.
+[03.03.2020 20:52:32, поток 9] [DEBUG] Start...
+[03.03.2020 20:52:32, поток 9] Берём заданные куки...
+[03.03.2020 20:52:33, поток 3] Спарсили куки
+[03.03.2020 20:52:33, поток 0] Спарсили куки
+[03.03.2020 20:52:34, поток 1] [DEBUG] Start...
+[03.03.2020 20:52:34, поток 1] Берём заданные куки...
+[03.03.2020 20:52:34, поток 1] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:34, поток 1] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:52:34, поток 1] [DEBUG] Сменили прокси.
+[03.03.2020 20:52:35, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 20:52:35, поток 0] Войти в аккаунт не удалось!
+[03.03.2020 20:52:35, поток 3] [DEBUG] Start...
+[03.03.2020 20:52:35, поток 3] Берём заданные куки...
+[03.03.2020 20:52:36, поток 0] [DEBUG] Start...
+[03.03.2020 20:52:36, поток 0] Берём заданные куки...
+[03.03.2020 20:52:36, поток 16] [DEBUG] Start...
+[03.03.2020 20:52:36, поток 16] Берём заданные куки...
+[03.03.2020 20:52:37, поток 16] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:37, поток 3] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:37, поток 6] [DEBUG] Start...
+[03.03.2020 20:52:37, поток 6] Берём заданные куки...
+[03.03.2020 20:52:37, поток 6] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:37, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:37, поток 6] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:52:37, поток 6] [DEBUG] Сменили прокси.
+[03.03.2020 20:52:37, поток 16] Спарсили куки
+[03.03.2020 20:52:38, поток 3] Спарсили куки
+[03.03.2020 20:52:39, поток 16] Войти в аккаунт не удалось!
+[03.03.2020 20:52:39, поток 16] [DEBUG] Start...
+[03.03.2020 20:52:39, поток 16] Берём заданные куки...
+[03.03.2020 20:52:39, поток 5] [DEBUG] Start...
+[03.03.2020 20:52:39, поток 5] Берём заданные куки...
+[03.03.2020 20:52:39, поток 0] Спарсили куки
+[03.03.2020 20:52:39, поток 5] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:39, поток 16] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:39, поток 5] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:52:39, поток 5] [DEBUG] Сменили прокси.
+[03.03.2020 20:52:40, поток 16] Спарсили куки
+[03.03.2020 20:52:41, поток 16] Войти в аккаунт не удалось!
+[03.03.2020 20:52:41, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 20:52:41, поток 3] [DEBUG] Start...
+[03.03.2020 20:52:41, поток 3] Берём заданные куки...
+[03.03.2020 20:52:42, поток 16] [DEBUG] Start...
+[03.03.2020 20:52:42, поток 16] Берём заданные куки...
+[03.03.2020 20:52:42, поток 16] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:42, поток 0] Войти в аккаунт не удалось!
+[03.03.2020 20:52:42, поток 0] [DEBUG] Start...
+[03.03.2020 20:52:42, поток 0] Берём заданные куки...
+[03.03.2020 20:52:43, поток 9] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:43, поток 3] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:43, поток 16] Спарсили куки
+[03.03.2020 20:52:44, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:44, поток 3] Спарсили куки
+[03.03.2020 20:52:44, поток 16] Войти в аккаунт не удалось!
+[03.03.2020 20:52:44, поток 16] [DEBUG] Start...
+[03.03.2020 20:52:44, поток 16] Берём заданные куки...
+[03.03.2020 20:52:44, поток 14] [DEBUG] Start...
+[03.03.2020 20:52:44, поток 14] Берём заданные куки...
+[03.03.2020 20:52:44, поток 14] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:45, поток 0] Спарсили куки
+[03.03.2020 20:52:45, поток 16] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:45, поток 16] Спарсили куки
+[03.03.2020 20:52:46, поток 14] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:52:46, поток 14] [DEBUG] Сменили прокси.
+[03.03.2020 20:52:46, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 20:52:47, поток 16] Войти в аккаунт не удалось!
+[03.03.2020 20:52:47, поток 3] [DEBUG] Start...
+[03.03.2020 20:52:47, поток 3] Берём заданные куки...
+[03.03.2020 20:52:47, поток 0] Войти в аккаунт не удалось!
+[03.03.2020 20:52:48, поток 0] [DEBUG] Start...
+[03.03.2020 20:52:48, поток 0] Берём заданные куки...
+[03.03.2020 20:52:49, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:49, поток 3] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:49, поток 0] Спарсили куки
+[03.03.2020 20:52:50, поток 3] Спарсили куки
+[03.03.2020 20:52:51, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 20:52:51, поток 3] [DEBUG] Start...
+[03.03.2020 20:52:51, поток 3] Берём заданные куки...
+[03.03.2020 20:52:51, поток 9] Спарсили куки
+[03.03.2020 20:52:51, поток 0] Войти в аккаунт не удалось!
+[03.03.2020 20:52:51, поток 0] [DEBUG] Start...
+[03.03.2020 20:52:51, поток 0] Берём заданные куки...
+[03.03.2020 20:52:52, поток 3] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:52, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:52:53, поток 3] Спарсили куки
+[03.03.2020 20:52:53, поток 0] Спарсили куки
+[03.03.2020 20:52:54, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 20:52:55, поток 0] Войти в аккаунт не удалось!
+[03.03.2020 20:53:02, поток 9] Войти в аккаунт не удалось!
+[03.03.2020 20:53:03, поток 9] [DEBUG] Start...
+[03.03.2020 20:53:03, поток 9] Берём заданные куки...
+[03.03.2020 20:53:18, поток 9] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:53:29, поток 4] [DEBUG] Start...
+[03.03.2020 20:53:29, поток 4] Берём заданные куки...
+[03.03.2020 20:53:30, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:53:31, поток 4] Спарсили куки
+[03.03.2020 20:53:32, поток 8] [DEBUG] Start...
+[03.03.2020 20:53:32, поток 8] Берём заданные куки...
+[03.03.2020 20:53:33, поток 8] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:53:33, поток 4] Войти в аккаунт не удалось!
+[03.03.2020 20:53:33, поток 4] [DEBUG] Start...
+[03.03.2020 20:53:33, поток 4] Берём заданные куки...
+[03.03.2020 20:53:33, поток 8] Спарсили куки
+[03.03.2020 20:53:34, поток 1] [DEBUG] Start...
+[03.03.2020 20:53:34, поток 1] Берём заданные куки...
+[03.03.2020 20:53:35, поток 1] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:53:35, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:53:35, поток 1] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:53:35, поток 1] [DEBUG] Сменили прокси.
+[03.03.2020 20:53:35, поток 4] Спарсили куки
+[03.03.2020 20:53:36, поток 8] Войти в аккаунт не удалось!
+[03.03.2020 20:53:36, поток 8] [DEBUG] Start...
+[03.03.2020 20:53:36, поток 8] Берём заданные куки...
+[03.03.2020 20:53:37, поток 4] Войти в аккаунт не удалось!
+[03.03.2020 20:53:37, поток 4] [DEBUG] Start...
+[03.03.2020 20:53:37, поток 4] Берём заданные куки...
+[03.03.2020 20:53:37, поток 8] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:53:37, поток 6] [DEBUG] Start...
+[03.03.2020 20:53:37, поток 6] Берём заданные куки...
+[03.03.2020 20:53:38, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:53:38, поток 8] Спарсили куки
+[03.03.2020 20:53:38, поток 6] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:53:39, поток 4] Спарсили куки
+[03.03.2020 20:53:39, поток 6] Спарсили куки
+[03.03.2020 20:53:39, поток 5] [DEBUG] Start...
+[03.03.2020 20:53:39, поток 5] Берём заданные куки...
+[03.03.2020 20:53:39, поток 8] Войти в аккаунт не удалось!
+[03.03.2020 20:53:39, поток 8] [DEBUG] Start...
+[03.03.2020 20:53:39, поток 8] Берём заданные куки...
+[03.03.2020 20:53:40, поток 4] Войти в аккаунт не удалось!
+[03.03.2020 20:53:40, поток 5] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:53:40, поток 8] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:53:41, поток 6] Войти в аккаунт не удалось!
+[03.03.2020 20:53:41, поток 5] Спарсили куки
+[03.03.2020 20:53:41, поток 8] Спарсили куки
+[03.03.2020 20:53:43, поток 8] Войти в аккаунт не удалось!
+[03.03.2020 20:53:43, поток 5] Войти в аккаунт не удалось!
+[03.03.2020 20:53:44, поток 9] Спарсили куки
+[03.03.2020 20:53:46, поток 14] [DEBUG] Start...
+[03.03.2020 20:53:46, поток 14] Берём заданные куки...
+[03.03.2020 20:53:46, поток 14] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:53:47, поток 14] Спарсили куки
+[03.03.2020 20:53:49, поток 14] Войти в аккаунт не удалось!
+[03.03.2020 20:54:16, поток 9] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось установить SSL-соединение с HTTP-сервером 'i.instagram.com'. ---> System.IO.IOException: Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost, X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaDirectMessage_ButDev.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 226
+[03.03.2020 20:54:16, поток 9] [DEBUG] Start...
+[03.03.2020 20:54:16, поток 9] Берём заданные куки...
+[03.03.2020 20:54:24, поток 9] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:54:35, поток 1] [DEBUG] Start...
+[03.03.2020 20:54:35, поток 1] Берём заданные куки...
+[03.03.2020 20:54:35, поток 1] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:54:35, поток 1] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:54:35, поток 1] [DEBUG] Сменили прокси.
+[03.03.2020 20:54:41, поток 9] Спарсили куки
+[03.03.2020 20:54:58, поток 9] Войти в аккаунт не удалось!
+[03.03.2020 20:54:58, поток 9] [DEBUG] Start...
+[03.03.2020 20:54:58, поток 9] Берём заданные куки...
+[03.03.2020 20:54:59, поток 9] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:55:36, поток 1] [DEBUG] Start...
+[03.03.2020 20:55:36, поток 1] Берём заданные куки...
+[03.03.2020 20:55:36, поток 1] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:55:36, поток 1] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:55:36, поток 1] [DEBUG] Сменили прокси.
+[03.03.2020 20:56:04, поток 9] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания данных от прокси-сервера '95.165.151.65:47861'.
+   в xNet.HttpProxyClient.WaitData(NetworkStream nStream)
+   в xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:56:04, поток 9] [DEBUG] Сменили прокси.
+[03.03.2020 20:57:00, поток 0] [DEBUG] Start...
+[03.03.2020 20:57:00, поток 0] Берём заданные куки...
+[03.03.2020 20:57:00, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:00, поток 1] [DEBUG] Start...
+[03.03.2020 20:57:00, поток 1] Берём заданные куки...
+[03.03.2020 20:57:00, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:57:00, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 20:57:01, поток 2] [DEBUG] Start...
+[03.03.2020 20:57:01, поток 2] Берём заданные куки...
+[03.03.2020 20:57:01, поток 3] [DEBUG] Start...
+[03.03.2020 20:57:01, поток 3] Берём заданные куки...
+[03.03.2020 20:57:01, поток 4] [DEBUG] Start...
+[03.03.2020 20:57:01, поток 4] Берём заданные куки...
+[03.03.2020 20:57:01, поток 5] [DEBUG] Start...
+[03.03.2020 20:57:01, поток 5] Берём заданные куки...
+[03.03.2020 20:57:02, поток 6] [DEBUG] Start...
+[03.03.2020 20:57:02, поток 6] Берём заданные куки...
+[03.03.2020 20:57:02, поток 3] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:02, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:02, поток 7] [DEBUG] Start...
+[03.03.2020 20:57:02, поток 7] Берём заданные куки...
+[03.03.2020 20:57:03, поток 6] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:03, поток 3] Спарсили куки
+[03.03.2020 20:57:04, поток 2] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:04, поток 5] Сообщение отправлено.
+[03.03.2020 20:57:04, поток 8] [DEBUG] Start...
+[03.03.2020 20:57:04, поток 8] Берём заданные куки...
+[03.03.2020 20:57:04, поток 8] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:04, поток 6] Спарсили куки
+[03.03.2020 20:57:05, поток 9] [DEBUG] Start...
+[03.03.2020 20:57:05, поток 9] Берём заданные куки...
+[03.03.2020 20:57:05, поток 8] Спарсили куки
+[03.03.2020 20:57:05, поток 2] Спарсили куки
+[03.03.2020 20:57:05, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 20:57:05, поток 3] [DEBUG] Start...
+[03.03.2020 20:57:05, поток 3] Берём заданные куки...
+[03.03.2020 20:57:05, поток 9] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:06, поток 10] [DEBUG] Start...
+[03.03.2020 20:57:06, поток 10] Берём заданные куки...
+[03.03.2020 20:57:06, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:06, поток 11] [DEBUG] Start...
+[03.03.2020 20:57:06, поток 11] Берём заданные куки...
+[03.03.2020 20:57:06, поток 9] Спарсили куки
+[03.03.2020 20:57:06, поток 3] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:06, поток 11] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:06, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:57:06, поток 10] [DEBUG] Сменили прокси.
+[03.03.2020 20:57:07, поток 8] Войти в аккаунт не удалось!
+[03.03.2020 20:57:07, поток 8] [DEBUG] Start...
+[03.03.2020 20:57:07, поток 8] Берём заданные куки...
+[03.03.2020 20:57:07, поток 11] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:57:07, поток 11] [DEBUG] Сменили прокси.
+[03.03.2020 20:57:07, поток 4] Спарсили куки
+[03.03.2020 20:57:07, поток 12] [DEBUG] Start...
+[03.03.2020 20:57:07, поток 12] Берём заданные куки...
+[03.03.2020 20:57:07, поток 3] Спарсили куки
+[03.03.2020 20:57:07, поток 8] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:08, поток 2] Войти в аккаунт не удалось!
+[03.03.2020 20:57:08, поток 2] [DEBUG] Start...
+[03.03.2020 20:57:08, поток 2] Берём заданные куки...
+[03.03.2020 20:57:08, поток 9] Войти в аккаунт не удалось!
+[03.03.2020 20:57:08, поток 9] [DEBUG] Start...
+[03.03.2020 20:57:08, поток 9] Берём заданные куки...
+[03.03.2020 20:57:08, поток 8] Спарсили куки
+[03.03.2020 20:57:08, поток 13] [DEBUG] Start...
+[03.03.2020 20:57:08, поток 13] Берём заданные куки...
+[03.03.2020 20:57:08, поток 9] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:09, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 20:57:09, поток 4] Войти в аккаунт не удалось!
+[03.03.2020 20:57:09, поток 4] [DEBUG] Start...
+[03.03.2020 20:57:09, поток 4] Берём заданные куки...
+[03.03.2020 20:57:09, поток 9] Спарсили куки
+[03.03.2020 20:57:09, поток 2] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:09, поток 14] [DEBUG] Start...
+[03.03.2020 20:57:09, поток 14] Берём заданные куки...
+[03.03.2020 20:57:09, поток 8] Войти в аккаунт не удалось!
+[03.03.2020 20:57:09, поток 3] [DEBUG] Start...
+[03.03.2020 20:57:09, поток 3] Берём заданные куки...
+[03.03.2020 20:57:09, поток 16] [DEBUG] Start...
+[03.03.2020 20:57:09, поток 16] Берём заданные куки...
+[03.03.2020 20:57:09, поток 13] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:09, поток 8] [DEBUG] Start...
+[03.03.2020 20:57:09, поток 8] Берём заданные куки...
+[03.03.2020 20:57:10, поток 14] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:10, поток 17] [DEBUG] Start...
+[03.03.2020 20:57:10, поток 17] Берём заданные куки...
+[03.03.2020 20:57:10, поток 8] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:10, поток 3] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:10, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:10, поток 2] Спарсили куки
+[03.03.2020 20:57:10, поток 16] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:10, поток 9] Войти в аккаунт не удалось!
+[03.03.2020 20:57:11, поток 13] Спарсили куки
+[03.03.2020 20:57:11, поток 8] Спарсили куки
+[03.03.2020 20:57:11, поток 9] [DEBUG] Start...
+[03.03.2020 20:57:11, поток 9] Берём заданные куки...
+[03.03.2020 20:57:11, поток 9] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:11, поток 4] Спарсили куки
+[03.03.2020 20:57:11, поток 9] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:57:11, поток 9] [DEBUG] Сменили прокси.
+[03.03.2020 20:57:11, поток 3] Спарсили куки
+[03.03.2020 20:57:12, поток 16] Спарсили куки
+[03.03.2020 20:57:12, поток 14] Спарсили куки
+[03.03.2020 20:57:12, поток 8] Войти в аккаунт не удалось!
+[03.03.2020 20:57:12, поток 8] [DEBUG] Start...
+[03.03.2020 20:57:12, поток 8] Берём заданные куки...
+[03.03.2020 20:57:13, поток 8] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:13, поток 2] Войти в аккаунт не удалось!
+[03.03.2020 20:57:13, поток 16] Войти в аккаунт не удалось!
+[03.03.2020 20:57:13, поток 16] [DEBUG] Start...
+[03.03.2020 20:57:13, поток 16] Берём заданные куки...
+[03.03.2020 20:57:13, поток 13] Войти в аккаунт не удалось!
+[03.03.2020 20:57:13, поток 13] [DEBUG] Start...
+[03.03.2020 20:57:13, поток 13] Берём заданные куки...
+[03.03.2020 20:57:13, поток 14] Войти в аккаунт не удалось!
+[03.03.2020 20:57:13, поток 14] [DEBUG] Start...
+[03.03.2020 20:57:13, поток 14] Берём заданные куки...
+[03.03.2020 20:57:13, поток 2] [DEBUG] Start...
+[03.03.2020 20:57:13, поток 2] Берём заданные куки...
+[03.03.2020 20:57:13, поток 8] Спарсили куки
+[03.03.2020 20:57:14, поток 16] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:14, поток 14] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:14, поток 17] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:14, поток 13] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:15, поток 16] Спарсили куки
+[03.03.2020 20:57:15, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 20:57:15, поток 3] [DEBUG] Start...
+[03.03.2020 20:57:15, поток 3] Берём заданные куки...
+[03.03.2020 20:57:15, поток 14] Спарсили куки
+[03.03.2020 20:57:15, поток 8] Войти в аккаунт не удалось!
+[03.03.2020 20:57:15, поток 4] Войти в аккаунт не удалось!
+[03.03.2020 20:57:15, поток 2] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:15, поток 8] [DEBUG] Start...
+[03.03.2020 20:57:15, поток 8] Берём заданные куки...
+[03.03.2020 20:57:15, поток 4] [DEBUG] Start...
+[03.03.2020 20:57:15, поток 4] Берём заданные куки...
+[03.03.2020 20:57:15, поток 17] Спарсили куки
+[03.03.2020 20:57:16, поток 8] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:16, поток 8] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:57:16, поток 8] [DEBUG] Сменили прокси.
+[03.03.2020 20:57:16, поток 2] Спарсили куки
+[03.03.2020 20:57:16, поток 14] Войти в аккаунт не удалось!
+[03.03.2020 20:57:16, поток 3] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:16, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:16, поток 16] Войти в аккаунт не удалось!
+[03.03.2020 20:57:17, поток 13] Спарсили куки
+[03.03.2020 20:57:17, поток 14] [DEBUG] Start...
+[03.03.2020 20:57:17, поток 14] Берём заданные куки...
+[03.03.2020 20:57:17, поток 16] [DEBUG] Start...
+[03.03.2020 20:57:17, поток 16] Берём заданные куки...
+[03.03.2020 20:57:18, поток 14] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:18, поток 2] Войти в аккаунт не удалось!
+[03.03.2020 20:57:18, поток 2] [DEBUG] Start...
+[03.03.2020 20:57:18, поток 2] Берём заданные куки...
+[03.03.2020 20:57:18, поток 4] Спарсили куки
+[03.03.2020 20:57:19, поток 2] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:19, поток 3] Спарсили куки
+[03.03.2020 20:57:19, поток 13] Войти в аккаунт не удалось!
+[03.03.2020 20:57:19, поток 13] [DEBUG] Start...
+[03.03.2020 20:57:19, поток 13] Берём заданные куки...
+[03.03.2020 20:57:20, поток 4] Войти в аккаунт не удалось!
+[03.03.2020 20:57:20, поток 4] [DEBUG] Start...
+[03.03.2020 20:57:20, поток 4] Берём заданные куки...
+[03.03.2020 20:57:20, поток 2] Спарсили куки
+[03.03.2020 20:57:20, поток 13] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:20, поток 14] Спарсили куки
+[03.03.2020 20:57:21, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:21, поток 4] Спарсили куки
+[03.03.2020 20:57:21, поток 1] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:22, поток 14] Войти в аккаунт не удалось!
+[03.03.2020 20:57:22, поток 14] [DEBUG] Start...
+[03.03.2020 20:57:22, поток 14] Берём заданные куки...
+[03.03.2020 20:57:22, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 20:57:23, поток 3] [DEBUG] Start...
+[03.03.2020 20:57:23, поток 3] Берём заданные куки...
+[03.03.2020 20:57:23, поток 14] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:23, поток 4] Войти в аккаунт не удалось!
+[03.03.2020 20:57:23, поток 3] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:23, поток 4] [DEBUG] Start...
+[03.03.2020 20:57:23, поток 4] Берём заданные куки...
+[03.03.2020 20:57:24, поток 3] Спарсили куки
+[03.03.2020 20:57:25, поток 7] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:25, поток 13] Спарсили куки
+[03.03.2020 20:57:25, поток 14] Спарсили куки
+[03.03.2020 20:57:26, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 20:57:26, поток 3] [DEBUG] Start...
+[03.03.2020 20:57:26, поток 3] Берём заданные куки...
+[03.03.2020 20:57:26, поток 13] Войти в аккаунт не удалось!
+[03.03.2020 20:57:26, поток 13] [DEBUG] Start...
+[03.03.2020 20:57:26, поток 13] Берём заданные куки...
+[03.03.2020 20:57:27, поток 14] Войти в аккаунт не удалось!
+[03.03.2020 20:57:27, поток 13] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:27, поток 3] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:28, поток 14] [DEBUG] Start...
+[03.03.2020 20:57:28, поток 14] Берём заданные куки...
+[03.03.2020 20:57:28, поток 13] Спарсили куки
+[03.03.2020 20:57:28, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:29, поток 3] Спарсили куки
+[03.03.2020 20:57:29, поток 14] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:29, поток 13] Войти в аккаунт не удалось!
+[03.03.2020 20:57:30, поток 14] Спарсили куки
+[03.03.2020 20:57:30, поток 13] [DEBUG] Start...
+[03.03.2020 20:57:30, поток 13] Берём заданные куки...
+[03.03.2020 20:57:30, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 20:57:31, поток 1] Спарсили куки
+[03.03.2020 20:57:32, поток 13] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:32, поток 14] Войти в аккаунт не удалось!
+[03.03.2020 20:57:32, поток 14] [DEBUG] Start...
+[03.03.2020 20:57:32, поток 14] Берём заданные куки...
+[03.03.2020 20:57:32, поток 12] Спарсили куки
+[03.03.2020 20:57:33, поток 13] Спарсили куки
+[03.03.2020 20:57:33, поток 14] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:33, поток 1] Войти в аккаунт не удалось!
+[03.03.2020 20:57:33, поток 1] [DEBUG] Start...
+[03.03.2020 20:57:33, поток 1] Берём заданные куки...
+[03.03.2020 20:57:34, поток 12] Войти в аккаунт не удалось!
+[03.03.2020 20:57:34, поток 12] [DEBUG] Start...
+[03.03.2020 20:57:34, поток 12] Берём заданные куки...
+[03.03.2020 20:57:34, поток 14] Спарсили куки
+[03.03.2020 20:57:35, поток 1] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:35, поток 13] Войти в аккаунт не удалось!
+[03.03.2020 20:57:35, поток 13] [DEBUG] Start...
+[03.03.2020 20:57:35, поток 13] Берём заданные куки...
+[03.03.2020 20:57:35, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:35, поток 17] (Ошибка) Текст ошибки: xNet.HttpException: Получен пустой ответ от HTTP-сервера 'i.instagram.com'.
+   в xNet.HttpResponse.ReceiveStartingLine()
+   в xNet.HttpResponse.LoadResponse(HttpMethod method)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaDirectMessage_ButDev.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 226
+[03.03.2020 20:57:35, поток 17] [DEBUG] Start...
+[03.03.2020 20:57:35, поток 17] Берём заданные куки...
+[03.03.2020 20:57:36, поток 14] Войти в аккаунт не удалось!
+[03.03.2020 20:57:36, поток 1] Спарсили куки
+[03.03.2020 20:57:36, поток 13] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:36, поток 12] Спарсили куки
+[03.03.2020 20:57:38, поток 16] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:38, поток 1] Войти в аккаунт не удалось!
+[03.03.2020 20:57:39, поток 12] Войти в аккаунт не удалось!
+[03.03.2020 20:57:39, поток 13] Спарсили куки
+[03.03.2020 20:57:39, поток 1] [DEBUG] Start...
+[03.03.2020 20:57:39, поток 1] Берём заданные куки...
+[03.03.2020 20:57:39, поток 12] [DEBUG] Start...
+[03.03.2020 20:57:39, поток 12] Берём заданные куки...
+[03.03.2020 20:57:41, поток 1] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:41, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:41, поток 13] Войти в аккаунт не удалось!
+[03.03.2020 20:57:42, поток 16] Спарсили куки
+[03.03.2020 20:57:42, поток 12] Спарсили куки
+[03.03.2020 20:57:42, поток 1] Спарсили куки
+[03.03.2020 20:57:45, поток 16] Войти в аккаунт не удалось!
+[03.03.2020 20:57:45, поток 16] [DEBUG] Start...
+[03.03.2020 20:57:45, поток 16] Берём заданные куки...
+[03.03.2020 20:57:45, поток 12] Войти в аккаунт не удалось!
+[03.03.2020 20:57:45, поток 12] [DEBUG] Start...
+[03.03.2020 20:57:45, поток 12] Берём заданные куки...
+[03.03.2020 20:57:45, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:45, поток 7] Спарсили куки
+[03.03.2020 20:57:45, поток 1] Войти в аккаунт не удалось!
+[03.03.2020 20:57:45, поток 1] [DEBUG] Start...
+[03.03.2020 20:57:45, поток 1] Берём заданные куки...
+[03.03.2020 20:57:45, поток 17] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:45, поток 16] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:46, поток 4] Спарсили куки
+[03.03.2020 20:57:46, поток 17] Спарсили куки
+[03.03.2020 20:57:46, поток 16] Спарсили куки
+[03.03.2020 20:57:47, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:47, поток 1] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:48, поток 4] Войти в аккаунт не удалось!
+[03.03.2020 20:57:48, поток 4] [DEBUG] Start...
+[03.03.2020 20:57:48, поток 4] Берём заданные куки...
+[03.03.2020 20:57:48, поток 17] Войти в аккаунт не удалось!
+[03.03.2020 20:57:48, поток 16] Войти в аккаунт не удалось!
+[03.03.2020 20:57:48, поток 17] [DEBUG] Start...
+[03.03.2020 20:57:48, поток 17] Берём заданные куки...
+[03.03.2020 20:57:48, поток 16] [DEBUG] Start...
+[03.03.2020 20:57:48, поток 16] Берём заданные куки...
+[03.03.2020 20:57:48, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:48, поток 17] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:48, поток 16] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:49, поток 17] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:57:49, поток 17] [DEBUG] Сменили прокси.
+[03.03.2020 20:57:49, поток 12] Спарсили куки
+[03.03.2020 20:57:49, поток 16] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:57:49, поток 16] [DEBUG] Сменили прокси.
+[03.03.2020 20:57:49, поток 1] Спарсили куки
+[03.03.2020 20:57:49, поток 4] Спарсили куки
+[03.03.2020 20:57:51, поток 12] Войти в аккаунт не удалось!
+[03.03.2020 20:57:51, поток 4] Войти в аккаунт не удалось!
+[03.03.2020 20:57:52, поток 1] Войти в аккаунт не удалось!
+[03.03.2020 20:57:52, поток 12] [DEBUG] Start...
+[03.03.2020 20:57:52, поток 12] Берём заданные куки...
+[03.03.2020 20:57:52, поток 1] [DEBUG] Start...
+[03.03.2020 20:57:52, поток 1] Берём заданные куки...
+[03.03.2020 20:57:53, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:53, поток 1] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:54, поток 12] Спарсили куки
+[03.03.2020 20:57:54, поток 1] Спарсили куки
+[03.03.2020 20:57:55, поток 12] Войти в аккаунт не удалось!
+[03.03.2020 20:57:55, поток 12] [DEBUG] Start...
+[03.03.2020 20:57:55, поток 12] Берём заданные куки...
+[03.03.2020 20:57:55, поток 1] Войти в аккаунт не удалось!
+[03.03.2020 20:57:55, поток 1] [DEBUG] Start...
+[03.03.2020 20:57:55, поток 1] Берём заданные куки...
+[03.03.2020 20:57:56, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:56, поток 1] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:57:57, поток 12] Спарсили куки
+[03.03.2020 20:57:57, поток 1] Спарсили куки
+[03.03.2020 20:57:58, поток 12] Войти в аккаунт не удалось!
+[03.03.2020 20:57:59, поток 1] Войти в аккаунт не удалось!
+[03.03.2020 20:58:21, поток 0] [DEBUG] Start...
+[03.03.2020 20:58:21, поток 0] Берём заданные куки...
+[03.03.2020 20:58:21, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:58:21, поток 0] [DEBUG] Start...
+[03.03.2020 20:58:21, поток 0] Берём заданные куки...
+[03.03.2020 20:58:22, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:58:22, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 20:58:22, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:58:22, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:58:22, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 20:59:22, поток 0] [DEBUG] Start...
+[03.03.2020 20:59:22, поток 0] Берём заданные куки...
+[03.03.2020 20:59:22, поток 0] [DEBUG] Start...
+[03.03.2020 20:59:22, поток 0] Берём заданные куки...
+[03.03.2020 20:59:43, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:59:43, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:59:44, поток 0] Спарсили куки
+[03.03.2020 20:59:45, поток 0] Спарсили куки
+[03.03.2020 20:59:47, поток 0] Вошли в аккаунт.
+[03.03.2020 20:59:47, поток 0] Вошли в аккаунт.
+[03.03.2020 20:59:48, поток 0] Сообщение отправлено.
+[03.03.2020 20:59:48, поток 0] Сообщение отправлено.
+[03.03.2020 20:59:48, поток 0] [DEBUG] Start...
+[03.03.2020 20:59:48, поток 0] Берём заданные куки...
+[03.03.2020 20:59:49, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:59:49, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:59:49, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 21:56:29, поток 0] [DEBUG] Start...
+[03.03.2020 21:56:29, поток 0] Берём заданные куки...
+[03.03.2020 21:56:30, поток 1] [DEBUG] Start...
+[03.03.2020 21:56:30, поток 1] Берём заданные куки...
+[03.03.2020 21:56:30, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 21:56:30, поток 2] [DEBUG] Start...
+[03.03.2020 21:56:30, поток 2] Берём заданные куки...
+[03.03.2020 21:56:30, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 21:56:30, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 21:56:30, поток 3] [DEBUG] Start...
+[03.03.2020 21:56:30, поток 3] Берём заданные куки...
+[03.03.2020 21:56:31, поток 4] [DEBUG] Start...
+[03.03.2020 21:56:31, поток 4] Берём заданные куки...
+[03.03.2020 21:56:31, поток 1] Сообщение отправлено.
+[03.03.2020 21:56:31, поток 5] [DEBUG] Start...
+[03.03.2020 21:56:31, поток 5] Берём заданные куки...
+[03.03.2020 21:56:31, поток 6] [DEBUG] Start...
+[03.03.2020 21:56:31, поток 6] Берём заданные куки...
+[03.03.2020 21:56:31, поток 3] Сообщение отправлено.
+[03.03.2020 21:56:32, поток 7] [DEBUG] Start...
+[03.03.2020 21:56:32, поток 7] Берём заданные куки...
+[03.03.2020 21:56:32, поток 6] Сообщение отправлено.
+[03.03.2020 21:56:33, поток 5] Сообщение отправлено.
+[03.03.2020 21:56:33, поток 8] [DEBUG] Start...
+[03.03.2020 21:56:33, поток 8] Берём заданные куки...
+[03.03.2020 21:56:34, поток 8] Сообщение отправлено.
+[03.03.2020 21:56:34, поток 9] [DEBUG] Start...
+[03.03.2020 21:56:34, поток 9] Берём заданные куки...
+[03.03.2020 21:56:35, поток 10] [DEBUG] Start...
+[03.03.2020 21:56:35, поток 10] Берём заданные куки...
+[03.03.2020 21:56:35, поток 2] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 21:56:35, поток 9] Сообщение отправлено.
+[03.03.2020 21:56:35, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 21:56:35, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 21:56:35, поток 10] [DEBUG] Сменили прокси.
+[03.03.2020 21:56:36, поток 4] Сообщение отправлено.
+[03.03.2020 21:56:36, поток 11] [DEBUG] Start...
+[03.03.2020 21:56:36, поток 11] Берём заданные куки...
+[03.03.2020 21:56:36, поток 11] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 21:56:36, поток 11] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 21:56:36, поток 11] [DEBUG] Сменили прокси.
+[03.03.2020 21:56:47, поток 2] Спарсили куки
+[03.03.2020 21:57:59, поток 0] [DEBUG] Start...
+[03.03.2020 21:57:59, поток 0] Берём заданные куки...
+[03.03.2020 21:58:00, поток 1] [DEBUG] Start...
+[03.03.2020 21:58:00, поток 1] Парсим куки...
+[03.03.2020 21:58:00, поток 2] [DEBUG] Start...
+[03.03.2020 21:58:00, поток 2] Берём заданные куки...
+[03.03.2020 21:58:00, поток 3] [DEBUG] Start...
+[03.03.2020 21:58:00, поток 3] Парсим куки...
+[03.03.2020 21:58:01, поток 4] [DEBUG] Start...
+[03.03.2020 21:58:01, поток 4] Берём заданные куки...
+[03.03.2020 21:58:01, поток 1] Спарсили куки
+[03.03.2020 21:58:01, поток 5] [DEBUG] Start...
+[03.03.2020 21:58:01, поток 5] Парсим куки...
+[03.03.2020 21:58:01, поток 6] [DEBUG] Start...
+[03.03.2020 21:58:01, поток 6] Берём заданные куки...
+[03.03.2020 21:58:01, поток 3] Спарсили куки
+[03.03.2020 21:58:01, поток 2] Сообщение отправлено.
+[03.03.2020 21:58:02, поток 5] Спарсили куки
+[03.03.2020 21:58:02, поток 7] [DEBUG] Start...
+[03.03.2020 21:58:02, поток 7] Парсим куки...
+[03.03.2020 21:58:02, поток 1] Войти в аккаунт не удалось!
+[03.03.2020 21:58:02, поток 1] [DEBUG] Start...
+[03.03.2020 21:58:02, поток 1] Парсим куки...
+[03.03.2020 21:58:02, поток 7] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 153
+[03.03.2020 21:58:02, поток 7] [DEBUG] Сменили прокси.
+[03.03.2020 21:58:02, поток 6] Сообщение отправлено.
+[03.03.2020 21:58:02, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 21:58:02, поток 3] [DEBUG] Start...
+[03.03.2020 21:58:02, поток 3] Парсим куки...
+[03.03.2020 21:58:03, поток 5] Войти в аккаунт не удалось!
+[03.03.2020 21:58:03, поток 5] [DEBUG] Start...
+[03.03.2020 21:58:03, поток 5] Парсим куки...
+[03.03.2020 21:58:03, поток 1] Спарсили куки
+[03.03.2020 21:58:03, поток 8] [DEBUG] Start...
+[03.03.2020 21:58:03, поток 8] Берём заданные куки...
+[03.03.2020 21:58:03, поток 3] Спарсили куки
+[03.03.2020 21:58:03, поток 5] Спарсили куки
+[03.03.2020 21:58:04, поток 9] [DEBUG] Start...
+[03.03.2020 21:58:04, поток 9] Парсим куки...
+[03.03.2020 21:58:04, поток 1] Войти в аккаунт не удалось!
+[03.03.2020 21:58:04, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 21:58:04, поток 1] [DEBUG] Start...
+[03.03.2020 21:58:04, поток 1] Парсим куки...
+[03.03.2020 21:58:04, поток 5] Войти в аккаунт не удалось!
+[03.03.2020 21:58:05, поток 9] Спарсили куки
+[03.03.2020 21:58:05, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 21:58:05, поток 3] [DEBUG] Start...
+[03.03.2020 21:58:05, поток 3] Парсим куки...
+[03.03.2020 21:58:05, поток 10] [DEBUG] Start...
+[03.03.2020 21:58:05, поток 10] Берём заданные куки...
+[03.03.2020 21:58:05, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 21:58:05, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 21:58:05, поток 5] [DEBUG] Start...
+[03.03.2020 21:58:05, поток 5] Парсим куки...
+[03.03.2020 21:58:05, поток 8] Сообщение отправлено.
+[03.03.2020 21:58:05, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 21:58:05, поток 9] Войти в аккаунт не удалось!
+[03.03.2020 21:58:05, поток 9] [DEBUG] Start...
+[03.03.2020 21:58:05, поток 9] Парсим куки...
+[03.03.2020 21:58:05, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 21:58:05, поток 10] [DEBUG] Сменили прокси.
+[03.03.2020 21:58:06, поток 4] Сообщение отправлено.
+[03.03.2020 21:58:06, поток 11] [DEBUG] Start...
+[03.03.2020 21:58:06, поток 11] Парсим куки...
+[03.03.2020 21:58:06, поток 1] Спарсили куки
+[03.03.2020 21:58:06, поток 3] Спарсили куки
+[03.03.2020 21:58:06, поток 5] Спарсили куки
+[03.03.2020 21:58:06, поток 9] Спарсили куки
+[03.03.2020 21:58:06, поток 11] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 153
+[03.03.2020 21:58:06, поток 11] [DEBUG] Сменили прокси.
+[03.03.2020 21:58:07, поток 3] Войти в аккаунт не удалось!
+[03.03.2020 21:58:07, поток 3] [DEBUG] Start...
+[03.03.2020 21:58:07, поток 3] Парсим куки...
+[03.03.2020 21:58:07, поток 12] [DEBUG] Start...
+[03.03.2020 21:58:07, поток 12] Берём заданные куки...
+[03.03.2020 21:58:07, поток 13] [DEBUG] Start...
+[03.03.2020 21:58:07, поток 13] Парсим куки...
+[03.03.2020 21:58:07, поток 1] Войти в аккаунт не удалось!
+[03.03.2020 21:58:07, поток 1] [DEBUG] Start...
+[03.03.2020 21:58:07, поток 1] Парсим куки...
+[03.03.2020 21:58:08, поток 9] Войти в аккаунт не удалось!
+[03.03.2020 21:58:08, поток 15] [DEBUG] Start...
+[03.03.2020 21:58:08, поток 15] Парсим куки...
+[03.03.2020 21:58:08, поток 5] Войти в аккаунт не удалось!
+[03.03.2020 21:58:08, поток 5] [DEBUG] Start...
+[03.03.2020 21:58:08, поток 5] Парсим куки...
+[03.03.2020 21:58:08, поток 12] Сообщение отправлено.
+[03.03.2020 21:58:08, поток 9] [DEBUG] Start...
+[03.03.2020 21:58:08, поток 9] Парсим куки...
+[03.03.2020 21:58:08, поток 9] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 153
+[03.03.2020 21:58:08, поток 9] [DEBUG] Сменили прокси.
+[03.03.2020 21:58:08, поток 17] [DEBUG] Start...
+[03.03.2020 21:58:08, поток 17] Парсим куки...
+[03.03.2020 21:58:09, поток 5] Спарсили куки
+[03.03.2020 21:58:09, поток 13] Спарсили куки
+[03.03.2020 21:58:09, поток 1] Спарсили куки
+[03.03.2020 21:58:09, поток 17] Спарсили куки
+[03.03.2020 21:58:10, поток 5] Войти в аккаунт не удалось!
+[03.03.2020 21:58:10, поток 3] Спарсили куки
+[03.03.2020 21:58:10, поток 17] Войти в аккаунт не удалось!
+[03.03.2020 21:58:10, поток 17] [DEBUG] Start...
+[03.03.2020 21:58:10, поток 17] Парсим куки...
+[03.03.2020 21:58:10, поток 5] [DEBUG] Start...
+[03.03.2020 21:58:10, поток 5] Парсим куки...
+[03.03.2020 21:58:10, поток 5] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 153
+[03.03.2020 21:58:10, поток 5] [DEBUG] Сменили прокси.
+[03.03.2020 21:58:11, поток 1] Войти в аккаунт не удалось!
+[03.03.2020 21:58:11, поток 13] Войти в аккаунт не удалось!
+[03.03.2020 21:58:11, поток 13] [DEBUG] Start...
+[03.03.2020 21:58:11, поток 13] Парсим куки...
+[03.03.2020 21:58:11, поток 15] Спарсили куки
+[03.03.2020 21:58:11, поток 1] [DEBUG] Start...
+[03.03.2020 21:58:11, поток 1] Парсим куки...
+[03.03.2020 21:58:11, поток 17] Спарсили куки
+[03.03.2020 21:58:12, поток 1] Спарсили куки
+[03.03.2020 21:58:12, поток 13] Спарсили куки
+[03.03.2020 21:58:12, поток 17] Войти в аккаунт не удалось!
+[03.03.2020 22:02:29, поток 0] [DEBUG] Start...
+[03.03.2020 22:02:29, поток 0] Берём заданные куки...
+[03.03.2020 22:02:29, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:02:29, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:02:29, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 22:02:29, поток 2] [DEBUG] Start...
+[03.03.2020 22:02:29, поток 2] Берём заданные куки...
+[03.03.2020 22:02:30, поток 4] [DEBUG] Start...
+[03.03.2020 22:02:30, поток 4] Берём заданные куки...
+[03.03.2020 22:02:31, поток 6] [DEBUG] Start...
+[03.03.2020 22:02:31, поток 6] Берём заданные куки...
+[03.03.2020 22:02:31, поток 2] Сообщение отправлено.
+[03.03.2020 22:02:31, поток 4] Сообщение отправлено.
+[03.03.2020 22:02:31, поток 8] [DEBUG] Start...
+[03.03.2020 22:02:31, поток 8] Берём заданные куки...
+[03.03.2020 22:02:32, поток 6] Сообщение отправлено.
+[03.03.2020 22:02:32, поток 10] [DEBUG] Start...
+[03.03.2020 22:02:32, поток 10] Берём заданные куки...
+[03.03.2020 22:02:32, поток 8] Сообщение отправлено.
+[03.03.2020 22:02:32, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:02:32, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:02:32, поток 10] [DEBUG] Сменили прокси.
+[03.03.2020 22:02:32, поток 12] [DEBUG] Start...
+[03.03.2020 22:02:32, поток 12] Берём заданные куки...
+[03.03.2020 22:02:33, поток 12] Сообщение отправлено.
+[03.03.2020 22:02:33, поток 14] [DEBUG] Start...
+[03.03.2020 22:02:33, поток 14] Берём заданные куки...
+[03.03.2020 22:02:34, поток 16] [DEBUG] Start...
+[03.03.2020 22:02:34, поток 16] Берём заданные куки...
+[03.03.2020 22:02:34, поток 14] Сообщение отправлено.
+[03.03.2020 22:02:35, поток 16] Сообщение отправлено.
+[03.03.2020 22:05:40, поток 0] [DEBUG] Start...
+[03.03.2020 22:05:40, поток 0] Берём заданные куки...
+[03.03.2020 22:05:40, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:05:40, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:05:40, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 22:05:40, поток 2] [DEBUG] Start...
+[03.03.2020 22:05:40, поток 2] Берём заданные куки...
+[03.03.2020 22:05:41, поток 4] [DEBUG] Start...
+[03.03.2020 22:05:41, поток 4] Берём заданные куки...
+[03.03.2020 22:05:42, поток 6] [DEBUG] Start...
+[03.03.2020 22:05:42, поток 6] Берём заданные куки...
+[03.03.2020 22:05:42, поток 8] [DEBUG] Start...
+[03.03.2020 22:05:42, поток 8] Берём заданные куки...
+[03.03.2020 22:05:43, поток 6] Сообщение отправлено.
+[03.03.2020 22:05:43, поток 10] [DEBUG] Start...
+[03.03.2020 22:05:43, поток 10] Берём заданные куки...
+[03.03.2020 22:05:43, поток 8] Сообщение отправлено.
+[03.03.2020 22:05:43, поток 12] [DEBUG] Start...
+[03.03.2020 22:05:43, поток 12] Берём заданные куки...
+[03.03.2020 22:05:44, поток 2] Сообщение отправлено.
+[03.03.2020 22:05:44, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:05:44, поток 14] [DEBUG] Start...
+[03.03.2020 22:05:44, поток 14] Берём заданные куки...
+[03.03.2020 22:05:44, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:05:44, поток 10] [DEBUG] Сменили прокси.
+[03.03.2020 22:05:45, поток 12] Сообщение отправлено.
+[03.03.2020 22:05:45, поток 16] [DEBUG] Start...
+[03.03.2020 22:05:45, поток 16] Берём заданные куки...
+[03.03.2020 22:05:45, поток 14] Сообщение отправлено.
+[03.03.2020 22:05:46, поток 16] Сообщение отправлено.
+[03.03.2020 22:05:47, поток 4] Сообщение отправлено.
+[03.03.2020 22:10:24, поток 0] [DEBUG] Start...
+[03.03.2020 22:10:24, поток 0] Берём заданные куки...
+[03.03.2020 22:10:25, поток 2] [DEBUG] Start...
+[03.03.2020 22:10:25, поток 2] Берём заданные куки...
+[03.03.2020 22:10:25, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:10:25, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:10:25, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 22:10:25, поток 4] [DEBUG] Start...
+[03.03.2020 22:10:25, поток 4] Берём заданные куки...
+[03.03.2020 22:10:25, поток 4] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:10:26, поток 4] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20564'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:10:26, поток 4] [DEBUG] Сменили прокси.
+[03.03.2020 22:10:26, поток 6] [DEBUG] Start...
+[03.03.2020 22:10:26, поток 6] Берём заданные куки...
+[03.03.2020 22:10:26, поток 8] [DEBUG] Start...
+[03.03.2020 22:10:26, поток 8] Берём заданные куки...
+[03.03.2020 22:10:27, поток 10] [DEBUG] Start...
+[03.03.2020 22:10:27, поток 10] Берём заданные куки...
+[03.03.2020 22:10:27, поток 8] Сообщение отправлено.
+[03.03.2020 22:10:27, поток 6] Сообщение отправлено.
+[03.03.2020 22:10:27, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:10:28, поток 2] Сообщение отправлено.
+[03.03.2020 22:10:28, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:10:28, поток 10] [DEBUG] Сменили прокси.
+[03.03.2020 22:10:28, поток 12] [DEBUG] Start...
+[03.03.2020 22:10:28, поток 12] Берём заданные куки...
+[03.03.2020 22:10:28, поток 14] [DEBUG] Start...
+[03.03.2020 22:10:28, поток 14] Берём заданные куки...
+[03.03.2020 22:10:29, поток 14] Сообщение отправлено.
+[03.03.2020 22:10:29, поток 16] [DEBUG] Start...
+[03.03.2020 22:10:29, поток 16] Берём заданные куки...
+[03.03.2020 22:10:30, поток 16] Сообщение отправлено.
+[03.03.2020 22:16:03, поток 0] [DEBUG] Start...
+[03.03.2020 22:16:03, поток 0] Берём заданные куки...
+[03.03.2020 22:16:03, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:16:03, поток 1] [DEBUG] Start...
+[03.03.2020 22:16:03, поток 1] Берём заданные куки...
+[03.03.2020 22:16:03, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:16:03, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 22:16:04, поток 2] [DEBUG] Start...
+[03.03.2020 22:16:04, поток 2] Берём заданные куки...
+[03.03.2020 22:16:04, поток 3] [DEBUG] Start...
+[03.03.2020 22:16:04, поток 3] Берём заданные куки...
+[03.03.2020 22:16:04, поток 4] [DEBUG] Start...
+[03.03.2020 22:16:04, поток 4] Берём заданные куки...
+[03.03.2020 22:16:04, поток 5] [DEBUG] Start...
+[03.03.2020 22:16:04, поток 5] Берём заданные куки...
+[03.03.2020 22:16:05, поток 6] [DEBUG] Start...
+[03.03.2020 22:16:05, поток 6] Берём заданные куки...
+[03.03.2020 22:16:05, поток 1] Сообщение отправлено.
+[03.03.2020 22:16:05, поток 5] Сообщение отправлено.
+[03.03.2020 22:16:05, поток 7] [DEBUG] Start...
+[03.03.2020 22:16:05, поток 7] Берём заданные куки...
+[03.03.2020 22:16:06, поток 7] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:16:06, поток 7] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:16:06, поток 7] [DEBUG] Сменили прокси.
+[03.03.2020 22:16:06, поток 6] Сообщение отправлено.
+[03.03.2020 22:16:06, поток 4] Сообщение отправлено.
+[03.03.2020 22:16:06, поток 8] [DEBUG] Start...
+[03.03.2020 22:16:06, поток 8] Берём заданные куки...
+[03.03.2020 22:16:07, поток 2] Сообщение отправлено.
+[03.03.2020 22:16:07, поток 3] Сообщение отправлено.
+[03.03.2020 22:16:07, поток 8] Сообщение отправлено.
+[03.03.2020 22:16:07, поток 9] [DEBUG] Start...
+[03.03.2020 22:16:07, поток 9] Берём заданные куки...
+[03.03.2020 22:16:08, поток 9] Сообщение отправлено.
+[03.03.2020 22:16:08, поток 10] [DEBUG] Start...
+[03.03.2020 22:16:08, поток 10] Берём заданные куки...
+[03.03.2020 22:16:09, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:16:09, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:16:09, поток 10] [DEBUG] Сменили прокси.
+[03.03.2020 22:16:09, поток 11] [DEBUG] Start...
+[03.03.2020 22:16:09, поток 11] Берём заданные куки...
+[03.03.2020 22:16:10, поток 12] [DEBUG] Start...
+[03.03.2020 22:16:10, поток 12] Берём заданные куки...
+[03.03.2020 22:16:11, поток 14] [DEBUG] Start...
+[03.03.2020 22:16:11, поток 14] Берём заданные куки...
+[03.03.2020 22:16:11, поток 16] [DEBUG] Start...
+[03.03.2020 22:16:11, поток 16] Берём заданные куки...
+[03.03.2020 22:16:11, поток 12] Сообщение отправлено.
+[03.03.2020 22:16:12, поток 14] Сообщение отправлено.
+[03.03.2020 22:16:12, поток 16] Сообщение отправлено.
+[03.03.2020 22:16:14, поток 11] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:16:14, поток 11] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:16:14, поток 11] [DEBUG] Сменили прокси.
+[03.03.2020 22:18:40, поток 0] [DEBUG] Start...
+[03.03.2020 22:18:40, поток 0] Берём заданные куки...
+[03.03.2020 22:18:40, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:18:40, поток 1] [DEBUG] Start...
+[03.03.2020 22:18:40, поток 1] Берём заданные куки...
+[03.03.2020 22:18:40, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:18:40, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 22:18:40, поток 2] [DEBUG] Start...
+[03.03.2020 22:18:40, поток 2] Берём заданные куки...
+[03.03.2020 22:18:41, поток 3] [DEBUG] Start...
+[03.03.2020 22:18:41, поток 3] Берём заданные куки...
+[03.03.2020 22:18:41, поток 4] [DEBUG] Start...
+[03.03.2020 22:18:41, поток 4] Берём заданные куки...
+[03.03.2020 22:18:41, поток 1] Сообщение отправлено.
+[03.03.2020 22:18:41, поток 5] [DEBUG] Start...
+[03.03.2020 22:18:41, поток 5] Берём заданные куки...
+[03.03.2020 22:18:41, поток 6] [DEBUG] Start...
+[03.03.2020 22:18:41, поток 6] Берём заданные куки...
+[03.03.2020 22:18:41, поток 3] Сообщение отправлено.
+[03.03.2020 22:18:42, поток 4] Сообщение отправлено.
+[03.03.2020 22:18:42, поток 5] Сообщение отправлено.
+[03.03.2020 22:18:42, поток 7] [DEBUG] Start...
+[03.03.2020 22:18:42, поток 7] Берём заданные куки...
+[03.03.2020 22:18:42, поток 6] Сообщение отправлено.
+[03.03.2020 22:18:43, поток 8] [DEBUG] Start...
+[03.03.2020 22:18:43, поток 8] Берём заданные куки...
+[03.03.2020 22:18:43, поток 2] Сообщение отправлено.
+[03.03.2020 22:18:44, поток 8] Сообщение отправлено.
+[03.03.2020 22:18:44, поток 9] [DEBUG] Start...
+[03.03.2020 22:18:44, поток 9] Берём заданные куки...
+[03.03.2020 22:18:45, поток 9] Сообщение отправлено.
+[03.03.2020 22:18:45, поток 10] [DEBUG] Start...
+[03.03.2020 22:18:45, поток 10] Берём заданные куки...
+[03.03.2020 22:18:45, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:18:45, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:18:45, поток 10] [DEBUG] Сменили прокси.
+[03.03.2020 22:18:46, поток 11] [DEBUG] Start...
+[03.03.2020 22:18:46, поток 11] Берём заданные куки...
+[03.03.2020 22:18:46, поток 11] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:18:46, поток 11] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:18:46, поток 11] [DEBUG] Сменили прокси.
+[03.03.2020 22:18:46, поток 12] [DEBUG] Start...
+[03.03.2020 22:18:46, поток 12] Берём заданные куки...
+[03.03.2020 22:18:47, поток 14] [DEBUG] Start...
+[03.03.2020 22:18:47, поток 14] Берём заданные куки...
+[03.03.2020 22:18:47, поток 12] Сообщение отправлено.
+[03.03.2020 22:18:48, поток 14] Сообщение отправлено.
+[03.03.2020 22:19:47, поток 7] [DEBUG] Start...
+[03.03.2020 22:19:47, поток 7] Берём заданные куки...
+[03.03.2020 22:19:47, поток 7] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:19:48, поток 7] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:19:48, поток 7] [DEBUG] Сменили прокси.
+[03.03.2020 22:19:49, поток 8] [DEBUG] Start...
+[03.03.2020 22:19:49, поток 8] Берём заданные куки...
+[03.03.2020 22:19:50, поток 8] Сообщение отправлено.
+[03.03.2020 22:19:51, поток 11] [DEBUG] Start...
+[03.03.2020 22:19:51, поток 11] Берём заданные куки...
+[03.03.2020 22:19:51, поток 11] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:19:51, поток 11] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:19:51, поток 11] [DEBUG] Сменили прокси.
+[03.03.2020 22:19:52, поток 12] [DEBUG] Start...
+[03.03.2020 22:19:52, поток 12] Берём заданные куки...
+[03.03.2020 22:19:52, поток 10] [DEBUG] Start...
+[03.03.2020 22:19:52, поток 10] Берём заданные куки...
+[03.03.2020 22:19:52, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:19:52, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:19:52, поток 10] [DEBUG] Сменили прокси.
+[03.03.2020 22:19:52, поток 12] Сообщение отправлено.
+[03.03.2020 22:19:53, поток 9] [DEBUG] Start...
+[03.03.2020 22:19:53, поток 9] Берём заданные куки...
+[03.03.2020 22:19:54, поток 9] Сообщение отправлено.
+[03.03.2020 22:20:48, поток 7] [DEBUG] Start...
+[03.03.2020 22:20:48, поток 7] Берём заданные куки...
+[03.03.2020 22:20:48, поток 7] Сообщение отправлено.
+[03.03.2020 22:20:51, поток 11] [DEBUG] Start...
+[03.03.2020 22:20:51, поток 11] Берём заданные куки...
+[03.03.2020 22:21:23, поток 0] [DEBUG] Start...
+[03.03.2020 22:21:23, поток 0] Берём заданные куки...
+[03.03.2020 22:21:23, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:21:23, поток 1] [DEBUG] Start...
+[03.03.2020 22:21:23, поток 1] Берём заданные куки...
+[03.03.2020 22:21:24, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:21:24, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 22:21:24, поток 2] [DEBUG] Start...
+[03.03.2020 22:21:24, поток 2] Берём заданные куки...
+[03.03.2020 22:21:24, поток 3] [DEBUG] Start...
+[03.03.2020 22:21:24, поток 3] Берём заданные куки...
+[03.03.2020 22:21:24, поток 4] [DEBUG] Start...
+[03.03.2020 22:21:24, поток 4] Берём заданные куки...
+[03.03.2020 22:21:25, поток 5] [DEBUG] Start...
+[03.03.2020 22:21:25, поток 5] Берём заданные куки...
+[03.03.2020 22:21:25, поток 6] [DEBUG] Start...
+[03.03.2020 22:21:25, поток 6] Берём заданные куки...
+[03.03.2020 22:21:25, поток 3] Сообщение отправлено.
+[03.03.2020 22:21:26, поток 7] [DEBUG] Start...
+[03.03.2020 22:21:26, поток 7] Берём заданные куки...
+[03.03.2020 22:21:26, поток 2] Сообщение отправлено.
+[03.03.2020 22:21:27, поток 8] [DEBUG] Start...
+[03.03.2020 22:21:27, поток 8] Берём заданные куки...
+[03.03.2020 22:21:27, поток 8] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:21:28, поток 9] [DEBUG] Start...
+[03.03.2020 22:21:28, поток 9] Берём заданные куки...
+[03.03.2020 22:21:28, поток 9] Сообщение отправлено.
+[03.03.2020 22:21:29, поток 10] [DEBUG] Start...
+[03.03.2020 22:21:29, поток 10] Берём заданные куки...
+[03.03.2020 22:21:29, поток 10] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:21:29, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:21:29, поток 10] [DEBUG] Сменили прокси.
+[03.03.2020 22:21:29, поток 11] [DEBUG] Start...
+[03.03.2020 22:21:29, поток 11] Берём заданные куки...
+[03.03.2020 22:21:29, поток 11] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:21:30, поток 11] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:21:30, поток 11] [DEBUG] Сменили прокси.
+[03.03.2020 22:21:30, поток 12] [DEBUG] Start...
+[03.03.2020 22:21:30, поток 12] Берём заданные куки...
+[03.03.2020 22:21:31, поток 4] Сообщение отправлено.
+[03.03.2020 22:21:31, поток 13] [DEBUG] Start...
+[03.03.2020 22:21:31, поток 13] Берём заданные куки...
+[03.03.2020 22:21:31, поток 8] Спарсили куки
+[03.03.2020 22:21:31, поток 5] Сообщение отправлено.
+[03.03.2020 22:21:31, поток 7] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:21:32, поток 14] [DEBUG] Start...
+[03.03.2020 22:21:32, поток 14] Берём заданные куки...
+[03.03.2020 22:21:33, поток 13] Сообщение отправлено.
+[03.03.2020 22:21:33, поток 8] Вошли в аккаунт.
+[03.03.2020 22:21:33, поток 14] Сообщение отправлено.
+[03.03.2020 22:21:33, поток 15] [DEBUG] Start...
+[03.03.2020 22:21:33, поток 15] Берём заданные куки...
+[03.03.2020 22:21:34, поток 16] [DEBUG] Start...
+[03.03.2020 22:21:34, поток 16] Берём заданные куки...
+[03.03.2020 22:21:34, поток 8] Сообщение отправлено.
+[03.03.2020 22:21:35, поток 15] Сообщение отправлено.
+[03.03.2020 22:21:35, поток 16] Сообщение отправлено.
+[03.03.2020 22:21:39, поток 7] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:21:39, поток 7] [DEBUG] Сменили прокси.
+[03.03.2020 22:21:45, поток 1] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:21:46, поток 6] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:21:51, поток 12] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:21:52, поток 12] Спарсили куки
+[03.03.2020 22:21:55, поток 12] Вошли в аккаунт.
+[03.03.2020 22:21:55, поток 1] Спарсили куки
+[03.03.2020 22:21:55, поток 12] Сообщение отправлено.
+[03.03.2020 22:21:56, поток 6] Спарсили куки
+[03.03.2020 22:21:57, поток 1] Вошли в аккаунт.
+[03.03.2020 22:21:58, поток 1] Сообщение отправлено.
+[03.03.2020 22:21:58, поток 6] Вошли в аккаунт.
+[03.03.2020 22:21:59, поток 6] Сообщение отправлено.
+[03.03.2020 22:24:11, поток 0] [DEBUG] Start...
+[03.03.2020 22:24:11, поток 0] Берём заданные куки...
+[03.03.2020 22:24:11, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 22:24:11, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 22:24:11, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 22:24:16, поток 1] [DEBUG] Start...
+[03.03.2020 22:24:16, поток 1] Берём заданные куки...
+[03.03.2020 22:24:17, поток 1] Сообщение отправлено.
+[03.03.2020 22:24:21, поток 2] [DEBUG] Start...
+[03.03.2020 22:24:21, поток 2] Берём заданные куки...
+[03.03.2020 22:24:23, поток 2] Сообщение отправлено.
+[03.03.2020 22:25:19, поток 0] [DEBUG] Start...
+[03.03.2020 22:25:19, поток 0] Берём заданные куки...
+[03.03.2020 22:25:20, поток 0] Сообщение отправлено.

@@ -1,0 +1,143 @@
+﻿[09.06.2020 15:36:59, поток 0] Парсим куки...
+[09.06.2020 15:37:01, поток 0] Спарсили куки
+[09.06.2020 15:37:01, поток 0] Получили куки...
+[09.06.2020 15:37:01, поток 0] Начинаем парсинг...
+[09.06.2020 15:37:04, поток 0] Спарсили часть...
+[09.06.2020 15:37:04, поток 0] Парсинг тэга "Москва" закончен!
+[09.06.2020 16:17:39, поток 0] Парсим куки...
+[09.06.2020 16:17:40, поток 0] Спарсили куки
+[09.06.2020 16:17:40, поток 0] Получили куки...
+[09.06.2020 16:17:40, поток 0] Начинаем парсинг...
+[09.06.2020 16:17:42, поток 0] Спарсили часть...
+[09.06.2020 16:17:42, поток 0] Парсинг тэга "Москва" закончен!
+[09.06.2020 16:23:48, поток 0] Парсим куки...
+[09.06.2020 16:23:48, поток 1] Парсим куки...
+[09.06.2020 16:26:51, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.86.151.217:8010'.
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:строка 167
+[09.06.2020 16:26:51, поток 1] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.86.151.217:8010'.
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:строка 167
+[09.06.2020 16:26:51, поток 1] [DEBUG] Сменили прокси.
+[09.06.2020 16:26:51, поток 1] Парсим куки...
+[09.06.2020 16:26:51, поток 0] [DEBUG] Сменили прокси.
+[09.06.2020 16:26:51, поток 0] Парсим куки...
+[09.06.2020 16:26:57, поток 1] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.86.151.217:8011'.
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:строка 167
+[09.06.2020 16:26:57, поток 1] [DEBUG] Сменили прокси.
+[09.06.2020 16:26:57, поток 1] Парсим куки...
+[09.06.2020 16:26:57, поток 0] Парсим куки...
+[09.06.2020 16:27:02, поток 1] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.86.151.217:8010'.
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:строка 167
+[09.06.2020 16:27:02, поток 1] [DEBUG] Сменили прокси.
+[09.06.2020 16:27:02, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.86.151.217:8010'.
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:строка 167
+[09.06.2020 16:27:02, поток 0] [DEBUG] Сменили прокси.
+[09.06.2020 18:18:50, поток 0] Парсим куки...
+[09.06.2020 18:18:51, поток 1] Парсим куки...
+[09.06.2020 18:19:10, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.86.151.217:8010'.
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:строка 167
+[09.06.2020 18:19:10, поток 0] [DEBUG] Сменили прокси.
+[09.06.2020 18:19:10, поток 0] Парсим куки...
+[09.06.2020 18:19:10, поток 1] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.86.151.217:8010'.
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:строка 167
+[09.06.2020 18:19:10, поток 1] [DEBUG] Сменили прокси.
+[09.06.2020 18:19:10, поток 1] Парсим куки...
+[09.06.2020 18:19:31, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.86.151.217:8011'.
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:строка 167
+[09.06.2020 18:19:31, поток 0] [DEBUG] Сменили прокси.
+[09.06.2020 18:19:31, поток 0] Парсим куки...
+[09.06.2020 18:19:31, поток 1] [DEBUG] Сменили прокси.
+[09.06.2020 18:19:31, поток 1] Парсим куки...
+[09.06.2020 18:19:32, поток 1] Спарсили куки
+[09.06.2020 18:19:32, поток 1] Получили куки...
+[09.06.2020 18:19:32, поток 1] Начинаем парсинг...
+[09.06.2020 18:19:32, поток 0] Спарсили куки
+[09.06.2020 18:19:32, поток 0] Получили куки...
+[09.06.2020 18:19:33, поток 0] Начинаем парсинг...
+[09.06.2020 18:19:38, поток 1] Спарсили часть...
+[09.06.2020 18:19:38, поток 0] Спарсили часть...
+[09.06.2020 18:19:40, поток 0] Спарсили часть...
+[09.06.2020 18:19:40, поток 1] Спарсили часть...
+[09.06.2020 18:19:43, поток 0] Спарсили часть...
+[09.06.2020 18:19:43, поток 0] Парсинг тэга "москва" закончен!
+[09.06.2020 18:19:43, поток 1] Спарсили часть...
+[09.06.2020 18:19:43, поток 1] Парсинг тэга "money" закончен!

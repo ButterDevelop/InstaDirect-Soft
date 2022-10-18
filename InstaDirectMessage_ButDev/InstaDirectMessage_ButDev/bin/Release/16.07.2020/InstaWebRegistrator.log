@@ -1,0 +1,146 @@
+﻿[16.07.2020 12:50:31, поток 0] Определили регион прокси - be-BY
+[16.07.2020 12:50:31, поток 0] Парсим куки...
+[16.07.2020 12:50:32, поток 0] Спарсили куки
+[16.07.2020 12:50:32, поток 0] Начинаем регистрацию...
+[16.07.2020 12:50:33, поток 0] Instagram отправил письмо на на почту - zasdfgrew2020@mail.ru
+[16.07.2020 12:55:48, поток 0] Определили регион прокси - be-BY
+[16.07.2020 12:55:48, поток 0] Парсим куки...
+[16.07.2020 12:55:49, поток 0] Спарсили куки
+[16.07.2020 12:55:49, поток 0] Начинаем регистрацию...
+[16.07.2020 12:55:50, поток 0] Instagram отправил письмо на на почту - zasdfgrew2020@mail.ru
+[16.07.2020 12:56:05, поток 0] Пробуем зайти на почту.
+[16.07.2020 12:56:51, поток 0] Что-то не так с IMAP - zasdfgrew2020@mail.ru:facebook_new
+[16.07.2020 12:56:51, поток 0] (Ошибка) Текст ошибки: MailKit.Net.Imap.ImapProtocolException: The IMAP server has unexpectedly disconnected.
+   в MailKit.Net.Imap.ImapStream.<ReadAheadAsync>d__53.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapStream.cs:строка 330
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapStream.<ReadTokenAsync>d__68.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapStream.cs:строка 698
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapEngine.<ConnectAsync>d__154.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapEngine.cs:строка 718
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в MailKit.Net.Imap.ImapClient.<ConnectAsync>d__88.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapClient.cs:строка 1268
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken) в D:\src\MailKit\MailKit\Net\Imap\ImapClient.cs:строка 1392
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.GetMailCodeIMAP() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 472
+[16.07.2020 12:57:06, поток 0] Пробуем зайти на почту.
+[16.07.2020 12:57:51, поток 0] Что-то не так с IMAP - zasdfgrew2020@mail.ru:facebook_new
+[16.07.2020 12:57:51, поток 0] (Ошибка) Текст ошибки: MailKit.Net.Imap.ImapProtocolException: The IMAP server has unexpectedly disconnected.
+   в MailKit.Net.Imap.ImapStream.<ReadAheadAsync>d__53.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapStream.cs:строка 330
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapStream.<ReadTokenAsync>d__68.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapStream.cs:строка 698
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapEngine.<ConnectAsync>d__154.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapEngine.cs:строка 718
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в MailKit.Net.Imap.ImapClient.<ConnectAsync>d__88.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapClient.cs:строка 1268
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken) в D:\src\MailKit\MailKit\Net\Imap\ImapClient.cs:строка 1392
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.GetMailCodeIMAP() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 472
+[16.07.2020 12:58:06, поток 0] Пробуем зайти на почту.
+[16.07.2020 12:58:51, поток 0] Что-то не так с IMAP - zasdfgrew2020@mail.ru:facebook_new
+[16.07.2020 12:58:51, поток 0] (Ошибка) Текст ошибки: MailKit.Net.Imap.ImapProtocolException: The IMAP server has unexpectedly disconnected.
+   в MailKit.Net.Imap.ImapStream.<ReadAheadAsync>d__53.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapStream.cs:строка 330
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapStream.<ReadTokenAsync>d__68.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapStream.cs:строка 698
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapEngine.<ConnectAsync>d__154.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapEngine.cs:строка 718
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в MailKit.Net.Imap.ImapClient.<ConnectAsync>d__88.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapClient.cs:строка 1268
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken) в D:\src\MailKit\MailKit\Net\Imap\ImapClient.cs:строка 1392
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.GetMailCodeIMAP() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 472
+[16.07.2020 13:04:44, поток 0] Определили регион прокси - be-BY
+[16.07.2020 13:04:44, поток 0] Парсим куки...
+[16.07.2020 13:04:45, поток 0] Спарсили куки
+[16.07.2020 13:04:45, поток 0] Начинаем регистрацию...
+[16.07.2020 13:04:49, поток 0] Instagram отправил письмо на на почту - zasdfgrew2020@mail.ru
+[16.07.2020 13:05:05, поток 0] Пробуем зайти на почту.
+[16.07.2020 13:06:09, поток 0] Что-то не так с IMAP - zasdfgrew2020@mail.ru:facebook_new
+[16.07.2020 13:06:09, поток 0] (Ошибка) Текст ошибки: System.IO.IOException: Удаленный хост принудительно разорвал существующее подключение ---> System.Net.Sockets.SocketException: Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в MailKit.Net.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count) в D:\src\MailKit\MailKit\Net\NetworkStream.cs:строка 153
+   --- Конец трассировки внутреннего стека исключений ---
+   в MailKit.Net.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count) в D:\src\MailKit\MailKit\Net\NetworkStream.cs:строка 155
+   в MailKit.Net.Imap.ImapStream.<ReadAheadAsync>d__53.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapStream.cs:строка 330
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapStream.<ReadTokenAsync>d__68.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapStream.cs:строка 698
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapEngine.<ConnectAsync>d__154.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapEngine.cs:строка 718
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в MailKit.Net.Imap.ImapClient.<ConnectAsync>d__88.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapClient.cs:строка 1268
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken) в D:\src\MailKit\MailKit\Net\Imap\ImapClient.cs:строка 1392
+   в MailKit.MailService.Connect(String host, Int32 port, Boolean useSsl, CancellationToken cancellationToken) в D:\src\MailKit\MailKit\MailService.cs:строка 831
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.GetMailCodeIMAP() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 471
+[16.07.2020 13:06:24, поток 0] Пробуем зайти на почту.
+[16.07.2020 13:08:25, поток 0] Что-то не так с IMAP - zasdfgrew2020@mail.ru:facebook_new
+[16.07.2020 13:08:25, поток 0] (Ошибка) Текст ошибки: System.IO.IOException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в MailKit.Net.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count) в D:\src\MailKit\MailKit\Net\NetworkStream.cs:строка 153
+   --- Конец трассировки внутреннего стека исключений ---
+   в MailKit.Net.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count) в D:\src\MailKit\MailKit\Net\NetworkStream.cs:строка 155
+   в MailKit.Net.Imap.ImapStream.<ReadAheadAsync>d__53.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapStream.cs:строка 330
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapStream.<ReadTokenAsync>d__68.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapStream.cs:строка 698
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapEngine.<ConnectAsync>d__154.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapEngine.cs:строка 718
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в MailKit.Net.Imap.ImapClient.<ConnectAsync>d__88.MoveNext() в D:\src\MailKit\MailKit\Net\Imap\ImapClient.cs:строка 1268
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в MailKit.Net.Imap.ImapClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken) в D:\src\MailKit\MailKit\Net\Imap\ImapClient.cs:строка 1392
+   в MailKit.MailService.Connect(String host, Int32 port, Boolean useSsl, CancellationToken cancellationToken) в D:\src\MailKit\MailKit\MailService.cs:строка 831
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.GetMailCodeIMAP() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 471
+[16.07.2020 13:08:40, поток 0] Пробуем зайти на почту.
+[16.07.2020 13:13:43, поток 0] Определили регион прокси - be-BY
+[16.07.2020 13:13:43, поток 0] Парсим куки...
+[16.07.2020 13:13:44, поток 0] Спарсили куки
+[16.07.2020 13:13:44, поток 0] Начинаем регистрацию...
+[16.07.2020 13:13:44, поток 0] Instagram отправил письмо на на почту - zasdfgrew2020@mail.ru
+[16.07.2020 13:16:21, поток 0] Определили регион прокси - be-BY
+[16.07.2020 13:16:22, поток 0] Парсим куки...
+[16.07.2020 13:16:24, поток 0] Спарсили куки
+[16.07.2020 13:16:24, поток 0] Начинаем регистрацию...
+[16.07.2020 13:16:24, поток 0] Instagram отправил письмо на на почту - zasdfgrew2020@mail.ru

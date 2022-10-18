@@ -42,7 +42,9 @@
             this.buttonOpenResultFile = new System.Windows.Forms.Button();
             this.buttonStop = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
-            this.comboBoxRegion = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBoxRegion = new System.Windows.Forms.TextBox();
+            this.textBoxInstVersion = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // buttonStart
@@ -140,22 +142,31 @@
             this.label14.ForeColor = System.Drawing.Color.Black;
             this.label14.Name = "label14";
             // 
-            // comboBoxRegion
+            // label2
             // 
-            resources.ApplyResources(this.comboBoxRegion, "comboBoxRegion");
-            this.comboBoxRegion.FormattingEnabled = true;
-            this.comboBoxRegion.Items.AddRange(new object[] {
-            resources.GetString("comboBoxRegion.Items"),
-            resources.GetString("comboBoxRegion.Items1"),
-            resources.GetString("comboBoxRegion.Items2")});
-            this.comboBoxRegion.Name = "comboBoxRegion";
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Name = "label2";
+            // 
+            // textBoxRegion
+            // 
+            resources.ApplyResources(this.textBoxRegion, "textBoxRegion");
+            this.textBoxRegion.Name = "textBoxRegion";
+            // 
+            // textBoxInstVersion
+            // 
+            resources.ApplyResources(this.textBoxInstVersion, "textBoxInstVersion");
+            this.textBoxInstVersion.Name = "textBoxInstVersion";
             // 
             // FormMobUserAgentActualizer
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.textBoxInstVersion);
+            this.Controls.Add(this.textBoxRegion);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.comboBoxRegion);
             this.Controls.Add(this.buttonStop);
             this.Controls.Add(this.textBoxResultFile);
             this.Controls.Add(this.label9);
@@ -189,6 +200,8 @@
         private System.Windows.Forms.Button buttonOpenResultFile;
         private System.Windows.Forms.Button buttonStop;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBoxRegion;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBoxRegion;
+        private System.Windows.Forms.TextBox textBoxInstVersion;
     }
 }

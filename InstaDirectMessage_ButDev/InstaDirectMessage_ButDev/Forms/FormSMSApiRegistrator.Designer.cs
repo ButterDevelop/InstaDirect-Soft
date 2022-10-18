@@ -165,11 +165,11 @@
             // 
             // buttonStart
             // 
+            resources.ApplyResources(this.buttonStart, "buttonStart");
             this.buttonStart.BackColor = System.Drawing.Color.Transparent;
             this.buttonStart.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonStart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
-            resources.ApplyResources(this.buttonStart, "buttonStart");
             this.buttonStart.ForeColor = System.Drawing.Color.Black;
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.UseVisualStyleBackColor = false;
@@ -177,11 +177,11 @@
             // 
             // buttonStop
             // 
+            resources.ApplyResources(this.buttonStop, "buttonStop");
             this.buttonStop.BackColor = System.Drawing.Color.Transparent;
             this.buttonStop.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonStop.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonStop.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
-            resources.ApplyResources(this.buttonStop, "buttonStop");
             this.buttonStop.ForeColor = System.Drawing.Color.Black;
             this.buttonStop.Name = "buttonStop";
             this.buttonStop.UseVisualStyleBackColor = false;
@@ -196,11 +196,11 @@
             // 
             // comboBoxTypeProxy
             // 
+            resources.ApplyResources(this.comboBoxTypeProxy, "comboBoxTypeProxy");
             this.comboBoxTypeProxy.FormattingEnabled = true;
             this.comboBoxTypeProxy.Items.AddRange(new object[] {
             resources.GetString("comboBoxTypeProxy.Items"),
             resources.GetString("comboBoxTypeProxy.Items1")});
-            resources.ApplyResources(this.comboBoxTypeProxy, "comboBoxTypeProxy");
             this.comboBoxTypeProxy.Name = "comboBoxTypeProxy";
             // 
             // labelBad
@@ -219,11 +219,11 @@
             // 
             // buttonSeeLog
             // 
+            resources.ApplyResources(this.buttonSeeLog, "buttonSeeLog");
             this.buttonSeeLog.BackColor = System.Drawing.Color.Transparent;
             this.buttonSeeLog.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonSeeLog.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonSeeLog.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
-            resources.ApplyResources(this.buttonSeeLog, "buttonSeeLog");
             this.buttonSeeLog.ForeColor = System.Drawing.Color.Black;
             this.buttonSeeLog.Name = "buttonSeeLog";
             this.buttonSeeLog.UseVisualStyleBackColor = false;
@@ -397,6 +397,7 @@
             // 
             // comboBoxCurrentInstagramVersion
             // 
+            resources.ApplyResources(this.comboBoxCurrentInstagramVersion, "comboBoxCurrentInstagramVersion");
             this.comboBoxCurrentInstagramVersion.Items.AddRange(new object[] {
             resources.GetString("comboBoxCurrentInstagramVersion.Items"),
             resources.GetString("comboBoxCurrentInstagramVersion.Items1"),
@@ -404,7 +405,6 @@
             resources.GetString("comboBoxCurrentInstagramVersion.Items3"),
             resources.GetString("comboBoxCurrentInstagramVersion.Items4"),
             resources.GetString("comboBoxCurrentInstagramVersion.Items5")});
-            resources.ApplyResources(this.comboBoxCurrentInstagramVersion, "comboBoxCurrentInstagramVersion");
             this.comboBoxCurrentInstagramVersion.Name = "comboBoxCurrentInstagramVersion";
             // 
             // checkBoxRegionAutoDetection
@@ -419,6 +419,7 @@
             // 
             // comboBoxService
             // 
+            resources.ApplyResources(this.comboBoxService, "comboBoxService");
             this.comboBoxService.FormattingEnabled = true;
             this.comboBoxService.Items.AddRange(new object[] {
             resources.GetString("comboBoxService.Items"),
@@ -426,7 +427,6 @@
             resources.GetString("comboBoxService.Items2"),
             resources.GetString("comboBoxService.Items3"),
             resources.GetString("comboBoxService.Items4")});
-            resources.ApplyResources(this.comboBoxService, "comboBoxService");
             this.comboBoxService.Name = "comboBoxService";
             // 
             // textBoxAPIKey
@@ -450,6 +450,7 @@
             // 
             // comboBoxPhoneRegion
             // 
+            resources.ApplyResources(this.comboBoxPhoneRegion, "comboBoxPhoneRegion");
             this.comboBoxPhoneRegion.FormattingEnabled = true;
             this.comboBoxPhoneRegion.Items.AddRange(new object[] {
             resources.GetString("comboBoxPhoneRegion.Items"),
@@ -550,7 +551,6 @@
             resources.GetString("comboBoxPhoneRegion.Items95"),
             resources.GetString("comboBoxPhoneRegion.Items96"),
             resources.GetString("comboBoxPhoneRegion.Items97")});
-            resources.ApplyResources(this.comboBoxPhoneRegion, "comboBoxPhoneRegion");
             this.comboBoxPhoneRegion.Name = "comboBoxPhoneRegion";
             // 
             // textBoxResultCheckpoint

@@ -1,0 +1,1152 @@
+﻿[06.05.2020 0:02:14, поток 0] Парсим куки...
+[06.05.2020 0:02:36, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '95.165.151.65:47881'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 160
+[06.05.2020 0:02:36, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:02:36, поток 0] Парсим куки...
+[06.05.2020 0:03:17, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '194.183.168.4:20564'.
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 160
+[06.05.2020 0:03:17, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:03:17, поток 0] Парсим куки...
+[06.05.2020 0:05:57, поток 0] Парсим куки...
+[06.05.2020 0:05:57, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '95.165.151.65:47881'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:05:57, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:05:57, поток 0] Парсим куки...
+[06.05.2020 0:05:58, поток 0] Спарсили куки
+[06.05.2020 0:05:58, поток 0] Получили куки...
+[06.05.2020 0:05:58, поток 0] Начинаем работу...
+[06.05.2020 0:05:58, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Значение параметра не может быть строкой нулевой длины.
+Имя параметра: value
+   в xNet.HttpRequest.AddHeader(String name, String value)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 277
+[06.05.2020 0:06:01, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:01, поток 0] Парсим куки...
+[06.05.2020 0:06:02, поток 0] Спарсили куки
+[06.05.2020 0:06:02, поток 0] Получили куки...
+[06.05.2020 0:06:02, поток 0] Начинаем работу...
+[06.05.2020 0:06:02, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:03, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:03, поток 0] Парсим куки...
+[06.05.2020 0:06:04, поток 0] Спарсили куки
+[06.05.2020 0:06:04, поток 0] Получили куки...
+[06.05.2020 0:06:04, поток 0] Начинаем работу...
+[06.05.2020 0:06:04, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:06, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:06, поток 0] Парсим куки...
+[06.05.2020 0:06:07, поток 0] Спарсили куки
+[06.05.2020 0:06:07, поток 0] Получили куки...
+[06.05.2020 0:06:07, поток 0] Начинаем работу...
+[06.05.2020 0:06:07, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:08, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:08, поток 0] Парсим куки...
+[06.05.2020 0:06:09, поток 0] Спарсили куки
+[06.05.2020 0:06:09, поток 0] Получили куки...
+[06.05.2020 0:06:09, поток 0] Начинаем работу...
+[06.05.2020 0:06:09, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:11, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:11, поток 0] Парсим куки...
+[06.05.2020 0:06:11, поток 0] Спарсили куки
+[06.05.2020 0:06:11, поток 0] Получили куки...
+[06.05.2020 0:06:11, поток 0] Начинаем работу...
+[06.05.2020 0:06:11, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:13, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:13, поток 0] Парсим куки...
+[06.05.2020 0:06:14, поток 0] Спарсили куки
+[06.05.2020 0:06:14, поток 0] Получили куки...
+[06.05.2020 0:06:14, поток 0] Начинаем работу...
+[06.05.2020 0:06:14, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:23, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:23, поток 0] Парсим куки...
+[06.05.2020 0:06:24, поток 0] Спарсили куки
+[06.05.2020 0:06:24, поток 0] Получили куки...
+[06.05.2020 0:06:24, поток 0] Начинаем работу...
+[06.05.2020 0:06:24, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:26, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:26, поток 0] Парсим куки...
+[06.05.2020 0:06:26, поток 0] Спарсили куки
+[06.05.2020 0:06:26, поток 0] Получили куки...
+[06.05.2020 0:06:26, поток 0] Начинаем работу...
+[06.05.2020 0:06:26, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:28, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:28, поток 0] Парсим куки...
+[06.05.2020 0:06:29, поток 0] Спарсили куки
+[06.05.2020 0:06:29, поток 0] Получили куки...
+[06.05.2020 0:06:29, поток 0] Начинаем работу...
+[06.05.2020 0:06:29, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:30, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:30, поток 0] Парсим куки...
+[06.05.2020 0:06:31, поток 0] Спарсили куки
+[06.05.2020 0:06:31, поток 0] Получили куки...
+[06.05.2020 0:06:31, поток 0] Начинаем работу...
+[06.05.2020 0:06:31, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:33, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:33, поток 0] Парсим куки...
+[06.05.2020 0:06:33, поток 0] Спарсили куки
+[06.05.2020 0:06:33, поток 0] Получили куки...
+[06.05.2020 0:06:33, поток 0] Начинаем работу...
+[06.05.2020 0:06:33, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:35, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:35, поток 0] Парсим куки...
+[06.05.2020 0:06:36, поток 0] Спарсили куки
+[06.05.2020 0:06:36, поток 0] Получили куки...
+[06.05.2020 0:06:36, поток 0] Начинаем работу...
+[06.05.2020 0:06:36, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:37, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:37, поток 0] Парсим куки...
+[06.05.2020 0:06:38, поток 0] Спарсили куки
+[06.05.2020 0:06:38, поток 0] Получили куки...
+[06.05.2020 0:06:38, поток 0] Начинаем работу...
+[06.05.2020 0:06:38, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:40, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:40, поток 0] Парсим куки...
+[06.05.2020 0:06:40, поток 0] Спарсили куки
+[06.05.2020 0:06:40, поток 0] Получили куки...
+[06.05.2020 0:06:40, поток 0] Начинаем работу...
+[06.05.2020 0:06:40, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:42, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:42, поток 0] Парсим куки...
+[06.05.2020 0:06:43, поток 0] Спарсили куки
+[06.05.2020 0:06:43, поток 0] Получили куки...
+[06.05.2020 0:06:43, поток 0] Начинаем работу...
+[06.05.2020 0:06:43, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:43, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:43, поток 0] Парсим куки...
+[06.05.2020 0:06:44, поток 0] Спарсили куки
+[06.05.2020 0:06:44, поток 0] Получили куки...
+[06.05.2020 0:06:44, поток 0] Начинаем работу...
+[06.05.2020 0:06:44, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:45, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:45, поток 0] Парсим куки...
+[06.05.2020 0:06:46, поток 0] Спарсили куки
+[06.05.2020 0:06:46, поток 0] Получили куки...
+[06.05.2020 0:06:46, поток 0] Начинаем работу...
+[06.05.2020 0:06:46, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:46, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:46, поток 0] Парсим куки...
+[06.05.2020 0:06:47, поток 0] Спарсили куки
+[06.05.2020 0:06:47, поток 0] Получили куки...
+[06.05.2020 0:06:47, поток 0] Начинаем работу...
+[06.05.2020 0:06:47, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:48, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:48, поток 0] Парсим куки...
+[06.05.2020 0:06:48, поток 0] Спарсили куки
+[06.05.2020 0:06:48, поток 0] Получили куки...
+[06.05.2020 0:06:48, поток 0] Начинаем работу...
+[06.05.2020 0:06:48, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:49, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:49, поток 0] Парсим куки...
+[06.05.2020 0:06:50, поток 0] Спарсили куки
+[06.05.2020 0:06:50, поток 0] Получили куки...
+[06.05.2020 0:06:50, поток 0] Начинаем работу...
+[06.05.2020 0:06:50, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:51, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:51, поток 0] Парсим куки...
+[06.05.2020 0:06:51, поток 0] Спарсили куки
+[06.05.2020 0:06:51, поток 0] Получили куки...
+[06.05.2020 0:06:51, поток 0] Начинаем работу...
+[06.05.2020 0:06:51, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:52, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:52, поток 0] Парсим куки...
+[06.05.2020 0:06:53, поток 0] Спарсили куки
+[06.05.2020 0:06:53, поток 0] Получили куки...
+[06.05.2020 0:06:53, поток 0] Начинаем работу...
+[06.05.2020 0:06:53, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:53, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:53, поток 0] Парсим куки...
+[06.05.2020 0:06:54, поток 0] Спарсили куки
+[06.05.2020 0:06:54, поток 0] Получили куки...
+[06.05.2020 0:06:54, поток 0] Начинаем работу...
+[06.05.2020 0:06:54, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:55, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:55, поток 0] Парсим куки...
+[06.05.2020 0:06:55, поток 0] Спарсили куки
+[06.05.2020 0:06:55, поток 0] Получили куки...
+[06.05.2020 0:06:55, поток 0] Начинаем работу...
+[06.05.2020 0:06:55, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:56, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:56, поток 0] Парсим куки...
+[06.05.2020 0:06:57, поток 0] Спарсили куки
+[06.05.2020 0:06:57, поток 0] Получили куки...
+[06.05.2020 0:06:57, поток 0] Начинаем работу...
+[06.05.2020 0:06:57, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:57, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:57, поток 0] Парсим куки...
+[06.05.2020 0:06:58, поток 0] Спарсили куки
+[06.05.2020 0:06:58, поток 0] Получили куки...
+[06.05.2020 0:06:58, поток 0] Начинаем работу...
+[06.05.2020 0:06:58, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:59, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:06:59, поток 0] Парсим куки...
+[06.05.2020 0:06:59, поток 0] Спарсили куки
+[06.05.2020 0:06:59, поток 0] Получили куки...
+[06.05.2020 0:06:59, поток 0] Начинаем работу...
+[06.05.2020 0:06:59, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:07:00, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:07:00, поток 0] Парсим куки...
+[06.05.2020 0:07:01, поток 0] Спарсили куки
+[06.05.2020 0:07:01, поток 0] Получили куки...
+[06.05.2020 0:07:01, поток 0] Начинаем работу...
+[06.05.2020 0:07:01, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:07:01, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Путь имеет недопустимую форму.
+   в System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   в System.IO.Path.GetFullPathInternal(String path)
+   в System.IO.Path.GetFullPath(String path)
+   в System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   в System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   в System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   в System.Drawing.Image.Save(String filename, ImageFormat format)
+   в System.Drawing.Image.Save(String filename)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 285
+[06.05.2020 0:07:01, поток 0] Парсим куки...
+[06.05.2020 0:11:27, поток 0] Парсим куки...
+[06.05.2020 0:11:27, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '95.165.151.65:47881'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:11:27, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:11:27, поток 0] Парсим куки...
+[06.05.2020 0:11:28, поток 0] Спарсили куки
+[06.05.2020 0:11:28, поток 0] Получили куки...
+[06.05.2020 0:11:28, поток 0] Начинаем работу...
+[06.05.2020 0:11:28, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Значение параметра не может быть строкой нулевой длины.
+Имя параметра: value
+   в xNet.HttpRequest.AddHeader(String name, String value)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 277
+[06.05.2020 0:13:36, поток 0] Парсим куки...
+[06.05.2020 0:13:36, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '95.165.151.65:47881'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:13:36, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:13:36, поток 0] Парсим куки...
+[06.05.2020 0:13:37, поток 0] Спарсили куки
+[06.05.2020 0:13:37, поток 0] Получили куки...
+[06.05.2020 0:13:37, поток 0] Начинаем работу...
+[06.05.2020 0:13:37, поток 0] (Ошибка) Текст ошибки: System.ArgumentException: Значение параметра не может быть строкой нулевой длины.
+Имя параметра: value
+   в xNet.HttpRequest.AddHeader(String name, String value)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.ChangeAvatar(String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 277
+[06.05.2020 0:13:56, поток 0] Парсим куки...
+[06.05.2020 0:13:57, поток 0] Спарсили куки
+[06.05.2020 0:13:57, поток 0] Получили куки...
+[06.05.2020 0:13:57, поток 0] Начинаем работу...
+[06.05.2020 0:17:00, поток 0] Парсим куки...
+[06.05.2020 0:17:01, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '95.165.151.65:47881'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:17:01, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:17:01, поток 0] Парсим куки...
+[06.05.2020 0:17:02, поток 0] Спарсили куки
+[06.05.2020 0:17:02, поток 0] Получили куки...
+[06.05.2020 0:17:02, поток 0] Начинаем работу...
+[06.05.2020 0:17:10, поток 0] Парсим куки...
+[06.05.2020 0:17:11, поток 0] Спарсили куки
+[06.05.2020 0:17:11, поток 0] Получили куки...
+[06.05.2020 0:17:11, поток 0] Начинаем работу...
+[06.05.2020 0:17:17, поток 0] Парсим куки...
+[06.05.2020 0:17:18, поток 0] Спарсили куки
+[06.05.2020 0:17:18, поток 0] Получили куки...
+[06.05.2020 0:17:18, поток 0] Начинаем работу...
+[06.05.2020 0:17:30, поток 0] Парсим куки...
+[06.05.2020 0:17:31, поток 0] Спарсили куки
+[06.05.2020 0:17:31, поток 0] Получили куки...
+[06.05.2020 0:17:31, поток 0] Начинаем работу...
+[06.05.2020 0:23:32, поток 0] Парсим куки...
+[06.05.2020 0:23:32, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '95.165.151.65:47881'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:23:32, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:23:32, поток 0] Парсим куки...
+[06.05.2020 0:23:33, поток 0] Спарсили куки
+[06.05.2020 0:23:33, поток 0] Получили куки...
+[06.05.2020 0:23:33, поток 0] Начинаем работу...
+[06.05.2020 0:30:23, поток 0] Парсим куки...
+[06.05.2020 0:30:23, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '95.165.151.65:47881'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:30:23, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:30:23, поток 0] Парсим куки...
+[06.05.2020 0:30:23, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20564'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:30:23, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:30:23, поток 0] Парсим куки...
+[06.05.2020 0:30:27, поток 0] Спарсили куки
+[06.05.2020 0:30:27, поток 0] Получили куки...
+[06.05.2020 0:30:27, поток 0] Начинаем работу...
+[06.05.2020 0:30:34, поток 0] Парсим куки...
+[06.05.2020 0:30:34, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:30:34, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:33:46, поток 0] Парсим куки...
+[06.05.2020 0:33:46, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '95.165.151.65:47881'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:33:46, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:33:46, поток 0] Парсим куки...
+[06.05.2020 0:33:47, поток 0] Спарсили куки
+[06.05.2020 0:33:47, поток 0] Получили куки...
+[06.05.2020 0:33:47, поток 0] Начинаем работу...
+[06.05.2020 0:33:55, поток 0] Парсим куки...
+[06.05.2020 0:33:55, поток 0] Спарсили куки
+[06.05.2020 0:33:55, поток 0] Получили куки...
+[06.05.2020 0:33:55, поток 0] Начинаем работу...
+[06.05.2020 0:34:37, поток 0] Парсим куки...
+[06.05.2020 0:34:38, поток 0] Спарсили куки
+[06.05.2020 0:34:38, поток 0] Получили куки...
+[06.05.2020 0:34:38, поток 0] Начинаем работу...
+[06.05.2020 0:38:23, поток 0] Парсим куки...
+[06.05.2020 0:38:28, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '95.165.151.65:47881'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:38:28, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:38:28, поток 0] Парсим куки...
+[06.05.2020 0:38:28, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20564'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:38:28, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:38:28, поток 0] Парсим куки...
+[06.05.2020 0:38:32, поток 0] Спарсили куки
+[06.05.2020 0:38:32, поток 0] Получили куки...
+[06.05.2020 0:38:32, поток 0] Начинаем работу...
+[06.05.2020 0:42:06, поток 0] Парсим куки...
+[06.05.2020 0:42:06, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '95.165.151.65:47881'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:42:06, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:42:06, поток 0] Парсим куки...
+[06.05.2020 0:42:07, поток 0] Спарсили куки
+[06.05.2020 0:42:07, поток 0] Получили куки...
+[06.05.2020 0:42:07, поток 0] Начинаем работу...
+[06.05.2020 0:42:14, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:42:14, поток 0] Парсим куки...
+[06.05.2020 0:42:15, поток 0] Спарсили куки
+[06.05.2020 0:42:15, поток 0] Получили куки...
+[06.05.2020 0:42:15, поток 0] Начинаем работу...
+[06.05.2020 0:42:30, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:45:37, поток 0] Парсим куки...
+[06.05.2020 0:45:37, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '95.165.151.65:47881'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 0:45:37, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:45:37, поток 0] Парсим куки...
+[06.05.2020 0:45:38, поток 0] Спарсили куки
+[06.05.2020 0:45:38, поток 0] Получили куки...
+[06.05.2020 0:45:38, поток 0] Начинаем работу...
+[06.05.2020 0:45:45, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 0:45:45, поток 0] Парсим куки...
+[06.05.2020 0:45:46, поток 0] Спарсили куки
+[06.05.2020 0:45:46, поток 0] Получили куки...
+[06.05.2020 0:45:46, поток 0] Начинаем работу...
+[06.05.2020 0:47:33, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 11:09:56, поток 0] Парсим куки...
+[06.05.2020 11:10:24, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '95.165.151.65:47881'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 11:10:24, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 11:10:24, поток 0] Парсим куки...
+[06.05.2020 11:10:47, поток 0] Спарсили куки
+[06.05.2020 11:10:47, поток 0] Получили куки...
+[06.05.2020 11:10:47, поток 0] Начинаем работу...
+[06.05.2020 11:11:17, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 11:11:17, поток 0] Парсим куки...
+[06.05.2020 11:11:37, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.InstagramAvatarChanger.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramAvatarChanger.cs:строка 166
+[06.05.2020 11:11:37, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 11:13:34, поток 0] Парсим куки...
+[06.05.2020 11:13:34, поток 0] Спарсили куки
+[06.05.2020 11:13:34, поток 0] Получили куки...
+[06.05.2020 11:13:34, поток 0] Начинаем работу...
+[06.05.2020 11:13:42, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 11:13:42, поток 0] Парсим куки...
+[06.05.2020 11:13:42, поток 0] Спарсили куки
+[06.05.2020 11:13:42, поток 0] Получили куки...
+[06.05.2020 11:13:42, поток 0] Начинаем работу...
+[06.05.2020 11:13:51, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 11:13:51, поток 0] Парсим куки...
+[06.05.2020 11:13:51, поток 0] Спарсили куки
+[06.05.2020 11:13:51, поток 0] Получили куки...
+[06.05.2020 11:13:51, поток 0] Начинаем работу...
+[06.05.2020 11:21:18, поток 0] Парсим куки...
+[06.05.2020 11:21:18, поток 0] Спарсили куки
+[06.05.2020 11:21:18, поток 0] Получили куки...
+[06.05.2020 11:21:18, поток 0] Начинаем работу...
+[06.05.2020 11:23:16, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 11:23:16, поток 0] Парсим куки...
+[06.05.2020 11:23:16, поток 0] Спарсили куки
+[06.05.2020 11:23:16, поток 0] Получили куки...
+[06.05.2020 11:23:16, поток 0] Начинаем работу...
+[06.05.2020 11:51:04, поток 0] Парсим куки...
+[06.05.2020 11:51:04, поток 0] Спарсили куки
+[06.05.2020 11:51:04, поток 0] Получили куки...
+[06.05.2020 11:51:04, поток 0] Начинаем работу...
+[06.05.2020 11:51:32, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 11:51:32, поток 0] Парсим куки...
+[06.05.2020 11:51:32, поток 0] Спарсили куки
+[06.05.2020 11:51:32, поток 0] Получили куки...
+[06.05.2020 11:51:32, поток 0] Начинаем работу...
+[06.05.2020 11:57:36, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 11:57:36, поток 0] Парсим куки...
+[06.05.2020 11:57:36, поток 0] Спарсили куки
+[06.05.2020 11:57:36, поток 0] Получили куки...
+[06.05.2020 11:57:36, поток 0] Начинаем работу...
+[06.05.2020 11:57:42, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 12:06:11, поток 0] Парсим куки...
+[06.05.2020 12:06:11, поток 0] Спарсили куки
+[06.05.2020 12:06:11, поток 0] Получили куки...
+[06.05.2020 12:06:11, поток 0] Начинаем работу...
+[06.05.2020 12:06:19, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 12:06:19, поток 0] Парсим куки...
+[06.05.2020 12:06:20, поток 0] Спарсили куки
+[06.05.2020 12:06:20, поток 0] Получили куки...
+[06.05.2020 12:06:20, поток 0] Начинаем работу...
+[06.05.2020 12:06:37, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 12:06:37, поток 0] Парсим куки...
+[06.05.2020 12:06:38, поток 0] Спарсили куки
+[06.05.2020 12:06:38, поток 0] Получили куки...
+[06.05.2020 12:06:38, поток 0] Начинаем работу...
+[06.05.2020 12:06:45, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 12:09:20, поток 0] Парсим куки...
+[06.05.2020 12:09:20, поток 0] Спарсили куки
+[06.05.2020 12:09:20, поток 0] Получили куки...
+[06.05.2020 12:09:20, поток 0] Начинаем работу...
+[06.05.2020 12:09:27, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 12:09:27, поток 0] Парсим куки...
+[06.05.2020 12:09:27, поток 0] Спарсили куки
+[06.05.2020 12:09:27, поток 0] Получили куки...
+[06.05.2020 12:09:27, поток 0] Начинаем работу...
+[06.05.2020 12:11:35, поток 0] Парсим куки...
+[06.05.2020 12:11:35, поток 0] Спарсили куки
+[06.05.2020 12:11:35, поток 0] Получили куки...
+[06.05.2020 12:11:35, поток 0] Начинаем работу...
+[06.05.2020 12:11:53, поток 0] [DEBUG] Сменили прокси.
+[06.05.2020 12:11:53, поток 0] Парсим куки...
+[06.05.2020 12:11:53, поток 0] Спарсили куки
+[06.05.2020 12:11:53, поток 0] Получили куки...
+[06.05.2020 12:11:53, поток 0] Начинаем работу...
+[06.05.2020 12:13:15, поток 0] Парсим куки...
+[06.05.2020 12:13:15, поток 0] Спарсили куки
+[06.05.2020 12:13:15, поток 0] Получили куки...
+[06.05.2020 12:13:15, поток 0] Начинаем работу...
+[06.05.2020 14:20:54, поток 0] Парсим куки...
+[06.05.2020 14:20:56, поток 0] Спарсили куки
+[06.05.2020 14:20:56, поток 0] Получили куки...
+[06.05.2020 14:20:56, поток 0] Начинаем работу...

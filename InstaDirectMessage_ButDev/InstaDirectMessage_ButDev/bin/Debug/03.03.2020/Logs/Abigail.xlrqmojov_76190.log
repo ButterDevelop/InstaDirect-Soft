@@ -1,0 +1,46 @@
+[03.03.2020 20:58:21, поток 0] [DEBUG] Start...
+[03.03.2020 20:58:21, поток 0] Берём заданные куки...
+[03.03.2020 20:58:21, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:58:22, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:58:22, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 20:59:22, поток 0] [DEBUG] Start...
+[03.03.2020 20:59:22, поток 0] Берём заданные куки...
+[03.03.2020 20:59:43, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:59:44, поток 0] Спарсили куки
+[03.03.2020 20:59:47, поток 0] Вошли в аккаунт.
+[03.03.2020 20:59:48, поток 0] Сообщение отправлено.
+[03.03.2020 20:58:21, поток 0] [DEBUG] Start...
+[03.03.2020 20:58:21, поток 0] Берём заданные куки...
+[03.03.2020 20:58:22, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:58:22, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ProxyAuthenticationRequired' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaDirectMessage_ButDev.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 73
+   в InstaDirectMessage_ButDev.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 170
+[03.03.2020 20:58:22, поток 0] [DEBUG] Сменили прокси.
+[03.03.2020 20:59:22, поток 0] [DEBUG] Start...
+[03.03.2020 20:59:22, поток 0] Берём заданные куки...
+[03.03.2020 20:59:43, поток 0] [Ошибка] Что-то не так. Переделываем.
+[03.03.2020 20:59:45, поток 0] Спарсили куки
+[03.03.2020 20:59:47, поток 0] Вошли в аккаунт.
+[03.03.2020 20:59:48, поток 0] Сообщение отправлено.

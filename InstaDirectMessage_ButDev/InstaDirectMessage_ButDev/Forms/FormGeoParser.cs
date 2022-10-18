@@ -18,10 +18,11 @@ namespace InstaDirectMessage_ButDev
 {
     public partial class FormGeoParser : Form
     {
-        public static string ProxyPath = "", GeolocationsPath = "", ResultPath = "", ResultPathStatic = "", PROXYTYPE = "", time = "", ApiProxyUrl = "";
+        public static string ProxyPath = "", GeolocationsPath = "", AccountsPath = "", ResultPath = "", ResultPathStatic = "", PROXYTYPE = "", time = "", ApiProxyUrl = "";
         public static int ThreadsCount = 0, Final = 0, finalresult = 0, HowManyID = 0, ApiProxyTimeout = 0;
         public static List<string> Proxy = new List<string>();
         public static List<string> Geolocations = new List<string>();
+        public static List<string> Accounts = new List<string>();
         public static bool stop = true, isApiProxy = false;
 
         public FormGeoParser()
@@ -52,6 +53,7 @@ namespace InstaDirectMessage_ButDev
 
             ProxyPath = textBoxProxy.Text;
             GeolocationsPath = textBoxGeolocations.Text;
+            AccountsPath = textBoxAccounts.Text;
             ResultPath = textBoxResultPath.Text;
         }
 
@@ -88,6 +90,7 @@ namespace InstaDirectMessage_ButDev
             if (!int.TryParse(textBoxThreadsCount.Text, out ThreadsCount) || ThreadsCount <= 0) { MessageBox.Show(Translate.Tr("Количество потоков указано некорректно!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
             if (!int.TryParse(textBoxHowManyID.Text, out HowManyID) || HowManyID < 0) { MessageBox.Show(Translate.Tr("Количество ID для парсинга указано некорректно!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
             if (GeolocationsPath == "") { MessageBox.Show(Translate.Tr("Файл с геолокациями не указан!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
+            if (AccountsPath == "") { MessageBox.Show(Translate.Tr("Файл с аккаунтами не указан!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
 
             if (isApiProxy)
             {
@@ -155,6 +158,17 @@ namespace InstaDirectMessage_ButDev
                     Geolocations.Add(line);
                 }
             }
+
+            //Load Accounts
+            using (StreamReader sr = new StreamReader(AccountsPath, Encoding.UTF8))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    Accounts.Add(line);
+                }
+            }
+            InstagramGeoParser.Accounts = Accounts;
 
             //Load User Agents
             var UserAgents = Properties.Resources.UserAgents.Split(new char[1] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
@@ -300,9 +314,9 @@ namespace InstaDirectMessage_ButDev
 
         private async void Work(int L, int R, int tt, IProgress<int> progress, IProgress<string> log, IProgress<int> setGood)
         {
-            await Task.Run(() => MainThread(L, R, tt, (Proxy.Count / (ThreadsCount + 1)) * tt, progress, log, setGood));
+            await Task.Run(() => MainThread(L, R, tt, (Proxy.Count / (ThreadsCount + 1)) * tt, (Accounts.Count / (ThreadsCount + 1)) * tt, progress, log, setGood));
         }
-        private void MainThread(int L, int R, int tt, int indx, IProgress<int> progress, IProgress<string> log, IProgress<int> setGood)
+        private void MainThread(int L, int R, int tt, int indx, int indexAcc, IProgress<int> progress, IProgress<string> log, IProgress<int> setGood)
         {
             for (int i = L; i < R; i++)
             {
@@ -311,7 +325,7 @@ namespace InstaDirectMessage_ButDev
                     if (stop) return;
                     if (i >= Geolocations.Count) break;
 
-                    InstagramGeoParser parser = new InstagramGeoParser(Geolocations[i], indx, tt, setGood);
+                    InstagramGeoParser parser = new InstagramGeoParser(Geolocations[i], indx, indexAcc, tt, setGood);
                     progress.Report(parser.good);
 
                     log.Report(parser.log);
@@ -357,6 +371,19 @@ namespace InstaDirectMessage_ButDev
 
             textBoxGeolocations.Text = openFileDialog.FileName;
             GeolocationsPath = openFileDialog.FileName;
+        }
+
+        private void buttonOpenAccounts_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
+            if (openFileDialog.ShowDialog() == DialogResult.Cancel)
+            {
+                return;
+            }
+
+            textBoxAccounts.Text = openFileDialog.FileName;
+            AccountsPath = openFileDialog.FileName;
         }
     }
 }

@@ -1,0 +1,1498 @@
+﻿[31.01.2021 15:34:59, thread 0] Parsing cookies...
+[31.01.2021 15:35:00, thread 1] Parsing cookies...
+[31.01.2021 15:35:00, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.165:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:00, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:00, thread 0] Parsing cookies...
+[31.01.2021 15:35:00, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18388'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:00, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:00, thread 1] Parsing cookies...
+[31.01.2021 15:35:00, thread 2] Parsing cookies...
+[31.01.2021 15:35:00, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14808'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:00, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:00, thread 1] Parsing cookies...
+[31.01.2021 15:35:00, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18389'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:00, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:00, thread 0] Parsing cookies...
+[31.01.2021 15:35:01, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.167:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:01, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 2] Parsing cookies...
+[31.01.2021 15:35:01, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18387'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:01, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18386'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:01, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 2] Parsing cookies...
+[31.01.2021 15:35:01, thread 3] Parsing cookies...
+[31.01.2021 15:35:01, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:01, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18385'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:01, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 3] Parsing cookies...
+[31.01.2021 15:35:01, thread 4] Parsing cookies...
+[31.01.2021 15:35:01, thread 4] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14810'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:01, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 4] Parsing cookies...
+[31.01.2021 15:35:01, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14809'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:01, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 3] Parsing cookies...
+[31.01.2021 15:35:01, thread 4] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18383'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:01, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 4] Parsing cookies...
+[31.01.2021 15:35:01, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18384'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:01, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 5] Parsing cookies...
+[31.01.2021 15:35:01, thread 4] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18378'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:01, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18376'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:01, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 5] Parsing cookies...
+[31.01.2021 15:35:01, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18374'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:01, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:01, thread 5] Parsing cookies...
+[31.01.2021 15:35:02, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18372'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:02, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:02, thread 1] Parsing cookies...
+[31.01.2021 15:35:02, thread 0] Parsing cookies...
+[31.01.2021 15:35:02, thread 6] Parsing cookies...
+[31.01.2021 15:35:02, thread 6] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18370'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:02, thread 6] [DEBUG] Changed proxies.
+[31.01.2021 15:35:02, thread 6] Parsing cookies...
+[31.01.2021 15:35:02, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18388'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:02, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:02, thread 2] Parsing cookies...
+[31.01.2021 15:35:02, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:02, thread 0] Parsing cookies...
+[31.01.2021 15:35:02, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14808'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:02, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:02, thread 1] Parsing cookies...
+[31.01.2021 15:35:02, thread 7] Parsing cookies...
+[31.01.2021 15:35:02, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18389'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:02, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:02, thread 0] Parsing cookies...
+[31.01.2021 15:35:02, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14807'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:02, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:02, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18387'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:02, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:02, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.167:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:02, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:02, thread 2] Parsing cookies...
+[31.01.2021 15:35:02, thread 3] Parsing cookies...
+[31.01.2021 15:35:02, thread 4] Parsing cookies...
+[31.01.2021 15:35:02, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18385'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:02, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:02, thread 3] Parsing cookies...
+[31.01.2021 15:35:02, thread 4] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14810'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:02, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:02, thread 4] Parsing cookies...
+[31.01.2021 15:35:03, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14809'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:03, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:03, thread 3] Parsing cookies...
+[31.01.2021 15:35:03, thread 4] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18383'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:03, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:03, thread 4] Parsing cookies...
+[31.01.2021 15:35:03, thread 8] Parsing cookies...
+[31.01.2021 15:35:03, thread 5] Parsing cookies...
+[31.01.2021 15:35:03, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18384'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:03, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:03, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18376'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:03, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:03, thread 5] Parsing cookies...
+[31.01.2021 15:35:03, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18374'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:03, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:03, thread 5] Parsing cookies...
+[31.01.2021 15:35:03, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18372'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:03, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:03, thread 1] Parsing cookies...
+[31.01.2021 15:35:03, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.165:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:03, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:03, thread 0] Parsing cookies...
+[31.01.2021 15:35:03, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:03, thread 1] Parsing cookies...
+[31.01.2021 15:35:03, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18386'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:03, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:03, thread 2] Parsing cookies...
+[31.01.2021 15:35:03, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18389'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:03, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14808'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:03, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:03, thread 1] Parsing cookies...
+[31.01.2021 15:35:03, thread 0] Parsing cookies...
+[31.01.2021 15:35:03, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:03, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:04, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18387'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:04, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:04, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:04, thread 9] Parsing cookies...
+[31.01.2021 15:35:04, thread 4] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18378'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:04, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:04, thread 3] Parsing cookies...
+[31.01.2021 15:35:04, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18385'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:04, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:04, thread 3] Parsing cookies...
+[31.01.2021 15:35:04, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14809'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:04, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:04, thread 3] Parsing cookies...
+[31.01.2021 15:35:04, thread 5] Parsing cookies...
+[31.01.2021 15:35:04, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18376'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:04, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:04, thread 5] Parsing cookies...
+[31.01.2021 15:35:04, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18384'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:04, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:04, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18374'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:04, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:04, thread 5] Parsing cookies...
+[31.01.2021 15:35:04, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18372'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:04, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:04, thread 2] Parsing cookies...
+[31.01.2021 15:35:05, thread 1] Parsing cookies...
+[31.01.2021 15:35:05, thread 4] Parsing cookies...
+[31.01.2021 15:35:05, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18388'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.165:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 1] Parsing cookies...
+[31.01.2021 15:35:05, thread 0] Parsing cookies...
+[31.01.2021 15:35:05, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.167:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 4] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14810'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 2] Parsing cookies...
+[31.01.2021 15:35:05, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 4] Parsing cookies...
+[31.01.2021 15:35:05, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14808'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 1] Parsing cookies...
+[31.01.2021 15:35:05, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18389'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 0] Parsing cookies...
+[31.01.2021 15:35:05, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18386'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 2] Parsing cookies...
+[31.01.2021 15:35:05, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14807'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18387'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 4] Parsing cookies...
+[31.01.2021 15:35:05, thread 3] Parsing cookies...
+[31.01.2021 15:35:05, thread 4] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18378'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18385'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 3] Parsing cookies...
+[31.01.2021 15:35:05, thread 5] Parsing cookies...
+[31.01.2021 15:35:05, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14809'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 3] Parsing cookies...
+[31.01.2021 15:35:05, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18376'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 5] Parsing cookies...
+[31.01.2021 15:35:05, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18384'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18374'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:05, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:05, thread 5] Parsing cookies...
+[31.01.2021 15:35:06, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18372'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:06, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:06, thread 0] Parsing cookies...
+[31.01.2021 15:35:06, thread 1] Parsing cookies...
+[31.01.2021 15:35:06, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.165:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:06, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:06, thread 0] Parsing cookies...
+[31.01.2021 15:35:06, thread 4] Parsing cookies...
+[31.01.2021 15:35:06, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18388'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:06, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:06, thread 1] Parsing cookies...
+[31.01.2021 15:35:06, thread 2] Parsing cookies...
+[31.01.2021 15:35:06, thread 4] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14810'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:06, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:06, thread 4] Parsing cookies...
+[31.01.2021 15:35:06, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14808'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:06, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:06, thread 1] Parsing cookies...
+[31.01.2021 15:35:06, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.167:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:06, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:06, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18389'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:06, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:06, thread 0] Parsing cookies...
+[31.01.2021 15:35:06, thread 3] Parsing cookies...
+[31.01.2021 15:35:07, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14807'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:07, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:07, thread 4] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18383'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:07, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18387'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:07, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:07, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18386'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:07, thread 4] Parsing cookies...
+[31.01.2021 15:35:07, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:07, thread 2] Parsing cookies...
+[31.01.2021 15:35:07, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18385'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:07, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:07, thread 3] Parsing cookies...
+[31.01.2021 15:35:07, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18376'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:07, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:07, thread 5] Parsing cookies...
+[31.01.2021 15:35:07, thread 4] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18378'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:07, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:07, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14809'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:07, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:07, thread 3] Parsing cookies...
+[31.01.2021 15:35:07, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:07, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18384'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:07, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:07, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18374'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:07, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:07, thread 5] Parsing cookies...
+[31.01.2021 15:35:07, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18372'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:07, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 0] Parsing cookies...
+[31.01.2021 15:35:08, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.165:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 0] Parsing cookies...
+[31.01.2021 15:35:08, thread 4] Parsing cookies...
+[31.01.2021 15:35:08, thread 2] Parsing cookies...
+[31.01.2021 15:35:08, thread 3] Parsing cookies...
+[31.01.2021 15:35:08, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18389'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 0] Parsing cookies...
+[31.01.2021 15:35:08, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.167:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 2] Parsing cookies...
+[31.01.2021 15:35:08, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18388'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 1] Parsing cookies...
+[31.01.2021 15:35:08, thread 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14807'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 0] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 5] Parsing cookies...
+[31.01.2021 15:35:08, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18385'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18386'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 2] Parsing cookies...
+[31.01.2021 15:35:08, thread 3] Parsing cookies...
+[31.01.2021 15:35:08, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14808'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 1] Parsing cookies...
+[31.01.2021 15:35:08, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 4] Parsing cookies...
+[31.01.2021 15:35:08, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18376'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 5] Parsing cookies...
+[31.01.2021 15:35:08, thread 4] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18378'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:14809'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 3] Parsing cookies...
+[31.01.2021 15:35:08, thread 4] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 1] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18387'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 1] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 2] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:14704'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 2] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18374'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:08, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:08, thread 5] Parsing cookies...
+[31.01.2021 15:35:08, thread 3] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.169:18384'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:09, thread 3] [DEBUG] Changed proxies.
+[31.01.2021 15:35:09, thread 5] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен ошибочный ответ от прокси-сервера '185.112.100.171:18372'.
+   at xNet.HttpProxyClient.ReceiveResponse(NetworkStream nStream)
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:09, thread 5] [DEBUG] Changed proxies.
+[31.01.2021 15:35:12, thread 6] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.112.100.171:18368'.
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:12, thread 6] [DEBUG] Changed proxies.
+[31.01.2021 15:35:12, thread 6] Parsing cookies...
+[31.01.2021 15:35:12, thread 7] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.112.100.169:21978'.
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:12, thread 7] [DEBUG] Changed proxies.
+[31.01.2021 15:35:12, thread 7] Parsing cookies...
+[31.01.2021 15:35:13, thread 8] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.112.100.165:18532'.
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:13, thread 8] [DEBUG] Changed proxies.
+[31.01.2021 15:35:13, thread 8] Parsing cookies...
+[31.01.2021 15:35:14, thread 9] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.112.100.171:18613'.
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:14, thread 9] [DEBUG] Changed proxies.
+[31.01.2021 15:35:14, thread 9] Parsing cookies...
+[31.01.2021 15:35:22, thread 6] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.112.100.165:28523'.
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:22, thread 6] [DEBUG] Changed proxies.
+[31.01.2021 15:35:22, thread 7] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.112.100.167:18532'.
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:22, thread 7] [DEBUG] Changed proxies.
+[31.01.2021 15:35:22, thread 7] Parsing cookies...
+[31.01.2021 15:35:23, thread 8] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.112.100.171:18615'.
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:23, thread 8] [DEBUG] Changed proxies.
+[31.01.2021 15:35:23, thread 8] Parsing cookies...
+[31.01.2021 15:35:24, thread 9] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.112.100.165:18531'.
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:24, thread 9] [DEBUG] Changed proxies.
+[31.01.2021 15:35:24, thread 9] Parsing cookies...
+[31.01.2021 15:35:32, thread 7] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.112.100.171:18617'.
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:32, thread 7] [DEBUG] Changed proxies.
+[31.01.2021 15:35:33, thread 8] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.112.100.167:18531'.
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:33, thread 8] [DEBUG] Changed proxies.
+[31.01.2021 15:35:34, thread 9] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Вышло время ожидания подключения к прокси-серверу '185.112.100.171:18611'.
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 167
+[31.01.2021 15:35:34, thread 9] [DEBUG] Changed proxies.
+[31.01.2021 15:38:19, thread 0] Parsing cookies...
+[31.01.2021 15:38:19, thread 1] Parsing cookies...
+[31.01.2021 15:38:20, thread 1] Cookie parsing
+[31.01.2021 15:38:20, thread 1] Got cookies...
+[31.01.2021 15:38:20, thread 1] We start parsing...
+[31.01.2021 15:38:20, thread 0] Got cookies...
+[31.01.2021 15:38:20, thread 0] We start parsing...
+[31.01.2021 15:38:24, thread 0] Parsing hashtag "minsk" is over!
+[31.01.2021 15:38:24, thread 1] Parsing hashtag "java" is over!

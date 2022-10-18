@@ -24,14 +24,15 @@ namespace InstaDirectMessage_ButDev
         public static List<string> Proxy = new List<string>();
         public static List<string> ID = new List<string>();
         public static string[] UserAgents, UserAgentsMob;
-        public static string path = "", proxytype = "", GoodPath = "", Last = "", link = "", postlink = "", TEXT = "", TYPE = "", UserName = "";
+        public static string path = "", proxytype = "", GoodPath = "", Last = "", link = "", postlink = "", TEXT = "", TYPE = "", UserName = "", logincookie = "", logincookieMob = "";
         public static int index = 0, Interval = 60;
         public const string ConstString = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_";
         public static bool stop = false;
         public void DoResult(string s)
         {
+            if (ID.Contains(s)) return;
             ID.Add(s);
-            Last = s;
+            //Last = s;
             //good = 1;
         }
 
@@ -60,22 +61,37 @@ namespace InstaDirectMessage_ButDev
                 request.IgnoreProtocolErrors = true;
 
                 Random rnd = new Random(Guid.NewGuid().GetHashCode());
-                request.UserAgent = UserAgents[rnd.Next(UserAgents.Length)];
+                request.UserAgent = UserAgentsMob[rnd.Next(UserAgentsMob.Length)];
                 request.KeepAlive = true;
                 if (proxytype == "HTTP") request.Proxy = HttpProxyClient.Parse(Proxy[index % Proxy.Count]); else request.Proxy = Socks5ProxyClient.Parse(Proxy[index % Proxy.Count]);
                 request.Proxy.ConnectTimeout = Properties.Settings.Default.ProxyTimeout * 1000;
 
-                xNet.HttpResponse response = request.Get($"https://www.instagram.com/{nick}/?__a=1");
+                xNet.HttpResponse response = request.Get($"https://i.instagram.com/api/v1/users/web_profile_info/?username={nick}");
 
                 try
                 {
                     html = response.ToString();
-                    Json_FromNicknameToID_Instagram.Root json = JsonConvert.DeserializeObject<Json_FromNicknameToID_Instagram.Root>(html);
-                    id = json.graphql.user.id;
+                    //Json_FromNicknameToID_Instagram.Root json = JsonConvert.DeserializeObject<Json_FromNicknameToID_Instagram.Root>(html);
+                    //id = json.data.user.id;
+                    Regex regex = new Regex("\"id\":\"(.*)\",\"is_business_account\"");
+                    id = regex.Match(html).Groups[1].Value;
                 }
                 catch (Exception e) { /*MessageBox.Show(e.ToString());*/ }
             }
             return id;
+        }
+
+        long LongRandom(long min, long max, Random rand)
+        {
+            byte[] buf = new byte[8];
+            rand.NextBytes(buf);
+            long longRand = BitConverter.ToInt64(buf, 0);
+            return (Math.Abs(longRand % (max - min)) + min);
+        }
+        string generate_mutation_token()
+        {
+            Random random = new Random(Guid.NewGuid().GetHashCode());
+            return LongRandom(6800011111111111111, 6800099999999999999, random).ToString();
         }
 
         public InstagramFollowersGreeting(string acc, IProgress<int> setGood)
@@ -152,8 +168,8 @@ namespace InstaDirectMessage_ButDev
                 if (Rival == "-1") { Log(Translate.Tr("Не удалось получить ID аккаунта! ") + Login); return; }
 
                 int result = -1;
-                string logincookie = localcookie;
-
+                if (logincookie == "") logincookie = localcookie;
+                    
                 if (logincookie != "")
                 {
                     result = GetFirstData(logincookie);
@@ -165,6 +181,7 @@ namespace InstaDirectMessage_ButDev
 
                 if (logincookie == "-1") { Log(Translate.Tr("Не удалось войти в аккаунт! Попробуем снова. ") + Login); good = new KeyValuePair<int, int>(0, 0); SwapProxy(); return; }
                 if (logincookie == "checkpoint") { Log(Translate.Tr("Наткнулись на чекпойнт! ") + Login); good = new KeyValuePair<int, int>(0, 0); return; }
+                Log(Translate.Tr("Получили куки...") + " - " + logincookie);
 
                 result = GetFirstData(logincookie);
                 int attempts = 0;
@@ -191,13 +208,14 @@ namespace InstaDirectMessage_ButDev
                     return;
                 }
 
-                logincookie = DoLoginMob(UserAgentMob, cookie);
+                if (logincookieMob == "") logincookieMob = DoLoginMob(UserAgentMob, cookie);
+                Log(Translate.Tr("Получили куки...") + " (mobile) - " + logincookieMob);
                 if (logincookie == "-1") { Log(Translate.Tr("Не удалось войти в аккаунт с мобильной версии! Попробуем снова. ") + Login); good = new KeyValuePair<int, int>(0, 0); SwapProxy(); return; }
 
                 good = new KeyValuePair<int, int>(0, ID.Count);
                 for (int i = 0; i < ID.Count; i++)
                 {
-                    bool res = DoWork(ID[i], link, postlink, UserAgentMob, logincookie);
+                    bool res = DoWork(ID[i], link, postlink, UserAgentMob, logincookieMob);
                     if (res)
                     {
                         Log(Translate.Tr("Сообщение отправлено.") + " " + Login);
@@ -229,7 +247,7 @@ namespace InstaDirectMessage_ButDev
         {
             try
             {
-                string rur = "", csrftoken = "", ig_did = "";
+                string mid = "", csrftoken = "", ig_did = "";
                 using (var request = new xNet.HttpRequest())
                 {
                     request.SslCertificateValidatorCallback += ServerCertificateValidationCallbackInstagram;
@@ -247,7 +265,7 @@ namespace InstaDirectMessage_ButDev
                         var c = response.Cookies;
                         foreach (var cooke in c)
                         {
-                            if (cooke.Key == "rur") { rur = cooke.Value; }
+                            if (cooke.Key == "mid") { mid = cooke.Value; }
                             else
                             if (cooke.Key == "csrftoken") { csrftoken = cooke.Value; }
                             else
@@ -259,7 +277,7 @@ namespace InstaDirectMessage_ButDev
 
                 if (csrftoken == "" || ig_did == "") { Log(Translate.Tr("[DEBUG] Не удалось спарсить Cookie. Плохие прокси?")); SwapProxy(); return "-1"; }
                 csrfGlobal = csrftoken;
-                string cookie = $"csrftoken={csrftoken}; rur={rur}; mid={ig_did};";
+                string cookie = $"csrftoken={csrftoken}; mid={mid}; ig_did={ig_did};";
                 Log(Translate.Tr("Спарсили куки"));
                 return cookie;
             } catch(Exception ex)
@@ -325,13 +343,13 @@ namespace InstaDirectMessage_ButDev
                 }
 
                 csrfGlobal = csrftok;
-                cookie = $"ig_did={ig_did}; rur={rur}; csrftoken={csrftok}";
+                cookie = $"ig_did={ig_did}; mid={mid}; csrftoken={csrftok}";
                 string logincookie = $"rur={rur}; csrftoken={csrftok}; ds_user={Login}; ds_user_id={ds_user_id}; sessionid={sessionid};";
                 Console.WriteLine(logincookie);
 
                 if (html.Contains("challenge")) Log(Translate.Tr("Чекпойнт - ") + Login + ":" + Password);
 
-                if (!html.Contains("\"status\": \"ok\"")) return "checkpoint";
+                if (!html.Contains("\"status\":\"ok\"")) return "checkpoint";
                 return logincookie;
             }
             catch (Exception ex)
@@ -375,11 +393,17 @@ namespace InstaDirectMessage_ButDev
                     }
                     catch { }
 
-                    Console.WriteLine(html);
+                    //Console.WriteLine(html);
 
                     Json_Followers_Data.RootObject json = JsonConvert.DeserializeObject<Json_Followers_Data.RootObject>(html);
 
                     if (json.data.user.edge_followed_by.page_info.has_next_page) end_cursor = json.data.user.edge_followed_by.page_info.end_cursor;
+
+                    string newLast = "";
+                    if (json.data.user.edge_followed_by.edges.Count > 0)
+                    {
+                        newLast = json.data.user.edge_followed_by.edges[0].node.id;
+                    }
 
                     foreach (var a in json.data.user.edge_followed_by.edges)
                     {
@@ -388,6 +412,7 @@ namespace InstaDirectMessage_ButDev
                         if (x == Last) return 2;
                         DoResult(x);
                     }
+                    Last = newLast;
                     if (json.data.user.edge_followed_by.edges.Count == 0 && Last == "") Last = "-1";
 
                     if (json.data.user.edge_followed_by.page_info.has_next_page) return 1; else return 2;
@@ -444,6 +469,12 @@ namespace InstaDirectMessage_ButDev
                     
                     if (json.data.user.edge_followed_by.page_info.has_next_page) end_cursor = json.data.user.edge_followed_by.page_info.end_cursor;
 
+                    string newLast = "";
+                    if (json.data.user.edge_followed_by.edges.Count > 0)
+                    {
+                        newLast = json.data.user.edge_followed_by.edges[0].node.id;
+                    }
+
                     foreach (var a in json.data.user.edge_followed_by.edges)
                     {
                         string x = a.node.id;
@@ -451,6 +482,7 @@ namespace InstaDirectMessage_ButDev
                         if (x == Last) return 2;
                         DoResult(x);
                     }
+                    Last = newLast;
                     if (json.data.user.edge_followed_by.edges.Count == 0 && Last == "") Last = "-1";
 
                     if (json.data.user.edge_followed_by.page_info.has_next_page) return 1; else return 2;
@@ -534,7 +566,7 @@ namespace InstaDirectMessage_ButDev
 
                 //MessageBox.Show("1: " + html);
 
-                if (html.Contains("\"status\": \"ok\""))
+                if (html.Contains("\"status\":\"ok\""))
                 {
                     Log(Translate.Tr("Вошли в аккаунт."));
                     return logincookie;
@@ -583,7 +615,7 @@ namespace InstaDirectMessage_ButDev
                     request.SslCertificateValidatorCallback += ServerCertificateValidationCallbackInstagram;
                     request.IgnoreProtocolErrors = true;
                     var reqParams = new RequestParams();
-                    reqParams["text"] = TEXT;
+                    reqParams["text"] = Utils.RandPattern(TEXT);
                     reqParams["recipient_users"] = "[[" + id + "]]";
 
                     request.UserAgent = UserAgent;
@@ -607,10 +639,10 @@ namespace InstaDirectMessage_ButDev
                     catch { }
 
                     //MessageBox.Show("2: " + html);
-                    if (html.Contains("\"spam\": true")) { good = new KeyValuePair<int, int>(0, 0); Log(Translate.Tr("Лимит сообщений.")); return false; }
+                    if (html.Contains("\"spam\":true")) { good = new KeyValuePair<int, int>(0, 0); Log(Translate.Tr("Лимит сообщений.")); return false; }
                     if (html.Contains("Unloadable")) { good = new KeyValuePair<int, int>(0, 0); Log(Translate.Tr("Не нашли данного ID!")); return false; }
 
-                    return html.Contains("\"status\": \"ok\"");
+                    return html.Contains("\"status\":\"ok\"");
                 }
             }
             catch (Exception ex)
@@ -629,12 +661,21 @@ namespace InstaDirectMessage_ButDev
                     request.SslCertificateValidatorCallback += ServerCertificateValidationCallbackInstagram;
                     request.IgnoreProtocolErrors = true;
                     var reqParams = new RequestParams();
-                    reqParams["link_text"] = TEXT;
-                    reqParams["link_urls"] = "[\"" + link + "\"]";
+                    string token = generate_mutation_token();
                     reqParams["action"] = "send_item";
-                    reqParams["client_context"] = Guid.NewGuid().ToString();
-                    reqParams["_csrftoken"] = csrfGlobal;
-                    reqParams["_uuid"] = Guid.NewGuid().ToString();
+                    reqParams["is_shh_mode"] = "0";
+                    reqParams["send_attribution"] = "direct_thread";
+                    reqParams["client_context"] = token;
+                    reqParams["mutation_token"] = token;
+                    reqParams["nav_chain"] = "1qT:feed_timeline:1,1qT:feed_timeline:2,1qT:feed_timeline:3,7Az:direct_inbox:4,7Az:direct_inbox:5,5rG:direct_thread:7";
+                    reqParams["offline_threading_id"] = token;
+
+                    reqParams["link_text"] = Utils.RandPattern(TEXT) + Environment.NewLine + link;
+                    reqParams["link_urls"] = "[\"" + link + "\"]";
+                    //reqParams["action"] = "send_item";
+                    //reqParams["client_context"] = Guid.NewGuid().ToString();
+                    //reqParams["_csrftoken"] = csrfGlobal;
+                    //reqParams["_uuid"] = Guid.NewGuid().ToString();
                     reqParams["recipient_users"] = "[[" + id + "]]";
 
                     request.UserAgent = UserAgent;
@@ -658,10 +699,10 @@ namespace InstaDirectMessage_ButDev
                     catch { }
 
                     //MessageBox.Show("3: " + html);
-                    if (html.Contains("\"spam\": true")) { good = new KeyValuePair<int, int>(0, 0); Log(Translate.Tr("Лимит сообщений.")); return false; }
+                    if (html.Contains("\"spam\":true")) { good = new KeyValuePair<int, int>(0, 0); Log(Translate.Tr("Лимит сообщений.")); return false; }
                     if (html.Contains("Unloadable")) { good = new KeyValuePair<int, int>(0, 0); Log(Translate.Tr("Не нашли данного ID!")); return false; }
 
-                    return html.Contains("\"status\": \"ok\"");
+                    return html.Contains("\"status\":\"ok\"");
                 }
             }
             catch (Exception ex)
@@ -687,15 +728,18 @@ namespace InstaDirectMessage_ButDev
 
                     try
                     {
-                        xNet.HttpResponse response = request.Get(postlink + "?__a=1");
+                        xNet.HttpResponse response = request.Get(postlink);
                         answer = response.ToString();
                         //Console.WriteLine(answer);
                     }
                     catch (Exception e) { Log("HTML: " + e.ToString()); }
                 }
 
-                Json_PostMediaInfo.Root json = JsonConvert.DeserializeObject<Json_PostMediaInfo.Root>(answer);
-                if (json.graphql.shortcode_media.id == null) { Log(Translate.Tr("Не удалось загрузить пост! Пробуем ещё раз.")); return false; }
+                //Json_PostMediaInfo.Root json = JsonConvert.DeserializeObject<Json_PostMediaInfo.Root>(answer);
+                //if (json.graphql.shortcode_media.id == null) { Log(Translate.Tr("Не удалось загрузить пост! Пробуем ещё раз.")); return false; }
+                Regex regex = new Regex("\"props\":\\{\"media_id\":\"(\\d*)\",\"media_owner_id\"");
+                if (!regex.IsMatch(answer)) { Log(Translate.Tr("Не удалось загрузить пост! Пробуем ещё раз.")); return false; }
+                string media_id = regex.Match(answer).Groups[1].Value;
 
                 string html = "";
                 using (var request = new xNet.HttpRequest())
@@ -708,7 +752,7 @@ namespace InstaDirectMessage_ButDev
                     reqParams["_csrftoken"] = csrfGlobal;
                     reqParams["_uuid"] = Guid.NewGuid().ToString();
                     reqParams["recipient_users"] = "[[" + id + "]]";
-                    reqParams["media_id"] = json.graphql.shortcode_media.id;
+                    reqParams["media_id"] = media_id; //json.graphql.shortcode_media.id;
 
                     request.UserAgent = UserAgent;
                     request.KeepAlive = true;
@@ -731,10 +775,10 @@ namespace InstaDirectMessage_ButDev
                     catch { }
 
                     //MessageBox.Show("3: " + html);
-                    if (html.Contains("\"spam\": true")) { good = new KeyValuePair<int, int>(0, 0); Log(Translate.Tr("Лимит сообщений.")); return false; }
+                    if (html.Contains("\"spam\":true")) { good = new KeyValuePair<int, int>(0, 0); Log(Translate.Tr("Лимит сообщений.")); return false; }
                     if (html.Contains("Unloadable")) { good = new KeyValuePair<int, int>(0, 0); Log(Translate.Tr("Не нашли данного ID!")); return false; }
 
-                    return html.Contains("\"status\": \"ok\"");
+                    return html.Contains("\"status\":\"ok\"");
                 }
             }
             catch (Exception ex)

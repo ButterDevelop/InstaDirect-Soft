@@ -227,7 +227,7 @@ namespace InstaDirectMessage_ButDev
         {
             try
             {
-                string rur = "", csrftoken = "", mid = "", ig_did = "";
+                string csrftoken = "", mid = "", ig_did = "";
                 using (var request = new xNet.HttpRequest())
                 {
                     request.SslCertificateValidatorCallback += ServerCertificateValidationCallbackInstagram;
@@ -246,8 +246,6 @@ namespace InstaDirectMessage_ButDev
                         var c = response.Cookies;
                         foreach (var cooke in c)
                         {
-                            if (cooke.Key == "rur") { rur = cooke.Value; }
-                            else
                             if (cooke.Key == "csrftoken") { csrftoken = cooke.Value; }
                             else
                             if (cooke.Key == "mid") { mid = cooke.Value; }
@@ -260,7 +258,7 @@ namespace InstaDirectMessage_ButDev
 
                 if (csrftoken == "" || mid == "") { Log(Translate.Tr("[DEBUG] Не удалось спарсить Cookie. Плохие прокси?")); SwapProxy(); return "-1"; }
                 csrfGlobal = csrftoken;
-                string cookie = $"csrftoken={csrftoken}; rur={rur}; mid={mid}; ig_did={ig_did}";
+                string cookie = $"csrftoken={csrftoken}; mid={mid}; ig_did={ig_did}";
                 Log(Translate.Tr("Спарсили куки"));
                 return cookie;
             } catch(Exception ex)
@@ -308,7 +306,7 @@ namespace InstaDirectMessage_ButDev
 
                         if (!html.Contains("checkpoint_required")) IsLogin = true; else IsLogin = false;
 
-                        Regex regex = new Regex("\"message\": \"checkpoint_required\", \"checkpoint_url\": \"(.*)\", \"lock\": .*, \"status\": \"fail\"");
+                        Regex regex = new Regex("\"message\":\"checkpoint_required\",\"checkpoint_url\":\"(.*)\",\"lock\":.*,\"status\":\"fail\"");
                         var a = regex.Match(html);
                         CheckPointUrl = "https://www.instagram.com" + a.Groups[1].Value;
                         RepeatCheckPointUrl = "https://www.instagram.com/challenge/replay" + a.Groups[1].Value.Remove(0, 10);
@@ -558,10 +556,10 @@ namespace InstaDirectMessage_ButDev
                     catch { }
                     //MessageBox.Show(html);
                 }
-                if (html.Contains("{\"location\": \"https://www.instagram.com/\", \"type\": \"CHALLENGE_REDIRECTION\", \"status\": \"ok\"}")) good = 2;
+                if (html.Contains("{\"location\":\"https://www.instagram.com/\",\"type\":\"CHALLENGE_REDIRECTION\",\"status\":\"ok\"}")) good = 2;
 
-                if (html.Contains("\"status\": \"ok\"")) isCaptchaPassed = true;
-                return html.Contains("\"status\": \"ok\"") || html.Contains("\"challengeType\": \"SubmitPhoneNumberForm\"");
+                if (html.Contains("\"status\":\"ok\"")) isCaptchaPassed = true;
+                return html.Contains("\"status\":\"ok\"") || html.Contains("\"challengeType\":\"SubmitPhoneNumberForm\"");
             }
             catch (Exception ex)
             {
@@ -682,8 +680,8 @@ namespace InstaDirectMessage_ButDev
                     //MessageBox.Show(html);
                 }
 
-                if (html.Contains("\"status\": \"ok\"")) Log(Translate.Tr("Ждём смс на номер ") + PhoneNumber);
-                return html.Contains("\"status\": \"ok\"");
+                if (html.Contains("\"status\":\"ok\"")) Log(Translate.Tr("Ждём смс на номер ") + PhoneNumber);
+                return html.Contains("\"status\":\"ok\"");
             }
             catch (Exception ex)
             {

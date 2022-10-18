@@ -1,0 +1,31 @@
+﻿[26.05.2020 21:14:56, поток 1] [DEBUG] Не удалось спарсить Cookie. Плохие прокси?
+[26.05.2020 21:14:56, поток 1] [DEBUG] Сменили прокси.
+[26.05.2020 21:15:03, поток 1] [DEBUG] Не удалось спарсить Cookie. Плохие прокси?
+[26.05.2020 21:15:03, поток 1] [DEBUG] Сменили прокси.
+[26.05.2020 21:17:21, поток 1] (Ошибка) Текст ошибки: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.Register(String Name, String Surname, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 263
+[26.05.2020 21:17:38, поток 1] (Ошибка) Текст ошибки: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.Register(String Name, String Surname, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 263
+[26.05.2020 21:17:56, поток 1] (Ошибка) Текст ошибки: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.Register(String Name, String Surname, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 263
+[26.05.2020 21:18:14, поток 1] (Ошибка) Текст ошибки: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.Register(String Name, String Surname, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 263
+[26.05.2020 21:18:31, поток 1] (Ошибка) Текст ошибки: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.Register(String Name, String Surname, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 263
+[26.05.2020 21:18:55, поток 1] [DEBUG] Не удалось спарсить Cookie. Плохие прокси?
+[26.05.2020 21:18:55, поток 1] [DEBUG] Сменили прокси.
+[26.05.2020 21:22:10, поток 1] (Ошибка) Текст ошибки: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.Register(String Name, String Surname, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 262
+[26.05.2020 21:22:27, поток 1] (Ошибка) Текст ошибки: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.Register(String Name, String Surname, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 262
+[26.05.2020 21:22:45, поток 1] (Ошибка) Текст ошибки: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.Register(String Name, String Surname, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 262
+[26.05.2020 21:24:18, поток 1] (Ошибка) Текст ошибки: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.Register(String Name, String Surname, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 264
+[26.05.2020 21:24:38, поток 1] (Ошибка) Текст ошибки: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.Register(String Name, String Surname, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 264
+[26.05.2020 21:28:03, поток 1] [ERROR] Не удаётся связаться с Instagram по защищённому соединению.
+[26.05.2020 21:28:03, поток 1] Ошибка при регистрации - Sorokin58_Hill147:OIP_iaKOXlNNIvfFqaWd:185.86.151.217:8011:l3ntvv:NGJKov:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36:Sorokin58Hill23038@gmail.com:en-US
+[26.05.2020 21:38:52, поток 1] Чекпойнт - Elinor568_Florida166:DmUJqPvPbw8IIYd04G4e:185.86.151.217:8011:l3ntvv:NGJKov:Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36,gzip(gfe):Elinor568Florida74252@gmail.com:en-US
+[26.05.2020 21:39:12, поток 1] Чекпойнт - Kulikova55_Welch711:FhtgV49pU3fxpmcg1CV1:185.86.151.217:8010:l3ntvv:NGJKov:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36:Kulikova55Welch79404@gmail.com:en-US
+[26.05.2020 21:39:32, поток 1] Чекпойнт - April585086_Vseslav924:TkTExow9CCNhKFfGxx4H:185.86.151.217:8011:l3ntvv:NGJKov:Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36:April585086Vseslav91137@gmail.com:en-US

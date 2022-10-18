@@ -1,0 +1,120 @@
+﻿[15.10.2022 19:49:47, поток 0] Parsing cookies...
+[15.10.2022 19:49:50, поток 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramFollowersParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramFollowersParser.cs:line 201
+[15.10.2022 19:49:50, поток 0] [DEBUG] Changed proxies.
+[15.10.2022 19:49:50, поток 0] [DEBUG] Change account.
+[15.10.2022 19:49:50, поток 0] Parsing cookies...
+[15.10.2022 19:49:52, поток 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramFollowersParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramFollowersParser.cs:line 201
+[15.10.2022 19:49:52, поток 0] [DEBUG] Changed proxies.
+[15.10.2022 19:49:52, поток 0] [DEBUG] Change account.
+[15.10.2022 19:49:52, поток 0] Parsing cookies...
+[15.10.2022 19:49:54, поток 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramFollowersParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramFollowersParser.cs:line 201
+[15.10.2022 19:49:54, поток 0] [DEBUG] Changed proxies.
+[15.10.2022 19:49:54, поток 0] [DEBUG] Change account.
+[15.10.2022 19:49:54, поток 0] Parsing cookies...
+[15.10.2022 19:49:56, поток 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramFollowersParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramFollowersParser.cs:line 201
+[15.10.2022 19:49:56, поток 0] [DEBUG] Changed proxies.
+[15.10.2022 19:49:56, поток 0] [DEBUG] Change account.
+[15.10.2022 19:49:56, поток 0] Parsing cookies...
+[15.10.2022 19:49:58, поток 0] (Error) Error text: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at xNet.ProxyClient.CreateConnectionToProxy()
+   at xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramFollowersParser.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramFollowersParser.cs:line 201
+[15.10.2022 19:49:58, поток 0] [DEBUG] Changed proxies.
+[15.10.2022 19:49:58, поток 0] [DEBUG] Change account.
+[15.10.2022 19:49:59, поток 0] Parsing cookies...
+[15.10.2022 19:50:03, поток 0] Cookie parsing
+[15.10.2022 19:50:03, поток 0] Got cookies...
+[15.10.2022 19:50:03, поток 0] We start parsing...
+[15.10.2022 19:50:06, поток 0] The competitor parsing "7591602816" is over!
+[15.10.2022 19:50:07, поток 0] Parsing cookies...
+[15.10.2022 19:50:08, поток 0] Cookie parsing
+[15.10.2022 19:50:08, поток 0] Got cookies...
+[15.10.2022 19:50:08, поток 0] We start parsing...
+[15.10.2022 19:50:09, поток 0] The competitor parsing "49019405292" is over!
+[15.10.2022 19:50:10, поток 0] Parsing cookies...
+[15.10.2022 19:50:10, поток 0] Cookie parsing
+[15.10.2022 19:50:10, поток 0] Got cookies...
+[15.10.2022 19:50:10, поток 0] We start parsing...
+[15.10.2022 19:50:11, поток 0] The competitor parsing "9288999849" is over!
+[15.10.2022 19:50:12, поток 0] Parsing cookies...
+[15.10.2022 19:50:13, поток 0] Cookie parsing
+[15.10.2022 19:50:13, поток 0] Got cookies...
+[15.10.2022 19:50:13, поток 0] We start parsing...
+[15.10.2022 19:50:14, поток 0] The competitor parsing "3022993382" is over!

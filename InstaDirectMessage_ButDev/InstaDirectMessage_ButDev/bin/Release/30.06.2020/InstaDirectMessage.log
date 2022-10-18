@@ -1,0 +1,87 @@
+﻿[30.06.2020 0:00:16, поток 0] [DEBUG] Start...
+[30.06.2020 0:00:16, поток 0] Парсим куки...
+[30.06.2020 0:00:16, поток 0] Спарсили куки
+[30.06.2020 0:00:19, поток 0] Вошли в аккаунт.
+[30.06.2020 0:00:25, поток 0] Сообщение отправлено.
+[30.06.2020 11:40:34, поток 0] [DEBUG] Start...
+[30.06.2020 11:40:34, поток 0] Парсим куки...
+[30.06.2020 11:40:37, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в InstaDirectMessage_ButDev.InstagramDirectMessage.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramDirectMessage.cs:строка 67
+   в InstaDirectMessage_ButDev.InstagramDirectMessage..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link, String postlink, String ua) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramDirectMessage.cs:строка 173
+[30.06.2020 11:40:37, поток 0] [DEBUG] Сменили прокси.
+[30.06.2020 11:40:42, поток 0] [DEBUG] Start...
+[30.06.2020 11:40:42, поток 0] Парсим куки...
+[30.06.2020 11:40:44, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в InstaDirectMessage_ButDev.InstagramDirectMessage.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramDirectMessage.cs:строка 67
+   в InstaDirectMessage_ButDev.InstagramDirectMessage..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link, String postlink, String ua) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramDirectMessage.cs:строка 173
+[30.06.2020 11:40:44, поток 0] [DEBUG] Сменили прокси.
+[30.06.2020 11:40:55, поток 0] [DEBUG] Start...
+[30.06.2020 11:40:55, поток 0] Парсим куки...
+[30.06.2020 11:40:57, поток 0] Спарсили куки
+[30.06.2020 11:41:00, поток 0] Вошли в аккаунт.
+[30.06.2020 11:41:00, поток 0] 24872342822 - это ID в чёрном списке.
+[30.06.2020 11:41:01, поток 0] [DEBUG] Start...
+[30.06.2020 11:41:01, поток 0] Парсим куки...
+[30.06.2020 11:41:01, поток 0] Спарсили куки
+[30.06.2020 11:41:03, поток 0] Вошли в аккаунт.
+[30.06.2020 11:41:08, поток 0] Сообщение отправлено.
+[30.06.2020 11:44:38, поток 0] [DEBUG] Start...
+[30.06.2020 11:44:38, поток 0] Парсим куки...
+[30.06.2020 11:44:38, поток 0] Спарсили куки
+[30.06.2020 11:44:41, поток 0] Вошли в аккаунт.
+[30.06.2020 11:44:47, поток 0] Сообщение отправлено.
+[30.06.2020 11:52:13, поток 0] [DEBUG] Start...
+[30.06.2020 11:52:13, поток 0] Берём заданные куки...
+[30.06.2020 11:52:13, поток 0] 24872342822 - это ID в чёрном списке.
+[30.06.2020 11:52:14, поток 0] [DEBUG] Start...
+[30.06.2020 11:52:14, поток 0] Берём заданные куки...
+[30.06.2020 11:52:22, поток 0] Сообщение отправлено.
+[30.06.2020 11:52:46, поток 0] [DEBUG] Start...
+[30.06.2020 11:52:46, поток 0] Берём заданные куки...
+[30.06.2020 11:52:52, поток 0] Сообщение отправлено.
+[30.06.2020 12:03:39, поток 0] [DEBUG] Start...
+[30.06.2020 12:03:39, поток 0] Парсим куки...
+[30.06.2020 12:03:39, поток 0] Спарсили куки
+[30.06.2020 12:03:42, поток 0] Вошли в аккаунт.
+[30.06.2020 12:03:42, поток 0] 24872342822 - это ID в чёрном списке.
+[30.06.2020 12:03:43, поток 0] [DEBUG] Start...
+[30.06.2020 12:03:43, поток 0] Парсим куки...
+[30.06.2020 12:03:43, поток 0] Спарсили куки
+[30.06.2020 12:03:45, поток 0] Вошли в аккаунт.
+[30.06.2020 12:03:51, поток 0] Сообщение отправлено.
+[30.06.2020 12:04:19, поток 0] [DEBUG] Start...
+[30.06.2020 12:04:19, поток 0] Берём заданные куки...
+[30.06.2020 12:04:26, поток 0] Сообщение отправлено.
+[30.06.2020 12:04:27, поток 0] [DEBUG] Start...
+[30.06.2020 12:04:27, поток 0] Берём заданные куки...
+[30.06.2020 12:04:34, поток 0] Сообщение отправлено.

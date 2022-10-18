@@ -131,12 +131,15 @@
     <value>..\Resources\UserAgents.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
   </data>
   <data name="Version" xml:space="preserve">
-    <value>2.5</value>
+    <value>3.0.0.0</value>
   </data>
   <data name="Locales" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Locales.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
   </data>
   <data name="UserAgentsWebAndroid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UserAgentsWebAndroid.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
+  </data>
+  <data name="PreviousVersion" xml:space="preserve">
+    <value>1.7.0.0</value>
   </data>
 </root>

@@ -1,0 +1,1751 @@
+﻿[15.02.2020 11:29:41, поток 0] [DEBUG] Start...
+[15.02.2020 11:29:42, поток 1] [DEBUG] Start...
+[15.02.2020 11:29:42, поток 2] [DEBUG] Start...
+[15.02.2020 11:29:42, поток 3] [DEBUG] Start...
+[15.02.2020 11:29:43, поток 4] [DEBUG] Start...
+[15.02.2020 11:29:43, поток 0] Спарсили куки
+[15.02.2020 11:29:43, поток 5] [DEBUG] Start...
+[15.02.2020 11:29:43, поток 6] [DEBUG] Start...
+[15.02.2020 11:29:43, поток 4] Спарсили куки
+[15.02.2020 11:29:44, поток 3] Спарсили куки
+[15.02.2020 11:29:44, поток 5] Спарсили куки
+[15.02.2020 11:29:44, поток 2] Спарсили куки
+[15.02.2020 11:29:44, поток 7] [DEBUG] Start...
+[15.02.2020 11:29:45, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:29:45, поток 8] [DEBUG] Start...
+[15.02.2020 11:29:45, поток 9] [DEBUG] Start...
+[15.02.2020 11:29:45, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:29:45, поток 0] Спарсили куки
+[15.02.2020 11:29:46, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:29:46, поток 8] Спарсили куки
+[15.02.2020 11:29:46, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:29:46, поток 7] Спарсили куки
+[15.02.2020 11:29:46, поток 9] Спарсили куки
+[15.02.2020 11:29:46, поток 10] [DEBUG] Start...
+[15.02.2020 11:29:46, поток 4] Спарсили куки
+[15.02.2020 11:29:47, поток 5] Спарсили куки
+[15.02.2020 11:29:47, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:29:47, поток 3] Спарсили куки
+[15.02.2020 11:29:47, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:29:47, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:29:48, поток 8] Спарсили куки
+[15.02.2020 11:29:48, поток 9] Спарсили куки
+[15.02.2020 11:29:49, поток 10] Спарсили куки
+[15.02.2020 11:29:49, поток 0] [DEBUG] Start...
+[15.02.2020 11:29:57, поток 8] [DEBUG] Start...
+[15.02.2020 11:29:57, поток 3] [DEBUG] Start...
+[15.02.2020 11:29:57, поток 5] [DEBUG] Start...
+[15.02.2020 11:29:57, поток 9] [DEBUG] Start...
+[15.02.2020 11:32:21, поток 0] [DEBUG] Start...
+[15.02.2020 11:32:22, поток 1] [DEBUG] Start...
+[15.02.2020 11:32:22, поток 2] [DEBUG] Start...
+[15.02.2020 11:32:22, поток 3] [DEBUG] Start...
+[15.02.2020 11:32:22, поток 0] Спарсили куки
+[15.02.2020 11:32:23, поток 4] [DEBUG] Start...
+[15.02.2020 11:32:23, поток 1] Спарсили куки
+[15.02.2020 11:32:23, поток 5] [DEBUG] Start...
+[15.02.2020 11:32:23, поток 6] [DEBUG] Start...
+[15.02.2020 11:32:24, поток 4] Спарсили куки
+[15.02.2020 11:32:24, поток 3] Спарсили куки
+[15.02.2020 11:32:24, поток 7] [DEBUG] Start...
+[15.02.2020 11:32:24, поток 5] Спарсили куки
+[15.02.2020 11:32:24, поток 6] Спарсили куки
+[15.02.2020 11:32:24, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:25, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:25, поток 7] Спарсили куки
+[15.02.2020 11:32:25, поток 8] [DEBUG] Start...
+[15.02.2020 11:32:25, поток 9] [DEBUG] Start...
+[15.02.2020 11:32:25, поток 0] Спарсили куки
+[15.02.2020 11:32:25, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:26, поток 8] Спарсили куки
+[15.02.2020 11:32:26, поток 9] Спарсили куки
+[15.02.2020 11:32:26, поток 1] Спарсили куки
+[15.02.2020 11:32:26, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:26, поток 10] [DEBUG] Start...
+[15.02.2020 11:32:26, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:26, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:26, поток 4] Спарсили куки
+[15.02.2020 11:32:27, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:27, поток 3] Спарсили куки
+[15.02.2020 11:32:27, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:27, поток 5] Спарсили куки
+[15.02.2020 11:32:27, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:27, поток 6] Спарсили куки
+[15.02.2020 11:32:28, поток 7] Спарсили куки
+[15.02.2020 11:32:28, поток 2] Спарсили куки
+[15.02.2020 11:32:28, поток 8] Спарсили куки
+[15.02.2020 11:32:28, поток 9] Спарсили куки
+[15.02.2020 11:32:29, поток 0] [DEBUG] Start...
+[15.02.2020 11:32:29, поток 10] Спарсили куки
+[15.02.2020 11:32:30, поток 1] [DEBUG] Start...
+[15.02.2020 11:32:30, поток 4] [DEBUG] Start...
+[15.02.2020 11:32:30, поток 0] Спарсили куки
+[15.02.2020 11:32:31, поток 3] [DEBUG] Start...
+[15.02.2020 11:32:31, поток 1] Спарсили куки
+[15.02.2020 11:32:31, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:31, поток 5] [DEBUG] Start...
+[15.02.2020 11:32:31, поток 4] Спарсили куки
+[15.02.2020 11:32:31, поток 8] [DEBUG] Start...
+[15.02.2020 11:32:31, поток 6] [DEBUG] Start...
+[15.02.2020 11:32:31, поток 9] [DEBUG] Start...
+[15.02.2020 11:32:32, поток 8] Спарсили куки
+[15.02.2020 11:32:32, поток 3] Спарсили куки
+[15.02.2020 11:32:32, поток 9] Спарсили куки
+[15.02.2020 11:32:32, поток 10] Спарсили куки
+[15.02.2020 11:32:32, поток 7] [DEBUG] Start...
+[15.02.2020 11:32:32, поток 6] Спарсили куки
+[15.02.2020 11:32:32, поток 5] Спарсили куки
+[15.02.2020 11:32:32, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:33, поток 7] Спарсили куки
+[15.02.2020 11:32:33, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:33, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:33, поток 0] Спарсили куки
+[15.02.2020 11:32:33, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:33, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:34, поток 9] Спарсили куки
+[15.02.2020 11:32:34, поток 4] Спарсили куки
+[15.02.2020 11:32:34, поток 8] Спарсили куки
+[15.02.2020 11:32:34, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:34, поток 1] Спарсили куки
+[15.02.2020 11:32:34, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:34, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:35, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:35, поток 3] Спарсили куки
+[15.02.2020 11:32:35, поток 5] Спарсили куки
+[15.02.2020 11:32:35, поток 6] Спарсили куки
+[15.02.2020 11:32:36, поток 10] [DEBUG] Start...
+[15.02.2020 11:32:36, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:36, поток 7] Спарсили куки
+[15.02.2020 11:32:36, поток 10] Спарсили куки
+[15.02.2020 11:32:36, поток 2] Спарсили куки
+[15.02.2020 11:32:38, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:32:39, поток 10] Спарсили куки
+[15.02.2020 11:32:41, поток 2] [DEBUG] Start...
+[15.02.2020 11:32:43, поток 2] Спарсили куки
+[15.02.2020 11:33:57, поток 0] [DEBUG] Start...
+[15.02.2020 11:33:57, поток 1] [DEBUG] Start...
+[15.02.2020 11:33:57, поток 2] [DEBUG] Start...
+[15.02.2020 11:33:58, поток 3] [DEBUG] Start...
+[15.02.2020 11:33:58, поток 0] Спарсили куки
+[15.02.2020 11:33:58, поток 4] [DEBUG] Start...
+[15.02.2020 11:33:58, поток 1] Спарсили куки
+[15.02.2020 11:33:58, поток 5] [DEBUG] Start...
+[15.02.2020 11:33:59, поток 6] [DEBUG] Start...
+[15.02.2020 11:33:59, поток 3] Спарсили куки
+[15.02.2020 11:33:59, поток 4] Спарсили куки
+[15.02.2020 11:33:59, поток 2] Спарсили куки
+[15.02.2020 11:33:59, поток 7] [DEBUG] Start...
+[15.02.2020 11:33:59, поток 5] Спарсили куки
+[15.02.2020 11:34:00, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:34:00, поток 8] [DEBUG] Start...
+[15.02.2020 11:34:00, поток 9] [DEBUG] Start...
+[15.02.2020 11:34:01, поток 7] Спарсили куки
+[15.02.2020 11:34:01, поток 0] Спарсили куки
+[15.02.2020 11:34:01, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:34:01, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:34:01, поток 8] Спарсили куки
+[15.02.2020 11:34:01, поток 9] Спарсили куки
+[15.02.2020 11:34:01, поток 10] [DEBUG] Start...
+[15.02.2020 11:34:01, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:34:02, поток 3] Спарсили куки
+[15.02.2020 11:34:02, поток 4] Спарсили куки
+[15.02.2020 11:34:02, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:34:02, поток 5] Спарсили куки
+[15.02.2020 11:34:02, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:34:02, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:34:03, поток 9] Спарсили куки
+[15.02.2020 11:34:03, поток 8] Спарсили куки
+[15.02.2020 11:34:04, поток 2] Спарсили куки
+[15.02.2020 11:34:06, поток 3] [DEBUG] Start...
+[15.02.2020 11:34:06, поток 4] [DEBUG] Start...
+[15.02.2020 11:34:06, поток 9] [DEBUG] Start...
+[15.02.2020 11:34:06, поток 5] [DEBUG] Start...
+[15.02.2020 11:34:06, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 144
+[15.02.2020 11:34:06, поток 10] [DEBUG] Сменили прокси.
+[15.02.2020 11:34:06, поток 4] Спарсили куки
+[15.02.2020 11:34:07, поток 8] [DEBUG] Start...
+[15.02.2020 11:34:07, поток 3] Спарсили куки
+[15.02.2020 11:34:07, поток 9] Спарсили куки
+[15.02.2020 11:34:07, поток 5] Спарсили куки
+[15.02.2020 11:34:07, поток 8] Спарсили куки
+[15.02.2020 11:34:08, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:34:08, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:34:08, поток 2] [DEBUG] Start...
+[15.02.2020 11:34:09, поток 9] Спарсили куки
+[15.02.2020 11:34:09, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:34:09, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:34:09, поток 4] Спарсили куки
+[15.02.2020 11:34:09, поток 9] (Ошибка) Текст ошибки: xNet.HttpException: Получен пустой ответ от HTTP-сервера 'i.instagram.com'.
+   в xNet.HttpResponse.ReceiveStartingLine()
+   в xNet.HttpResponse.LoadResponse(HttpMethod method)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 244
+[15.02.2020 11:34:09, поток 8] Спарсили куки
+[15.02.2020 11:34:10, поток 2] Спарсили куки
+[15.02.2020 11:34:10, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:34:10, поток 3] Спарсили куки
+[15.02.2020 11:34:11, поток 5] Спарсили куки
+[15.02.2020 11:34:13, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:00, поток 0] [DEBUG] Start...
+[15.02.2020 11:39:00, поток 1] [DEBUG] Start...
+[15.02.2020 11:39:00, поток 2] [DEBUG] Start...
+[15.02.2020 11:39:01, поток 3] [DEBUG] Start...
+[15.02.2020 11:39:01, поток 0] Спарсили куки
+[15.02.2020 11:39:01, поток 4] [DEBUG] Start...
+[15.02.2020 11:39:01, поток 1] Спарсили куки
+[15.02.2020 11:39:01, поток 5] [DEBUG] Start...
+[15.02.2020 11:39:02, поток 6] [DEBUG] Start...
+[15.02.2020 11:39:02, поток 4] Спарсили куки
+[15.02.2020 11:39:02, поток 7] [DEBUG] Start...
+[15.02.2020 11:39:02, поток 5] Спарсили куки
+[15.02.2020 11:39:03, поток 6] Спарсили куки
+[15.02.2020 11:39:03, поток 8] [DEBUG] Start...
+[15.02.2020 11:39:03, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:03, поток 7] Спарсили куки
+[15.02.2020 11:39:03, поток 9] [DEBUG] Start...
+[15.02.2020 11:39:04, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:04, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:04, поток 1] Спарсили куки
+[15.02.2020 11:39:04, поток 10] [DEBUG] Start...
+[15.02.2020 11:39:04, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:05, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:05, поток 0] Спарсили куки
+[15.02.2020 11:39:05, поток 4] Спарсили куки
+[15.02.2020 11:39:05, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:05, поток 6] Спарсили куки
+[15.02.2020 11:39:06, поток 5] Спарсили куки
+[15.02.2020 11:39:06, поток 10] Спарсили куки
+[15.02.2020 11:39:06, поток 7] Спарсили куки
+[15.02.2020 11:39:07, поток 9] Спарсили куки
+[15.02.2020 11:39:08, поток 1] [DEBUG] Start...
+[15.02.2020 11:39:08, поток 2] Спарсили куки
+[15.02.2020 11:39:08, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:08, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:08, поток 0] [DEBUG] Start...
+[15.02.2020 11:39:09, поток 9] Спарсили куки
+[15.02.2020 11:39:09, поток 1] Спарсили куки
+[15.02.2020 11:39:09, поток 4] [DEBUG] Start...
+[15.02.2020 11:39:09, поток 10] Спарсили куки
+[15.02.2020 11:39:09, поток 6] [DEBUG] Start...
+[15.02.2020 11:39:09, поток 0] Спарсили куки
+[15.02.2020 11:39:10, поток 7] [DEBUG] Start...
+[15.02.2020 11:39:10, поток 5] [DEBUG] Start...
+[15.02.2020 11:39:10, поток 4] Спарсили куки
+[15.02.2020 11:39:10, поток 6] Спарсили куки
+[15.02.2020 11:39:11, поток 5] Спарсили куки
+[15.02.2020 11:39:11, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:11, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:11, поток 7] Спарсили куки
+[15.02.2020 11:39:11, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:12, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:12, поток 1] Спарсили куки
+[15.02.2020 11:39:12, поток 9] [DEBUG] Start...
+[15.02.2020 11:39:12, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:12, поток 0] Спарсили куки
+[15.02.2020 11:39:13, поток 9] Спарсили куки
+[15.02.2020 11:39:13, поток 4] Спарсили куки
+[15.02.2020 11:39:13, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:13, поток 10] [DEBUG] Start...
+[15.02.2020 11:39:13, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:13, поток 6] Спарсили куки
+[15.02.2020 11:39:14, поток 2] Спарсили куки
+[15.02.2020 11:39:14, поток 10] Спарсили куки
+[15.02.2020 11:39:14, поток 5] Спарсили куки
+[15.02.2020 11:39:14, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:14, поток 7] Спарсили куки
+[15.02.2020 11:39:14, поток 9] Спарсили куки
+[15.02.2020 11:39:15, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:16, поток 10] Спарсили куки
+[15.02.2020 11:39:23, поток 2] [DEBUG] Start...
+[15.02.2020 11:39:25, поток 2] Спарсили куки
+[15.02.2020 11:39:29, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:39:30, поток 2] Спарсили куки
+[15.02.2020 11:49:55, поток 0] [DEBUG] Start...
+[15.02.2020 11:49:55, поток 1] [DEBUG] Start...
+[15.02.2020 11:49:55, поток 2] [DEBUG] Start...
+[15.02.2020 11:49:56, поток 3] [DEBUG] Start...
+[15.02.2020 11:49:56, поток 0] Спарсили куки
+[15.02.2020 11:49:56, поток 4] [DEBUG] Start...
+[15.02.2020 11:49:56, поток 5] [DEBUG] Start...
+[15.02.2020 11:49:56, поток 6] [DEBUG] Start...
+[15.02.2020 11:49:57, поток 3] Спарсили куки
+[15.02.2020 11:49:57, поток 4] Спарсили куки
+[15.02.2020 11:49:57, поток 5] Спарсили куки
+[15.02.2020 11:49:57, поток 7] [DEBUG] Start...
+[15.02.2020 11:49:57, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:49:58, поток 8] [DEBUG] Start...
+[15.02.2020 11:49:58, поток 9] [DEBUG] Start...
+[15.02.2020 11:49:58, поток 0] Спарсили куки
+[15.02.2020 11:49:58, поток 7] Спарсили куки
+[15.02.2020 11:49:58, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:49:59, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:49:59, поток 8] Спарсили куки
+[15.02.2020 11:49:59, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:49:59, поток 10] [DEBUG] Start...
+[15.02.2020 11:49:59, поток 3] Спарсили куки
+[15.02.2020 11:49:59, поток 9] Спарсили куки
+[15.02.2020 11:50:00, поток 4] Спарсили куки
+[15.02.2020 11:50:00, поток 5] Спарсили куки
+[15.02.2020 11:50:00, поток 10] Спарсили куки
+[15.02.2020 11:50:01, поток 2] Спарсили куки
+[15.02.2020 11:50:01, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:01, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:02, поток 8] Спарсили куки
+[15.02.2020 11:50:02, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:02, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:02, поток 9] Спарсили куки
+[15.02.2020 11:50:02, поток 0] [DEBUG] Start...
+[15.02.2020 11:50:03, поток 4] [DEBUG] Start...
+[15.02.2020 11:50:03, поток 7] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '194.183.168.4:20562'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 155
+[15.02.2020 11:50:03, поток 7] [DEBUG] Сменили прокси.
+[15.02.2020 11:50:04, поток 3] [DEBUG] Start...
+[15.02.2020 11:50:04, поток 5] [DEBUG] Start...
+[15.02.2020 11:50:04, поток 4] Спарсили куки
+[15.02.2020 11:50:04, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:05, поток 3] Спарсили куки
+[15.02.2020 11:50:05, поток 5] Спарсили куки
+[15.02.2020 11:50:05, поток 9] [DEBUG] Start...
+[15.02.2020 11:50:05, поток 8] [DEBUG] Start...
+[15.02.2020 11:50:06, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:06, поток 2] Спарсили куки
+[15.02.2020 11:50:06, поток 9] Спарсили куки
+[15.02.2020 11:50:06, поток 8] Спарсили куки
+[15.02.2020 11:50:06, поток 6] Спарсили куки
+[15.02.2020 11:50:07, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:07, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:07, поток 4] Спарсили куки
+[15.02.2020 11:50:07, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 144
+[15.02.2020 11:50:07, поток 0] [DEBUG] Сменили прокси.
+[15.02.2020 11:50:08, поток 5] Спарсили куки
+[15.02.2020 11:50:08, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:08, поток 3] Спарсили куки
+[15.02.2020 11:50:08, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:08, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:08, поток 8] Спарсили куки
+[15.02.2020 11:50:09, поток 9] Спарсили куки
+[15.02.2020 11:50:09, поток 6] Спарсили куки
+[15.02.2020 11:50:11, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось установить SSL-соединение с HTTP-сервером 'www.instagram.com'. ---> System.IO.IOException: Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost, X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 155
+[15.02.2020 11:50:11, поток 10] [DEBUG] Сменили прокси.
+[15.02.2020 11:50:12, поток 2] [DEBUG] Start...
+[15.02.2020 11:50:13, поток 6] [DEBUG] Start...
+[15.02.2020 11:50:14, поток 2] Спарсили куки
+[15.02.2020 11:50:14, поток 6] Спарсили куки
+[15.02.2020 11:50:16, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:16, поток 1] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '95.174.101.169:50010'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 144
+[15.02.2020 11:50:16, поток 1] [DEBUG] Сменили прокси.
+[15.02.2020 11:50:16, поток 6] Спарсили куки
+[15.02.2020 11:50:21, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:50:26, поток 2] Спарсили куки
+[15.02.2020 11:51:37, поток 0] [DEBUG] Start...
+[15.02.2020 11:51:37, поток 1] [DEBUG] Start...
+[15.02.2020 11:51:38, поток 2] [DEBUG] Start...
+[15.02.2020 11:51:38, поток 3] [DEBUG] Start...
+[15.02.2020 11:51:38, поток 0] Спарсили куки
+[15.02.2020 11:51:38, поток 4] [DEBUG] Start...
+[15.02.2020 11:51:38, поток 1] Спарсили куки
+[15.02.2020 11:51:39, поток 5] [DEBUG] Start...
+[15.02.2020 11:51:39, поток 6] [DEBUG] Start...
+[15.02.2020 11:51:39, поток 3] Спарсили куки
+[15.02.2020 11:51:39, поток 4] Спарсили куки
+[15.02.2020 11:51:39, поток 5] Спарсили куки
+[15.02.2020 11:51:40, поток 7] [DEBUG] Start...
+[15.02.2020 11:51:40, поток 6] Спарсили куки
+[15.02.2020 11:51:40, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:40, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:41, поток 7] Спарсили куки
+[15.02.2020 11:51:41, поток 8] [DEBUG] Start...
+[15.02.2020 11:51:41, поток 9] [DEBUG] Start...
+[15.02.2020 11:51:41, поток 0] Спарсили куки
+[15.02.2020 11:51:41, поток 8] Спарсили куки
+[15.02.2020 11:51:41, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:41, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:41, поток 9] Спарсили куки
+[15.02.2020 11:51:41, поток 2] Спарсили куки
+[15.02.2020 11:51:41, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:41, поток 1] Спарсили куки
+[15.02.2020 11:51:42, поток 10] [DEBUG] Start...
+[15.02.2020 11:51:42, поток 3] Спарсили куки
+[15.02.2020 11:51:42, поток 5] Спарсили куки
+[15.02.2020 11:51:42, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:42, поток 4] Спарсили куки
+[15.02.2020 11:51:42, поток 10] Спарсили куки
+[15.02.2020 11:51:43, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:43, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:44, поток 8] Спарсили куки
+[15.02.2020 11:51:44, поток 9] Спарсили куки
+[15.02.2020 11:51:44, поток 7] Спарсили куки
+[15.02.2020 11:51:44, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:45, поток 0] [DEBUG] Start...
+[15.02.2020 11:51:45, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:45, поток 10] Спарсили куки
+[15.02.2020 11:51:46, поток 1] [DEBUG] Start...
+[15.02.2020 11:51:46, поток 0] Спарсили куки
+[15.02.2020 11:51:46, поток 5] [DEBUG] Start...
+[15.02.2020 11:51:47, поток 4] [DEBUG] Start...
+[15.02.2020 11:51:47, поток 2] Спарсили куки
+[15.02.2020 11:51:47, поток 8] [DEBUG] Start...
+[15.02.2020 11:51:47, поток 3] [DEBUG] Start...
+[15.02.2020 11:51:47, поток 9] [DEBUG] Start...
+[15.02.2020 11:51:47, поток 5] Спарсили куки
+[15.02.2020 11:51:47, поток 7] [DEBUG] Start...
+[15.02.2020 11:51:48, поток 8] Спарсили куки
+[15.02.2020 11:51:48, поток 4] Спарсили куки
+[15.02.2020 11:51:48, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:48, поток 9] Спарсили куки
+[15.02.2020 11:51:48, поток 3] Спарсили куки
+[15.02.2020 11:51:48, поток 7] Спарсили куки
+[15.02.2020 11:51:49, поток 0] Спарсили куки
+[15.02.2020 11:51:49, поток 10] [DEBUG] Start...
+[15.02.2020 11:51:49, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:49, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:49, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:49, поток 5] [DEBUG, ERROR] xNet.HttpException: Не удалось установить SSL-соединение с HTTP-сервером 'www.instagram.com'. ---> System.IO.IOException: Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost, X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 155
+[15.02.2020 11:51:49, поток 5] [DEBUG] Сменили прокси.
+[15.02.2020 11:51:50, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:50, поток 8] Спарсили куки
+[15.02.2020 11:51:50, поток 10] Спарсили куки
+[15.02.2020 11:51:50, поток 9] Спарсили куки
+[15.02.2020 11:51:50, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:51, поток 4] Спарсили куки
+[15.02.2020 11:51:51, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:51, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:51, поток 3] [DEBUG, ERROR] xNet.HttpException: Получен пустой ответ от HTTP-сервера 'www.instagram.com'.
+   в xNet.HttpResponse.ReceiveStartingLine()
+   в xNet.HttpResponse.LoadResponse(HttpMethod method)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 155
+[15.02.2020 11:51:51, поток 3] [DEBUG] Сменили прокси.
+[15.02.2020 11:51:52, поток 7] Спарсили куки
+[15.02.2020 11:51:52, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:52, поток 2] [DEBUG] Start...
+[15.02.2020 11:51:53, поток 10] Спарсили куки
+[15.02.2020 11:51:54, поток 2] Спарсили куки
+[15.02.2020 11:51:58, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 11:51:59, поток 2] Спарсили куки
+[15.02.2020 11:52:07, поток 1] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '95.174.101.169:50010'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 144
+[15.02.2020 11:52:07, поток 1] [DEBUG] Сменили прокси.
+[15.02.2020 11:52:12, поток 6] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '95.174.101.169:50008'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 155
+[15.02.2020 11:52:12, поток 6] [DEBUG] Сменили прокси.
+[15.02.2020 14:21:48, поток 0] [DEBUG] Start...
+[15.02.2020 14:21:48, поток 1] [DEBUG] Start...
+[15.02.2020 14:21:49, поток 2] [DEBUG] Start...
+[15.02.2020 14:21:49, поток 3] [DEBUG] Start...
+[15.02.2020 14:21:49, поток 4] [DEBUG] Start...
+[15.02.2020 14:21:49, поток 0] Спарсили куки
+[15.02.2020 14:21:50, поток 1] Спарсили куки
+[15.02.2020 14:21:50, поток 5] [DEBUG] Start...
+[15.02.2020 14:21:50, поток 6] [DEBUG] Start...
+[15.02.2020 14:21:50, поток 4] Спарсили куки
+[15.02.2020 14:21:51, поток 5] [DEBUG, ERROR] xNet.HttpException: Получен пустой ответ от HTTP-сервера 'www.instagram.com'.
+   в xNet.HttpResponse.ReceiveStartingLine()
+   в xNet.HttpResponse.LoadResponse(HttpMethod method)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 144
+[15.02.2020 14:21:51, поток 5] [DEBUG] Сменили прокси.
+[15.02.2020 14:21:51, поток 7] [DEBUG] Start...
+[15.02.2020 14:21:51, поток 3] [DEBUG, ERROR] xNet.HttpException: Не удалось установить SSL-соединение с HTTP-сервером 'www.instagram.com'. ---> System.IO.IOException: Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost, X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 144
+[15.02.2020 14:21:51, поток 3] [DEBUG] Сменили прокси.
+[15.02.2020 14:21:51, поток 6] Спарсили куки
+[15.02.2020 14:21:51, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:21:51, поток 2] Спарсили куки
+[15.02.2020 14:21:52, поток 8] [DEBUG] Start...
+[15.02.2020 14:21:52, поток 9] [DEBUG] Start...
+[15.02.2020 14:21:52, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:21:52, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:21:52, поток 0] Спарсили куки
+[15.02.2020 14:21:52, поток 7] Спарсили куки
+[15.02.2020 14:21:52, поток 9] Спарсили куки
+[15.02.2020 14:21:52, поток 8] Спарсили куки
+[15.02.2020 14:21:53, поток 8] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось установить SSL-соединение с HTTP-сервером 'i.instagram.com'. ---> System.IO.IOException: Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost, X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 244
+[15.02.2020 14:21:53, поток 8] (Ошибка) Текст ошибки: System.ArgumentException: Значение параметра не может быть строкой нулевой длины.
+Имя параметра: value
+   в xNet.HttpRequest.AddHeader(String name, String value)
+   в InstaImap.Instagram.DoWork(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 305
+[15.02.2020 14:21:53, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:21:53, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:21:53, поток 1] Спарсили куки
+[15.02.2020 14:21:53, поток 10] [DEBUG] Start...
+[15.02.2020 14:21:53, поток 4] Спарсили куки
+[15.02.2020 14:21:54, поток 6] Спарсили куки
+[15.02.2020 14:21:54, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:21:54, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:21:55, поток 9] Спарсили куки
+[15.02.2020 14:21:55, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:21:55, поток 7] Спарсили куки
+[15.02.2020 14:21:56, поток 10] Спарсили куки
+[15.02.2020 14:21:57, поток 0] [DEBUG] Start...
+[15.02.2020 14:21:57, поток 4] [DEBUG] Start...
+[15.02.2020 14:21:58, поток 1] [DEBUG] Start...
+[15.02.2020 14:21:58, поток 0] Спарсили куки
+[15.02.2020 14:21:58, поток 6] [DEBUG] Start...
+[15.02.2020 14:21:58, поток 4] Спарсили куки
+[15.02.2020 14:21:58, поток 8] Спарсили куки
+[15.02.2020 14:21:58, поток 2] Спарсили куки
+[15.02.2020 14:21:58, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:21:58, поток 9] [DEBUG] Start...
+[15.02.2020 14:21:58, поток 1] Спарсили куки
+[15.02.2020 14:21:58, поток 6] Спарсили куки
+[15.02.2020 14:21:59, поток 10] Спарсили куки
+[15.02.2020 14:21:59, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:22:00, поток 7] [DEBUG] Start...
+[15.02.2020 14:22:00, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:22:00, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:22:00, поток 9] Спарсили куки
+[15.02.2020 14:22:00, поток 0] Спарсили куки
+[15.02.2020 14:22:01, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:22:01, поток 4] Спарсили куки
+[15.02.2020 14:22:01, поток 7] Спарсили куки
+[15.02.2020 14:22:01, поток 8] [DEBUG] Start...
+[15.02.2020 14:22:01, поток 6] Спарсили куки
+[15.02.2020 14:22:02, поток 8] Спарсили куки
+[15.02.2020 14:22:02, поток 1] Спарсили куки
+[15.02.2020 14:22:03, поток 10] [DEBUG] Start...
+[15.02.2020 14:22:03, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:22:03, поток 2] [DEBUG] Start...
+[15.02.2020 14:22:03, поток 8] Спарсили куки
+[15.02.2020 14:22:05, поток 2] Спарсили куки
+[15.02.2020 14:22:07, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:22:08, поток 10] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '194.183.168.4:20569'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 144
+[15.02.2020 14:22:08, поток 10] [DEBUG] Сменили прокси.
+[15.02.2020 14:22:09, поток 2] Спарсили куки
+[15.02.2020 14:22:23, поток 7] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось установить SSL-соединение с HTTP-сервером 'i.instagram.com'. ---> System.IO.IOException: Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+   в System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   в System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost, X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   в System.Net.Security.SslStream.AuthenticateAsClient(String targetHost)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 244
+[15.02.2020 14:22:24, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 14:22:24, поток 7] Спарсили куки
+[15.02.2020 16:38:16, поток 0] [DEBUG] Start...
+[15.02.2020 16:38:16, поток 1] [DEBUG] Start...
+[15.02.2020 16:38:17, поток 2] [DEBUG] Start...
+[15.02.2020 16:38:17, поток 3] [DEBUG] Start...
+[15.02.2020 16:38:17, поток 4] [DEBUG] Start...
+[15.02.2020 16:38:17, поток 0] Спарсили куки
+[15.02.2020 16:38:17, поток 1] Спарсили куки
+[15.02.2020 16:38:18, поток 5] [DEBUG] Start...
+[15.02.2020 16:38:18, поток 6] [DEBUG] Start...
+[15.02.2020 16:38:18, поток 3] Спарсили куки
+[15.02.2020 16:38:19, поток 7] [DEBUG] Start...
+[15.02.2020 16:38:19, поток 5] Спарсили куки
+[15.02.2020 16:38:19, поток 4] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '194.183.168.4:20564'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 144
+[15.02.2020 16:38:19, поток 4] [DEBUG] Сменили прокси.
+[15.02.2020 16:38:20, поток 8] [DEBUG] Start...
+[15.02.2020 16:38:20, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:20, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:20, поток 9] [DEBUG] Start...
+[15.02.2020 16:38:20, поток 2] Спарсили куки
+[15.02.2020 16:38:20, поток 7] Спарсили куки
+[15.02.2020 16:38:20, поток 9] Спарсили куки
+[15.02.2020 16:38:20, поток 8] Спарсили куки
+[15.02.2020 16:38:21, поток 10] [DEBUG] Start...
+[15.02.2020 16:38:21, поток 1] Спарсили куки
+[15.02.2020 16:38:21, поток 0] Спарсили куки
+[15.02.2020 16:38:21, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:21, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:22, поток 10] Спарсили куки
+[15.02.2020 16:38:22, поток 6] Спарсили куки
+[15.02.2020 16:38:22, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:22, поток 3] Спарсили куки
+[15.02.2020 16:38:22, поток 5] Спарсили куки
+[15.02.2020 16:38:22, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:22, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:22, поток 9] Спарсили куки
+[15.02.2020 16:38:23, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:23, поток 8] Спарсили куки
+[15.02.2020 16:38:24, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:24, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:24, поток 7] Спарсили куки
+[15.02.2020 16:38:25, поток 2] Спарсили куки
+[15.02.2020 16:38:25, поток 1] [DEBUG] Start...
+[15.02.2020 16:38:25, поток 10] Спарсили куки
+[15.02.2020 16:38:25, поток 6] Спарсили куки
+[15.02.2020 16:38:25, поток 0] [DEBUG] Start...
+[15.02.2020 16:38:25, поток 1] Спарсили куки
+[15.02.2020 16:38:26, поток 9] [DEBUG] Start...
+[15.02.2020 16:38:26, поток 0] Спарсили куки
+[15.02.2020 16:38:26, поток 5] [DEBUG] Start...
+[15.02.2020 16:38:27, поток 9] Спарсили куки
+[15.02.2020 16:38:27, поток 3] [DEBUG] Start...
+[15.02.2020 16:38:27, поток 8] [DEBUG] Start...
+[15.02.2020 16:38:27, поток 5] Спарсили куки
+[15.02.2020 16:38:27, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:28, поток 3] Спарсили куки
+[15.02.2020 16:38:28, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:28, поток 8] Спарсили куки
+[15.02.2020 16:38:28, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:28, поток 1] Спарсили куки
+[15.02.2020 16:38:29, поток 6] [DEBUG] Start...
+[15.02.2020 16:38:29, поток 9] Спарсили куки
+[15.02.2020 16:38:29, поток 10] [DEBUG] Start...
+[15.02.2020 16:38:30, поток 0] Спарсили куки
+[15.02.2020 16:38:30, поток 6] Спарсили куки
+[15.02.2020 16:38:30, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:30, поток 10] Спарсили куки
+[15.02.2020 16:38:30, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:31, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:31, поток 5] Спарсили куки
+[15.02.2020 16:38:31, поток 8] Спарсили куки
+[15.02.2020 16:38:32, поток 7] [DEBUG] Start...
+[15.02.2020 16:38:32, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:32, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:32, поток 3] Спарсили куки
+[15.02.2020 16:38:33, поток 6] Спарсили куки
+[15.02.2020 16:38:33, поток 7] Спарсили куки
+[15.02.2020 16:38:33, поток 10] Спарсили куки
+[15.02.2020 16:38:35, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:38:36, поток 7] Спарсили куки
+[15.02.2020 16:39:51, поток 0] [DEBUG] Start...
+[15.02.2020 16:39:52, поток 1] [DEBUG] Start...
+[15.02.2020 16:39:52, поток 2] [DEBUG] Start...
+[15.02.2020 16:39:52, поток 3] [DEBUG] Start...
+[15.02.2020 16:39:52, поток 4] [DEBUG] Start...
+[15.02.2020 16:39:52, поток 0] Спарсили куки
+[15.02.2020 16:39:53, поток 1] Спарсили куки
+[15.02.2020 16:39:53, поток 5] [DEBUG] Start...
+[15.02.2020 16:39:53, поток 6] [DEBUG] Start...
+[15.02.2020 16:39:53, поток 7] [DEBUG] Start...
+[15.02.2020 16:39:53, поток 3] Спарсили куки
+[15.02.2020 16:39:54, поток 4] Спарсили куки
+[15.02.2020 16:39:54, поток 5] Спарсили куки
+[15.02.2020 16:39:54, поток 8] [DEBUG] Start...
+[15.02.2020 16:39:54, поток 6] Спарсили куки
+[15.02.2020 16:39:55, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:39:55, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:39:55, поток 2] Спарсили куки
+[15.02.2020 16:39:55, поток 8] Спарсили куки
+[15.02.2020 16:39:55, поток 9] [DEBUG] Start...
+[15.02.2020 16:39:56, поток 1] Спарсили куки
+[15.02.2020 16:39:56, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:39:56, поток 7] Спарсили куки
+[15.02.2020 16:39:56, поток 0] Спарсили куки
+[15.02.2020 16:39:56, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:39:56, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:39:56, поток 10] [DEBUG] Start...
+[15.02.2020 16:39:56, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:39:57, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:39:57, поток 3] Спарсили куки
+[15.02.2020 16:39:57, поток 4] Спарсили куки
+[15.02.2020 16:39:57, поток 5] Спарсили куки
+[15.02.2020 16:39:57, поток 6] Спарсили куки
+[15.02.2020 16:39:57, поток 8] Спарсили куки
+[15.02.2020 16:39:57, поток 9] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '188.32.135.96:7844'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 188.32.135.96:7844
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 144
+[15.02.2020 16:39:57, поток 9] [DEBUG] Сменили прокси.
+[15.02.2020 16:39:57, поток 10] Спарсили куки
+[15.02.2020 16:39:58, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:39:59, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:39:59, поток 2] Спарсили куки
+[15.02.2020 16:40:00, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:40:00, поток 1] [DEBUG] Start...
+[15.02.2020 16:40:00, поток 0] [DEBUG] Start...
+[15.02.2020 16:40:00, поток 7] Спарсили куки
+[15.02.2020 16:40:01, поток 10] Спарсили куки
+[15.02.2020 16:40:01, поток 6] [DEBUG] Start...
+[15.02.2020 16:40:01, поток 1] Спарсили куки
+[15.02.2020 16:40:01, поток 0] Спарсили куки
+[15.02.2020 16:40:01, поток 3] [DEBUG] Start...
+[15.02.2020 16:40:01, поток 4] [DEBUG] Start...
+[15.02.2020 16:40:01, поток 8] [DEBUG] Start...
+[15.02.2020 16:40:02, поток 5] [DEBUG] Start...
+[15.02.2020 16:40:02, поток 8] Спарсили куки
+[15.02.2020 16:40:02, поток 4] Спарсили куки
+[15.02.2020 16:40:03, поток 3] Спарсили куки
+[15.02.2020 16:40:03, поток 5] Спарсили куки
+[15.02.2020 16:40:03, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:40:04, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:40:04, поток 1] Спарсили куки
+[15.02.2020 16:41:23, поток 0] [DEBUG] Start...
+[15.02.2020 16:41:23, поток 1] [DEBUG] Start...
+[15.02.2020 16:41:24, поток 2] [DEBUG] Start...
+[15.02.2020 16:41:24, поток 3] [DEBUG] Start...
+[15.02.2020 16:41:24, поток 4] [DEBUG] Start...
+[15.02.2020 16:41:24, поток 0] Спарсили куки
+[15.02.2020 16:41:25, поток 5] [DEBUG] Start...
+[15.02.2020 16:41:25, поток 6] [DEBUG] Start...
+[15.02.2020 16:41:25, поток 3] Спарсили куки
+[15.02.2020 16:41:26, поток 4] Спарсили куки
+[15.02.2020 16:41:26, поток 7] [DEBUG] Start...
+[15.02.2020 16:41:26, поток 5] Спарсили куки
+[15.02.2020 16:41:26, поток 6] Спарсили куки
+[15.02.2020 16:41:26, поток 2] Спарсили куки
+[15.02.2020 16:41:27, поток 8] [DEBUG] Start...
+[15.02.2020 16:41:27, поток 9] [DEBUG] Start...
+[15.02.2020 16:41:27, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:27, поток 7] Спарсили куки
+[15.02.2020 16:41:27, поток 1] Спарсили куки
+[15.02.2020 16:41:27, поток 8] Спарсили куки
+[15.02.2020 16:41:28, поток 9] Спарсили куки
+[15.02.2020 16:41:28, поток 10] [DEBUG] Start...
+[15.02.2020 16:41:28, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:28, поток 0] Спарсили куки
+[15.02.2020 16:41:28, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:28, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:28, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:29, поток 10] Спарсили куки
+[15.02.2020 16:41:29, поток 6] Спарсили куки
+[15.02.2020 16:41:29, поток 3] Спарсили куки
+[15.02.2020 16:41:29, поток 5] Спарсили куки
+[15.02.2020 16:41:29, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:29, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:29, поток 4] Спарсили куки
+[15.02.2020 16:41:29, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:29, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:30, поток 9] Спарсили куки
+[15.02.2020 16:41:30, поток 8] Спарсили куки
+[15.02.2020 16:41:30, поток 1] Спарсили куки
+[15.02.2020 16:41:31, поток 2] Спарсили куки
+[15.02.2020 16:41:31, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:32, поток 10] Спарсили куки
+[15.02.2020 16:41:32, поток 0] [DEBUG] Start...
+[15.02.2020 16:41:33, поток 6] [DEBUG] Start...
+[15.02.2020 16:41:33, поток 0] Спарсили куки
+[15.02.2020 16:41:33, поток 9] [DEBUG] Start...
+[15.02.2020 16:41:33, поток 3] [DEBUG] Start...
+[15.02.2020 16:41:34, поток 4] [DEBUG] Start...
+[15.02.2020 16:41:34, поток 6] Спарсили куки
+[15.02.2020 16:41:34, поток 8] [DEBUG] Start...
+[15.02.2020 16:41:34, поток 1] [DEBUG] Start...
+[15.02.2020 16:41:34, поток 9] Спарсили куки
+[15.02.2020 16:41:34, поток 5] [DEBUG] Start...
+[15.02.2020 16:41:35, поток 3] Спарсили куки
+[15.02.2020 16:41:35, поток 8] Спарсили куки
+[15.02.2020 16:41:35, поток 4] Спарсили куки
+[15.02.2020 16:41:35, поток 1] Спарсили куки
+[15.02.2020 16:41:35, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:35, поток 5] Спарсили куки
+[15.02.2020 16:41:36, поток 2] [DEBUG] Start...
+[15.02.2020 16:41:36, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:36, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:36, поток 10] [DEBUG] Start...
+[15.02.2020 16:41:36, поток 9] Спарсили куки
+[15.02.2020 16:41:36, поток 8] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:37, поток 0] Спарсили куки
+[15.02.2020 16:41:37, поток 6] Спарсили куки
+[15.02.2020 16:41:37, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:37, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:37, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:37, поток 2] Спарсили куки
+[15.02.2020 16:41:37, поток 8] Спарсили куки
+[15.02.2020 16:41:37, поток 10] Спарсили куки
+[15.02.2020 16:41:38, поток 5] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:38, поток 1] Спарсили куки
+[15.02.2020 16:41:38, поток 7] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:41:38, поток 4] Спарсили куки
+[15.02.2020 16:41:38, поток 3] Спарсили куки
+[15.02.2020 16:41:39, поток 5] Спарсили куки
+[15.02.2020 16:41:40, поток 10] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:42:22, поток 0] [DEBUG] Start...
+[15.02.2020 16:42:22, поток 1] [DEBUG] Start...
+[15.02.2020 16:42:22, поток 2] [DEBUG] Start...
+[15.02.2020 16:42:23, поток 3] [DEBUG] Start...
+[15.02.2020 16:42:23, поток 4] [DEBUG] Start...
+[15.02.2020 16:42:23, поток 1] Good.
+[15.02.2020 16:42:23, поток 5] [DEBUG] Start...
+[15.02.2020 16:42:23, поток 0] Good.
+[15.02.2020 16:42:24, поток 6] [DEBUG] Start...
+[15.02.2020 16:42:24, поток 3] Good.
+[15.02.2020 16:42:24, поток 7] [DEBUG] Start...
+[15.02.2020 16:42:24, поток 5] Good.
+[15.02.2020 16:42:24, поток 2] Good.
+[15.02.2020 16:42:25, поток 8] [DEBUG] Start...
+[15.02.2020 16:42:25, поток 7] Good.
+[15.02.2020 16:42:25, поток 9] [DEBUG] Start...
+[15.02.2020 16:42:26, поток 8] Good.
+[15.02.2020 16:42:26, поток 10] [DEBUG] Start...
+[15.02.2020 16:42:26, поток 9] Good.
+[15.02.2020 16:42:27, поток 10] Good.
+[15.02.2020 16:42:28, поток 4] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:42:29, поток 4] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'ServiceUnavailable' от прокси-сервера '194.183.168.4:20564'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 66
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 155
+[15.02.2020 16:42:29, поток 4] [DEBUG] Сменили прокси.
+[15.02.2020 16:42:45, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 16:42:49, поток 6] Спарсили куки
+[15.02.2020 16:42:51, поток 6] Вошли в аккаунт.
+[15.02.2020 16:42:52, поток 6] Good.
+[15.02.2020 16:43:29, поток 4] [DEBUG] Start...
+[15.02.2020 16:43:31, поток 4] Good.
+[15.02.2020 18:09:17, поток 0] [DEBUG] Start...
+[15.02.2020 18:09:17, поток 0] Берём заданные куки...
+[15.02.2020 18:09:18, поток 1] [DEBUG] Start...
+[15.02.2020 18:09:18, поток 1] Берём заданные куки...
+[15.02.2020 18:09:18, поток 2] [DEBUG] Start...
+[15.02.2020 18:09:18, поток 2] Берём заданные куки...
+[15.02.2020 18:09:18, поток 3] [DEBUG] Start...
+[15.02.2020 18:09:18, поток 3] Берём заданные куки...
+[15.02.2020 18:09:18, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:09:18, поток 4] [DEBUG] Start...
+[15.02.2020 18:09:18, поток 4] Берём заданные куки...
+[15.02.2020 18:09:19, поток 1] Good.
+[15.02.2020 18:09:19, поток 5] [DEBUG] Start...
+[15.02.2020 18:09:19, поток 5] Берём заданные куки...
+[15.02.2020 18:09:19, поток 6] [DEBUG] Start...
+[15.02.2020 18:09:19, поток 6] Берём заданные куки...
+[15.02.2020 18:09:19, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:09:20, поток 0] Спарсили куки
+[15.02.2020 18:09:20, поток 7] [DEBUG] Start...
+[15.02.2020 18:09:20, поток 7] Берём заданные куки...
+[15.02.2020 18:09:20, поток 5] Good.
+[15.02.2020 18:09:20, поток 4] Good.
+[15.02.2020 18:09:20, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:09:20, поток 3] Спарсили куки
+[15.02.2020 18:09:21, поток 8] [DEBUG] Start...
+[15.02.2020 18:09:21, поток 8] Берём заданные куки...
+[15.02.2020 18:09:21, поток 9] [DEBUG] Start...
+[15.02.2020 18:09:21, поток 9] Берём заданные куки...
+[15.02.2020 18:09:21, поток 6] Спарсили куки
+[15.02.2020 18:09:21, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 18:09:21, поток 0] [DEBUG] Start...
+[15.02.2020 18:09:21, поток 0] Берём заданные куки...
+[15.02.2020 18:09:21, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:09:22, поток 7] Good.
+[15.02.2020 18:09:22, поток 10] [DEBUG] Start...
+[15.02.2020 18:09:22, поток 10] Берём заданные куки...
+[15.02.2020 18:09:22, поток 8] Good.
+[15.02.2020 18:09:22, поток 9] Спарсили куки
+[15.02.2020 18:09:22, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:09:23, поток 3] Войти в аккаунт не удалось!
+[15.02.2020 18:09:23, поток 3] [DEBUG] Start...
+[15.02.2020 18:09:23, поток 3] Берём заданные куки...
+[15.02.2020 18:09:23, поток 6] Войти в аккаунт не удалось!
+[15.02.2020 18:09:23, поток 6] [DEBUG] Start...
+[15.02.2020 18:09:23, поток 6] Берём заданные куки...
+[15.02.2020 18:09:23, поток 10] Good.
+[15.02.2020 18:09:24, поток 0] Спарсили куки
+[15.02.2020 18:09:24, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:09:24, поток 9] Войти в аккаунт не удалось!
+[15.02.2020 18:09:24, поток 9] [DEBUG] Start...
+[15.02.2020 18:09:24, поток 9] Берём заданные куки...
+[15.02.2020 18:09:24, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:09:24, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:09:25, поток 3] Спарсили куки
+[15.02.2020 18:09:25, поток 6] Спарсили куки
+[15.02.2020 18:09:25, поток 9] Спарсили куки
+[15.02.2020 18:09:25, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 18:09:26, поток 2] Good.
+[15.02.2020 18:09:27, поток 9] Войти в аккаунт не удалось!
+[15.02.2020 18:09:27, поток 3] Войти в аккаунт не удалось!
+[15.02.2020 18:09:27, поток 6] Войти в аккаунт не удалось!
+[15.02.2020 18:11:45, поток 0] [DEBUG] Start...
+[15.02.2020 18:11:45, поток 0] Берём заданные куки...
+[15.02.2020 18:11:45, поток 1] [DEBUG] Start...
+[15.02.2020 18:11:45, поток 1] Берём заданные куки...
+[15.02.2020 18:11:46, поток 2] [DEBUG] Start...
+[15.02.2020 18:11:46, поток 2] Берём заданные куки...
+[15.02.2020 18:11:46, поток 3] [DEBUG] Start...
+[15.02.2020 18:11:46, поток 3] Берём заданные куки...
+[15.02.2020 18:11:46, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:11:46, поток 4] [DEBUG] Start...
+[15.02.2020 18:11:46, поток 4] Берём заданные куки...
+[15.02.2020 18:11:47, поток 1] Good.
+[15.02.2020 18:11:47, поток 5] [DEBUG] Start...
+[15.02.2020 18:11:47, поток 5] Берём заданные куки...
+[15.02.2020 18:11:47, поток 6] [DEBUG] Start...
+[15.02.2020 18:11:47, поток 6] Берём заданные куки...
+[15.02.2020 18:11:47, поток 7] [DEBUG] Start...
+[15.02.2020 18:11:47, поток 7] Берём заданные куки...
+[15.02.2020 18:11:47, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:11:47, поток 0] Спарсили куки
+[15.02.2020 18:11:47, поток 4] Good.
+[15.02.2020 18:11:48, поток 5] Good.
+[15.02.2020 18:11:48, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:11:48, поток 8] [DEBUG] Start...
+[15.02.2020 18:11:48, поток 8] Берём заданные куки...
+[15.02.2020 18:11:48, поток 2] Good.
+[15.02.2020 18:11:49, поток 6] Спарсили куки
+[15.02.2020 18:11:49, поток 3] Спарсили куки
+[15.02.2020 18:11:49, поток 7] Good.
+[15.02.2020 18:11:49, поток 8] Good.
+[15.02.2020 18:11:49, поток 9] [DEBUG] Start...
+[15.02.2020 18:11:49, поток 9] Берём заданные куки...
+[15.02.2020 18:11:49, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 18:11:49, поток 0] [DEBUG] Start...
+[15.02.2020 18:11:49, поток 0] Берём заданные куки...
+[15.02.2020 18:11:50, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:11:50, поток 10] [DEBUG] Start...
+[15.02.2020 18:11:50, поток 10] Берём заданные куки...
+[15.02.2020 18:11:50, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:11:50, поток 6] Войти в аккаунт не удалось!
+[15.02.2020 18:11:50, поток 6] [DEBUG] Start...
+[15.02.2020 18:11:50, поток 6] Берём заданные куки...
+[15.02.2020 18:11:51, поток 9] Спарсили куки
+[15.02.2020 18:11:51, поток 0] Спарсили куки
+[15.02.2020 18:11:51, поток 3] Войти в аккаунт не удалось!
+[15.02.2020 18:11:51, поток 3] [DEBUG] Start...
+[15.02.2020 18:11:51, поток 3] Берём заданные куки...
+[15.02.2020 18:11:51, поток 6] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:11:51, поток 10] Good.
+[15.02.2020 18:11:52, поток 3] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:11:52, поток 6] Спарсили куки
+[15.02.2020 18:11:53, поток 9] Войти в аккаунт не удалось!
+[15.02.2020 18:11:53, поток 9] [DEBUG] Start...
+[15.02.2020 18:11:53, поток 9] Берём заданные куки...
+[15.02.2020 18:11:53, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 18:11:53, поток 9] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:11:54, поток 6] Войти в аккаунт не удалось!
+[15.02.2020 18:11:54, поток 9] Спарсили куки
+[15.02.2020 18:11:55, поток 9] Войти в аккаунт не удалось!
+[15.02.2020 18:11:58, поток 3] Спарсили куки
+[15.02.2020 18:11:59, поток 3] Войти в аккаунт не удалось!
+[15.02.2020 18:16:24, поток 0] [DEBUG] Start...
+[15.02.2020 18:16:24, поток 0] Берём заданные куки...
+[15.02.2020 18:16:25, поток 1] [DEBUG] Start...
+[15.02.2020 18:16:25, поток 1] Берём заданные куки...
+[15.02.2020 18:16:25, поток 2] [DEBUG] Start...
+[15.02.2020 18:16:25, поток 2] Берём заданные куки...
+[15.02.2020 18:16:26, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:16:26, поток 1] Good.
+[15.02.2020 18:16:26, поток 2] Good.
+[15.02.2020 18:16:27, поток 0] Спарсили куки
+[15.02.2020 18:16:29, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 18:16:29, поток 0] [DEBUG] Start...
+[15.02.2020 18:16:29, поток 0] Берём заданные куки...
+[15.02.2020 18:16:29, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:16:30, поток 0] Спарсили куки
+[15.02.2020 18:16:31, поток 1] [DEBUG] Start...
+[15.02.2020 18:16:31, поток 1] Берём заданные куки...
+[15.02.2020 18:16:32, поток 2] [DEBUG] Start...
+[15.02.2020 18:16:32, поток 2] Берём заданные куки...
+[15.02.2020 18:16:32, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 18:16:32, поток 1] Good.
+[15.02.2020 18:16:33, поток 0] [DEBUG] Start...
+[15.02.2020 18:16:33, поток 0] Берём заданные куки...
+[15.02.2020 18:16:34, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:16:34, поток 0] Good.
+[15.02.2020 18:16:36, поток 2] Спарсили куки
+[15.02.2020 18:16:37, поток 2] Войти в аккаунт не удалось!
+[15.02.2020 18:16:37, поток 2] [DEBUG] Start...
+[15.02.2020 18:16:37, поток 2] Берём заданные куки...
+[15.02.2020 18:16:38, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:16:38, поток 1] [DEBUG] Start...
+[15.02.2020 18:16:38, поток 1] Берём заданные куки...
+[15.02.2020 18:16:39, поток 2] Спарсили куки
+[15.02.2020 18:16:39, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:16:39, поток 0] [DEBUG] Start...
+[15.02.2020 18:16:39, поток 0] Берём заданные куки...
+[15.02.2020 18:16:40, поток 1] Спарсили куки
+[15.02.2020 18:16:40, поток 2] Войти в аккаунт не удалось!
+[15.02.2020 18:16:41, поток 0] Good.
+[15.02.2020 18:16:41, поток 2] [DEBUG] Start...
+[15.02.2020 18:16:41, поток 2] Берём заданные куки...
+[15.02.2020 18:16:42, поток 2] Good.
+[15.02.2020 18:16:43, поток 1] Войти в аккаунт не удалось!
+[15.02.2020 18:16:43, поток 1] [DEBUG] Start...
+[15.02.2020 18:16:43, поток 1] Берём заданные куки...
+[15.02.2020 18:16:44, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:16:45, поток 1] Спарсили куки
+[15.02.2020 18:16:46, поток 0] [DEBUG] Start...
+[15.02.2020 18:16:46, поток 0] Берём заданные куки...
+[15.02.2020 18:16:46, поток 1] Войти в аккаунт не удалось!
+[15.02.2020 18:16:47, поток 1] [DEBUG] Start...
+[15.02.2020 18:16:47, поток 1] Берём заданные куки...
+[15.02.2020 18:16:47, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:16:48, поток 1] Good.
+[15.02.2020 18:16:48, поток 2] [DEBUG] Start...
+[15.02.2020 18:16:48, поток 2] Берём заданные куки...
+[15.02.2020 18:16:48, поток 0] Спарсили куки
+[15.02.2020 18:16:49, поток 2] Good.
+[15.02.2020 18:16:50, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 18:16:50, поток 0] [DEBUG] Start...
+[15.02.2020 18:16:50, поток 0] Берём заданные куки...
+[15.02.2020 18:16:51, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:16:52, поток 0] Спарсили куки
+[15.02.2020 18:16:54, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 18:29:12, поток 0] [DEBUG] Start...
+[15.02.2020 18:29:12, поток 0] Берём заданные куки...
+[15.02.2020 18:29:12, поток 1] [DEBUG] Start...
+[15.02.2020 18:29:12, поток 1] Берём заданные куки...
+[15.02.2020 18:29:12, поток 2] [DEBUG] Start...
+[15.02.2020 18:29:12, поток 2] Берём заданные куки...
+[15.02.2020 18:29:13, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:29:13, поток 1] Good.
+[15.02.2020 18:29:13, поток 2] Good.
+[15.02.2020 18:29:14, поток 0] Спарсили куки
+[15.02.2020 18:29:16, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 18:29:16, поток 0] [DEBUG] Start...
+[15.02.2020 18:29:16, поток 0] Берём заданные куки...
+[15.02.2020 18:29:17, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:29:18, поток 0] Спарсили куки
+[15.02.2020 18:29:19, поток 1] [DEBUG] Start...
+[15.02.2020 18:29:19, поток 1] Берём заданные куки...
+[15.02.2020 18:29:19, поток 2] [DEBUG] Start...
+[15.02.2020 18:29:19, поток 2] Берём заданные куки...
+[15.02.2020 18:29:19, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 18:29:20, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:29:20, поток 1] Good.
+[15.02.2020 18:29:21, поток 2] Спарсили куки
+[15.02.2020 18:29:22, поток 2] Войти в аккаунт не удалось!
+[15.02.2020 18:29:22, поток 2] [DEBUG] Start...
+[15.02.2020 18:29:22, поток 2] Берём заданные куки...
+[15.02.2020 18:29:23, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:29:24, поток 2] Спарсили куки
+[15.02.2020 18:29:25, поток 1] [DEBUG] Start...
+[15.02.2020 18:29:25, поток 1] Берём заданные куки...
+[15.02.2020 18:29:25, поток 2] Войти в аккаунт не удалось!
+[15.02.2020 18:29:26, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:29:28, поток 1] Спарсили куки
+[15.02.2020 18:29:29, поток 1] Войти в аккаунт не удалось!
+[15.02.2020 18:29:29, поток 1] [DEBUG] Start...
+[15.02.2020 18:29:29, поток 1] Берём заданные куки...
+[15.02.2020 18:29:30, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 18:29:31, поток 1] Спарсили куки
+[15.02.2020 18:29:33, поток 1] Войти в аккаунт не удалось!
+[15.02.2020 19:03:26, поток 0] [DEBUG] Start...
+[15.02.2020 19:03:26, поток 0] Берём заданные куки...
+[15.02.2020 19:03:27, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:03:28, поток 0] Спарсили куки
+[15.02.2020 19:03:30, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:03:30, поток 0] [DEBUG] Start...
+[15.02.2020 19:03:30, поток 0] Берём заданные куки...
+[15.02.2020 19:03:31, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:03:32, поток 0] Спарсили куки
+[15.02.2020 19:03:34, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:05:04, поток 0] [DEBUG] Start...
+[15.02.2020 19:05:04, поток 0] Берём заданные куки...
+[15.02.2020 19:05:05, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:05:06, поток 0] Спарсили куки
+[15.02.2020 19:05:08, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:05:08, поток 0] [DEBUG] Start...
+[15.02.2020 19:05:08, поток 0] Берём заданные куки...
+[15.02.2020 19:05:08, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:05:09, поток 0] Спарсили куки
+[15.02.2020 19:05:11, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:05:12, поток 0] [DEBUG] Start...
+[15.02.2020 19:05:12, поток 0] Берём заданные куки...
+[15.02.2020 19:05:13, поток 0] Сообщение отправлено.
+[15.02.2020 19:05:18, поток 0] [DEBUG] Start...
+[15.02.2020 19:05:18, поток 0] Берём заданные куки...
+[15.02.2020 19:05:19, поток 0] Сообщение отправлено.
+[15.02.2020 19:05:25, поток 0] [DEBUG] Start...
+[15.02.2020 19:05:25, поток 0] Берём заданные куки...
+[15.02.2020 19:05:26, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:05:27, поток 0] Спарсили куки
+[15.02.2020 19:05:28, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:05:28, поток 0] [DEBUG] Start...
+[15.02.2020 19:05:28, поток 0] Берём заданные куки...
+[15.02.2020 19:05:29, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:05:30, поток 0] Спарсили куки
+[15.02.2020 19:05:32, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:05:33, поток 0] [DEBUG] Start...
+[15.02.2020 19:05:33, поток 0] Берём заданные куки...
+[15.02.2020 19:05:34, поток 0] Сообщение отправлено.
+[15.02.2020 19:05:39, поток 0] [DEBUG] Start...
+[15.02.2020 19:05:39, поток 0] Берём заданные куки...
+[15.02.2020 19:05:40, поток 0] Сообщение отправлено.
+[15.02.2020 19:05:46, поток 0] [DEBUG] Start...
+[15.02.2020 19:05:46, поток 0] Берём заданные куки...
+[15.02.2020 19:05:47, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:05:48, поток 0] Спарсили куки
+[15.02.2020 19:05:49, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:05:49, поток 0] [DEBUG] Start...
+[15.02.2020 19:05:49, поток 0] Берём заданные куки...
+[15.02.2020 19:05:50, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:05:51, поток 0] Спарсили куки
+[15.02.2020 19:05:53, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:05:54, поток 0] [DEBUG] Start...
+[15.02.2020 19:05:54, поток 0] Берём заданные куки...
+[15.02.2020 19:05:55, поток 0] Сообщение отправлено.
+[15.02.2020 19:06:00, поток 0] [DEBUG] Start...
+[15.02.2020 19:06:00, поток 0] Берём заданные куки...
+[15.02.2020 19:06:01, поток 0] Сообщение отправлено.
+[15.02.2020 19:06:07, поток 0] [DEBUG] Start...
+[15.02.2020 19:06:07, поток 0] Берём заданные куки...
+[15.02.2020 19:06:08, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:06:09, поток 0] Спарсили куки
+[15.02.2020 19:06:11, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:06:11, поток 0] [DEBUG] Start...
+[15.02.2020 19:06:11, поток 0] Берём заданные куки...
+[15.02.2020 19:06:12, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:06:13, поток 0] Спарсили куки
+[15.02.2020 19:06:14, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:06:15, поток 0] [DEBUG] Start...
+[15.02.2020 19:06:15, поток 0] Берём заданные куки...
+[15.02.2020 19:06:16, поток 0] Сообщение отправлено.
+[15.02.2020 19:06:21, поток 0] [DEBUG] Start...
+[15.02.2020 19:06:21, поток 0] Берём заданные куки...
+[15.02.2020 19:06:22, поток 0] Сообщение отправлено.
+[15.02.2020 19:09:28, поток 0] [DEBUG] Start...
+[15.02.2020 19:09:28, поток 0] Берём заданные куки...
+[15.02.2020 19:09:28, поток 1] [DEBUG] Start...
+[15.02.2020 19:09:28, поток 1] Берём заданные куки...
+[15.02.2020 19:09:28, поток 2] [DEBUG] Start...
+[15.02.2020 19:09:28, поток 2] Берём заданные куки...
+[15.02.2020 19:09:29, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:09:29, поток 1] Сообщение отправлено.
+[15.02.2020 19:09:29, поток 2] Сообщение отправлено.
+[15.02.2020 19:09:30, поток 0] Спарсили куки
+[15.02.2020 19:09:33, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:09:33, поток 0] [DEBUG] Start...
+[15.02.2020 19:09:33, поток 0] Берём заданные куки...
+[15.02.2020 19:09:34, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:09:35, поток 1] [DEBUG] Start...
+[15.02.2020 19:09:35, поток 1] Берём заданные куки...
+[15.02.2020 19:09:35, поток 2] [DEBUG] Start...
+[15.02.2020 19:09:35, поток 2] Берём заданные куки...
+[15.02.2020 19:09:35, поток 0] Спарсили куки
+[15.02.2020 19:09:36, поток 1] Сообщение отправлено.
+[15.02.2020 19:09:36, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:09:37, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:09:37, поток 2] Спарсили куки
+[15.02.2020 19:09:37, поток 0] [DEBUG] Start...
+[15.02.2020 19:09:37, поток 0] Берём заданные куки...
+[15.02.2020 19:09:39, поток 0] Сообщение отправлено.
+[15.02.2020 19:09:39, поток 2] Войти в аккаунт не удалось!
+[15.02.2020 19:09:39, поток 2] [DEBUG] Start...
+[15.02.2020 19:09:39, поток 2] Берём заданные куки...
+[15.02.2020 19:09:40, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:09:41, поток 2] Спарсили куки
+[15.02.2020 19:09:41, поток 1] [DEBUG] Start...
+[15.02.2020 19:09:41, поток 1] Берём заданные куки...
+[15.02.2020 19:09:42, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:09:43, поток 2] Войти в аккаунт не удалось!
+[15.02.2020 19:09:43, поток 2] [DEBUG] Start...
+[15.02.2020 19:09:43, поток 2] Берём заданные куки...
+[15.02.2020 19:09:44, поток 1] Спарсили куки
+[15.02.2020 19:09:44, поток 2] Сообщение отправлено.
+[15.02.2020 19:09:44, поток 0] [DEBUG] Start...
+[15.02.2020 19:09:44, поток 0] Берём заданные куки...
+[15.02.2020 19:09:45, поток 0] Сообщение отправлено.
+[15.02.2020 19:09:45, поток 1] Войти в аккаунт не удалось!
+[15.02.2020 19:09:45, поток 1] [DEBUG] Start...
+[15.02.2020 19:09:45, поток 1] Берём заданные куки...
+[15.02.2020 19:09:46, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:09:47, поток 1] Спарсили куки
+[15.02.2020 19:09:49, поток 1] Войти в аккаунт не удалось!
+[15.02.2020 19:09:49, поток 1] [DEBUG] Start...
+[15.02.2020 19:09:49, поток 1] Берём заданные куки...
+[15.02.2020 19:09:50, поток 2] [DEBUG] Start...
+[15.02.2020 19:09:50, поток 2] Берём заданные куки...
+[15.02.2020 19:09:50, поток 1] Сообщение отправлено.
+[15.02.2020 19:09:51, поток 0] [DEBUG] Start...
+[15.02.2020 19:09:51, поток 0] Берём заданные куки...
+[15.02.2020 19:09:51, поток 2] Сообщение отправлено.
+[15.02.2020 19:09:52, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:09:53, поток 0] Спарсили куки
+[15.02.2020 19:09:54, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:09:54, поток 0] [DEBUG] Start...
+[15.02.2020 19:09:54, поток 0] Берём заданные куки...
+[15.02.2020 19:09:55, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:09:56, поток 0] Спарсили куки
+[15.02.2020 19:09:58, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:16:06, поток 0] [DEBUG] Start...
+[15.02.2020 19:16:06, поток 0] Берём заданные куки...
+[15.02.2020 19:16:07, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:16:08, поток 0] Спарсили куки
+[15.02.2020 19:17:33, поток 0] [DEBUG] Start...
+[15.02.2020 19:17:33, поток 0] Берём заданные куки...
+[15.02.2020 19:17:34, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:17:35, поток 0] Спарсили куки
+[15.02.2020 19:17:48, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:17:48, поток 0] [DEBUG] Start...
+[15.02.2020 19:17:48, поток 0] Берём заданные куки...
+[15.02.2020 19:17:49, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:17:50, поток 0] Спарсили куки
+[15.02.2020 19:17:52, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:17:53, поток 0] [DEBUG] Start...
+[15.02.2020 19:17:53, поток 0] Берём заданные куки...
+[15.02.2020 19:17:53, поток 0] Сообщение отправлено.
+[15.02.2020 19:17:59, поток 0] [DEBUG] Start...
+[15.02.2020 19:17:59, поток 0] Берём заданные куки...
+[15.02.2020 19:17:59, поток 0] Сообщение отправлено.
+[15.02.2020 19:18:05, поток 0] [DEBUG] Start...
+[15.02.2020 19:18:05, поток 0] Берём заданные куки...
+[15.02.2020 19:18:05, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:18:05, поток 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Получен неверный код статуса 'BadGateway' от прокси-сервера '194.183.168.4:20567'.
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Get(String address, RequestParams urlParams)
+   в InstaImap.Instagram.GetCookie() в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 67
+   в InstaImap.Instagram..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 161
+[15.02.2020 19:18:05, поток 0] [DEBUG] Сменили прокси.
+[15.02.2020 19:30:59, поток 2] [DEBUG] Start...
+[15.02.2020 19:30:59, поток 2] Берём заданные куки...
+[15.02.2020 19:30:59, поток 1] [DEBUG] Start...
+[15.02.2020 19:30:59, поток 1] Берём заданные куки...
+[15.02.2020 19:31:00, поток 0] [DEBUG] Start...
+[15.02.2020 19:31:00, поток 0] Берём заданные куки...
+[15.02.2020 19:31:01, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:31:01, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:31:02, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:31:02, поток 2] Спарсили куки
+[15.02.2020 19:31:04, поток 1] Спарсили куки
+[15.02.2020 19:31:04, поток 0] Спарсили куки
+[15.02.2020 19:31:05, поток 2] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 217
+[15.02.2020 19:31:05, поток 2] [DEBUG] Start...
+[15.02.2020 19:31:05, поток 2] Берём заданные куки...
+[15.02.2020 19:31:06, поток 1] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 217
+[15.02.2020 19:31:06, поток 1] [DEBUG] Start...
+[15.02.2020 19:31:06, поток 1] Берём заданные куки...
+[15.02.2020 19:31:06, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 217
+[15.02.2020 19:31:06, поток 0] [DEBUG] Start...
+[15.02.2020 19:31:06, поток 0] Берём заданные куки...
+[15.02.2020 19:31:07, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:31:08, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:31:08, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:31:08, поток 2] Спарсили куки
+[15.02.2020 19:31:09, поток 1] Спарсили куки
+[15.02.2020 19:31:09, поток 0] Спарсили куки
+[15.02.2020 19:31:10, поток 2] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 217
+[15.02.2020 19:31:11, поток 1] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 217
+[15.02.2020 19:31:11, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 217
+[15.02.2020 19:31:14, поток 0] [DEBUG] Start...
+[15.02.2020 19:31:14, поток 0] Берём заданные куки...
+[15.02.2020 19:31:14, поток 1] [DEBUG] Start...
+[15.02.2020 19:31:14, поток 1] Берём заданные куки...
+[15.02.2020 19:31:14, поток 2] [DEBUG] Start...
+[15.02.2020 19:31:14, поток 2] Берём заданные куки...
+[15.02.2020 19:31:16, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:31:16, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:31:16, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:31:17, поток 0] Спарсили куки
+[15.02.2020 19:31:17, поток 1] Спарсили куки
+[15.02.2020 19:31:18, поток 2] Спарсили куки
+[15.02.2020 19:31:19, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 217
+[15.02.2020 19:31:19, поток 0] [DEBUG] Start...
+[15.02.2020 19:31:19, поток 0] Берём заданные куки...
+[15.02.2020 19:31:19, поток 1] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 217
+[15.02.2020 19:31:19, поток 1] [DEBUG] Start...
+[15.02.2020 19:31:19, поток 1] Берём заданные куки...
+[15.02.2020 19:31:20, поток 2] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 217
+[15.02.2020 19:31:20, поток 2] [DEBUG] Start...
+[15.02.2020 19:31:20, поток 2] Берём заданные куки...
+[15.02.2020 19:31:21, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:31:21, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:31:22, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:31:22, поток 0] Спарсили куки
+[15.02.2020 19:31:22, поток 1] Спарсили куки
+[15.02.2020 19:31:23, поток 2] Спарсили куки
+[15.02.2020 19:31:24, поток 0] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 217
+[15.02.2020 19:31:24, поток 1] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 217
+[15.02.2020 19:31:25, поток 2] (Ошибка) Текст ошибки: xNet.HttpException: Не удалось соединиться с HTTP-сервером 'i.instagram.com'. ---> xNet.ProxyException: Не удалось соединиться с прокси-сервером '127.0.0.1:8888'. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8888
+   в System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   в xNet.ProxyClient.<>c__DisplayClass38_0.<CreateConnectionToProxy>b__0(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.ProxyClient.CreateConnectionToProxy()
+   в xNet.HttpProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- Конец трассировки внутреннего стека исключений ---
+   в xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   в xNet.HttpRequest.CreateConnection(Uri address)
+   в xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   в xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   в xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   в xNet.HttpRequest.Post(String address, RequestParams reqParams, Boolean dontEscape)
+   в InstaImap.Instagram.DoLogin(String email, WebProxy proxy, String UserAgent, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\Instagram.cs:строка 217
+[15.02.2020 19:36:27, поток 0] [DEBUG] Start...
+[15.02.2020 19:36:27, поток 0] Берём заданные куки...
+[15.02.2020 19:36:33, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:36:34, поток 0] Спарсили куки
+[15.02.2020 19:36:39, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:36:39, поток 0] [DEBUG] Start...
+[15.02.2020 19:36:39, поток 0] Берём заданные куки...
+[15.02.2020 19:36:43, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:36:44, поток 0] Спарсили куки
+[15.02.2020 19:36:46, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:36:46, поток 0] [DEBUG] Start...
+[15.02.2020 19:36:46, поток 0] Берём заданные куки...
+[15.02.2020 19:36:49, поток 0] Сообщение отправлено.
+[15.02.2020 19:36:54, поток 0] [DEBUG] Start...
+[15.02.2020 19:36:54, поток 0] Берём заданные куки...
+[15.02.2020 19:36:57, поток 0] Сообщение отправлено.
+[15.02.2020 19:37:02, поток 0] [DEBUG] Start...
+[15.02.2020 19:37:02, поток 0] Берём заданные куки...
+[15.02.2020 19:38:44, поток 0] [DEBUG] Start...
+[15.02.2020 19:38:44, поток 0] Берём заданные куки...
+[15.02.2020 19:38:44, поток 1] [DEBUG] Start...
+[15.02.2020 19:38:44, поток 1] Берём заданные куки...
+[15.02.2020 19:38:44, поток 2] [DEBUG] Start...
+[15.02.2020 19:38:44, поток 2] Берём заданные куки...
+[15.02.2020 19:38:45, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:38:45, поток 1] Сообщение отправлено.
+[15.02.2020 19:38:45, поток 2] Сообщение отправлено.
+[15.02.2020 19:38:46, поток 0] Спарсили куки
+[15.02.2020 19:38:49, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:38:49, поток 0] [DEBUG] Start...
+[15.02.2020 19:38:49, поток 0] Берём заданные куки...
+[15.02.2020 19:38:50, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:38:51, поток 1] [DEBUG] Start...
+[15.02.2020 19:38:51, поток 1] Берём заданные куки...
+[15.02.2020 19:38:51, поток 2] [DEBUG] Start...
+[15.02.2020 19:38:51, поток 2] Берём заданные куки...
+[15.02.2020 19:38:51, поток 0] Спарсили куки
+[15.02.2020 19:38:52, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:38:52, поток 1] Сообщение отправлено.
+[15.02.2020 19:38:53, поток 2] Спарсили куки
+[15.02.2020 19:38:53, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:38:54, поток 0] [DEBUG] Start...
+[15.02.2020 19:38:54, поток 0] Берём заданные куки...
+[15.02.2020 19:38:55, поток 2] Войти в аккаунт не удалось!
+[15.02.2020 19:38:55, поток 2] [DEBUG] Start...
+[15.02.2020 19:38:55, поток 2] Берём заданные куки...
+[15.02.2020 19:38:55, поток 0] Сообщение отправлено.
+[15.02.2020 19:38:56, поток 2] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:38:56, поток 2] Спарсили куки
+[15.02.2020 19:38:57, поток 1] [DEBUG] Start...
+[15.02.2020 19:38:57, поток 1] Берём заданные куки...
+[15.02.2020 19:38:58, поток 2] Войти в аккаунт не удалось!
+[15.02.2020 19:38:59, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:38:59, поток 2] [DEBUG] Start...
+[15.02.2020 19:38:59, поток 2] Берём заданные куки...
+[15.02.2020 19:39:00, поток 2] Сообщение отправлено.
+[15.02.2020 19:39:00, поток 1] Спарсили куки
+[15.02.2020 19:39:00, поток 0] [DEBUG] Start...
+[15.02.2020 19:39:00, поток 0] Берём заданные куки...
+[15.02.2020 19:39:01, поток 0] Сообщение отправлено.
+[15.02.2020 19:39:02, поток 1] Войти в аккаунт не удалось!
+[15.02.2020 19:39:02, поток 1] [DEBUG] Start...
+[15.02.2020 19:39:02, поток 1] Берём заданные куки...
+[15.02.2020 19:39:03, поток 1] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:39:04, поток 1] Спарсили куки
+[15.02.2020 19:39:05, поток 2] [DEBUG] Start...
+[15.02.2020 19:39:05, поток 2] Берём заданные куки...
+[15.02.2020 19:39:05, поток 1] Войти в аккаунт не удалось!
+[15.02.2020 19:39:06, поток 1] [DEBUG] Start...
+[15.02.2020 19:39:06, поток 1] Берём заданные куки...
+[15.02.2020 19:39:06, поток 2] Сообщение отправлено.
+[15.02.2020 19:39:07, поток 0] [DEBUG] Start...
+[15.02.2020 19:39:07, поток 0] Берём заданные куки...
+[15.02.2020 19:39:07, поток 1] Сообщение отправлено.
+[15.02.2020 19:39:08, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:39:09, поток 0] Спарсили куки
+[15.02.2020 19:39:11, поток 0] Войти в аккаунт не удалось!
+[15.02.2020 19:39:11, поток 0] [DEBUG] Start...
+[15.02.2020 19:39:11, поток 0] Берём заданные куки...
+[15.02.2020 19:39:12, поток 0] [Ошибка] Что-то не так. Переделываем.
+[15.02.2020 19:39:13, поток 0] Спарсили куки
+[15.02.2020 19:39:15, поток 0] Войти в аккаунт не удалось!

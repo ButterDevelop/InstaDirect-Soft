@@ -45,6 +45,12 @@ namespace InstaDirectMessage_ButDev
             }
             foreach (Control a in this.Controls)
             {
+                if (a.GetType().ToString() != "System.Windows.Forms.CheckBox") continue;
+                if (key.Contains(a.Name)) ((CheckBox)a).Checked = value[key.FindIndex(x => x == a.Name)] == "1" ? true : false;
+            }
+            foreach (Control a in this.Controls)
+            {
+                if (a.GetType().ToString() == "System.Windows.Forms.CheckBox") continue;
                 if (key.Contains(a.Name)) a.Text = value[key.FindIndex(x => x == a.Name)];
             }
 
@@ -175,7 +181,11 @@ namespace InstaDirectMessage_ButDev
         private void buttonStart_Click(object sender, EventArgs e)
         {
             Proxy.Clear();
-            labelGood.Text = "0"; labelBad.Text = "0"; 
+            labelGood.Text = "0"; labelBad.Text = "0";
+            sendLink = checkBoxLink.Checked;
+            sendPost = checkBoxPost.Checked;
+            link = textBoxLink.Text;
+            postLink = textBoxPost.Text;
             if (!int.TryParse(textBoxInterval.Text, out Interval) || Interval < 0) { MessageBox.Show(Translate.Tr("Интервал указан некорректно!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
 
             if (isApiProxy)
@@ -197,8 +207,14 @@ namespace InstaDirectMessage_ButDev
             if (CheckLicense.remaining < 0) { MessageBox.Show(Translate.Tr("Лицензия истекла!"), Translate.Tr("Ошибка!"), MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
 
             Account = textBoxAccounts.Text;
+
             var data = Properties.Settings.Default.FormFollowersParser;
             data.Clear();
+            foreach (Control a in this.Controls)
+            {
+                if (a.GetType().ToString() != "System.Windows.Forms.CheckBox") continue;
+                data.Add(a.Name + "|" + Convert.ToBase64String(Encoding.UTF8.GetBytes(((CheckBox)a).Checked ? "1" : "0")));
+            }
             foreach (Control a in this.Controls)
             {
                 if (a.GetType().ToString() == "System.Windows.Forms.TextBox") data.Add(a.Name + "|" + Convert.ToBase64String(Encoding.UTF8.GetBytes(a.Text)));
@@ -208,6 +224,11 @@ namespace InstaDirectMessage_ButDev
 
             UserName = Account;
             UserName = UserName.Remove(UserName.IndexOf(":"));
+            if (InstagramFollowersGreeting.UserName != UserName)
+            {
+                InstagramFollowersGreeting.logincookie = "";
+                InstagramFollowersGreeting.logincookieMob = "";
+            }
             InstagramFollowersGreeting.UserName = UserName;
             InstagramFollowersGreeting.Last = "";
 

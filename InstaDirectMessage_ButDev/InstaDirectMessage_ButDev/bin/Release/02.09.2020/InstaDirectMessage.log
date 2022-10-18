@@ -1,0 +1,71 @@
+﻿[02.09.2020 20:30:09, thread 0] [DEBUG] Start...
+[02.09.2020 20:30:09, thread 0] Parsing cookies...
+[02.09.2020 20:31:10, thread 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Произошла ошибка при работе с прокси-сервером '185.112.100.167:53066'. ---> System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at xNet.Socks5ProxyClient.InitialNegotiation(NetworkStream nStream)
+   at xNet.Socks5ProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   --- End of inner exception stack trace ---
+   at xNet.Socks5ProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramDirectMessage.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramDirectMessage.cs:line 67
+   at InstaDirectMessage_ButDev.InstagramDirectMessage..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link, String postlink, String ua) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramDirectMessage.cs:line 178
+[02.09.2020 20:31:10, thread 0] [DEBUG] Changed proxies.
+[02.09.2020 20:31:15, thread 0] [DEBUG] Start...
+[02.09.2020 20:31:15, thread 0] Parsing cookies...
+[02.09.2020 20:32:15, thread 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Произошла ошибка при работе с прокси-сервером '185.112.100.165:53066'. ---> System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at xNet.Socks5ProxyClient.InitialNegotiation(NetworkStream nStream)
+   at xNet.Socks5ProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   --- End of inner exception stack trace ---
+   at xNet.Socks5ProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramDirectMessage.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramDirectMessage.cs:line 67
+   at InstaDirectMessage_ButDev.InstagramDirectMessage..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link, String postlink, String ua) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramDirectMessage.cs:line 178
+[02.09.2020 20:32:15, thread 0] [DEBUG] Changed proxies.
+[02.09.2020 20:32:25, thread 0] [DEBUG] Start...
+[02.09.2020 20:32:25, thread 0] Parsing cookies...
+[02.09.2020 20:32:59, thread 0] [DEBUG] Start...
+[02.09.2020 20:32:59, thread 0] Parsing cookies...
+[02.09.2020 20:33:00, thread 0] Cookie parsing
+[02.09.2020 20:33:02, thread 0] Logged in to your account.
+[02.09.2020 20:33:08, thread 0] Message sent.
+[02.09.2020 20:33:25, thread 0] [DEBUG, ERROR] xNet.HttpException: Не удалось соединиться с HTTP-сервером 'www.instagram.com'. ---> xNet.ProxyException: Произошла ошибка при работе с прокси-сервером '185.112.100.165:53066'. ---> System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at xNet.Socks5ProxyClient.InitialNegotiation(NetworkStream nStream)
+   at xNet.Socks5ProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   --- End of inner exception stack trace ---
+   at xNet.Socks5ProxyClient.CreateConnection(String destinationHost, Int32 destinationPort, TcpClient tcpClient)
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   --- End of inner exception stack trace ---
+   at xNet.HttpRequest.CreateTcpConnection(String host, Int32 port)
+   at xNet.HttpRequest.CreateConnection(Uri address)
+   at xNet.HttpRequest.TryCreateConnectionOrUseExisting(Uri address, Uri previousAddress)
+   at xNet.HttpRequest.Request(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, Uri address, HttpContent content)
+   at xNet.HttpRequest.Raw(HttpMethod method, String address, HttpContent content)
+   at InstaDirectMessage_ButDev.InstagramDirectMessage.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramDirectMessage.cs:line 67
+   at InstaDirectMessage_ButDev.InstagramDirectMessage..ctor(String Mail, String password, String id, String cookies, String DEVICEID, String ADID, String GUID, String PHONE_ID, Int32 Index, String Time, Int32 tt, String type, String text, Int32 delay, String link, String postlink, String ua) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramDirectMessage.cs:line 178
+[02.09.2020 20:33:25, thread 0] [DEBUG] Changed proxies.

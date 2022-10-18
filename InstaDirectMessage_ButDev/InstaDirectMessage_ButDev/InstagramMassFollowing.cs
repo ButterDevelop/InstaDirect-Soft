@@ -157,7 +157,7 @@ namespace InstaDirectMessage_ButDev
         {
             try
             {
-                string rur = "", csrftoken = "", mid = "";
+                string ig_did = "", csrftoken = "", mid = "";
                 using (var request = new xNet.HttpRequest())
                 {
                     request.SslCertificateValidatorCallback += ServerCertificateValidationCallbackInstagram;
@@ -176,7 +176,7 @@ namespace InstaDirectMessage_ButDev
                         var c = response.Cookies;
                         foreach (var cooke in c)
                         {
-                            if (cooke.Key == "rur") { rur = cooke.Value; }
+                            if (cooke.Key == "ig_did") { ig_did = cooke.Value; }
                             else
                             if (cooke.Key == "csrftoken") { csrftoken = cooke.Value; }
                             else
@@ -188,7 +188,7 @@ namespace InstaDirectMessage_ButDev
 
                 if (csrftoken == "" || mid == "") { Log(Translate.Tr("[DEBUG] Не удалось спарсить Cookie. Плохие прокси?")); SwapProxy(); return "-1"; }
                 csrfGlobal = csrftoken;
-                string cookie = $"csrftoken={csrftoken}; rur={rur}; mid={mid};";
+                string cookie = $"csrftoken={csrftoken}; ig_did={ig_did}; mid={mid};";
                 Log(Translate.Tr("Спарсили куки"));
                 return cookie;
             } catch(Exception ex)
@@ -202,7 +202,7 @@ namespace InstaDirectMessage_ButDev
         {
             try
             {
-                string html = "", ds_user_id = "", sessionid = "", rur = "", csrftok = "", ig_did = "";
+                string html = "", ds_user_id = "", sessionid = "", rur = "", csrftok = "";
                 using (var request = new xNet.HttpRequest())
                 {
                     //request.SslCertificateValidatorCallback += ServerCertificateValidationCallbackInstagram;
@@ -216,6 +216,7 @@ namespace InstaDirectMessage_ButDev
                     request.Referer = "https://www.instagram.com/accounts/login/?source=auth_switcher";
                     //request.Proxy = HttpProxyClient.Parse("127.0.0.1:8888");
                     if (proxytype == "HTTP") request.Proxy = HttpProxyClient.Parse(Proxy[index % Proxy.Count]); else request.Proxy = Socks5ProxyClient.Parse(Proxy[index % Proxy.Count]);
+                    request.Proxy.ConnectTimeout = Properties.Settings.Default.ProxyTimeout * 1000;
 
                     request.AddHeader("Origin", "https://www.instagram.com");
                     request.AddHeader("X-Instagram-AJAX", "1");
@@ -242,8 +243,6 @@ namespace InstaDirectMessage_ButDev
                             if (cooke.Key == "csrftoken") { csrftok = cooke.Value; }
                             else
                             if (cooke.Key == "ds_user_id") { ds_user_id = cooke.Value; }
-                            else
-                            if (cooke.Key == "ig_did") { ig_did = cooke.Value; }
                         }
 
                         X_IG_WWW_Claim = response["x-ig-set-www-claim"];
@@ -253,7 +252,7 @@ namespace InstaDirectMessage_ButDev
                 }
 
                 csrfGlobal = csrftok;
-                string logincookie = $"csrftoken={csrftok}; ig_did={ig_did}; ds_user_id={ds_user_id}; sessionid={sessionid};";
+                string logincookie = $"csrftoken={csrftok}; rur={rur}; ds_user_id={ds_user_id}; sessionid={sessionid};";
                 Console.WriteLine(logincookie);
 
                 return logincookie;
@@ -283,6 +282,7 @@ namespace InstaDirectMessage_ButDev
                     request.KeepAlive = true;
                     //request.Referer = "https://www.instagram.com/create/details/";
                     if (proxytype == "HTTP") request.Proxy = HttpProxyClient.Parse(Proxy[index % Proxy.Count]); else request.Proxy = Socks5ProxyClient.Parse(Proxy[index % Proxy.Count]);
+                    request.Proxy.ConnectTimeout = Properties.Settings.Default.ProxyTimeout * 1000;
 
                     request.AddHeader("Origin", "https://www.instagram.com");
                     request.AddHeader("X-Instagram-AJAX", "b91bef47547a");
@@ -293,7 +293,7 @@ namespace InstaDirectMessage_ButDev
                     request.AddHeader("Accept", "*/*");
                     request.AddHeader("Cookie", cookie);
 
-                    xNet.HttpResponse response = request.Post("https://www.instagram.com/web/friendships/" + ID[i] + "/follow/", reqParams);
+                    xNet.HttpResponse response = request.Post($"https://i.instagram.com/api/v1/web/friendships/{ID[i]}/follow/", reqParams);
 
                     try
                     {
@@ -303,7 +303,7 @@ namespace InstaDirectMessage_ButDev
                     //MessageBox.Show(html);
                 }
 
-                if (!html.Contains("\"status\": \"ok\""))
+                if (!html.Contains("\"status\":\"ok\""))
                 {
                     Log(Translate.Tr("Не удалось подписаться с аккаунта ") + Login + Translate.Tr(" на аккаунт ") + ID[i]);
                     continue;

@@ -1,0 +1,242 @@
+﻿[16.10.2022 18:11:26, thread 0] Parsing cookies...
+[16.10.2022 18:11:27, thread 0] Cookie parsing
+[16.10.2022 18:11:27, thread 0] Got cookies...
+[16.10.2022 18:11:27, thread 0] We start parsing...
+[16.10.2022 18:11:30, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 238
+[16.10.2022 18:11:30, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 18:11:31, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 238
+[16.10.2022 18:11:31, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 18:11:33, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 238
+[16.10.2022 18:11:33, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 18:11:34, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 238
+[16.10.2022 18:11:34, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 18:11:37, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 238
+[16.10.2022 18:11:37, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 18:11:38, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 238
+[16.10.2022 18:11:38, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 18:22:02, thread 0] Parsing cookies...
+[16.10.2022 18:22:03, thread 0] Cookie parsing
+[16.10.2022 18:22:03, thread 0] Got cookies...
+[16.10.2022 18:22:03, thread 0] We start parsing...
+[16.10.2022 18:22:06, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 238
+[16.10.2022 18:22:06, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 18:22:08, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 238
+[16.10.2022 18:22:08, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 19:28:07, thread 0] Parsing cookies...
+[16.10.2022 19:28:08, thread 0] Cookie parsing
+[16.10.2022 19:28:08, thread 0] Got cookies...
+[16.10.2022 19:28:08, thread 0] We start parsing...
+[16.10.2022 19:28:11, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 236
+[16.10.2022 19:28:11, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 19:28:12, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 236
+[16.10.2022 19:28:12, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 19:28:13, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 236
+[16.10.2022 19:28:13, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 19:28:13, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 236
+[16.10.2022 19:28:13, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 19:28:14, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 236
+[16.10.2022 19:28:14, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 19:28:15, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 236
+[16.10.2022 19:28:15, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 19:28:16, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 236
+[16.10.2022 19:28:16, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 19:28:17, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 236
+[16.10.2022 19:28:17, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 19:28:20, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 236
+[16.10.2022 19:28:20, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 19:28:20, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 236
+[16.10.2022 19:28:20, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 19:28:21, thread 0] Parsing cookies...
+[16.10.2022 19:28:22, thread 0] Cookie parsing
+[16.10.2022 19:28:22, thread 0] Got cookies...
+[16.10.2022 19:28:22, thread 0] We start parsing...
+[16.10.2022 19:28:23, thread 0] (Error) Error text: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at InstaDirectMessage_ButDev.InstagramHashtagsParser.GetFirstData(String cookie) in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramHashtagsParser.cs:line 236
+[16.10.2022 19:28:23, thread 0] [DEBUG] Changed proxies.
+[16.10.2022 22:32:29, thread 0] Parsing cookies...
+[16.10.2022 22:32:30, thread 0] Cookie parsing
+[16.10.2022 22:32:30, thread 0] Got cookies...
+[16.10.2022 22:32:30, thread 0] We start parsing...
+[16.10.2022 22:32:46, thread 0] The part was parsed...
+[16.10.2022 22:32:46, thread 0] Parsing hashtag "minsk" is over!
+[16.10.2022 22:32:47, thread 0] Parsing cookies...
+[16.10.2022 22:32:47, thread 0] Cookie parsing
+[16.10.2022 22:32:47, thread 0] Got cookies...
+[16.10.2022 22:32:47, thread 0] We start parsing...
+[16.10.2022 22:36:49, thread 0] Parsing cookies...
+[16.10.2022 22:36:49, thread 0] Cookie parsing
+[16.10.2022 22:36:49, thread 0] Got cookies...
+[16.10.2022 22:36:49, thread 0] We start parsing...
+[16.10.2022 22:36:58, thread 0] The part was parsed...
+[16.10.2022 22:36:58, thread 0] Parsing hashtag "minsk" is over!
+[16.10.2022 22:36:59, thread 0] Parsing cookies...
+[16.10.2022 22:37:00, thread 0] Cookie parsing
+[16.10.2022 22:37:00, thread 0] Got cookies...
+[16.10.2022 22:37:00, thread 0] We start parsing...
+[16.10.2022 22:37:12, thread 0] The part was parsed...
+[16.10.2022 22:37:12, thread 0] Parsing hashtag "java" is over!
+[16.10.2022 22:38:22, thread 0] Parsing cookies...
+[16.10.2022 22:38:23, thread 0] Cookie parsing
+[16.10.2022 22:38:23, thread 0] Got cookies...
+[16.10.2022 22:38:23, thread 0] We start parsing...
+[16.10.2022 22:38:34, thread 0] The part was parsed...
+[16.10.2022 22:38:36, thread 0] The part was parsed...
+[16.10.2022 22:38:36, thread 0] Parsing hashtag "minsk" is over!
+[16.10.2022 22:38:37, thread 0] Parsing cookies...
+[16.10.2022 22:38:37, thread 0] Cookie parsing
+[16.10.2022 22:38:37, thread 0] Got cookies...
+[16.10.2022 22:38:37, thread 0] We start parsing...
+[16.10.2022 22:38:51, thread 0] The part was parsed...
+[16.10.2022 22:38:53, thread 0] The part was parsed...
+[16.10.2022 22:38:53, thread 0] Parsing hashtag "java" is over!

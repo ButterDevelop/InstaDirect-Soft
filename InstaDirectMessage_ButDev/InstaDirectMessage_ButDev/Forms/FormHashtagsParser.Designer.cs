@@ -64,6 +64,9 @@
             this.labelApiProxyLink = new System.Windows.Forms.Label();
             this.checkBoxIsApiProxy = new System.Windows.Forms.CheckBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.textBoxAccounts = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.buttonOpenAccounts = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBoxProxy
@@ -318,10 +321,33 @@
             this.label13.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label13.Name = "label13";
             // 
+            // textBoxAccounts
+            // 
+            resources.ApplyResources(this.textBoxAccounts, "textBoxAccounts");
+            this.textBoxAccounts.Name = "textBoxAccounts";
+            this.textBoxAccounts.ReadOnly = true;
+            // 
+            // label14
+            // 
+            resources.ApplyResources(this.label14, "label14");
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Name = "label14";
+            // 
+            // buttonOpenAccounts
+            // 
+            resources.ApplyResources(this.buttonOpenAccounts, "buttonOpenAccounts");
+            this.buttonOpenAccounts.Name = "buttonOpenAccounts";
+            this.buttonOpenAccounts.UseVisualStyleBackColor = true;
+            this.buttonOpenAccounts.Click += new System.EventHandler(this.buttonOpenAccounts_Click);
+            // 
             // FormHashtagsParser
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.textBoxAccounts);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.buttonOpenAccounts);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.textBoxApiProxyUpdateInterval);
             this.Controls.Add(this.labelApiProxyUpdateInterval);
@@ -401,5 +427,8 @@
         private System.Windows.Forms.Label labelApiProxyLink;
         private System.Windows.Forms.CheckBox checkBoxIsApiProxy;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBoxAccounts;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button buttonOpenAccounts;
     }
 }

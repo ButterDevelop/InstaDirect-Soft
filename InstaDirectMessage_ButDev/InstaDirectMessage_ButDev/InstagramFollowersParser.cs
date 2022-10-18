@@ -198,7 +198,7 @@ namespace InstaDirectMessage_ButDev
         {
             try
             {
-                string rur = "", csrftoken = "", mid = "";
+                string ig_did = "", csrftoken = "", mid = "";
                 using (var request = new xNet.HttpRequest())
                 {
                     request.SslCertificateValidatorCallback += ServerCertificateValidationCallbackInstagram;
@@ -216,7 +216,7 @@ namespace InstaDirectMessage_ButDev
                         var c = response.Cookies;
                         foreach (var cooke in c)
                         {
-                            if (cooke.Key == "rur") { rur = cooke.Value; }
+                            if (cooke.Key == "ig_did") { ig_did = cooke.Value; }
                             else
                             if (cooke.Key == "csrftoken") { csrftoken = cooke.Value; }
                             else
@@ -228,7 +228,7 @@ namespace InstaDirectMessage_ButDev
 
                 if (csrftoken == "" || mid == "") { Log(Translate.Tr("[DEBUG] Не удалось спарсить Cookie. Плохие прокси?")); SwapProxy(); return "-1"; }
                 csrfGlobal = csrftoken;
-                string cookie = $"csrftoken={csrftoken}; rur={rur}; mid={mid};";
+                string cookie = $"csrftoken={csrftoken}; ig_did={ig_did}; mid={mid};";
                 Log(Translate.Tr("Спарсили куки"));
                 return cookie;
             } catch(Exception ex)
@@ -296,7 +296,7 @@ namespace InstaDirectMessage_ButDev
 
                 if (html.Contains("challenge")) Log(Translate.Tr("Чекпойнт - ") + Login + ":" + Password);
 
-                if (!html.Contains("\"status\": \"ok\"")) return "checkpoint";
+                if (!html.Contains("\"status\":\"ok\"")) return "checkpoint";
                 return logincookie;
             }
             catch (Exception ex)

@@ -150,11 +150,11 @@
             // 
             // buttonStart
             // 
+            resources.ApplyResources(this.buttonStart, "buttonStart");
             this.buttonStart.BackColor = System.Drawing.Color.Transparent;
             this.buttonStart.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonStart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
-            resources.ApplyResources(this.buttonStart, "buttonStart");
             this.buttonStart.ForeColor = System.Drawing.Color.Black;
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.UseVisualStyleBackColor = false;
@@ -162,11 +162,11 @@
             // 
             // buttonStop
             // 
+            resources.ApplyResources(this.buttonStop, "buttonStop");
             this.buttonStop.BackColor = System.Drawing.Color.Transparent;
             this.buttonStop.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonStop.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonStop.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
-            resources.ApplyResources(this.buttonStop, "buttonStop");
             this.buttonStop.ForeColor = System.Drawing.Color.Black;
             this.buttonStop.Name = "buttonStop";
             this.buttonStop.UseVisualStyleBackColor = false;
@@ -181,11 +181,11 @@
             // 
             // comboBoxTypeProxy
             // 
+            resources.ApplyResources(this.comboBoxTypeProxy, "comboBoxTypeProxy");
             this.comboBoxTypeProxy.FormattingEnabled = true;
             this.comboBoxTypeProxy.Items.AddRange(new object[] {
             resources.GetString("comboBoxTypeProxy.Items"),
             resources.GetString("comboBoxTypeProxy.Items1")});
-            resources.ApplyResources(this.comboBoxTypeProxy, "comboBoxTypeProxy");
             this.comboBoxTypeProxy.Name = "comboBoxTypeProxy";
             // 
             // labelBad
@@ -204,11 +204,11 @@
             // 
             // buttonSeeLog
             // 
+            resources.ApplyResources(this.buttonSeeLog, "buttonSeeLog");
             this.buttonSeeLog.BackColor = System.Drawing.Color.Transparent;
             this.buttonSeeLog.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.buttonSeeLog.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
             this.buttonSeeLog.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(221)))), ((int)(((byte)(253)))));
-            resources.ApplyResources(this.buttonSeeLog, "buttonSeeLog");
             this.buttonSeeLog.ForeColor = System.Drawing.Color.Black;
             this.buttonSeeLog.Name = "buttonSeeLog";
             this.buttonSeeLog.UseVisualStyleBackColor = false;

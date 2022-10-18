@@ -169,6 +169,15 @@ namespace InstaDirectMessage_ButDev.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на 1.7.0.0.
+        /// </summary>
+        internal static string PreviousVersion {
+            get {
+                return ResourceManager.GetString("PreviousVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Не удалось провести обновление!
         ///Ошибка!
         ///Лицензия истекла!
@@ -232,7 +241,7 @@ namespace InstaDirectMessage_ButDev.Properties {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на 2.5.
+        ///   Ищет локализованную строку, похожую на 3.0.0.0.
         /// </summary>
         internal static string Version {
             get {

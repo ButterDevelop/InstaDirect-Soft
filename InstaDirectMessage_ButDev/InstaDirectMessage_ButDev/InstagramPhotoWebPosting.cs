@@ -157,7 +157,7 @@ namespace InstaDirectMessage_ButDev
         {
             try
             {
-                string rur = "", csrftoken = "", mid = "";
+                string ig_did = "", csrftoken = "", mid = "";
                 using (var request = new xNet.HttpRequest())
                 {
                     request.SslCertificateValidatorCallback += ServerCertificateValidationCallbackInstagram;
@@ -176,7 +176,7 @@ namespace InstaDirectMessage_ButDev
                         var c = response.Cookies;
                         foreach (var cooke in c)
                         {
-                            if (cooke.Key == "rur") { rur = cooke.Value; }
+                            if (cooke.Key == "ig_did") { ig_did = cooke.Value; }
                             else
                             if (cooke.Key == "csrftoken") { csrftoken = cooke.Value; }
                             else
@@ -188,7 +188,7 @@ namespace InstaDirectMessage_ButDev
 
                 if (csrftoken == "" || mid == "") { Log(Translate.Tr("[DEBUG] Не удалось спарсить Cookie. Плохие прокси?")); SwapProxy(); return "-1"; }
                 csrfGlobal = csrftoken;
-                string cookie = $"csrftoken={csrftoken}; rur={rur}; mid={mid};";
+                string cookie = $"csrftoken={csrftoken}; ig_did={ig_did}; mid={mid};";
                 Log(Translate.Tr("Спарсили куки"));
                 return cookie;
             } catch(Exception ex)
@@ -336,12 +336,12 @@ namespace InstaDirectMessage_ButDev
                     File.Delete(tempFile);
                 }
 
-                if (!html.Contains("\"status\": \"ok\""))
+                if (!html.Contains("\"status\":\"ok\""))
                 {
                     Log(Translate.Tr("Не удалось загрузить фото на сервер Instagram!"));
                     continue;
                 }
-                Regex regex = new Regex("\"upload_id\": \"(.*)\", \"xsharing_nonces\": .*, \"status\": \"ok\"");
+                Regex regex = new Regex("\"upload_id\":\"(.*)\",\"xsharing_nonces\":.*,\"status\":\"ok\"");
                 var s = regex.Match(html);
                 UploadID = s.Groups[1].Value;
 
@@ -351,11 +351,14 @@ namespace InstaDirectMessage_ButDev
                     request.IgnoreProtocolErrors = true;
 
                     var reqParams = new RequestParams();
+                    reqParams["source_type"] = "library";
                     reqParams["upload_id"] = UploadID;
+                    reqParams["is_unified_video"] = "1";
+                    reqParams["igtv_share_preview_to_feed"] = "1";
+                    reqParams["disable_comments"] = "0";
+                    reqParams["video_subtitles_enabled"] = "0";
+                    reqParams["like_and_view_counts_disabled"] = "0";
                     reqParams["caption"] = "";
-                    reqParams["usertags"] = "";
-                    reqParams["custom_accessibility_caption"] = "";
-                    reqParams["retry_timeout"] = "";
 
                     request.UserAgent = UserAgent;
                     request.KeepAlive = true;
@@ -371,7 +374,7 @@ namespace InstaDirectMessage_ButDev
                     request.AddHeader("Accept", "*/*");
                     request.AddHeader("Cookie", cookie);
 
-                    xNet.HttpResponse response = request.Post("https://www.instagram.com/create/configure/", reqParams);
+                    xNet.HttpResponse response = request.Post("https://i.instagram.com/api/v1/media/configure/", reqParams);
 
                     try
                     {
@@ -381,7 +384,7 @@ namespace InstaDirectMessage_ButDev
                     //MessageBox.Show(html);
                 }
 
-                if (!html.Contains("\"status\": \"ok\""))
+                if (!html.Contains("\"status\":\"ok\""))
                 {
                     Log(Translate.Tr("Не удалось загрузить фото на сервер Instagram!"));
                     continue;

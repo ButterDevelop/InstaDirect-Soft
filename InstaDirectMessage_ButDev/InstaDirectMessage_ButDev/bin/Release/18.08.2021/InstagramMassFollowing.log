@@ -1,0 +1,309 @@
+﻿[18.08.2021 12:28:07, поток 0] Parsing cookies...
+[18.08.2021 12:28:07, поток 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramMassFollowing.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramMassFollowing.cs:line 167
+[18.08.2021 12:28:07, поток 0] [DEBUG] Changed proxies.
+[18.08.2021 12:28:07, поток 0] Parsing cookies...
+[18.08.2021 12:28:07, поток 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramMassFollowing.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramMassFollowing.cs:line 167
+[18.08.2021 12:28:07, поток 0] [DEBUG] Changed proxies.
+[18.08.2021 12:28:07, поток 0] Parsing cookies...
+[18.08.2021 12:28:07, поток 0] (Error) Error text: System.NullReferenceException: Object reference not set to an instance of an object.
+   at InstaDirectMessage_ButDev.InstagramMassFollowing.GetCookie() in D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramMassFollowing.cs:line 167
+[18.08.2021 12:28:07, поток 0] [DEBUG] Changed proxies.
+[18.08.2021 12:32:06, поток 0] Parsing cookies...
+[18.08.2021 12:32:07, поток 0] Cookie parsing
+[18.08.2021 12:32:07, поток 0] Got cookies...
+[18.08.2021 12:32:07, поток 0] Getting started...
+[18.08.2021 12:32:10, поток 0] Follow request sent from account diagnost_gomel to ID 1411849241
+[18.08.2021 12:32:10, поток 0] Waiting seconds: 180
+[18.08.2021 12:35:12, поток 0] Successfully followed from account diagnost_gomel to ID 48865257484
+[18.08.2021 12:35:12, поток 0] Waiting seconds: 180
+[18.08.2021 12:38:14, поток 0] Successfully followed from account diagnost_gomel to ID 46593458225
+[18.08.2021 12:38:14, поток 0] Waiting seconds: 180
+[18.08.2021 12:41:15, поток 0] Successfully followed from account diagnost_gomel to ID 48791595006
+[18.08.2021 12:41:15, поток 0] Waiting seconds: 180
+[18.08.2021 12:44:16, поток 0] Successfully followed from account diagnost_gomel to ID 27881652870
+[18.08.2021 12:44:18, поток 0] Waiting seconds: 180
+[18.08.2021 12:47:22, поток 0] Follow request sent from account diagnost_gomel to ID 2249659128
+[18.08.2021 12:47:22, поток 0] Waiting seconds: 180
+[18.08.2021 12:50:23, поток 0] Successfully followed from account diagnost_gomel to ID 45533286080
+[18.08.2021 12:50:23, поток 0] Waiting seconds: 180
+[18.08.2021 12:53:25, поток 0] Successfully followed from account diagnost_gomel to ID 7510701334
+[18.08.2021 12:53:25, поток 0] Waiting seconds: 180
+[18.08.2021 12:56:26, поток 0] Successfully followed from account diagnost_gomel to ID 2262987064
+[18.08.2021 12:56:26, поток 0] Waiting seconds: 180
+[18.08.2021 12:59:28, поток 0] Successfully followed from account diagnost_gomel to ID 44901068485
+[18.08.2021 12:59:28, поток 0] Waiting seconds: 180
+[18.08.2021 13:02:29, поток 0] Successfully followed from account diagnost_gomel to ID 48733737282
+[18.08.2021 13:02:29, поток 0] Waiting seconds: 180
+[18.08.2021 13:05:31, поток 0] Follow request sent from account diagnost_gomel to ID 6301865605
+[18.08.2021 13:05:31, поток 0] Waiting seconds: 180
+[18.08.2021 13:08:33, поток 0] Successfully followed from account diagnost_gomel to ID 48130445193
+[18.08.2021 13:08:33, поток 0] Waiting seconds: 180
+[18.08.2021 13:11:34, поток 0] Successfully followed from account diagnost_gomel to ID 2055634573
+[18.08.2021 13:11:34, поток 0] Waiting seconds: 180
+[18.08.2021 13:14:36, поток 0] Follow request sent from account diagnost_gomel to ID 8413982244
+[18.08.2021 13:14:36, поток 0] Waiting seconds: 180
+[18.08.2021 13:17:37, поток 0] Successfully followed from account diagnost_gomel to ID 45753524541
+[18.08.2021 13:17:37, поток 0] Waiting seconds: 180
+[18.08.2021 13:20:39, поток 0] Successfully followed from account diagnost_gomel to ID 37339875158
+[18.08.2021 13:20:39, поток 0] Waiting seconds: 180
+[18.08.2021 13:23:40, поток 0] Successfully followed from account diagnost_gomel to ID 2103665321
+[18.08.2021 13:23:40, поток 0] Waiting seconds: 180
+[18.08.2021 13:26:42, поток 0] Successfully followed from account diagnost_gomel to ID 44250040062
+[18.08.2021 13:26:42, поток 0] Waiting seconds: 180
+[18.08.2021 13:29:43, поток 0] Successfully followed from account diagnost_gomel to ID 3427495942
+[18.08.2021 13:29:43, поток 0] Waiting seconds: 180
+[18.08.2021 13:32:44, поток 0] Successfully followed from account diagnost_gomel to ID 46293446384
+[18.08.2021 13:32:44, поток 0] Waiting seconds: 180
+[18.08.2021 13:35:46, поток 0] Successfully followed from account diagnost_gomel to ID 47645129742
+[18.08.2021 13:35:46, поток 0] Waiting seconds: 180
+[18.08.2021 13:38:47, поток 0] Successfully followed from account diagnost_gomel to ID 9499375841
+[18.08.2021 13:38:47, поток 0] Waiting seconds: 180
+[18.08.2021 13:41:48, поток 0] Successfully followed from account diagnost_gomel to ID 29112174137
+[18.08.2021 13:41:53, поток 0] Waiting seconds: 180
+[18.08.2021 13:44:56, поток 0] Successfully followed from account diagnost_gomel to ID 5735960588
+[18.08.2021 13:44:56, поток 0] Waiting seconds: 180
+[18.08.2021 13:47:57, поток 0] Successfully followed from account diagnost_gomel to ID 47782345119
+[18.08.2021 13:47:57, поток 0] Waiting seconds: 180
+[18.08.2021 13:50:59, поток 0] Successfully followed from account diagnost_gomel to ID 5894134504
+[18.08.2021 13:50:59, поток 0] Waiting seconds: 180
+[18.08.2021 13:54:01, поток 0] Follow request sent from account diagnost_gomel to ID 2250393373
+[18.08.2021 13:54:01, поток 0] Waiting seconds: 180
+[18.08.2021 13:57:02, поток 0] Successfully followed from account diagnost_gomel to ID 31956085431
+[18.08.2021 13:57:03, поток 0] Waiting seconds: 180
+[18.08.2021 14:00:04, поток 0] Successfully followed from account diagnost_gomel to ID 8438964164
+[18.08.2021 14:00:04, поток 0] Waiting seconds: 180
+[18.08.2021 14:03:06, поток 0] Follow request sent from account diagnost_gomel to ID 10601058266
+[18.08.2021 14:03:06, поток 0] Waiting seconds: 180
+[18.08.2021 14:06:08, поток 0] Successfully followed from account diagnost_gomel to ID 47187098673
+[18.08.2021 14:06:08, поток 0] Waiting seconds: 180
+[18.08.2021 14:09:09, поток 0] Successfully followed from account diagnost_gomel to ID 47360538851
+[18.08.2021 14:09:10, поток 0] Waiting seconds: 180
+[18.08.2021 14:12:12, поток 0] Follow request sent from account diagnost_gomel to ID 17900635592
+[18.08.2021 14:12:12, поток 0] Waiting seconds: 180
+[18.08.2021 14:15:13, поток 0] Successfully followed from account diagnost_gomel to ID 2315943850
+[18.08.2021 14:15:15, поток 0] Waiting seconds: 180
+[18.08.2021 14:18:16, поток 0] Successfully followed from account diagnost_gomel to ID 7714510342
+[18.08.2021 14:18:16, поток 0] Waiting seconds: 180
+[18.08.2021 14:21:18, поток 0] Follow request sent from account diagnost_gomel to ID 47106002874
+[18.08.2021 14:21:18, поток 0] Waiting seconds: 180
+[18.08.2021 14:24:19, поток 0] Follow request sent from account diagnost_gomel to ID 41288516035
+[18.08.2021 14:24:19, поток 0] Waiting seconds: 180
+[18.08.2021 14:27:20, поток 0] Successfully followed from account diagnost_gomel to ID 12598490680
+[18.08.2021 14:27:20, поток 0] Waiting seconds: 180
+[18.08.2021 14:30:21, поток 0] Successfully followed from account diagnost_gomel to ID 36823370551
+[18.08.2021 14:30:21, поток 0] Waiting seconds: 180
+[18.08.2021 14:33:23, поток 0] Follow request sent from account diagnost_gomel to ID 910072620
+[18.08.2021 14:33:23, поток 0] Waiting seconds: 180
+[18.08.2021 14:36:25, поток 0] Successfully followed from account diagnost_gomel to ID 1905136325
+[18.08.2021 14:36:25, поток 0] Waiting seconds: 180
+[18.08.2021 14:39:27, поток 0] Successfully followed from account diagnost_gomel to ID 46586266019
+[18.08.2021 14:39:27, поток 0] Waiting seconds: 180
+[18.08.2021 14:42:28, поток 0] Successfully followed from account diagnost_gomel to ID 45956698003
+[18.08.2021 14:42:28, поток 0] Waiting seconds: 180
+[18.08.2021 14:45:29, поток 0] Successfully followed from account diagnost_gomel to ID 44685693073
+[18.08.2021 14:45:29, поток 0] Waiting seconds: 180
+[18.08.2021 14:48:31, поток 0] Successfully followed from account diagnost_gomel to ID 4082878612
+[18.08.2021 14:48:31, поток 0] Waiting seconds: 180
+[18.08.2021 14:51:33, поток 0] Successfully followed from account diagnost_gomel to ID 6355236787
+[18.08.2021 14:51:33, поток 0] Waiting seconds: 180
+[18.08.2021 14:54:34, поток 0] Follow request sent from account diagnost_gomel to ID 2533281763
+[18.08.2021 14:54:34, поток 0] Waiting seconds: 180
+[18.08.2021 14:57:36, поток 0] Follow request sent from account diagnost_gomel to ID 7228721258
+[18.08.2021 14:57:36, поток 0] Waiting seconds: 180
+[18.08.2021 15:00:37, поток 0] Successfully followed from account diagnost_gomel to ID 45310739832
+[18.08.2021 15:00:37, поток 0] Waiting seconds: 180
+[18.08.2021 15:03:39, поток 0] Follow request sent from account diagnost_gomel to ID 3669273523
+[18.08.2021 15:03:39, поток 0] Waiting seconds: 180
+[18.08.2021 15:06:41, поток 0] Successfully followed from account diagnost_gomel to ID 41711141314
+[18.08.2021 15:06:41, поток 0] Waiting seconds: 180
+[18.08.2021 15:09:42, поток 0] Successfully followed from account diagnost_gomel to ID 44994771994
+[18.08.2021 15:09:42, поток 0] Waiting seconds: 180
+[18.08.2021 15:12:43, поток 0] Follow request sent from account diagnost_gomel to ID 44594175826
+[18.08.2021 15:12:43, поток 0] Waiting seconds: 180
+[18.08.2021 15:15:44, поток 0] Successfully followed from account diagnost_gomel to ID 45390147103
+[18.08.2021 15:15:44, поток 0] Waiting seconds: 180
+[18.08.2021 15:18:45, поток 0] Successfully followed from account diagnost_gomel to ID 8917007416
+[18.08.2021 15:18:45, поток 0] Waiting seconds: 180
+[18.08.2021 15:21:47, поток 0] Successfully followed from account diagnost_gomel to ID 9663449294
+[18.08.2021 15:21:47, поток 0] Waiting seconds: 180
+[18.08.2021 15:24:49, поток 0] Successfully followed from account diagnost_gomel to ID 9528274615
+[18.08.2021 15:24:49, поток 0] Waiting seconds: 180
+[18.08.2021 15:27:51, поток 0] Successfully followed from account diagnost_gomel to ID 38085864753
+[18.08.2021 15:27:51, поток 0] Waiting seconds: 180
+[18.08.2021 15:30:52, поток 0] Successfully followed from account diagnost_gomel to ID 44711414954
+[18.08.2021 15:30:52, поток 0] Waiting seconds: 180
+[18.08.2021 15:33:53, поток 0] Successfully followed from account diagnost_gomel to ID 44734051829
+[18.08.2021 15:33:53, поток 0] Waiting seconds: 180
+[18.08.2021 15:36:54, поток 0] Successfully followed from account diagnost_gomel to ID 7183571491
+[18.08.2021 15:36:54, поток 0] Waiting seconds: 180
+[18.08.2021 15:39:57, поток 0] Successfully followed from account diagnost_gomel to ID 44881035021
+[18.08.2021 15:39:57, поток 0] Waiting seconds: 180
+[18.08.2021 15:42:58, поток 0] Successfully followed from account diagnost_gomel to ID 7431396782
+[18.08.2021 15:42:58, поток 0] Waiting seconds: 180
+[18.08.2021 15:45:59, поток 0] Successfully followed from account diagnost_gomel to ID 44454177791
+[18.08.2021 15:45:59, поток 0] Waiting seconds: 180
+[18.08.2021 15:49:02, поток 0] Follow request sent from account diagnost_gomel to ID 510500289
+[18.08.2021 15:49:02, поток 0] Waiting seconds: 180
+[18.08.2021 15:52:03, поток 0] Successfully followed from account diagnost_gomel to ID 27458065509
+[18.08.2021 15:52:04, поток 0] Waiting seconds: 180
+[18.08.2021 15:55:06, поток 0] Successfully followed from account diagnost_gomel to ID 44423157660
+[18.08.2021 15:55:06, поток 0] Waiting seconds: 180
+[18.08.2021 15:58:07, поток 0] Successfully followed from account diagnost_gomel to ID 2284586013
+[18.08.2021 15:58:07, поток 0] Waiting seconds: 180
+[18.08.2021 16:01:09, поток 0] Successfully followed from account diagnost_gomel to ID 42664864090
+[18.08.2021 16:01:09, поток 0] Waiting seconds: 180
+[18.08.2021 16:04:11, поток 0] Successfully followed from account diagnost_gomel to ID 44018297625
+[18.08.2021 16:04:11, поток 0] Waiting seconds: 180
+[18.08.2021 16:07:12, поток 0] Successfully followed from account diagnost_gomel to ID 1696521720
+[18.08.2021 16:07:12, поток 0] Waiting seconds: 180
+[18.08.2021 16:10:14, поток 0] Follow request sent from account diagnost_gomel to ID 7092142455
+[18.08.2021 16:10:14, поток 0] Waiting seconds: 180
+[18.08.2021 16:13:16, поток 0] Follow request sent from account diagnost_gomel to ID 1519056456
+[18.08.2021 16:13:16, поток 0] Waiting seconds: 180
+[18.08.2021 16:16:18, поток 0] Successfully followed from account diagnost_gomel to ID 43393269511
+[18.08.2021 16:16:18, поток 0] Waiting seconds: 180
+[18.08.2021 16:19:20, поток 0] Successfully followed from account diagnost_gomel to ID 3554673577
+[18.08.2021 16:19:20, поток 0] Waiting seconds: 180
+[18.08.2021 16:22:21, поток 0] Successfully followed from account diagnost_gomel to ID 1448349285
+[18.08.2021 16:22:21, поток 0] Waiting seconds: 180
+[18.08.2021 16:25:23, поток 0] Successfully followed from account diagnost_gomel to ID 3574406136
+[18.08.2021 16:25:23, поток 0] Waiting seconds: 180
+[18.08.2021 16:28:25, поток 0] Successfully followed from account diagnost_gomel to ID 9288999849
+[18.08.2021 16:28:25, поток 0] Waiting seconds: 180
+[18.08.2021 16:31:27, поток 0] Follow request sent from account diagnost_gomel to ID 5894589600
+[18.08.2021 16:31:27, поток 0] Waiting seconds: 180
+[18.08.2021 16:34:29, поток 0] Successfully followed from account diagnost_gomel to ID 24000903729
+[18.08.2021 16:34:29, поток 0] Waiting seconds: 180
+[18.08.2021 16:37:32, поток 0] Successfully followed from account diagnost_gomel to ID 16714803264
+[18.08.2021 16:37:32, поток 0] Waiting seconds: 180
+[18.08.2021 16:40:34, поток 0] Follow request sent from account diagnost_gomel to ID 4198505332
+[18.08.2021 16:40:34, поток 0] Waiting seconds: 180
+[18.08.2021 16:43:35, поток 0] Successfully followed from account diagnost_gomel to ID 42319312235
+[18.08.2021 16:43:35, поток 0] Waiting seconds: 180
+[18.08.2021 16:46:37, поток 0] Successfully followed from account diagnost_gomel to ID 35615496950
+[18.08.2021 16:46:41, поток 0] Waiting seconds: 180
+[18.08.2021 16:49:45, поток 0] Successfully followed from account diagnost_gomel to ID 7047099919
+[18.08.2021 16:49:45, поток 0] Waiting seconds: 180
+[18.08.2021 16:52:47, поток 0] Follow request sent from account diagnost_gomel to ID 23390672407
+[18.08.2021 16:52:47, поток 0] Waiting seconds: 180
+[18.08.2021 16:55:49, поток 0] Successfully followed from account diagnost_gomel to ID 6672351406
+[18.08.2021 16:55:49, поток 0] Waiting seconds: 180
+[18.08.2021 16:58:51, поток 0] Follow request sent from account diagnost_gomel to ID 18009914646
+[18.08.2021 16:58:51, поток 0] Waiting seconds: 180
+[18.08.2021 17:01:52, поток 0] Successfully followed from account diagnost_gomel to ID 8246300816
+[18.08.2021 17:01:52, поток 0] Waiting seconds: 180
+[18.08.2021 17:04:54, поток 0] Successfully followed from account diagnost_gomel to ID 16961344008
+[18.08.2021 17:04:54, поток 0] Waiting seconds: 180
+[18.08.2021 17:07:57, поток 0] Successfully followed from account diagnost_gomel to ID 16609373086
+[18.08.2021 17:07:57, поток 0] Waiting seconds: 180
+[18.08.2021 17:10:59, поток 0] Successfully followed from account diagnost_gomel to ID 6179091259
+[18.08.2021 17:10:59, поток 0] Waiting seconds: 180
+[18.08.2021 17:14:01, поток 0] Follow request sent from account diagnost_gomel to ID 4538283412
+[18.08.2021 17:14:01, поток 0] Waiting seconds: 180
+[18.08.2021 17:17:03, поток 0] Successfully followed from account diagnost_gomel to ID 25623273237
+[18.08.2021 17:17:03, поток 0] Waiting seconds: 180
+[18.08.2021 17:20:08, поток 0] Successfully followed from account diagnost_gomel to ID 39182536599
+[18.08.2021 17:20:08, поток 0] Waiting seconds: 180
+[18.08.2021 17:23:10, поток 0] Successfully followed from account diagnost_gomel to ID 33626872784
+[18.08.2021 17:23:10, поток 0] Waiting seconds: 180
+[18.08.2021 17:26:12, поток 0] Successfully followed from account diagnost_gomel to ID 24248440559
+[18.08.2021 17:26:12, поток 0] Waiting seconds: 180
+[18.08.2021 17:29:13, поток 0] Successfully followed from account diagnost_gomel to ID 8377650580
+[18.08.2021 17:29:13, поток 0] Waiting seconds: 180
+[18.08.2021 17:32:15, поток 0] Successfully followed from account diagnost_gomel to ID 5757040806
+[18.08.2021 17:32:15, поток 0] Waiting seconds: 180
+[18.08.2021 17:35:17, поток 0] Successfully followed from account diagnost_gomel to ID 10434080195
+[18.08.2021 17:35:17, поток 0] Waiting seconds: 180
+[18.08.2021 17:38:18, поток 0] Successfully followed from account diagnost_gomel to ID 8643770867
+[18.08.2021 17:38:18, поток 0] Waiting seconds: 180
+[18.08.2021 17:41:21, поток 0] Successfully followed from account diagnost_gomel to ID 4633671569
+[18.08.2021 17:41:21, поток 0] Waiting seconds: 180
+[18.08.2021 17:44:22, поток 0] Successfully followed from account diagnost_gomel to ID 40032313881
+[18.08.2021 17:44:22, поток 0] Waiting seconds: 180
+[18.08.2021 17:47:24, поток 0] Successfully followed from account diagnost_gomel to ID 8882879386
+[18.08.2021 17:47:24, поток 0] Waiting seconds: 180
+[18.08.2021 17:50:26, поток 0] Successfully followed from account diagnost_gomel to ID 1467714134
+[18.08.2021 17:50:26, поток 0] Waiting seconds: 180
+[18.08.2021 17:53:28, поток 0] Follow request sent from account diagnost_gomel to ID 7365477722
+[18.08.2021 17:53:28, поток 0] Waiting seconds: 180
+[18.08.2021 17:56:30, поток 0] Successfully followed from account diagnost_gomel to ID 4196522141
+[18.08.2021 17:56:30, поток 0] Waiting seconds: 180
+[18.08.2021 17:59:32, поток 0] Successfully followed from account diagnost_gomel to ID 14463775098
+[18.08.2021 17:59:32, поток 0] Waiting seconds: 180
+[18.08.2021 18:02:33, поток 0] Successfully followed from account diagnost_gomel to ID 1955265299
+[18.08.2021 18:02:33, поток 0] Waiting seconds: 180
+[18.08.2021 18:05:36, поток 0] Successfully followed from account diagnost_gomel to ID 11106683789
+[18.08.2021 18:05:36, поток 0] Waiting seconds: 180
+[18.08.2021 18:08:38, поток 0] Successfully followed from account diagnost_gomel to ID 4158881969
+[18.08.2021 18:08:38, поток 0] Waiting seconds: 180
+[18.08.2021 18:11:39, поток 0] Successfully followed from account diagnost_gomel to ID 40199548325
+[18.08.2021 18:11:39, поток 0] Waiting seconds: 180
+[18.08.2021 18:14:42, поток 0] Successfully followed from account diagnost_gomel to ID 9046405473
+[18.08.2021 18:14:42, поток 0] Waiting seconds: 180
+[18.08.2021 18:17:44, поток 0] Successfully followed from account diagnost_gomel to ID 32316819722
+[18.08.2021 18:17:44, поток 0] Waiting seconds: 180
+[18.08.2021 18:20:46, поток 0] Successfully followed from account diagnost_gomel to ID 553514112
+[18.08.2021 18:20:46, поток 0] Waiting seconds: 180
+[18.08.2021 18:23:48, поток 0] Successfully followed from account diagnost_gomel to ID 14881429011
+[18.08.2021 18:23:48, поток 0] Waiting seconds: 180
+[18.08.2021 18:26:49, поток 0] Successfully followed from account diagnost_gomel to ID 3022993382
+[18.08.2021 18:26:49, поток 0] Waiting seconds: 180
+[18.08.2021 18:29:51, поток 0] Successfully followed from account diagnost_gomel to ID 7644576254
+[18.08.2021 18:29:51, поток 0] Waiting seconds: 180
+[18.08.2021 18:32:53, поток 0] Follow request sent from account diagnost_gomel to ID 23804167934
+[18.08.2021 18:32:53, поток 0] Waiting seconds: 180
+[18.08.2021 18:35:54, поток 0] Successfully followed from account diagnost_gomel to ID 4035027102
+[18.08.2021 18:35:54, поток 0] Waiting seconds: 180
+[18.08.2021 18:38:55, поток 0] Successfully followed from account diagnost_gomel to ID 9002038860
+[18.08.2021 18:38:55, поток 0] Waiting seconds: 180
+[18.08.2021 18:41:56, поток 0] Successfully followed from account diagnost_gomel to ID 9917392380
+[18.08.2021 18:41:56, поток 0] Waiting seconds: 180
+[18.08.2021 18:44:58, поток 0] Successfully followed from account diagnost_gomel to ID 33686765929
+[18.08.2021 18:44:58, поток 0] Waiting seconds: 180
+[18.08.2021 18:47:59, поток 0] Successfully followed from account diagnost_gomel to ID 10849917578
+[18.08.2021 18:47:59, поток 0] Waiting seconds: 180
+[18.08.2021 18:51:00, поток 0] Successfully followed from account diagnost_gomel to ID 14880906943
+[18.08.2021 18:51:00, поток 0] Waiting seconds: 180
+[18.08.2021 18:54:02, поток 0] Follow request sent from account diagnost_gomel to ID 3070447721
+[18.08.2021 18:54:02, поток 0] Waiting seconds: 180
+[18.08.2021 18:57:03, поток 0] Successfully followed from account diagnost_gomel to ID 40351140082
+[18.08.2021 18:57:03, поток 0] Waiting seconds: 180
+[18.08.2021 19:00:04, поток 0] Successfully followed from account diagnost_gomel to ID 11170289098
+[18.08.2021 19:00:04, поток 0] Waiting seconds: 180
+[18.08.2021 19:03:05, поток 0] Successfully followed from account diagnost_gomel to ID 5772664094
+[18.08.2021 19:03:05, поток 0] Waiting seconds: 180
+[18.08.2021 19:06:07, поток 0] Successfully followed from account diagnost_gomel to ID 2216863012
+[18.08.2021 19:06:07, поток 0] Waiting seconds: 180
+[18.08.2021 19:09:08, поток 0] Successfully followed from account diagnost_gomel to ID 2915018577
+[18.08.2021 19:09:08, поток 0] Waiting seconds: 180
+[18.08.2021 19:12:09, поток 0] Successfully followed from account diagnost_gomel to ID 5540546384
+[18.08.2021 19:12:09, поток 0] Waiting seconds: 180
+[18.08.2021 19:15:11, поток 0] Successfully followed from account diagnost_gomel to ID 18992362662
+[18.08.2021 19:15:11, поток 0] Waiting seconds: 180
+[18.08.2021 19:18:12, поток 0] Successfully followed from account diagnost_gomel to ID 3247199690
+[18.08.2021 19:18:12, поток 0] Waiting seconds: 180
+[18.08.2021 19:21:14, поток 0] Successfully followed from account diagnost_gomel to ID 26439422345
+[18.08.2021 19:21:14, поток 0] Waiting seconds: 180
+[18.08.2021 19:24:15, поток 0] Successfully followed from account diagnost_gomel to ID 38664828605
+[18.08.2021 19:24:15, поток 0] Waiting seconds: 180
+[18.08.2021 19:27:17, поток 0] Successfully followed from account diagnost_gomel to ID 28130711020
+[18.08.2021 19:27:17, поток 0] Waiting seconds: 180
+[18.08.2021 19:30:18, поток 0] Successfully followed from account diagnost_gomel to ID 5772797155
+[18.08.2021 19:30:18, поток 0] Waiting seconds: 180
+[18.08.2021 19:33:19, поток 0] Follow request sent from account diagnost_gomel to ID 8972348054
+[18.08.2021 19:33:19, поток 0] Waiting seconds: 180
+[18.08.2021 19:36:21, поток 0] Successfully followed from account diagnost_gomel to ID 5577105030
+[18.08.2021 19:36:21, поток 0] Waiting seconds: 180
+[18.08.2021 19:39:22, поток 0] Successfully followed from account diagnost_gomel to ID 7591602816
+[18.08.2021 19:39:22, поток 0] Waiting seconds: 180
+[18.08.2021 19:42:23, поток 0] Successfully followed from account diagnost_gomel to ID 7794975366
+[18.08.2021 19:42:23, поток 0] Waiting seconds: 180
+[18.08.2021 19:45:25, поток 0] Successfully followed from account diagnost_gomel to ID 4013360412
+[18.08.2021 19:45:25, поток 0] Waiting seconds: 180
+[18.08.2021 19:48:26, поток 0] Successfully followed from account diagnost_gomel to ID 19574438328
+[18.08.2021 19:48:26, поток 0] Waiting seconds: 180
+[18.08.2021 19:51:27, поток 0] Follow request sent from account diagnost_gomel to ID 4801791306
+[18.08.2021 19:51:27, поток 0] Waiting seconds: 180
+[18.08.2021 19:54:28, поток 0] Successfully followed from account diagnost_gomel to ID 32104653918

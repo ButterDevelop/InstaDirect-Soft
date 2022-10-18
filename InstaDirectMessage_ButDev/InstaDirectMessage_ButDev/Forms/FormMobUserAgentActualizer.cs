@@ -74,12 +74,6 @@ namespace InstaDirectMessage_ButDev
             buttonStop.Visible = true;
             stop = false;
 
-            if (comboBoxRegion.SelectedIndex == 0) AcceptLanguage = "en_US";
-            else
-                if (comboBoxRegion.SelectedIndex == 1) AcceptLanguage = "ru_RU";
-                else
-                    if (comboBoxRegion.SelectedIndex == 2) AcceptLanguage = "ua_UA";
-
             //Load Old UserAgents
             using (StreamReader sr = new StreamReader(OldUAPath))
             {
@@ -107,10 +101,46 @@ namespace InstaDirectMessage_ButDev
         private void Work(IProgress<int> progress)
         {
             Random random = new Random(Guid.NewGuid().GetHashCode());
-            string[] androidVersions = new string[] { "5.1", "5.1.1", "6.0", "6.0.1", "6.1", "7.0", "7.1", "7.1.1", "7.1.2", "8.0.0", "8.0", "8.1", "9", "9.0", "10.0" };
+            string[] androidVersions = new string[] { "18/4.3", "19/4.4.2", "21/5.0", "22/5.1", "22/5.1.1", "23/6.0", "23/6.0.1", "23/6.1", "24/7.0", "25/7.1", "25/7.1.1", "25/7.1.2", "26/8.0.0", "26/8.1" };
             HashSet<string> results = new HashSet<string>();
+            List<string> dpi = new List<string>();
+            List<string> resolution = new List<string>();
+            List<string> model = new List<string>();
+            string instVersion = textBoxInstVersion.Text, region = textBoxRegion.Text;
 
-            if (HowManyAsResult == 0)
+            foreach (string str in OldUA)
+            {
+                Regex regex = new Regex("Instagram .* Android \\(.*; (.*dpi); (.*x.*); (.*) ..-..; .*\\)");
+                if (regex.IsMatch(str) == false) continue;
+                var m = regex.Match(str);
+                string DPI = m.Groups[1].Value;
+                string RESOLUTION = m.Groups[2].Value;
+                string MODEL = m.Groups[3].Value;
+
+                if (!dpi.Contains(DPI)) dpi.Add(DPI);
+                if (!resolution.Contains(RESOLUTION)) resolution.Add(RESOLUTION);
+                if (!model.Contains(MODEL)) model.Add(MODEL);
+            }
+
+            if (HowManyAsResult == 0) HowManyAsResult = OldUA.Count;
+            for (int i = 0; i < HowManyAsResult; i++)
+            {
+                string a = "";
+                do
+                {
+                    if (stop) return;
+
+                    Random rnd = new Random(int.Parse(DateTime.Now.Ticks.ToString().Substring(10)));
+                    a = $"Instagram {instVersion} Android ({androidVersions[rnd.Next(androidVersions.Length)]}; {dpi[rnd.Next(dpi.Count)]}; {resolution[rnd.Next(resolution.Count)]}; {model[rnd.Next(model.Count)]} {region}; 2{rnd.Next(10000000, 90000000).ToString()})";
+                } while (results.Contains(a));
+
+                File.AppendAllText(ResultPath, a + Environment.NewLine);
+                results.Add(a);
+                progress.Report(1);
+            }
+
+            //Instagram 179.0.0.28.132 Android (23/6.0; 380dpi; 720x1280; Nokia; 1 Plus; tissot_sprout; hi3650; ru-RU; 220561401)
+            /*if (HowManyAsResult == 0)
             {
                 for (int i = 0; i < OldUA.Count; i++)
                 {
@@ -118,7 +148,7 @@ namespace InstaDirectMessage_ButDev
                     do
                     {
                         if (stop) return; 
-                        Regex regex = new Regex("(.{1,3})\\/(.{1,6}); (.*); (.._..)");
+                        Regex regex = new Regex("Instagram .* Android \\(23/6.0; 380dpi; 720x1280; Nokia; 1 Plus; tissot_sprout; hi3650; (..-..); 220561401\\)");
 
                         var match = regex.Match(a);
                         string num = match.Groups[1].Value;
@@ -182,7 +212,7 @@ namespace InstaDirectMessage_ButDev
                 File.AppendAllText(ResultPath, a + Environment.NewLine);
                 results.Add(a);
                 progress.Report(1);
-            }
+            }*/
 
             stop = true;
         }

@@ -156,7 +156,7 @@ namespace InstaDirectMessage_ButDev
 
                     //MessageBox.Show("Checker Result: " + code.ToString());
 
-                    if (html.Contains($"\"username\": \"{Nick}\""))
+                    if (html.Contains($"\"username\":\"{Nick}\""))
                     {
                         DoResult(FullNickname);
                         Log(Translate.Tr("Найден! - ") + Nick);

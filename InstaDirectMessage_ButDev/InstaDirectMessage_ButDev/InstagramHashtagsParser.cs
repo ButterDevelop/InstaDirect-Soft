@@ -8,6 +8,7 @@ using System.Linq;
 using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using xNet;
@@ -16,9 +17,10 @@ namespace InstaDirectMessage_ButDev
 {
     public class InstagramHashtagsParser
     {
-        public int index = 0, ThreadNumber = 0, good = 0, tempcount = 0;
-        public string cookiesGlobal = "", UserAgent = "", csrfGlobal = "", log = "", tag = "", end_cursor = "QVFDellfdVMtNzZQTGRfeHFZREhMS2tfM21HSG5KT2wxMFROVGI0b1RqRk5oSEczTXcxdUZtaHNPVFZzY010bndRWHFPd25QRmh3ZnByb24wTGhZLV9xaQ==";
+        public int index = 0, AccIndex = 0, ThreadNumber = 0, good = 0, tempcount = 0;
+        public string cookiesGlobal = "", UserAgent = "", csrfGlobal = "", log = "", tag = "", Login = "", Password = "", end_cursor = "QVFDellfdVMtNzZQTGRfeHFZREhMS2tfM21HSG5KT2wxMFROVGI0b1RqRk5oSEczTXcxdUZtaHNPVFZzY010bndRWHFPd25QRmh3ZnByb24wTGhZLV9xaQ==";
         public static List<string> Proxy = new List<string>();
+        public static List<string> Accounts = new List<string>();
         public static string[] UserAgents;
         public static string path = "", proxytype = "", GoodPath = "";
         public const string ConstString = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_";
@@ -92,9 +94,10 @@ namespace InstaDirectMessage_ButDev
             catch (Exception e) { /*MessageBox.Show(e.ToString());*/ }
         }
 
-        public InstagramHashtagsParser(string hashtag, int indx, int tt, IProgress<int> setGood)
+        public InstagramHashtagsParser(string hashtag, int indx, int indexAcc, int tt, IProgress<int> setGood)
         {
             index = indx % Proxy.Count;
+            AccIndex = indexAcc % Accounts.Count;
             ThreadNumber = tt;
             Random rnd = new Random(Guid.NewGuid().GetHashCode());
             UserAgent = UserAgents[rnd.Next(UserAgents.Length)];
@@ -110,16 +113,85 @@ namespace InstaDirectMessage_ButDev
                 Log(Translate.Tr("Парсим куки..."));
                 cookie = GetCookie();
                     cookiesGlobal = cookie;
-                if (cookie == "-1") { attempts++; SwapProxy(); continue; }
+                if (cookie == "-1") { attempts++; SwapProxy(); SwapAccount(); continue; }
                 Log(Translate.Tr("Получили куки..."));
 
                 Log(Translate.Tr("Начинаем парсинг..."));
-                int result = 0;
+
+                #region Login Region
+                string UserAgent = "", device_id = "", phone_id = "", localcookie = "", adid = "", guid = "";
+                if (Accounts[AccIndex].Contains("||"))
+                {
+                    // Login:Password||DeviceId;PhoneId;ADID;GUID|Cookie||
+                    if (Accounts[AccIndex].Substring(Accounts[AccIndex].Length - 2) != "\\") Accounts[AccIndex] += "\\";
+                    if (new Regex("(.*):(.*)\\|\\|(.*)\\|(.*)\\|\\|").IsMatch(Accounts[AccIndex]))
+                    {
+                        Regex regex = new Regex("(.*):(.*)\\|\\|(.*)\\|(.*)\\|\\|");
+                        var mathes = regex.Match(Accounts[AccIndex]);
+
+                        Login = mathes.Groups[1].Value;
+                        Password = mathes.Groups[2].Value;
+                        localcookie = mathes.Groups[4].Value;
+                        localcookie = localcookie.Replace(";", "; ");
+
+                        Regex regex2 = new Regex("(.*);(.*);(.*);(.*)");
+                        var mathes_2 = regex2.Match(mathes.Groups[3].Value);
+                        device_id = mathes_2.Groups[1].Value;
+                        phone_id = mathes_2.Groups[2].Value;
+                        guid = mathes_2.Groups[3].Value;
+                        adid = mathes_2.Groups[4].Value;
+                    }
+                    else
+                    {
+                        Regex regex = new Regex("(.*):(.*)\\|(.*)\\|(.*)\\|(.*)\\|\\|");
+                        var mathes = regex.Match(Accounts[AccIndex]);
+
+                        Login = mathes.Groups[1].Value;
+                        Password = mathes.Groups[2].Value;
+                        UserAgent = mathes.Groups[3].Value;
+                        localcookie = mathes.Groups[5].Value;
+                        localcookie = localcookie.Replace(";", "; ");
+
+                        Regex regex2 = new Regex("(.*);(.*);(.*);(.*)");
+                        var mathes_2 = regex2.Match(mathes.Groups[4].Value);
+                        device_id = mathes_2.Groups[1].Value;
+                        phone_id = mathes_2.Groups[2].Value;
+                        guid = mathes_2.Groups[3].Value;
+                        adid = mathes_2.Groups[4].Value;
+                    }
+                }
+                else
+                {
+                    Regex regex = new Regex("(.*):(.*)");
+                    var mathes = regex.Match(Accounts[AccIndex]);
+                    Login = mathes.Groups[1].Value;
+                    Password = mathes.Groups[2].Value;
+                }
+
+                int result = -1;
+                string logincookie = localcookie;
+
+                if (logincookie != "")
+                {
+                    tempcount = 0;
+                    result = GetFirstData(logincookie);
+                    setGood.Report(tempcount);
+                    if (result == 0) logincookie = DoLogin(cookie);
+                } else
+                {
+                    logincookie = DoLogin(cookie);
+                }
+
+                if (logincookie == "-1") { SwapProxy(); attempts++; continue; }
+                if (logincookie == "checkpoint") { SwapAccount(); continue; }
+                #endregion
+
+                result = 0;
                 while (result == 0 && SetOfGoods.Count < HowManyID && attempts < 10)
                 {
                     if (stop) return;
                     tempcount = 0;
-                    result = GetFirstData(cookie);
+                    result = GetFirstData(logincookie);
                     setGood.Report(tempcount);
 
                     if (result == 0) { attempts++; SwapProxy(); }
@@ -132,7 +204,7 @@ namespace InstaDirectMessage_ButDev
                     {
                         if (stop) return;
                         tempcount = 0;
-                        result = GetData(cookie);
+                        result = GetData(logincookie);
                         setGood.Report(tempcount);
                         Log(Translate.Tr("Спарсили часть..."));
                     }
@@ -144,7 +216,7 @@ namespace InstaDirectMessage_ButDev
                     Log(Translate.Tr("Что-то не так, пытаемся спарсить снова."));
                 }
             }
-            catch (Exception e) { /*MessageBox.Show(e.ToString());*/ SwapProxy(); attempts++; }
+            catch (Exception e) { /*MessageBox.Show(e.ToString());*/ SwapProxy(); SwapAccount(); attempts++; }
             if (attempts == 3) { good = 0; return; }
         }
 
@@ -159,12 +231,18 @@ namespace InstaDirectMessage_ButDev
             if (index >= Proxy.Count) index = 0;
             Log(Translate.Tr("[DEBUG] Сменили прокси."));
         }
+        private void SwapAccount()
+        {
+            AccIndex++;
+            if (AccIndex >= Accounts.Count) AccIndex = 0;
+            Log(Translate.Tr("[DEBUG] Сменили аккаунт."));
+        }
 
         public string GetCookie()
         {
             try
             {
-                string rur = "", csrftoken = "", mid = "";
+                string ig_did = "", csrftoken = "", mid = "";
                 using (var request = new xNet.HttpRequest())
                 {
                     request.SslCertificateValidatorCallback += ServerCertificateValidationCallbackInstagram;
@@ -183,7 +261,7 @@ namespace InstaDirectMessage_ButDev
                         var c = response.Cookies;
                         foreach (var cooke in c)
                         {
-                            if (cooke.Key == "rur") { rur = cooke.Value; }
+                            if (cooke.Key == "ig_did") { ig_did = cooke.Value; }
                             else
                             if (cooke.Key == "csrftoken") { csrftoken = cooke.Value; }
                             else
@@ -195,10 +273,78 @@ namespace InstaDirectMessage_ButDev
 
                 if (csrftoken == "" || mid == "") { Log(Translate.Tr("[DEBUG] Не удалось спарсить Cookie. Плохие прокси?")); SwapProxy(); return "-1"; }
                 csrfGlobal = csrftoken;
-                string cookie = $"csrftoken={csrftoken}; rur={rur}; mid={mid};";
+                string cookie = $"csrftoken={csrftoken}; ig_did={ig_did}; mid={mid};";
                 Log(Translate.Tr("Спарсили куки"));
                 return cookie;
             } catch(Exception ex)
+            {
+                Log(Translate.Tr("(Ошибка) Текст ошибки: ") + ex.ToString());
+                return "-1";
+            }
+        }
+
+        public string DoLogin(string cookie)
+        {
+            try
+            {
+                string html = "", ds_user_id = "", sessionid = "", rur = "", csrftok = "";
+                using (var request = new xNet.HttpRequest())
+                {
+                    //request.SslCertificateValidatorCallback += ServerCertificateValidationCallbackInstagram;
+                    request.IgnoreProtocolErrors = true;
+                    var reqParams = new RequestParams();
+                    reqParams["username"] = Login;
+                    reqParams["enc_password"] = $"#PWD_INSTAGRAM_BROWSER:0:{DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1)).TotalSeconds.ToString()}:{Password}";
+
+                    request.UserAgent = UserAgent;
+                    request.KeepAlive = true;
+                    request.Referer = "https://www.instagram.com/accounts/login/?source=auth_switcher";
+                    if (proxytype == "HTTP") request.Proxy = HttpProxyClient.Parse(Proxy[index % Proxy.Count]); else request.Proxy = Socks5ProxyClient.Parse(Proxy[index % Proxy.Count]);
+
+                    request.AddHeader("Origin", "https://www.instagram.com");
+                    request.AddHeader("X-Instagram-AJAX", "1");
+                    request.AddHeader("X-IG-WWW-Claim", "0");
+                    request.AddHeader("X-IG-App-ID", "936619743392459");
+                    request.AddHeader("X-Requested-With", "XMLHttpRequest");
+                    request.AddHeader("X-CSRFToken", csrfGlobal);
+                    request.AddHeader("Accept", "*/*");
+                    request.AddHeader("Cookie", cookie);
+
+                    xNet.HttpResponse response = request.Post("https://www.instagram.com/accounts/login/ajax/", reqParams);
+
+                    try
+                    {
+                        html = response.ToString();
+                        Console.WriteLine("LoginHTML: " + html);
+                        var c = response.Cookies;
+                        foreach (var cooke in c)
+                        {
+                            if (cooke.Key == "sessionid") { sessionid = cooke.Value; }
+                            else
+                            if (cooke.Key == "rur") { rur = cooke.Value; }
+                            else
+                            if (cooke.Key == "csrftoken") { csrftok = cooke.Value; }
+                            else
+                            if (cooke.Key == "ds_user_id") { ds_user_id = cooke.Value; }
+                        }
+
+                        string X_IG_WWW_Claim = response["x-ig-set-www-claim"];
+                        //MessageBox.Show(X_IG_WWW_Claim);
+                    }
+                    catch { }
+                }
+
+                cookie = cookie.Remove(cookie.IndexOf("rur=") + 4);
+                cookie += rur + "; csrftoken=" + csrftok + ";";
+                string logincookie = $"{cookie} ds_user_id={ds_user_id}; sessionid={sessionid};";
+                Console.WriteLine(logincookie);
+
+                if (html.Contains("challenge")) Log(Translate.Tr("Чекпойнт - ") + Login + ":" + Password);
+
+                if (!html.Contains("\"status\":\"ok\"")) return "checkpoint";
+                return logincookie;
+            }
+            catch (Exception ex)
             {
                 Log(Translate.Tr("(Ошибка) Текст ошибки: ") + ex.ToString());
                 return "-1";
@@ -226,32 +372,38 @@ namespace InstaDirectMessage_ButDev
                     request.AddHeader("X-IG-App-ID", "936619743392459");
                     request.AddHeader("X-Requested-With", "XMLHttpRequest");
                     request.AddHeader("X-CSRFToken", csrfGlobal);
-                    request.AddHeader("Cookie", cookie);
+                    request.AddHeader("Cookie", cookie); //Cookie: ig_did=F635320A-9771-44E2-AA33-E7E228A35A29; ig_nrcb=1; mid=Yxd88gALAAHGUpjL06FjTZnITkJ3; datr=XZsXY1dillgwrwD9huDpAZsr; csrftoken=AjTS8wXZcgpU2qOfXgoRuLmHP7Ece3tk; ds_user_id=55133904291; shbid="5310\05455133904291\0541697385445:01f7c28f5006ee9f54a6883034fe546ab99a61fbcd963662dab129c279a15d0818d40b06"; shbts="1665849445\05455133904291\0541697385445:01f7ed35258496a02ab6e19bfbbd44dd05e1657d620b9ae37201efe24bcd2df471787675"; sessionid=55133904291%3AB97VRPwE3XUrPY%3A2%3AAYfAjhq2p1IpWEE_1AVVGd_xH_yyph67in34dTV_QJY; rur="CLN\05455133904291\0541697469578:01f78491b136f3f64b4b59e20af3e9a29dadd487cf2b77cdbea05c6063bbe644f3475830"
 
                     try
                     {
-                        var response = request.Get($"https://www.instagram.com/explore/tags/{tag}/?__a=1");
+                        var response = request.Get($"https://i.instagram.com/api/v1/tags/web_info/?tag_name={tag}");
                         html = response.ToString();
                     }
                     catch { }
 
-                    Console.WriteLine(html);
+                    //Console.WriteLine(html);
                     //MessageBox.Show(html);
 
                     Json_GetFirstHashtagData.RootObject json = JsonConvert.DeserializeObject<Json_GetFirstHashtagData.RootObject>(html);
 
-                    if (json.graphql.hashtag.edge_hashtag_to_media.page_info.has_next_page) end_cursor = json.graphql.hashtag.edge_hashtag_to_media.page_info.end_cursor;
-
-                    foreach (var a in json.graphql.hashtag.edge_hashtag_to_media.edges)
+                    if (json.data.recent.more_available) end_cursor = json.data.recent.next_max_id;
+                    foreach (var a in json.data.recent.sections)
                     {
-                        DoResult(a.node.owner.id);
+                        foreach (var b in a.layout_content.medias)
+                        {
+                            if (!(b.user is null)) DoResult(b.user.ToString());
+                        }
                     }
-                    foreach (var a in json.graphql.hashtag.edge_hashtag_to_top_posts.edges)
-                    {
-                        DoResult(a.node.owner.id);
-                    }
+                    if (json.data.recent.more_available) return 1; else return 2;
 
-                    if (json.graphql.hashtag.edge_hashtag_to_media.page_info.has_next_page) return 1; else return 2;
+                    /*if (json.native_location_data.recent.more_available) after = json.native_location_data.recent.next_max_id;
+                    foreach (var a in json.native_location_data.recent.sections)
+                    {
+                        foreach (var b in a.layout_content.medias)
+                        {
+                            if (!(b.user is null)) DoResult(b.user.pk.ToString());
+                        }
+                    }*/
                 }
             }
             catch (Exception ex)

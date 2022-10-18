@@ -1,0 +1,23 @@
+﻿[26.04.2020 18:24:54, поток 1] Спарсили куки
+[26.04.2020 18:24:54, поток 1] (Ошибка) Текст ошибки: System.ArgumentOutOfRangeException: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в InstaDirectMessage_ButDev.InstagramWebRegistrator.Register(String Name, String Surname, String cookie) в D:\MaXiMAA\MaXiMAAOld\C#Готово\KWORK\InstaDirectMessage_ButDev\InstaDirectMessage_ButDev\InstagramWebRegistrator.cs:строка 169
+[26.04.2020 18:40:33, поток 1] Спарсили куки
+[26.04.2020 18:40:42, поток 1] Ошибка при регистрации - Alyson65089_Tecusa650:_rEi1jdgYyFx2t_ClNUo:194.183.168.4:20564:g9B4TcruMm:vgiOOAsTcx:mozilla/5.0 (linux; Android 5.1; B3-A40 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Safari/537.36 [FB_IAB/FB4A;FBAV/166.0.0.66.95;]:Alyson65089Tecusa70800@gmail.com:
+[26.04.2020 18:41:01, поток 1] Спарсили куки
+[26.04.2020 18:41:09, поток 1] Чекпойнт - Sophie8568_Gafur560:7mS6eGrus8ZtqUTBR7wU:194.183.168.4:20567:7xcPVydKlg:OikQ9N2fzt:mozilla/5.0 (linux; Android 5.1; Lenovo TB3-710I Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Safari/537.36 OPR/45.1.2246.125351:Sophie8568Gafur56739@gmail.com:
+[26.04.2020 20:56:45, поток 1] Спарсили куки
+[26.04.2020 20:57:10, поток 1] Ошибка при регистрации - Rachel58_Mccarthy937:amMVYVadJlzWCKcr_maX:194.183.168.4:20567:7xcPVydKlg:OikQ9N2fzt:mozilla/5.0 (linux; Android 6.0.1; RAINBOW UP Build/LRX21M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/166.0.0.63.95;]:Rachel58Mccarthy84294@gmail.com:
+[26.04.2020 20:58:43, поток 1] Спарсили куки
+[26.04.2020 20:58:53, поток 1] Ошибка при регистрации - Magdalen605506_Janka555:sZuaYRIWFHReaefssYsa:194.183.168.4:20567:7xcPVydKlg:OikQ9N2fzt:mozilla/5.0 (linux; Android 6.0.1; 5054S Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/61.0.3163.98 Mobile Safari/537.36:Magdalen605506Janka77793@gmail.com:
+[26.04.2020 20:59:14, поток 1] Спарсили куки
+[26.04.2020 20:59:31, поток 1] Ошибка при регистрации - Brittany5909_Basso517:3kBlKzNdQgpQnfzJ7MmL:194.183.168.4:20564:g9B4TcruMm:vgiOOAsTcx:mozilla/5.0 (linux; Android 6.0; SM-G900F Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/158.0.0.38.95;]:Brittany5909Basso34609@gmail.com:
+[26.04.2020 20:59:42, поток 1] Спарсили куки
+[26.04.2020 21:03:29, поток 1] Ошибка при регистрации - Vasilyeva56955_Stephanie342:0TGqIPT2YPgfT6ei8iOr:194.183.168.4:20567:7xcPVydKlg:OikQ9N2fzt:mozilla/5.0 (linux; Android 6.0.1; WAS-LX1 Build/HUAWEIWAS-LX1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Chrome/61.0.3163.98 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/184.0.0.41.79;]:Vasilyeva56955Stephanie50812@gmail.com:
+[26.04.2020 21:03:40, поток 1] Спарсили куки
+[26.04.2020 21:07:46, поток 1] Спарсили куки
+[26.04.2020 21:09:00, поток 1] Чекпойнт - Frolova9085_Pamela170:1GXiFfl7_VesHhWpS8pA:194.183.168.4:20564:g9B4TcruMm:vgiOOAsTcx:Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36:Frolova9085Pamela88521@gmail.com:
+[26.04.2020 21:09:12, поток 1] Спарсили куки
+[26.04.2020 21:09:23, поток 1] Ошибка при регистрации - Ryabov69068_Stevenson108:pTZohoDtEaUZp6Qzb8Zu:194.183.168.4:20567:7xcPVydKlg:OikQ9N2fzt:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36:Ryabov69068Stevenson26487@gmail.com:

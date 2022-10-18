@@ -18,10 +18,11 @@ namespace InstaDirectMessage_ButDev
 {
     public partial class FormHashtagsParser : Form
     {
-        public static string ProxyPath = "", HashtagsPath = "", ResultPath = "", ResultPathStatic = "", PROXYTYPE = "", time = "", ApiProxyUrl = "";
+        public static string ProxyPath = "", HashtagsPath = "", AccountsPath = "", ResultPath = "", ResultPathStatic = "", PROXYTYPE = "", time = "", ApiProxyUrl = "";
         public static int ThreadsCount = 0, Final = 0, finalresult = 0, HowManyID = 0, ApiProxyTimeout = 0;
         public static List<string> Proxy = new List<string>();
         public static List<string> Hashtags = new List<string>();
+        public static List<string> Accounts = new List<string>();
         public static bool stop = true, isApiProxy = false;
 
         public FormHashtagsParser()
@@ -52,6 +53,7 @@ namespace InstaDirectMessage_ButDev
 
             ProxyPath = textBoxProxy.Text;
             HashtagsPath = textBoxHashtags.Text;
+            AccountsPath = textBoxAccounts.Text;
             ResultPath = textBoxResultPath.Text;
         }
 
@@ -155,6 +157,17 @@ namespace InstaDirectMessage_ButDev
                     Hashtags.Add(line);
                 }
             }
+
+            //Load Accounts
+            using (StreamReader sr = new StreamReader(AccountsPath, Encoding.UTF8))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    Accounts.Add(line);
+                }
+            }
+            InstagramHashtagsParser.Accounts = Accounts;
 
             //Load User Agents
             var UserAgents = Properties.Resources.UserAgents.Split(new char[1] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
@@ -300,9 +313,9 @@ namespace InstaDirectMessage_ButDev
 
         private async void Work(int L, int R, int tt, IProgress<int> progress, IProgress<string> log, IProgress<int> setGood)
         {
-            await Task.Run(() => MainThread(L, R, tt, (Proxy.Count / (ThreadsCount + 1)) * tt, progress, log, setGood));
+            await Task.Run(() => MainThread(L, R, tt, (Proxy.Count / (ThreadsCount + 1)) * tt, (Accounts.Count / (ThreadsCount + 1)) * tt, progress, log, setGood));
         }
-        private void MainThread(int L, int R, int tt, int indx, IProgress<int> progress, IProgress<string> log, IProgress<int> setGood)
+        private void MainThread(int L, int R, int tt, int indx, int indexAcc, IProgress<int> progress, IProgress<string> log, IProgress<int> setGood)
         {
             for (int i = L; i < R; i++)
             {
@@ -311,7 +324,7 @@ namespace InstaDirectMessage_ButDev
                     if (stop) return;
                     if (i >= Hashtags.Count) break;
 
-                    InstagramHashtagsParser parser = new InstagramHashtagsParser(Hashtags[i], indx, tt, setGood);
+                    InstagramHashtagsParser parser = new InstagramHashtagsParser(Hashtags[i], indx, indexAcc, tt, setGood);
                     progress.Report(parser.good);
 
                     log.Report(parser.log);
@@ -359,5 +372,17 @@ namespace InstaDirectMessage_ButDev
             ProxyPath = openFileDialog.FileName;
         }
 
+        private void buttonOpenAccounts_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
+            if (openFileDialog.ShowDialog() == DialogResult.Cancel)
+            {
+                return;
+            }
+
+            textBoxAccounts.Text = openFileDialog.FileName;
+            AccountsPath = openFileDialog.FileName;
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InstaDirectMessage_ButDev.JSONClasses
 {
-    class Json_PostMediaInfo
+    public class Json_PostMediaInfo
     {
         public class Dimensions
         {
