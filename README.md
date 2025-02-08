@@ -49,7 +49,7 @@
 
 ## Screenshots
 
-Screenshots showcasing the main interface and various features can be found in the [InstaDirect-Soft/Screenshots](./Resources/Screenshots) folder.
+Screenshots showcasing the main interface and various features can be found in the [InstaDirect-Soft/Screenshots](./InstaDirect-Soft/Screenshots) folder.
 
 
 ## Getting Started
