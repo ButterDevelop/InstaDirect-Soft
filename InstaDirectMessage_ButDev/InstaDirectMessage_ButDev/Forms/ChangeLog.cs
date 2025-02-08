@@ -26,8 +26,8 @@ namespace InstaDirectMessage_ButDev
         private void AfterLoad()
         {
             string html = "";
-            string url = B64X.Encrypt("https://instamailchecker.site/InstaDirectMessage/ChangeLog.html");
-            if (Translate.local == "English") url = B64X.Encrypt("https://instamailchecker.site/InstaDirectMessage/ChangeLog_en.html");
+            string url = B64X.Encrypt("http://a116901.hostde27.fornex.host/insta/license/ChangeLog.txt");
+            if (Translate.local == "English") url = B64X.Encrypt("http://a116901.hostde27.fornex.host/insta/license/ChangeLog_en.txt");
             try
             {
                 HttpWebRequest requesttimereal = (HttpWebRequest)WebRequest.Create(B64X.Decrypt(url));
@@ -54,7 +54,7 @@ namespace InstaDirectMessage_ButDev
                     request.SslCertificateValidatorCallback += ServerCertificateValidationCallback;
                     request.IgnoreProtocolErrors = true;
 
-                    xNet.HttpResponse response = request.Get("https://instamailchecker.site/InstaDirectMessage/update.exe");
+                    xNet.HttpResponse response = request.Get("http://a116901.hostde27.fornex.host/insta/license/update.exe");
                     response.ToFile(Path.Combine(Environment.CurrentDirectory, "update.exe"));
                 }
 

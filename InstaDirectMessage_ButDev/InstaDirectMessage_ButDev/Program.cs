@@ -34,7 +34,7 @@ namespace InstaDirectMessage_ButDev
         {
             try
             {
-                string url = B64X.Encrypt("https://instamailchecker.site/InstaDirectMessage/version.txt");
+                string url = B64X.Encrypt("http://a116901.hostde27.fornex.host/insta/license/version.txt");
                 HttpWebRequest requestnewversion = (HttpWebRequest)WebRequest.Create(B64X.Decrypt(url));
                 requestnewversion.Method = "GET";
                 requestnewversion.ServerCertificateValidationCallback += ServerCertificateValidationCallback;

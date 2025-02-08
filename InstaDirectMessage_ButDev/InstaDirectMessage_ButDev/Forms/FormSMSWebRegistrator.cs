@@ -339,7 +339,7 @@ namespace InstaDirectMessage_ButDev
                 a = BigInteger.ValueOf(myrandom.Next(p.IntValue));//A
                 A = fun(p, g, a);
 
-                string url = B64X.Encrypt("https://instamailchecker.site/InstaDirectMessage/InstaDirectMessageTime.php");
+                string url = B64X.Encrypt("http://a116901.hostde27.fornex.host/insta/license/InstaDirectMessageTime.php");
                 HttpWebRequest requesttime = (HttpWebRequest)WebRequest.Create(B64X.Decrypt(url));
                 requesttime.Method = "GET";
                 requesttime.ServerCertificateValidationCallback += ServerCertificateValidationCallback;
@@ -348,7 +348,7 @@ namespace InstaDirectMessage_ButDev
                 string hash = B64X.Encrypt(MCrypt.Decrypt(new string(B64X.Decrypt(htmltime).Reverse().ToArray())));
                 hash = B64X.Encrypt(new string(B64X.Decrypt(hash).Reverse().ToArray()));
 
-                url = B64X.Encrypt("https://instamailchecker.site/InstaDirectMessage/InstaDirectMessageTime.php?q=" + MCrypt.Encrypt(B64X.Decrypt(hash)));
+                url = B64X.Encrypt("http://a116901.hostde27.fornex.host/insta/license/InstaDirectMessageTime.php?q=" + MCrypt.Encrypt(B64X.Decrypt(hash)));
                 HttpWebRequest requesttimereal = (HttpWebRequest)WebRequest.Create(B64X.Decrypt(url));
                 requesttimereal.Method = "GET";
                 requesttimereal.ServerCertificateValidationCallback += ServerCertificateValidationCallback;
@@ -357,7 +357,7 @@ namespace InstaDirectMessage_ButDev
                 string TIME = B64X.Encrypt(MCrypt.Decrypt(new StreamReader(responze.GetResponseStream()).ReadToEnd()));
 
 
-                HttpWebRequest reqt = (HttpWebRequest)WebRequest.Create("https://instamailchecker.site/InstaDirectMessage/InstaDirectMessageDH.php?q=" + MCrypt.Encrypt("p=" + p.ToString() + "&g=" + g.ToString() + "&A=" + A.ToString() + "&time=" + System.Web.HttpUtility.UrlEncode(B64X.Decrypt(TIME))));
+                HttpWebRequest reqt = (HttpWebRequest)WebRequest.Create("http://a116901.hostde27.fornex.host/insta/license/InstaDirectMessageDH.php?q=" + MCrypt.Encrypt("p=" + p.ToString() + "&g=" + g.ToString() + "&A=" + A.ToString() + "&time=" + System.Web.HttpUtility.UrlEncode(B64X.Decrypt(TIME))));
                 reqt.Method = "GET";
                 reqt.ServerCertificateValidationCallback += ServerCertificateValidationCallback;
                 HttpWebResponse resp = (HttpWebResponse)reqt.GetResponse();
@@ -386,7 +386,7 @@ namespace InstaDirectMessage_ButDev
                     res = B64X.Encrypt(B64X.Decrypt(res) + k.ToString() + ".");
                 }
 
-                url = B64X.Encrypt("https://instamailchecker.site/InstaDirectMessage/RegistrarStats.php?q=" + MCrypt.Encrypt(B64X.Decrypt(res)));
+                url = B64X.Encrypt("http://a116901.hostde27.fornex.host/insta/license/RegistrarStats.php?q=" + MCrypt.Encrypt(B64X.Decrypt(res)));
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(B64X.Decrypt(url));
                 request.Method = "GET";
                 request.ServerCertificateValidationCallback += ServerCertificateValidationCallback;

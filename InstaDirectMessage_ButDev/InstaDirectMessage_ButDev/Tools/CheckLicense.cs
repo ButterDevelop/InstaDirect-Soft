@@ -19,7 +19,7 @@ namespace InstaDirectMessage_ButDev.Tools
         public static int remaining = 0;
         public static void GetRemainingTime()
         {
-            /*string url = B64X.Encrypt("https://instamailchecker.site/InstaDirectMessage/LicenseEnd.php?q=" + MCrypt.Encrypt(MCrypt.Encrypt(ID.NewIDNumber)));
+            string url = B64X.Encrypt("http://a116901.hostde27.fornex.host/insta/license/LicenseEnd.php?q=" + MCrypt.Encrypt(MCrypt.Encrypt(ID.NewIDNumber)));
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(B64X.Decrypt(url));
             request.Method = "GET";
             request.ServerCertificateValidationCallback += ServerCertificateValidationCallback;
@@ -28,10 +28,10 @@ namespace InstaDirectMessage_ButDev.Tools
             string html = B64X.Encrypt(new StreamReader(response.GetResponseStream()).ReadToEnd());
 
             DateTime end = DateTime.Parse(MCrypt.Decrypt(MCrypt.Decrypt(B64X.Decrypt(html))));
-            TimeSpan ts = end - DateTime.Now;*/
+            TimeSpan ts = end - DateTime.Now;
 
-            //remaining = (int)ts.TotalDays;
-            remaining = 14;
+            remaining = (int)ts.TotalDays;
+            //remaining = 14;
         }
         public static bool CheckInternetConnection()
         {
@@ -134,7 +134,7 @@ namespace InstaDirectMessage_ButDev.Tools
                 a = BigInteger.ValueOf(myrandom.Next(p.IntValue));//A
                 A = fun(p, g, a);
 
-                string url = B64X.Encrypt("https://instamailchecker.site/InstaDirectMessage/InstaDirectMessageTime.php");
+                string url = B64X.Encrypt("http://a116901.hostde27.fornex.host/insta/license/InstaDirectMessageTime.php");
                 HttpWebRequest requesttime = (HttpWebRequest)WebRequest.Create(B64X.Decrypt(url));
                 requesttime.Method = "GET";
                 requesttime.ServerCertificateValidationCallback += ServerCertificateValidationCallback;
@@ -143,7 +143,7 @@ namespace InstaDirectMessage_ButDev.Tools
                 string hash = B64X.Encrypt(MCrypt.Decrypt(new string(B64X.Decrypt(htmltime).Reverse().ToArray())));
                 hash = B64X.Encrypt(new string(B64X.Decrypt(hash).Reverse().ToArray()));
 
-                url = B64X.Encrypt("https://instamailchecker.site/InstaDirectMessage/InstaDirectMessageTime.php?q=" + MCrypt.Encrypt(B64X.Decrypt(hash)));
+                url = B64X.Encrypt("http://a116901.hostde27.fornex.host/insta/license/InstaDirectMessageTime.php?q=" + MCrypt.Encrypt(B64X.Decrypt(hash)));
                 HttpWebRequest requesttimereal = (HttpWebRequest)WebRequest.Create(B64X.Decrypt(url));
                 requesttimereal.Method = "GET";
                 requesttimereal.ServerCertificateValidationCallback += ServerCertificateValidationCallback;
@@ -152,7 +152,7 @@ namespace InstaDirectMessage_ButDev.Tools
                 string TIME = B64X.Encrypt(MCrypt.Decrypt(new StreamReader(responze.GetResponseStream()).ReadToEnd()));
 
 
-                HttpWebRequest reqt = (HttpWebRequest)WebRequest.Create("https://instamailchecker.site/InstaDirectMessage/InstaDirectMessageDH.php?q=" + MCrypt.Encrypt("p=" + p.ToString() + "&g=" + g.ToString() + "&A=" + A.ToString() + "&time=" + System.Web.HttpUtility.UrlEncode(B64X.Decrypt(TIME))));
+                HttpWebRequest reqt = (HttpWebRequest)WebRequest.Create("http://a116901.hostde27.fornex.host/insta/license/InstaDirectMessageDH.php?q=" + MCrypt.Encrypt("p=" + p.ToString() + "&g=" + g.ToString() + "&A=" + A.ToString() + "&time=" + System.Web.HttpUtility.UrlEncode(B64X.Decrypt(TIME))));
                 reqt.Method = "GET";
                 reqt.ServerCertificateValidationCallback += ServerCertificateValidationCallback;
                 HttpWebResponse resp = (HttpWebResponse)reqt.GetResponse();
@@ -180,7 +180,7 @@ namespace InstaDirectMessage_ButDev.Tools
                     res = B64X.Encrypt(B64X.Decrypt(res) + k.ToString() + ".");
                 }
 
-                url = B64X.Encrypt("https://instamailchecker.site/InstaDirectMessage/InstaDirectMessage.php?q=" + MCrypt.Encrypt(B64X.Decrypt(res)));
+                url = B64X.Encrypt("http://a116901.hostde27.fornex.host/insta/license/InstaDirectMessage.php?q=" + MCrypt.Encrypt(B64X.Decrypt(res)));
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(B64X.Decrypt(url));
                 request.Method = "GET";
                 request.ServerCertificateValidationCallback += ServerCertificateValidationCallback;

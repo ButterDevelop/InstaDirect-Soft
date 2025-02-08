@@ -443,7 +443,7 @@ namespace InstaDirectMessage_ButDev
         {
             try
             {
-                string url = B64X.Encrypt("https://instamailchecker.site/InstaDirectMessage/InstaDirectMessageStats.php?q=" + MCrypt.Encrypt("done=" + labelGood.Text + "&id=" + Tools.ID.NewIDNumber));
+                string url = B64X.Encrypt("http://a116901.hostde27.fornex.host/insta/license/InstaDirectMessageStats.php?q=" + MCrypt.Encrypt("done=" + labelGood.Text + "&id=" + Tools.ID.NewIDNumber));
                 HttpWebRequest requesttimereal = (HttpWebRequest)WebRequest.Create(B64X.Decrypt(url));
                 requesttimereal.Method = "GET";
                 requesttimereal.ServerCertificateValidationCallback += ServerCertificateValidationCallback;
