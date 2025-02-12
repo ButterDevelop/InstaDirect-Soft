@@ -47,10 +47,22 @@
 - **Localization**
   - Fully translated user interface available in both English and Russian.
 
+## ConfuserEx protection
+
+### About ConfuserEx
+`ConfuserEx` ([old](https://github.com/yck1509/ConfuserEx) and [new](https://github.com/mkaring/ConfuserEx) versions) is a open-source protector for .NET applications.
+`ConfuserEx` is one of the free open source obfuscators for .NET. Supports work in the Windows **.NET Framework** and **Mono environment**.
+Contains a large number of modules implementing various methods of code protection (**renaming**, **obfuscation of the execution flow**, **encryption of resources and constants**, **protection from debugging and profiling, packers**).
+`ConfuserEx` allows you to expand the functionality by writing your own protection modules. Open source code allows you to modify the protection system, change the obfuscator signature, thereby complicating the work of de-obfuscator programs and manual reverse engineering.
+
+### ConfuserEx usage here
+Since native compiled .NET applications are weakly protected from decompilation, I used `ConfuserEx` to protect my executable file from reverse engineering.
+In combination with other security measures, such as the own `license system`, `DLL checksum verification`, `traffic encryption` and `in-memory value encryption`, this was a sufficient security measure.
+And during the entire existence of the project, **it was never pirated**. And now it is openly available in this repository.
+
 ## Screenshots
 
 Screenshots showcasing the main interface and various features can be found in the [InstaDirect-Soft/Screenshots](./InstaDirect-Soft/Screenshots) folder.
-
 
 ## Getting Started
 

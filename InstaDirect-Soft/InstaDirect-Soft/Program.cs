@@ -61,14 +61,14 @@ namespace InstaDirectMessage_ButDev
             }
             Translate.Init();
 
-            /*var t = new Thread(() => NewForm());
+            var t = new Thread(() => NewForm());
             t.Start();
             Thread.Sleep(100);
 
-            //CheckLicense.Check();
+            CheckLicense.Check();
 
             Thread.Sleep(100);
-            t.Abort();*/
+            t.Abort();
 
             if (NewVersion()) Application.Run(new ChangeLog());
             Application.Run(new MainForm());

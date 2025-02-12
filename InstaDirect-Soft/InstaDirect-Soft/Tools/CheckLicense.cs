@@ -31,7 +31,6 @@ namespace InstaDirectMessage_ButDev.Tools
             TimeSpan ts = end - DateTime.Now;
 
             remaining = (int)ts.TotalDays;
-            //remaining = 14;
         }
         public static bool CheckInternetConnection()
         {
